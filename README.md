@@ -8,7 +8,7 @@ The code below is meant to work with the **Arcadyan KVD21 gateway** and was test
 ### WiFi radio turn on and off with a Python script
 
 This script does the following:
-1. Display the current wifi network status (name, password, ssid broadcast state, radio enabled or disabled)
+1. Displays the current wifi network status (name, password, ssid broadcast state, radio enabled or disabled)
 2. Asks the user to choose to either make no changes or enable/disable the wifi networks (radios)
 
 [Direct link to the script](https://github.com/verity-s/verity-s.github.io/blob/main/arcadyan-wifi.py)
