@@ -1,11 +1,11 @@
 # verity-s.github.io
 
-# T-Mobile home internet gateway settings
+## T-Mobile home internet gateway settings
 
 The T-Mobile home internet is an awesome product. But it does come with certain setup and control annoyances. Here, I tackle the main one for me: how to turn on and off the wifi networks so I can keep them off when not in use. If the gateway is not transmitting on its wifi radios, the hope is that by not having to run wifi the gateway may run a little cooler, maybe use less power, and have a smoother connection in general with less to do.
 The code below is meant to work with the **Arcadyan KVD21 gateway** and was tested with gateway firmware **1.00.18**.
 
-## WiFi radio turn on and off with a Python script
+### WiFi radio turn on and off with a Python script
 
 This script does the following:
 1. Display the current wifi network status (name, password, ssid broadcast state, radio enabled or disabled)
@@ -26,7 +26,7 @@ $ python3 arcadyan-wifi.py
 ```
 And that's all there is to it!
 
-## WiFi radio status information with a quick shell script
+### WiFi radio status information with a quick shell script
 
 This script makes no changes but instead is meant to quickly show all of the WiFi information from your T-Mobile gateway.
 
