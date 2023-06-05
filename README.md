@@ -12,6 +12,7 @@ This script does the following:
 2. Asks the user to choose to either make no changes or enable/disable the wifi networks (radios)
 
 [Direct link to the script](https://github.com/verity-s/verity-s.github.io/blob/main/T-Mobile/arcadyan-wifi.py)
+
 [Direct link to display raw script](https://raw.githubusercontent.com/verity-s/verity-s.github.io/main/T-Mobile/arcadyan-wifi.py)
 
 > ***Before the first time using the script*** make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
@@ -33,12 +34,14 @@ This script makes no changes but instead is meant to quickly show all of the WiF
 
 > ***Before the first time using the script*** make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
 
-Change the `your-admin-password-goes-here` in the script below.
+[Direct link to the shell script shown below](https://github.com/verity-s/verity-s.github.io/blob/main/T-Mobile/wifi-info.sh)
+
+Change the `admin-password-here` in the script below.
 ```
 #!/bin/zsh
 
 # Admin password between quotes:
-admin="your-admin-password-goes-here"
+admin="admin-password-here"
 
 curl -sSX POST http://192.168.12.1/TMI/v1/auth/login -d '{"username": "admin", "password": "'$admin'"}' > temp.txt
 token="${$(sed '6!d' temp.txt):14:284}"
@@ -49,12 +52,12 @@ echo -e # move to next line to complete output
  ```
 
 Script usage:
-1. Create a shell script file with the content above. Name it something like `wifi.sh`.
+1. Create a shell script file with the content above. Name it something like `wifi-info.sh`.
 2. Make sure your gateway admin password is provided inside the script.
 3. In the command line, make the script file executable and run it:
 ```
-$ chmod +x wifi.sh
-$ ./wifi.sh
-# Read the output to see all the WiFi settings
+$ chmod +x wifi-info.sh
+$ ./wifi-info.sh
+# Read the output to review all the WiFi settings
 ```
  
