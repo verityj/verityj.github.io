@@ -159,7 +159,7 @@ Press CONTROL-C (^C) to keep the generated wifi config files.
 ?
 ``` 
 
-# Support
+# More joy
 
 Thanks for everyone's encouragement and support to keep pushing me forward and onwards!
 
