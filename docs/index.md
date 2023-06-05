@@ -15,7 +15,7 @@ This script does the following:
 
 [Direct link to the script](https://github.com/verity-s/verity-s.github.io/blob/main/arcadyan-wifi.py)
 
-_Before the first time using the script_ make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
+_*Before the first time using the script*_ make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
 
 Script usage:
 
@@ -28,11 +28,13 @@ $ python3 arcadyan-wifi.py
 ```
 And that's all there is to it!
 
+Af you encounter any issues, ask on [my github issues page](https://github.com/verity-s/verity-s.github.io/issues)
+
 ## WiFi radio status information with a quick shell script
 
 This script makes no changes but instead is meant to quickly show all of the WiFi information from your T-Mobile gateway.
 
-_Before the first time using the script_ make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
+_*Before the first time using the script*_ make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
 
 Change the `your-admin-password-goes-here` in the script below.
 ```
@@ -58,3 +60,4 @@ $ chmod +x wifi.sh
 $ ./wifi.sh
 # Read the output to see all the WiFi settings
 ```
+ 
