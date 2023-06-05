@@ -2,122 +2,59 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# T-Mobile home internet gateway settings
 
-[Link to another page](./another-page.html).
+The T-Mobile home internet is an awesome product. But it does come with certain setup and control annoyances. Here, I tackle the main one for me: how to turn on and off the wifi networks so I can keep them off when not in use. If the gateway is not transmitting on its wifi radios, the hope is that by not having to run wifi the gateway may run a little cooler, maybe use less power, and have a smoother connection in general with less to do.
+The code below is meant to work with the **Arcadyan KVD21 gateway** and was tested with gateway firmware **1.00.18**.
 
-There should be whitespace between paragraphs.
+## WiFi radio turn on and off with a Python script
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+This script does the following:
+1. Display the current wifi network status (name, password, ssid broadcast state, radio enabled or disabled)
+2. Asks the user to choose to either make no changes or enable/disable the wifi networks (radios)
 
-# Header 1
+[Direct link to the script](https://github.com/verity-s/verity-s.github.io/blob/main/arcadyan-wifi.py)
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+_Before the first time using the script_ make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
 
-## Header 2
+Script usage:
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+```sh
+# In the Terminal:
+$ python3 arcadyan-wifi.py
+# Read the current wifi information displayed
+# Make a choice if you want to change anything
+# Make a choice to keep or remove the generated configuration files
 ```
+And that's all there is to it!
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+## WiFi radio status information with a quick shell script
+
+This script makes no changes but instead is meant to quickly show all of the WiFi information from your T-Mobile gateway.
+
+_Before the first time using the script_ make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
+
+Change the `your-admin-password-goes-here` in the script below.
 ```
+#!/bin/zsh
 
-#### Header 4
+# Admin password between quotes:
+admin="your-admin-password-goes-here"
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+curl -sSX POST http://192.168.12.1/TMI/v1/auth/login -d '{"username": "admin", "password": "'$admin'"}' > temp.txt
+token="${$(sed '6!d' temp.txt):14:284}"
+rm temp.txt
 
-##### Header 5
+curl -sS http://192.168.12.1/TMI/v1/network/configuration\?get=ap -H "Authorization:Bearer $token"
+echo -e # move to next line to complete output 
+ ```
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
+Script usage:
+1. Create a shell script file with the content above. Name it something like `wifi.sh`.
+2. Make sure your gateway admin password is provided inside the script.
+3. In the command line, make the script file executable and run it:
 ```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
+$ chmod +x wifi.sh
+$ ./wifi.sh
+# Read the output to see all the WiFi settings
 ```
