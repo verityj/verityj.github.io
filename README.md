@@ -11,9 +11,10 @@ This script does the following:
 1. Displays the current wifi network status (name, password, ssid broadcast state, radio enabled or disabled)
 2. Asks the user to choose to either make no changes or enable/disable the wifi networks (radios)
 
-[Direct link to the script](https://github.com/verity-s/verity-s.github.io/blob/main/arcadyan-wifi.py)
+[Direct link to the script](https://github.com/verity-s/verity-s.github.io/blob/main/T-Mobile/arcadyan-wifi.py)
+[Direct link to display raw script](https://raw.githubusercontent.com/verity-s/verity-s.github.io/main/T-Mobile/arcadyan-wifi.py)
 
-_Before the first time using the script_ make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
+> ***Before the first time using the script*** make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
 
 Script usage:
 
@@ -30,7 +31,7 @@ And that's all there is to it!
 
 This script makes no changes but instead is meant to quickly show all of the WiFi information from your T-Mobile gateway.
 
-_Before the first time using the script_ make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
+> ***Before the first time using the script*** make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
 
 Change the `your-admin-password-goes-here` in the script below.
 ```
