@@ -3,7 +3,7 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: A spark of a thought
 description: Let's make life easier with simple scripting
-show_downloads: true
+show_downloads: false
 # google_analytics: [Your Google Analytics tracking ID]
 
 lsi: false
