@@ -5,10 +5,10 @@
 /* from https://github.com/daattali/beautiful-jekyll/blob/master/assets/css/beautifuljekyll.css */
 
 code {
-  padding: 0.125rem 0.25rem;
+  padding: 0.125rem 0.125rem;
   color: #c7254e;
   background-color: #f9f2f4;
-  border-radius: 0.25rem;
+  border-radius: 0.125rem;
 }
 
 pre code {
@@ -20,7 +20,7 @@ pre code {
 pre {
   font-size: 0.875rem;
   line-height: 1.5em;
-  border-radius: 0.25rem;
+  border-radius: 0.125rem;
   padding: 0.59375rem;
 }
 .highlight pre {
@@ -50,7 +50,7 @@ pre {
 .highlight pre.lineno {
   color: rgba(0,0,0,0.3);
   border-radius: 0;
-  border-right: 2px solid #444;
+  border-right: 1px solid #444;
 }
 
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
