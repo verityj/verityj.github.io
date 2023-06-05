@@ -15,7 +15,7 @@ This script does the following:
 
 [Direct link to the script](https://github.com/verity-s/verity-s.github.io/blob/main/arcadyan-wifi.py)
 
-_*Before the first time using the script*_ make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
+***Before the first time using the script*** make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
 
 Script usage:
 
@@ -34,7 +34,7 @@ Af you encounter any issues, ask on [my github issues page](https://github.com/v
 
 This script makes no changes but instead is meant to quickly show all of the WiFi information from your T-Mobile gateway.
 
-_*Before the first time using the script*_ make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
+***Before the first time using the script*** make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
 
 Change the `your-admin-password-goes-here` in the script below.
 ```
