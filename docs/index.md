@@ -13,7 +13,7 @@ This script does the following:
 1. Displays the current wifi network status (name, password, ssid broadcast state, radio enabled or disabled)
 2. Asks the user to choose to either make no changes or enable/disable the wifi networks (radios)
 
-[Direct link to my script](https://github.com/verity-s/verity-s.github.io/blob/main/arcadyan-wifi.py) or if you prefer, check out [raw view of my script](https://raw.githubusercontent.com/verity-s/verity-s.github.io/main/T-Mobile/arcadyan-wifi.py)
+[Direct link to my script](https://github.com/verity-s/verity-s.github.io/blob/main/arcadyan-wifi.py) or if you prefer, check out the [raw view of my script](https://raw.githubusercontent.com/verity-s/verity-s.github.io/main/T-Mobile/arcadyan-wifi.py)
 
 ***Before the first time using the script*** make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
 
@@ -36,7 +36,7 @@ This script makes no changes but instead is meant to quickly show all of the WiF
 
 ***Before the first time using the script*** make sure to open the script file in any text editor and provide your admin password for the gateway to enable script access.
 
-[Direct link to my script](https://github.com/verity-s/verity-s.github.io/blob/main/T-Mobile/wifi-info.sh) or if you prefer, check out [raw view of my script](https://raw.githubusercontent.com/verity-s/verity-s.github.io/main/T-Mobile/wifi-info.sh)
+[Direct link to my script](https://github.com/verity-s/verity-s.github.io/blob/main/T-Mobile/wifi-info.sh) or if you prefer, check out the [raw view of my script](https://raw.githubusercontent.com/verity-s/verity-s.github.io/main/T-Mobile/wifi-info.sh)
 
 Change the `admin-password-here` in the script below.
 ```sh
