@@ -9,32 +9,34 @@ theme: jekyll-theme-dinky
 
 # Output options (more information on Jekyll's site)
 timezone: "America/New_York"
+future: true # GitHub pages will publish future posts
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 date_format: "%Y %b %-d"
-paginate: 5
+# paginate: 5
+# home_post_limit: 5
 show_excerpts: true
 
 kramdown:
   input: GFM
 
-social_links:
-  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=TezrvRIAAAAJ&hl=en" }
+# social_links:
+#  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=TezrvRIAAAAJ&hl=en" }
 
-header_pages:
-  - about.md
+# header_pages:
+#  - about.md
 
 # Exclude these files from production site
-exclude:
-  - CHANGELOG.md
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - screenshot.png
-  - docs/
+# exclude:
+#  - CHANGELOG.md
+#  - CNAME
+#  - Gemfile
+#  - Gemfile.lock
+#  - LICENSE
+#  - README.md
+#  - screenshot.png
+#  - docs/
 
 plugins:
   - jekyll-paginate
