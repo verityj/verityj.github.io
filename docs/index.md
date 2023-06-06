@@ -137,6 +137,7 @@ cat x.wifi-output.txt | curl -d "@-" http://192.168.12.1/TMI/v1/network/configur
 #### Finally, some script cleanup
 
 The python script wants to keep it clean by removing the text files it created. Remember, those contain the initial and final WiFi settings (the final file is only created if we chose to change anything). So, at the end, the script waits for you to hit ENTER (RETURN on some systems) and do the clean up, or hit control - c to exit the script right there, without going on to the clean up.
+On Mac OS, the text files are moved to the user Trash folder (`~/.Trash/`).
 ```sh
 -------------------------
 - Next: choose a number -
