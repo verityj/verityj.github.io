@@ -160,9 +160,3 @@ Press ENTER/RETURN to erase the generated wifi config files.
 Press CONTROL-C (^C) to keep the generated wifi config files.
 ?
 ``` 
-
-# More joy
-
-Thanks for everyone's encouragement and support to keep pushing me forward and onwards!
-
-[PayPal support](https://www.paypal.com/donate/?hosted_button_id=D2SU4GD8PEXCW)
