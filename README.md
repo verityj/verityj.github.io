@@ -1,6 +1,5 @@
 # verity-s.github.io
 
-url(../images/octocat-small.png)
 ![PayPal Support](assets/images/qr.png)
 
 ## T-Mobile home internet gateway settings
