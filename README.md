@@ -1,7 +1,5 @@
 # verity-s.github.io
 
-![PayPal Support](docs/assets/images/qr.png)
-
 ## T-Mobile home internet gateway settings
 
 The T-Mobile home internet is an awesome product. But it does come with certain setup and control annoyances. Here, I tackle the main one for me: how to turn on and off the wifi networks so I can keep them off when not in use. If the gateway is not transmitting on its wifi radios, the hope is that by not having to run wifi the gateway may run a little cooler, maybe use less power, and have a smoother connection in general with less to do.
@@ -67,4 +65,8 @@ $ ./wifi-info.sh
 
 Thanks for everyone's encouragement and support to keep pushing me forward and onwards!
 
-[PayPal support](https://www.paypal.com/donate/?hosted_button_id=D2SU4GD8PEXCW)
+Tip a satoshi to   <img src="docs/assets/images/strike.png" width="12px;" />  [strike.me/verity](https://strike.me/verity/)  <img src="docs/assets/images/strike.png" width="12px;" />
+
+Or [PayPal support](https://www.paypal.com/donate/?hosted_button_id=D2SU4GD8PEXCW)
+
+<img src="docs/assets/images/qr.png" width="40px;" />
