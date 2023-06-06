@@ -28,7 +28,7 @@ $ python3 arcadyan-wifi.py
 ```
 And that's all there is to it!
 
-Af you encounter any issues, ask on [my github issues page](https://github.com/verity-s/verity-s.github.io/issues)
+Af you encounter any issues, ask on [my GitHub issues page](https://github.com/verity-s/verity-s.github.io/issues)
 
 ## WiFi radio status information with a quick shell script
 
