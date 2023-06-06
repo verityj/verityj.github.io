@@ -13,6 +13,7 @@
 
 from os import popen
 from os import remove
+from os import path # to get current user's trash directory
 from subprocess import run
 from pathlib import Path
 import sys
@@ -236,14 +237,29 @@ print('''
 - Finally: clean up -
 ---------------------
 ''')
+# Mac OS user Trash folder location:
+trash = path.expanduser('~') + "/.Trash/"
 
-print("Press ENTER/RETURN to erase the generated wifi config files.")
-print("Press CONTROL-C (^C) to keep the generated wifi config files.")
-input("? ")
-
-if Path(temp_wifi_input).exists():
-    print("\nDeleting {}\n".format(temp_wifi_input))
-    remove(temp_wifi_input)
-if Path(temp_wifi_out).exists():
-    print("Deleting {}\n".format(temp_wifi_out))
-    remove(temp_wifi_out)
+if Path(trash).exists():
+    print("Press ENTER/RETURN to move to trash the generated wifi config files.")
+    print("Press CONTROL-C (^C) to keep the generated wifi config files.")
+    input("? ")
+    
+    if Path(temp_wifi_input).exists():
+        print("\nMoving {} to Trash".format(temp_wifi_input))
+        temp_wifi_input.rename(f"{trash}" + f"{temp_wifi_input}")
+    if Path(temp_wifi_out).exists():
+        print("Moving {} to Trash".format(temp_wifi_out))
+        temp_wifi_out.rename(f"{trash}" + f"{temp_wifi_out}")
+else:
+    print("Press ENTER/RETURN delete the generated wifi config files.")
+    print("Press CONTROL-C (^C) to keep the generated wifi config files.")
+    input("? ")
+    
+    if Path(temp_wifi_input).exists():
+        print("\nDeleting {}".format(temp_wifi_input))
+        remove(temp_wifi_input)
+    if Path(temp_wifi_out).exists():
+        print("Deleting {}".format(temp_wifi_out))
+        remove(temp_wifi_out)
+print('')
