@@ -57,6 +57,7 @@ Script usage:
 1. Create a shell script file with the content above. Name it something like `wifi.sh`.
 2. Make sure your gateway admin password is provided inside the script.
 3. In the command line, make the script file executable and run it:
+
 ```sh
 $ chmod +x wifi.sh
 $ ./wifi.sh
@@ -72,7 +73,7 @@ Let's dig in.
 Access token is a long string of characters that the gateway generates. A command needs to know this token every time information is read from the gateway or written. We need it for the following steps. A new token is generated every time the token command is issued. 
 The command to obtain the current token is used in both scripts above and that is the only part that requires the gateway administrator password. The default administrator password is printed on the back of your gateway, along with the default wifi password.
 **Do not confuse** the _Admin password_ and the _Wi-Fi password_. Both are printed on the back of your gateway. The _Wi-Fi password_ is used to connect to the wireless networks that your gateway is broadcasting. What we need here is the _Admin password_ that lets us access the gateway settings.
->If you previously changed and now can't remember your admin password, simply reset the gateway. All settings will reset to default, including the wireless network names and passwords, as well as the admin password. To reset the gateway, follow the usual instructions: hold pressed the _Reset_ button on the back of the gateway, with some sort of pin that fits through that tiny hole to reach the button behind it. It is hidden for a reason, but is a lifesaver when you need to go back to the beginning.
+If you previously changed and now can't remember your admin password, simply reset the gateway. All settings will reset to default, including the wireless network names and passwords, as well as the admin password. To reset the gateway, follow the usual instructions: hold pressed the _Reset_ button on the back of the gateway, with some sort of pin that fits through that tiny hole to reach the button behind it. It is hidden for a reason, but is a lifesaver when you need to go back to the beginning.
 The command to get the current gateway access token:
 ```sh
 curl -X POST http://192.168.12.1/TMI/v1/auth/login -d '{"username": "admin", "password": "admin-password-here"}'
