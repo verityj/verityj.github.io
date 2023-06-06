@@ -14,7 +14,7 @@ highlighter: rouge
 permalink: /:year-:month-:day-:title/
 date_format: "%Y %b %-d"
 paginate: 5
-how_excerpts: true
+show_excerpts: true
 
 kramdown:
   input: GFM
