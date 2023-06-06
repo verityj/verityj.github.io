@@ -1,7 +1,5 @@
 ---
-layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+layout: default
 ---
 
-This content is in no hurry to materialize. It's coming.
+This content is in no hurry to materialize. It is coming.
