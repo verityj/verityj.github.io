@@ -163,10 +163,10 @@ p img, .emoji {
 
 /* Code blocks */
 
+/* original: font-size:14px; */
 code, pre {
 	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color:#000;
-  /* original: font-size:14px; */
   font-size:12px;
 }
 
@@ -217,8 +217,8 @@ td {
 
 /* Header */
 
+/* original: background-color: #171717; */
 header {
-	/* original: background-color: #171717; */
 	background-color: #585858
 	color: #FDFDFB;
   width:170px;
