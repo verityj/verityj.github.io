@@ -166,7 +166,7 @@ p img, .emoji {
 code, pre {
 	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color:#000;
-  font-size:14px;
+  font-size:12px;
 }
 
 pre {
@@ -209,14 +209,14 @@ td {
 
 /* Wrapper */
 .wrapper {
-  width:960px;
+  width:1000px;
 }
 
 
 /* Header */
 
 header {
-	background-color: #171717;
+	background-color: #585858;
 	color: #FDFDFB;
   width:170px;
   float:left;
@@ -336,7 +336,7 @@ footer {
 	padding-left: 50px;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1000px) {
 
   div.wrapper {
     width:auto;
