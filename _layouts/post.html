@@ -6,7 +6,7 @@ layout: base
   <h2 class="post-title">{{ page.title }}</h2>
   <h6>
     <span>
-      {{ page.date | date: site.date_format }} &bull;
+      {{ page.date | date: site.date_format }} &nbsp; &bull; &nbsp;
       {% assign words = page.content | number_of_words %}
       {% if words < 360 %}
         1 min read
