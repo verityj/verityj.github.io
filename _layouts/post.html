@@ -4,10 +4,9 @@ layout: base
 
 <div class="post">
   <h2 class="post-title">{{ page.title }}</h2>
-  {%- assign date_format = site.date_format | default: "%Y-%m-%d" -%}
   <h6>
     <span>
-      {%- assign date_format = site.date_format | default: "%Y-%m-%d" -%}
+      {%- assign date_format = site.date_format | default: '%Y-%m-%d' -%}
       {{ post.date | date: date_format }} &bull;
       {% assign words = post.content | number_of_words %}
       {% if words < 360 %}
