@@ -51,6 +51,7 @@
             <h3>
               <a href="{{ post.url }}">{{ post.title | escape }}
               </a>
+              <span class="post-date">{{ page.date | date_to_string }}</span>
             </h3>
               {{ post.excerpt }}
           </li>
