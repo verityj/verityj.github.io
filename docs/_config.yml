@@ -14,7 +14,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 date_format: "%Y %b %-d"
-# paginate: 5
+paginate: 5
 # home_post_limit: 5
 show_excerpts: true
 
