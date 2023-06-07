@@ -12,3 +12,5 @@ What Mac keyboards do lack is a forward delete button. The eject could serve tha
 On Windows, there is a paid solution: [Magic Utilities](https://magicutilities.net). It can reassign the Eject key as well as others (Windows key, alt, control) to make the experience seamless. I have all those buttons modified to no matter what I have to use, a mac or PC, the same keyboard works. A `⌘ - c` (Mac) or a `command - c` (Windows) is the same key shortcut for me, after the modifications. By default, the ⌘ (command) key becomes a Windows key and messes up all shortcuts in how I use the keyboard.
 
 On Mac, the solution is free: [Karabiner Elements](https://karabiner-elements.pqrs.org). Under `Simple Modifications` there is an `Add item` button. From the dropdown, the eject button lives under `Media controls` → `eject`. It's new function can be selected as many things, but if you happen to be looking for the forward delete, that's under `Controls and symbols` → `delete_forward`. Karabiner needs permissions that you will set in `System Preferences` and then it is all set.
+
+![Karabiner screenshot 1](/assets/images/karabiner1.png)
