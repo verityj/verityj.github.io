@@ -1,4 +1,4 @@
-# verity-s.github.io
+# verity-s.github.io  ::  T-Mobile scripts
 
 ## T-Mobile home internet gateway settings
 
