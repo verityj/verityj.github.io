@@ -332,14 +332,14 @@ a.buttons-u:hover {
 
 a.buttons-r {
 	-webkit-font-smoothing: antialiased;
-	background: url(../images/arrow-right.png) no-repeat 1px;
+	background: url(../images/arrow-right.png) no-repeat;
 	font-weight: normal;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
-	padding: 10px 2px 2px 22px;
+	padding: 2px 10px 2px 22px;
 	height: 30px;
 }
 
-a.buttons-u:hover {
+a.buttons-r:hover {
 	color: #fff;
 	text-decoration: none;
 }
