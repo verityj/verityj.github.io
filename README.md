@@ -1,6 +1,6 @@
 # verity-s.github.io
 
-## A spark of a though
+## A spark of a thought
 
 This is my space to experiment, create and share. If it helps any passersby, that's mission complete. If someone points out how to improve, that's brilliant.
 
