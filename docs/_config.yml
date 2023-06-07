@@ -36,9 +36,10 @@ date_format: "%Y-%m-%d"
 #  - screenshot.png
 #  - docs/
 
-# plugins:
+plugins:
 #  - jekyll-remote-theme
-#  - jekyll-sitemap
-#  - jekyll-feed
-#  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-github-metadata
 #  - jekyll-paginate
