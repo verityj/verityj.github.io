@@ -25,9 +25,6 @@ remote_theme: jekyll-theme-dinky
 # social_links:
 #  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=TezrvRIAAAAJ&hl=en" }
 
-# header_pages:
-#  - about.md
-
 # Exclude these files from production site
 # exclude:
 #  - CHANGELOG.md
