@@ -23,6 +23,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+
 /* Base text styles */
 
 body {
@@ -162,11 +163,10 @@ p img, .emoji {
 
 /* Code blocks */
 
-/* original: font-size:14px; */
 code, pre {
 	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color:#000;
-  font-size:12px;
+  font-size:14px;
 }
 
 pre {
@@ -209,16 +209,14 @@ td {
 
 /* Wrapper */
 .wrapper {
-  /* width:960px; */
-  width:1000px;
+  width:960px;
 }
 
 
 /* Header */
 
-/* original: background-color: #171717; */
 header {
-	background-color: #585858;
+	background-color: #171717;
 	color: #FDFDFB;
   width:170px;
   float:left;
@@ -338,8 +336,7 @@ footer {
 	padding-left: 50px;
 }
 
-/* @media print, screen and (max-width: 960px) { */
-@media print, screen and (max-width: 1000px) {
+@media print, screen and (max-width: 960px) {
 
   div.wrapper {
     width:auto;
