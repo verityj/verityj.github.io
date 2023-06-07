@@ -11,8 +11,8 @@ theme: jekyll-theme-dinky
 # Output options (more information on Jekyll's site)
 # timezone: "America/New_York"
 # future: true # GitHub pages will publish future posts
-# markdown: kramdown
-# highlighter: rouge
+markdown: kramdown
+highlighter: rouge
 # permalink: /:year-:month-:day-:title/
 date_format: "%Y-%m-%d"
 # paginate: 5 - gives error "Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination."
