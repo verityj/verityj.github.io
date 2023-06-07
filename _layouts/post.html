@@ -7,6 +7,12 @@ layout: base
   <h6>
     <span>
       {{ page.date | date: site.date_format }} &bull;
+      {% assign words = page.content | number_of_words %}
+      {% if words < 360 %}
+        1 min read
+      {% else %}
+        {{ words | divided_by:180 }} min read
+      {% endif %}
     </span>
   </h6>
   {{ content }}
