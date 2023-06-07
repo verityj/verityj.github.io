@@ -34,7 +34,7 @@ Do you have any other ideas or suggestions? Leave a new issue comment for me on 
 
 ## 3. Perhaps a bit peculiar: right option key as Delete
 
-Personally, I am frequently deleting text after using the arrow keys to position and adjust the cursor. The hand is on the arrow keys and the right side `option` is already right there. So with a `"Simple Modifications"` menu I changed that to `"forward_delete"` just like the `"Eject"` button [covered previously](2023-06-07-eject-button).
+Personally, I am frequently deleting text after using the arrow keys to position and adjust the cursor. The hand is on the arrow keys and the right side `option` is already right there. So with a `"Simple Modifications"` menu I changed that to `"forward_delete"` just like the `"Eject"` button [covered previously]({% post_url 2023-06-07-eject-button%}).
 
 ![Karabiner screenshot 2](/assets/images/karabiner2.png)
 
