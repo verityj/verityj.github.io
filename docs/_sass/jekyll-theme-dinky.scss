@@ -1,5 +1,6 @@
 @import "rouge-github";
 @import url('https://fonts.googleapis.com/css?family=Arvo:400,700,400italic');
+@import "initialize";
 
 /* MeyerWeb Reset */
 
@@ -22,9 +23,6 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-
-/* from Minima initialize.scss
-$spacing-unit:     30px !default;
 
 /* Base text styles */
 
