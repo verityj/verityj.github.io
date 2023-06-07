@@ -36,7 +36,4 @@ Do you have any other ideas or suggestions? Leave a new issue comment for me on 
 
 Personally, I am frequently deleting text after using the arrow keys to position and adjust the cursor. The hand is on the arrow keys and the right side `option` is already right there. So with a `"Simple Modifications"` menu I changed that to `"forward_delete"` just like the `"Eject"` button [covered previously](2023-06-07-eject-button).
 
-[Karabiner screenshot 2](/assets/images/karabiner2.png)
-
-
-<img src="/assets/images/karabiner2.png" width="300px;" />
+![Karabiner screenshot 2](/assets/images/karabiner2.png)
