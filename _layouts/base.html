@@ -20,7 +20,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="header"><a href="https://verity-s.github.io">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1 class="header"><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
         <ul>
@@ -40,6 +40,10 @@
             <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
           </ul>
         {% endif %}
+        <ul>
+          <a href="/">Main page</a>
+          <a href="/about">About me</a>
+        </ul>
         <p class="header"><a href="/">Main page</a></p>
         <p class="header"><a href="/about">About me</a></p>       
       </header>
