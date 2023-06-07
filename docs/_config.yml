@@ -2,7 +2,7 @@ title: A spark of a thought
 description: Let's make life easier with simple scripting. Grateful for everyone's encouragement and support!
 show_downloads: false
 google_analytics: G-VD8N8M65XP
-remote_theme: jekyll-theme-dinky
+# remote_theme: jekyll-theme-dinky
 # theme: jekyll-theme-dinky
 
 # From https://github.com/daattali/beautiful-jekyll/blob/master/_config.yml
@@ -36,8 +36,8 @@ remote_theme: jekyll-theme-dinky
 #  - screenshot.png
 #  - docs/
 
-plugins:
-  - jekyll-remote-theme
+# plugins:
+#  - jekyll-remote-theme
 #  - jekyll-sitemap
 #  - jekyll-feed
 #  - jekyll-seo-tag
