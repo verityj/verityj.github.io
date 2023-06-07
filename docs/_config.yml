@@ -14,7 +14,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 date_format: "%Y %b %-d"
-paginate: 5
+# paginate: 5 - gives error "Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination."
 # home_post_limit: 5
 show_excerpts: true
 
@@ -39,7 +39,7 @@ kramdown:
 #  - docs/
 
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+#  - jekyll-paginate
