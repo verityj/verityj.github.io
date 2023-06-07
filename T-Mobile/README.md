@@ -70,3 +70,7 @@ Tip a satoshi to   <img src="/assets/images/strike.png" width="12px;" />  [strik
 Or [PayPal support](https://www.paypal.com/donate/?hosted_button_id=D2SU4GD8PEXCW)
 
 <img src="/assets/images/qr.png" width="40px;" />
+
+## License
+
+Open sourced under the [MIT license](LICENSE.md).
