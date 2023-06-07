@@ -3,7 +3,9 @@ layout: post
 title: The useful Mac keyboard eject button
 ---
 
-Apple stopped releasing keyboards with the eject button years back. But those keyboards are still perfectly useful and, in my opinion, one of the best slim profile keyboards. (I have no idea why keyboard manufacturers think we need high elevated keyboards for ergonomics. Do a test: lay your hand on a table. Is it easier to rest the fingers on the horizontal surface at the same height as the wrist, or do the fingers want to raise up into space? Where a typical keyboard would be. But I digress.)
+Apple stopped releasing keyboards with the eject button years back. But those keyboards are still perfectly useful and, in my opinion, one of the best slim profile keyboards. There are options to change this button to perform other actions, with a straightforward example below.
+
+(I have no idea why keyboard manufacturers think we need high elevated keyboards for ergonomics. Do a test: lay your hand on a table. Is it easier to rest the fingers on the horizontal surface at the same height as the wrist, or do the fingers want to raise up into space? Where a typical keyboard would be. But I digress.)
 
 What Mac keyboards do lack is a forward delete button. The eject could serve that purpose beautifully.
 
