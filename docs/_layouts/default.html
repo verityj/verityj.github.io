@@ -46,8 +46,7 @@
       <section>
         <h2>Latest posts</h2>
         <ul>
-          {% assign date_format = "%Y %b %-d" %}
-          {% for post in posts %}
+          {% for post in site.posts %}
           <li>
             <h3>
               <a href="{{ post.url }}">{{ post.title | escape }}
