@@ -44,6 +44,7 @@
       </header>
 
       <section>
+        <h2>Latest posts</h2>
         <ul>
           {% assign date_format = "%Y %b %-d" %}
           {% for post in posts %}
@@ -56,9 +57,7 @@
           </li>
           {% endfor %}
         </ul>
-      </section>
-      
-      <section>
+
         {{ content }}
       </section>
       
