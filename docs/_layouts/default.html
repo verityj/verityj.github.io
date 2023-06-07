@@ -45,16 +45,16 @@
 
       <section>
         <ul>
-          {%- assign date_format = "%b %-d, %Y" -%}
-          {%- for post in posts -%}
+          {% assign date_format = "%Y %b %-d" %}
+          {% for post in posts %}
           <li>
             <h3>
-              <a href="{{ post.url | relative_url }}">{{ post.title | escape }}
+              <a href="{{ post.url }}">{{ post.title | escape }}
               </a>
             </h3>
               {{ post.excerpt }}
           </li>
-          {%- endfor -%}
+          {% endfor %}
         </ul>
       </section>
       
