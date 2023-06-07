@@ -16,7 +16,7 @@ theme: jekyll-theme-dinky
 # date_format: "%Y %b %-d"
 # paginate: 5 - gives error "Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination."
 # home_post_limit: 5
-show_excerpts: true
+# show_excerpts: true
 
 # kramdown:
 #  input: GFM
