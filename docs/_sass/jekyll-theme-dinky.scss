@@ -49,7 +49,7 @@ h6 {
 }
 
 p, ul, ol, table, dl {
-  margin:0 0 22px;
+  margin:10px 0 10px;
 }
 
 h1, h2, h3 {
@@ -76,9 +76,13 @@ h3 {
 	font-size: 18px;
 }
 
-h4, h5, h6 {
+h4, h5 {
 	font-family: Arvo, Monaco, serif;
 	font-weight: 700;
+}
+
+h6 {
+	font-family: Arvo, Monaco, serif;
 }
 
 a {
