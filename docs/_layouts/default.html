@@ -2,30 +2,26 @@
 layout: base
 ---
 
-      <section>
-            <br />
-         {{ content }}
-        <h1>Latest posts</h1>
-        <ul>
-          {% for post in site.posts %}
-            <h2>
-              <a href="{{ post.url }}">{{ post.title | escape }}</a>
-                  <br />
-                  <span>
-                  {{ post.date | date_to_string }} &bull;
-                  {% assign words = post.content | number_of_words %}
-                  {% if words < 360 %}
-                    1 min read
-                  {% else %}
-                    {{ words | divided_by:180 }} min read
-                  {% endif %}
-                                   </span>
-            </h2>
-              {{ post.excerpt }}
-          {% endfor %}
-        </ul>
-
-       
-      </section>
+<section>
+  <br />
+  {{ content }}
+      
+  <h1>Latest posts</h1>
+  <ul>
+    {% for post in site.posts %}
+      <h2><a href="{{ post.url }}">{{ post.title | escape }}</a></h2>
+      <span>
+        {{ post.date | date_to_string }} &bull;
+        {% assign words = post.content | number_of_words %}
+        {% if words < 360 %}
+          1 min read
+        {% else %}
+          {{ words | divided_by:180 }} min read
+        {% endif %}
+      </span>
+      {{ post.excerpt }}
+    {% endfor %}
+  </ul>
+</section>
       
      
