@@ -6,7 +6,7 @@ layout: base
   <h2 class="post-title">{{ page.title }}</h2>
   <h6>
     <span>
-      {{ post.date | date: '%Y-%m-%d' | date_to_string }} &bull;
+      {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }} &bull;
       {% assign words = post.content | number_of_words %}
       {% if words < 360 %}
         1 min read
