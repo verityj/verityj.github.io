@@ -1,9 +1,8 @@
 ---
 layout: post
-title: About
+title: About me
 ---
 
-## About me
 I am a growing self-taught programmer, with the goal of finding the most simple and beautiful solutions to the little things that get overlooked or just don't receive much attention. Where some more imagination is in order.
 
 For example, I loved assigning functions to some keyboard keys I noticed I could use for something more useful (e.g. right option key or eject key or how to create a shortcut to paste text without its copied formatting).
