@@ -14,7 +14,8 @@ layout: base
       </h2>
       <h6>
       <span>
-        {{ post.date | date_to_string }} &bull;
+        {%- assign date_format = site.date_format | default: "%Y-%m-%d" -%}
+        {{ post.date | date_format }} &bull;
         {% assign words = post.content | number_of_words %}
         {% if words < 360 %}
           1 min read
