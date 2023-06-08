@@ -4,9 +4,7 @@ title: Keyboard goodness with Karabiner modifications
 date: 2023-06-08
 ---
 
-There are a lot of possibilities to create useful and simple keyboard shortcuts with [Karabiner Elements](https://karabiner-elements.pqrs.org).
-
-Here are a few examples that I had fun setting up and using:
+There are a lot of possibilities to create useful and simple keyboard shortcuts with [Karabiner Elements](https://karabiner-elements.pqrs.org). Here are a few examples that I had fun setting up and using.
 
 ## 1. Paste special without formatting
 
