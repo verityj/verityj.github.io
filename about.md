@@ -21,3 +21,7 @@ It's a great journey and I love every step along the way. Thank you for encourag
 * [Nostr (iris.to)](https://iris.to/verity)
 
 * [Reddit (user)](https://www.reddit.com/user/verity-j/)
+
+## Show your support
+
+<iframe src="https://github.com/sponsors/verityj/button" title="Sponsor verityj" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
