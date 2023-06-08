@@ -14,14 +14,21 @@ It's a great journey and I love every step along the way. Thank you for encourag
 
 ## Keep in touch
 
-* [GitHub (post a comment)](https://github.com/verityj/verityj.github.io/issues)
+- [GitHub (post a comment)](https://github.com/verityj/verityj.github.io/issues)
 
-* [Nostr (primal.net)](https://primal.net/profile/npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3)
+- [Nostr (primal.net)](https://primal.net/profile/npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3)
 
-* [Nostr (iris.to)](https://iris.to/verity)
+- [Nostr (iris.to)](https://iris.to/verity)
 
-* [Reddit (user)](https://www.reddit.com/user/verity-j/)
+- [Reddit discussions](https://github.com/verityj/verityj.github.io/discussions/1)
 
 ## Show your support
+
+- [Tip a satoshi with Strike](https://strike.me/verity/)
+
+- [Tip a satoshi with Alby](https://getalby.com/p/verity)
+
+- Sponsor through GitHub
+
 
 <iframe src="https://github.com/sponsors/verityj/button" title="Sponsor verityj" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
