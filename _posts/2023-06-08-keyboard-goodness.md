@@ -28,7 +28,7 @@ Search for _"Command + Shift + v does special paste without formatting, equivale
 
 I kept forgetting that shortcut so decided to create a new Karabiner complex modification for it. To share it for anyone's use I committed it to the main Karabiner list ([committed shortcut code is here](https://github.com/pqrs-org/KE-complex_modifications/commit/0dd56bb83ab7b55bedbcc9759408f10f626d34ce)).
 
-Do you have any other ideas or suggestions? Leave a new issue comment for me on [GitHub](https://github.com/verity-s/verity-s.github.io/issues)!
+Do you have any other ideas or suggestions? Leave a comment for me on [GitHub](https://github.com/verityj/verityj.github.io/discussions/1)!
 
 ## 3. Perhaps a bit peculiar: right option key as Delete
 
