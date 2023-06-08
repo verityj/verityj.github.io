@@ -23,7 +23,6 @@
         <h1 class="header"><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
         
-        <p class="header">
         <ul>
           {% if site.show_downloads %}
             <li class="download"><a class="buttons" href="{{ site.github.zip_url }}">Download ZIP</a></li>
@@ -31,7 +30,6 @@
           {% endif %}
           <li><a class="buttons github" href="{{ site.github.repository_url }}">View On GitHub</a></li>
         </ul>
-        </p>
 
         {% if site.github.is_project_page %}
           <p class="header">This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
