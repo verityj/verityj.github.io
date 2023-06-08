@@ -172,12 +172,15 @@ p img, .emoji {
 
 /* Code blocks */
 
+/* added background 2023.06.08 */
 code, pre {
 	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color:#000;
   font-size:12px;
+  background: #CACBC9;
 }
 
+/* background: #FDFEFB; */
 pre {
 	padding: 4px 12px;
   background: #FDFEFB;
