@@ -12,10 +12,12 @@ When I saw how limited my T-Mobile home internet gateway settings are, I used it
 
 It's a great journey and I love every step along the way. Thank you for encouraging me and pushing me to work harder with your sponsorship!
 
-### Keep in touch
+## Keep in touch
 
 * [GitHub](https://github.com/verityj/verityj.github.io/issues)
 
-* [Nostr](https://primal.net/profile/npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3)
+* [Nostr (primal.net)](https://primal.net/profile/npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3)
+
+* [Nostr (iris.to)](https://iris.to/verity)
 
 * [Reddit](https://www.reddit.com/user/verity-j/)
