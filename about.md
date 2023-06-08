@@ -14,7 +14,7 @@ It's a great journey and I love every step along the way. Thank you for encourag
 
 ### Keep in touch
 
-* [GitHub](https://github.com/verity-s/verity-s.github.io/issues)
+* [GitHub](https://github.com/verityj/verityj.github.io/issues)
 
 * [Nostr](https://primal.net/profile/npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3)
 
