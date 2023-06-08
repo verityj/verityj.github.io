@@ -26,7 +26,4 @@ It's a great journey and I love every step along the way. Thank you for encourag
 
 - [Tip a satoshi with Alby](https://getalby.com/p/verity)
 
-- Sponsor through GitHub
-
-
-<iframe src="https://github.com/sponsors/verityj/button" title="Sponsor verityj" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+- Sponsor through GitHub <iframe src="https://github.com/sponsors/verityj/button" title="Sponsor verityj" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
