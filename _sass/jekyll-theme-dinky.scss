@@ -318,7 +318,7 @@ a.buttons {
 
 a.buttons-u {
 	-webkit-font-smoothing: antialiased;
-	background: url(../images/arrow-up.png) no-repeat 1px;
+	background: url(/assets/images/arrow-up.png) no-repeat 1px;
 	font-weight: normal;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 	padding: 2px 2px 2px 22px;
@@ -332,7 +332,7 @@ a.buttons-u:hover {
 
 a.buttons-r {
 	-webkit-font-smoothing: antialiased;
-	background: url(../images/arrow-right.png) no-repeat;
+	background: url(/assets/images/arrow-right.png) no-repeat;
 	font-weight: normal;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 	padding: 2px 2px 2px 22px;
@@ -340,6 +340,20 @@ a.buttons-r {
 }
 
 a.buttons-r:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+a.buttons-nostr {
+	-webkit-font-smoothing: antialiased;
+	background: url(/assets/images/nostr19x14.png) no-repeat;
+	font-weight: normal;
+	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+	padding: 2px 2px 2px 22px;
+	height: 30px;
+}
+
+a.buttons-nostr:hover {
 	color: #fff;
 	text-decoration: none;
 }
