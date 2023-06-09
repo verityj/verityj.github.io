@@ -22,7 +22,13 @@ It's a great journey and I love every step along the way. Thank you for encourag
 
 ## Show your support
 
-- Tip a satoshi with Lightning [(Strike)](https://strike.me/verity/)
+&emsp; Tip a satoshi with Lightning [(Strike)](https://strike.me/verity/)
+<p padding-left: 25px;>
+  <img src="/assets/images/strike.png" width="20px;" />
+</p>
 
 - [Sponsor through GitHub](https://github.com/sponsors/verityj/) 
-<p padding-left: 25px;><iframe src="https://github.com/sponsors/verityj/button" title="Sponsor verityj" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe></p>
+<p padding-left: 25px;>
+  <iframe src="https://github.com/sponsors/verityj/button" title="Sponsor verityj" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+</p>
+- And then there is [PayPal](https://www.paypal.com/donate/?hosted_button_id=D2SU4GD8PEXCW)
