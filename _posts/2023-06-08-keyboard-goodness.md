@@ -26,7 +26,7 @@ Search for _"Command + Shift + v does special paste without formatting, equivale
 
 > Default Mac shortcut: ⌘ - control - spacebar
 
-I kept forgetting that shortcut so decided to create a new Karabiner complex modification for it. To share it for anyone's use I committed it to the main Karabiner list ([committed shortcut code is here](https://github.com/pqrs-org/KE-complex_modifications/commit/0dd56bb83ab7b55bedbcc9759408f10f626d34ce)).
+I kept forgetting that shortcut so decided to create a new Karabiner complex modification for it. To share it for anyone's use I committed it to the main Karabiner list ([committed shortcut code is here](https://github.com/pqrs-org/KE-complex_modifications/blob/main/public/json/Fn%2Bspace%3Demoji.json)).
 
 Do you have any other ideas or suggestions? Leave a comment for me on [GitHub](https://github.com/verityj/verityj.github.io/discussions/1)!
 
