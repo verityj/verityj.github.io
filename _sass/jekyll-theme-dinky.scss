@@ -107,10 +107,11 @@ strong {
   font-weight:700;
 }
 
+/* could play with: list-style: disc inside url("/assets/images/dash.png"); */
 /* original: list-style-position: inside; */
 /* original: list-style: disc; */
 ul {
-  list-style: disc inside url("/assets/images/dash.png");
+  list-style: disc inside;
   padding-left: 25px;
 }
 
