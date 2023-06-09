@@ -22,7 +22,7 @@ It's a great journey and I love every step along the way. Thank you for encourag
 
 ## Show your support
 
-<img src="/assets/images/strike.png" width="17px;" /> &emsp; Tip a satoshi with Lightning [(Strike)](https://strike.me/verity/)
+<img src="/assets/images/strike.png" width="20px;" /> &emsp; Tip a satoshi with Lightning [(Strike)](https://strike.me/verity/)
 
 <img src="/assets/images/sponsor.png" width="20px;" /> &emsp; [Sponsor through GitHub](https://github.com/sponsors/verityj/) 
 
