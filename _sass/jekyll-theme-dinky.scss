@@ -111,15 +111,16 @@ strong {
 /* original: list-style-position: inside; */
 /* original: list-style: disc; */
 ul {
-  list-style: disc inside;
+  list-style: disc outside;
   padding-left: 25px;
 }
 
 /* could play with: list-style-type: decimal-leading-zero; - or - lower-greek; - or - upper-roman; */
+/* original: padding-left: 25px; */
 ol {
   list-style-position: inside;
   list-style: decimal;
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 blockquote {
