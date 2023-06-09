@@ -107,15 +107,11 @@ strong {
   font-weight:700;
 }
 
-/* 2023.06.09 added from https://stackoverflow.com/questions/47327961/html-for-list-with-dashes-and-custom-font-colour */
-li::before {
-  content: "  – ";
-}
-
 /* original: list-style-position: inside; */
 /* original: list-style: disc; */
 ul {
-  list-style-type: none;
+  list-style-position: inside;
+  list-style-type: disc;
   padding-left: 25px;
 }
 
