@@ -108,16 +108,14 @@ strong {
 }
 
 /* 2023.06.09 added from https://stackoverflow.com/questions/47327961/html-for-list-with-dashes-and-custom-font-colour */
-@counter-style dash {
-  system: cyclic;
-  symbols: "–";
-  suffix: " ";
+li::before {
+  content: "  – ";
 }
 
 /* original: list-style-position: inside; */
 /* original: list-style: disc; */
 ul {
-  list-style-type: dash;
+  list-style-type: none;
   padding-left: 25px;
 }
 
