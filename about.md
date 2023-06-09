@@ -18,12 +18,11 @@ It's a great journey and I love every step along the way. Thank you for encourag
 
 - [Nostr (iris.to)](https://iris.to/verity)
 
-- [Reddit discussions](https://github.com/verityj/verityj.github.io/discussions/1)
+- [GitHub discussion](https://github.com/verityj/verityj.github.io/discussions/1)
 
 ## Show your support
 
-- [Tip a satoshi with Strike](https://strike.me/verity/)
+- Tip a satoshi with Lightning [(Strike)](https://strike.me/verity/)
 
-- [Tip a satoshi with Alby](https://getalby.com/p/verity)
-
-- Sponsor through GitHub <iframe src="https://github.com/sponsors/verityj/button" title="Sponsor verityj" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+- [Sponsor through GitHub](https://github.com/sponsors/verityj/) 
+<p padding-left: 25px;><iframe src="https://github.com/sponsors/verityj/button" title="Sponsor verityj" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe></p>
