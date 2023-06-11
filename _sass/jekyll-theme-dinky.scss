@@ -502,7 +502,7 @@ footer {
 /* Pagination items can be `span`s or `a`s */
 .pagination-item {
   display: block;
-  padding: 0;
+  padding: 20px;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
@@ -532,34 +532,3 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
-
-/* From https://github.com/jekyll/minima/blob/2863624b903b17f838d6ce8d2f77900fa9d3c864/_sass/minima/_layout.scss#L324 */
-/**
- * Pagination navbar
- */
-
-/*
-*$spacing-unit: 30px !default;
-*$border-color-01: #F1F1F1 !default;
-*
-*.pagination {
-*  margin-bottom: $spacing-unit;
-*  li {
-*    a, div {
-*      min-width: 41px;
-*      text-align: center;
-*      box-sizing: border-box;
-*    }
-*    div {
-*      display: block;
-*      padding: $spacing-unit * .25;
-*      border: 1px solid transparent;
-*
-*      &.pager-edge {
-*        color: $border-color-01;
-*        border: 1px dashed;
-*      }
-*    }
-*  }
-*}
-*/
