@@ -1,5 +1,6 @@
 ---
 layout: base
+title: A spark of a thought
 ---
 
 <section>
@@ -8,7 +9,7 @@ layout: base
     Latest posts
   </h1>
   <!-- <ul>  -->
-    {% for item in site.posts %}
+    {% for item in paginator.posts %}
       <h2><a href="{{ item.url }}">{{ item.title | escape }}</a>
       </h2>
       <h6>
@@ -25,6 +26,23 @@ layout: base
       {{ item.excerpt }}
     {% endfor %}
   <!-- </ul>  -->
+  
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">
+        Previous
+      </a>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %}
+    <span class="page_number ">
+      Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </div>
 </section>
-      
-     
