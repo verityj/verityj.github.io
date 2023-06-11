@@ -502,7 +502,7 @@ footer {
 /* Pagination items can be `span`s or `a`s */
 .pagination-item {
   display: block;
-  padding: 20px;
+  padding: 10px;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
@@ -519,7 +519,7 @@ a.pagination-item:hover {
   }
   .pagination-item {
     float: left;
-    width: 33%;
+    width: 30%;
   }
   .pagination-item:first-child {
     margin-bottom: 0;
