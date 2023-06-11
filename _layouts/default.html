@@ -4,12 +4,13 @@ title: A spark of a thought
 ---
 
 <section>
+  <!-- if there is no previous page, then this is the first page. Include welcome text from /index.html -->
   {%- if paginator.previous_page %}
+    <h1>Previous posts</h1>  <!--Title for following pages -->
   {%- else %}
     {{ content }}
+    <h1>Latest posts</h1>
   {%- endif %}
-  
-  <!-- {{ content }} -->
   
   <!-- From https://github.com/jekyll/minima/blob/master/_layouts/home.html -->
   {% if site.paginate %}
@@ -19,9 +20,6 @@ title: A spark of a thought
   {% endif %}
         
   {%- if posts.size > 0 -%}
-    <h1>
-      Latest posts
-    </h1>
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
@@ -66,27 +64,5 @@ title: A spark of a thought
     {%- endif %} <!-- finishes if site.paginate -->
   
   {%- endif -%} <!-- finishes if posts.size > 0 -->
-  
-  <!-- My manual list -->
-  <h1>
-    Latest posts (generated manually)
-  </h1>
- 
-  {% for item in site.posts %}
-      <h2><a href="{{ item.url }}">{{ item.title | escape }}</a>
-      </h2>
-      <h6>
-      <span>
-        {{ item.date | date: site.date_format }} &nbsp; &bull; &nbsp;
-        {% assign words = item.content | number_of_words %}
-        {% if words < 360 %}
-          1 min read
-        {% else %}
-          {{ words | divided_by:180 }} min read
-        {% endif %}
-      </span>
-      </h6>
-      {{ item.excerpt }}
-    {% endfor %}
   
 </section>
