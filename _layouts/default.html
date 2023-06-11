@@ -9,30 +9,26 @@ title: A spark of a thought
   <!-- From https://github.com/jekyll/minima/blob/master/_layouts/home.html -->
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
-    <p>(Paginator posts are assigned)</p>
-    <p>(Paginator total posts = {{ posts.total_posts }})</p>
-    <p>(Paginator total pages = {{ paginator.total_pages }})</p>
-    <p>(Paginator previous_page_path = {{ paginator.previous_page_path }})</p>
-    <p>(Paginator next_page_path = {{ paginator.next_page_path }})</p>
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
         
   {%- if posts.size > 0 -%}
-    <p>Size of posts is more than zero</p>  <!-- my comment -->
+    <h1>
+      Latest posts
+    </h1>
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
-      {%- assign date_format = site.date_format | default: "%Y.%m.%d" -%}
       {%- for post in posts -%}
       <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
+        <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
-          </a>
-        </h3>
+          </a>          
+        </h2>
+        <span class="post-meta">{{ post.date | date: site.date_format }}</span>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
@@ -60,6 +56,12 @@ title: A spark of a thought
   
   {%- endif -%} <!-- finishes if posts.size > 0 -->
 
+  <p>(Paginator posts are assigned)</p>
+  <p>(Paginator total posts = {{ paginator.total_posts }})</p>
+  <p>(Paginator total pages = {{ paginator.total_pages }})</p>
+  <p>(Paginator previous_page_path = {{ paginator.previous_page_path }})</p>
+  <p>(Paginator next_page_path = {{ paginator.next_page_path }})</p>
+  
   <!-- My manual list -->
   <h1>
     Latest posts (generated manually)
