@@ -60,3 +60,4 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - T-Mobile/
