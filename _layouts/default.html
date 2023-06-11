@@ -9,8 +9,11 @@ title: A spark of a thought
   <!-- From https://github.com/jekyll/minima/blob/master/_layouts/home.html -->
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
-    <p>Paginator posts are assigned</p>
-    <p>Paginator total posts = {{ paginator.total_posts }}</p>
+    <p>(Paginator posts are assigned)</p>
+    <p>(Paginator total posts = {{ paginator.total_posts }})</p>
+    <p>(Paginator total pages = {{ paginator.total_pages }})</p>
+    <p>(Paginator previous_page_path = {{ paginator.previous_page_path }}</p>
+    <p>(Paginator next_page_path = {{ paginator.next_page_path }}</p>
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
