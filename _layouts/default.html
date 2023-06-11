@@ -4,7 +4,12 @@ title: A spark of a thought
 ---
 
 <section>
-  {{ content }}  
+  {%- if paginator.previous_page %}
+  {%- else %}
+    {{ content }}
+  {%- endif %}
+  
+  <!-- {{ content }} -->
   
   <!-- From https://github.com/jekyll/minima/blob/master/_layouts/home.html -->
   {% if site.paginate %}
