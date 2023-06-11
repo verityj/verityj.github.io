@@ -30,13 +30,12 @@ title: A spark of a thought
  
  {% if site.paginate %}
    {% assign items = paginator.posts %}
-   <h1>Latest posts - paginator</h1>
+   <h2>Latest posts - paginator</h2>
  {% else %}
    {% assign items = site.posts %}
  {% endif %}
         
  {%- if items.size > 0 -%}
-   <p>items.size is > 0</p>
    {%- if page.list_title -%}
      <h2 class="post-list-heading">{{ page.list_title }}</h2>
    {%- endif -%}
@@ -59,21 +58,26 @@ title: A spark of a thought
    {% if site.paginate %}
      <div class="pager">
        <ul class="pagination">
+         <p>1. Got to ul class pagination</p>
          {%- if paginator.previous_page %}
-         <h3>There is a previous page</h3>
+           <p>2. There is a previous page</p>
            <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
          {%- else %}
+           <p>3. There is no previous page</p>
            <li><div class="pager-edge">•</div></li>
          {%- endif %}
          <li><div class="current-page">{{ paginator.page }}</div></li>
+         <p>4. List current page</p>
          {%- if paginator.next_page %}
-           <h3>There is a next page</h3>
+           <p>5. There is a next page</p>
            <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
          {%- else %}
            <li><div class="pager-edge">•</div></li>
+           <p>6. There is no next page</p>
          {%- endif %}
        </ul>
      </div>
+     <p>7. Ended div class pager</p>
    {%- endif %}
  <!-- ends if for items.size > 0 -->
  {%- endif -%} 
