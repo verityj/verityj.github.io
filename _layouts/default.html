@@ -31,6 +31,7 @@ title: A spark of a thought
  {% if site.paginate %}
    {% assign items = paginator.posts %}
    <h2>Latest posts - paginator</h2>
+   <p>{{ items.size }}</p>
  {% else %}
    {% assign items = site.posts %}
  {% endif %}
