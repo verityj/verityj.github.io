@@ -9,6 +9,23 @@ title: A spark of a thought
     Latest posts
   </h1>
  
+  {% for item in site.posts %}
+      <h2><a href="{{ item.url }}">{{ item.title | escape }}</a>
+      </h2>
+      <h6>
+      <span>
+        {{ item.date | date: site.date_format }} &nbsp; &bull; &nbsp;
+        {% assign words = item.content | number_of_words %}
+        {% if words < 360 %}
+          1 min read
+        {% else %}
+          {{ words | divided_by:180 }} min read
+        {% endif %}
+      </span>
+      </h6>
+      {{ item.excerpt }}
+    {% endfor %}
+  
  <!-- This loops through the paginated posts -->
  {% for post in paginator.posts %}
    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
