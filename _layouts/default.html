@@ -9,13 +9,14 @@ title: A spark of a thought
   <!-- From https://github.com/jekyll/minima/blob/master/_layouts/home.html -->
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
-    <h3>Paginator posts assigned</h3>
+    <p>Paginator posts are assigned</p>
+    <p>Paginator total posts = {{ paginator.total_posts }}</p>
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
         
   {%- if posts.size > 0 -%}
-    <p>Size of posts > 0</p>  <!-- my comment -->
+    <p>Size of posts is more than zero</p>  <!-- my comment -->
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
