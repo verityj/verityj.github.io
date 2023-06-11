@@ -6,7 +6,7 @@ title: A spark of a thought
 <section>
   <!-- if there is no previous page, then this is the first page. Include welcome text from /index.html -->
   {%- if paginator.previous_page %}
-    <h1>Previous posts</h1>  <!--Title for following pages -->
+    <h1>Posts page {{ paginator.page }} of {{ paginator.total_pages}}</h1>  <!--Title for following pages -->
   {%- else %}
     {{ content }}
     <h1>Latest posts</h1>
