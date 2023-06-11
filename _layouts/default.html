@@ -6,7 +6,7 @@ title: A spark of a thought
 <section>
   {{ content }}  
   <h1>
-    Latest posts
+    Latest posts - manual
   </h1>
  
   {% for item in site.posts %}
@@ -26,11 +26,54 @@ title: A spark of a thought
       {{ item.excerpt }}
     {% endfor %}
   
- <!-- This loops through the paginated posts -->
- {% for post in paginator.posts %}
-   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-   <div class="content">
-     {{ post.content }}
-   </div>
- {% endfor %}
+ <!-- From https://github.com/jekyll/minima/blob/master/_layouts/home.html -->
+ 
+ {% if site.paginate %}
+   {% assign items = paginator.posts %}
+   <h1>Latest posts - paginator</h1>
+ {% else %}
+   {% assign items = site.posts %}
+   <h1>Latest posts - minima posts</h1>
+ {% endif %}
+        
+ {%- if items.size > 0 -%}
+   {%- if page.list_title -%}
+     <h2 class="post-list-heading">{{ page.list_title }}</h2>
+   {%- endif -%}
+   <ul class="post-list">
+   {%- for item in items -%}
+     <li>
+       <span class="post-meta">{{ item.date | date: site.date_format }}</span>
+       <h3>
+         <a class="post-link" href="{{ item.url | relative_url }}">
+           {{ item.title | escape }}
+         </a>
+       </h3>
+       {%- if site.show_excerpts -%}
+         {{ post.excerpt }}
+       {%- endif -%}
+     </li>
+   {%- endfor -%}
+   </ul>
+   
+   {% if site.paginate %}
+     <div class="pager">
+       <ul class="pagination">
+         {%- if paginator.previous_page %}
+           <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+         {%- else %}
+           <li><div class="pager-edge">•</div></li>
+         {%- endif %}
+         <li><div class="current-page">{{ paginator.page }}</div></li>
+         {%- if paginator.next_page %}
+           <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+         {%- else %}
+           <li><div class="pager-edge">•</div></li>
+         {%- endif %}
+       </ul>
+     </div>
+   {%- endif %}
+ <!-- ends if for items.size > 0 -->
+ {%- endif -%} 
+
 </section>
