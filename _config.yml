@@ -27,25 +27,12 @@ show_excerpts: true
 # social_links:
 #  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=TezrvRIAAAAJ&hl=en" }
 
-# Exclude these files from production site
-# exclude:
-#  - CHANGELOG.md
-#  - CNAME
-#  - Gemfile
-#  - Gemfile.lock
-#  - LICENSE
-#  - README.md
-#  - screenshot.png
-#  - docs/
-
 plugins:
-  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+#  - jekyll-paginate
 #  - jekyll-remote-theme
 #  - jekyll-sitemap
-#  - jekyll-feed
-#  - jekyll-seo-tag
-#  - jekyll-github-metadata
-
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
