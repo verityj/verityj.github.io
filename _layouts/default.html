@@ -20,7 +20,7 @@ title: A spark of a thought
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
-    <ul class="post-list">
+    <!-- remove list: <ul class="post-list">  -->
       {%- for post in posts -%}
       <!-- <li>  -->
         <h2>
@@ -45,7 +45,7 @@ title: A spark of a thought
         {%- endif -%}
       <!-- </li> -->
       {%- endfor -%}
-    </ul>
+    <!-- </ul>  -->
     
     {% if site.paginate %}
       <div class="pager">
