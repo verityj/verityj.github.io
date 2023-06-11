@@ -483,31 +483,66 @@ footer {
   }
 }
 
+/* From https://github.com/poole/hyde/blob/7c7f7550898e081264d255ef429a134fb00c72a8/public/css/poole.css#L26
+ * Pagination
+ *
+ * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+ * there are no more previous or next posts to show.
+ */
+
+.pagination {
+  overflow: hidden; /* clearfix */
+  margin-left: -1rem;
+  margin-right: -1rem;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  color: #ccc;
+  text-align: center;
+}
+
+/* Pagination items can be `span`s or `a`s */
+.pagination-item {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #eee;
+}
+.pagination-item:first-child {
+  margin-bottom: -1px;
+}
+
+/* Only provide a hover state for linked pagination items */
+a.pagination-item:hover {
+  background-color: #f5f5f5;
+}
+
+
+
 /* From https://github.com/jekyll/minima/blob/2863624b903b17f838d6ce8d2f77900fa9d3c864/_sass/minima/_layout.scss#L324 */
 /**
  * Pagination navbar
  */
 
-$spacing-unit: 30px !default;
-$border-color-01: #F1F1F1 !default;
-
-.pagination {
-  margin-bottom: $spacing-unit;
-  li {
-    a, div {
-      min-width: 41px;
-      text-align: center;
-      box-sizing: border-box;
-    }
-    div {
-      display: block;
-      padding: $spacing-unit * .25;
-      border: 1px solid transparent;
-
-      &.pager-edge {
-        color: $border-color-01;
-        border: 1px dashed;
-      }
-    }
-  }
-}
+/*
+*$spacing-unit: 30px !default;
+*$border-color-01: #F1F1F1 !default;
+*
+*.pagination {
+*  margin-bottom: $spacing-unit;
+*  li {
+*    a, div {
+*      min-width: 41px;
+*      text-align: center;
+*      box-sizing: border-box;
+*    }
+*    div {
+*      display: block;
+*      padding: $spacing-unit * .25;
+*      border: 1px solid transparent;
+*
+*      &.pager-edge {
+*        color: $border-color-01;
+*        border: 1px dashed;
+*      }
+*    }
+*  }
+*}
+*/
