@@ -3,7 +3,10 @@ layout: post
 title: Remove leftover system extensions
 ---
 
-I ended up with a left over ghost system extension that cannot be removed by any of the usual methods (`sudo rm -rf`). I could see it running with the following command (titles removed below for simplicity):
+I ended up with a left over ghost system extension that cannot be removed by any of the usual methods (`sudo rm -rf`). Here is a way around that so we are not left with things in the system that we don't need.
+
+
+I could see the running system extensions with the following command (titles removed below for simplicity). The first one on the list is what I am trying to remove and clean out.
 ```
 $ systemextensionsctl list
 3 extension(s)
