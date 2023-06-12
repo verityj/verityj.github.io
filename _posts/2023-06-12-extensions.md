@@ -111,7 +111,11 @@ Restart the machine for the changes to take effect.
 -bash-3.2#
 ```
 
-- Restart your computer and check what system extensions are there.
+- Restart your computer.
+
+## 4. Check that all is well
+
+No shame in being paranoid, let's check what system extensions are left.
 
 In my example, now I see:
 ```
