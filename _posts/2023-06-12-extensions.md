@@ -113,7 +113,7 @@ Restart the machine for the changes to take effect.
 
 - Restart your computer.
 
-## 4. Check that all is well
+## 5. Check that all is well
 
 No shame in being paranoid, let's check what system extensions are left.
 
