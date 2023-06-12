@@ -15,11 +15,8 @@ markdown: kramdown
 highlighter: rouge
 # permalink: /:year-:month-:day-:title/
 date_format: "%Y.%m.%d"
-paginate: 2
+paginate: 5
 show_excerpts: true
-# - gives error "Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination."
-
-# home_post_limit: 5
 
 # kramdown:
 #  input: GFM
