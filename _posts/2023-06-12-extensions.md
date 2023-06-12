@@ -45,6 +45,7 @@ Steps to remove a system extension:
 - Open Terminal by going into the `Utilities` menu on top of the screen and selecting `Terminal`. (Shortcut is command (⌘) - shift - T).
 
 - Execute:
+
 ```
 -bash-3.2# csrutil disable
 Turning off System Integrity Protection requires modifying system security.
@@ -63,6 +64,7 @@ Restart the machine for the changes to take effect.
 - Start the computer normally. Just a regular press of the power button.
 
 - Open Terminal:
+
 ```
 $ systemextensionsctl list
 3 extension(s)
@@ -98,6 +100,7 @@ The system extension is uninstalled, now to reboot and undo what we changed in S
 - Open Terminal in recovery mode.
 
 - Execute:
+
 ```
 -bash-3.2# csrutil enable
 Turning on System Integrity Protection allows increased system security.
@@ -108,6 +111,7 @@ System Integrity Protection is on.
 Restart the machine for the changes to take effect.
 -bash-3.2#
 ```
+
 - Restart your computer and check what system extensions are there.
 
 In my example, now I see:
