@@ -22,13 +22,24 @@ Search for _"Right Command + v to paste without formatting"_ with expanded descr
 
 Search for _"Command + Shift + v does special paste without formatting, equivalent to cmd+opt+shift+v"_. Import that modification. Then remember to paste using the capital V for this function.
 
-## 2. The emoji menu
+##### Option 3
 
-> Default Mac shortcut: ⌘ - control - spacebar
+Recently I came across a separate mac app that accomplishes just this, with some additional modifications: [Pure paste on Mac app store](https://apps.apple.com/app/id1611378436). Options include automatically clearing formatting while the app is running, setting a keyboard shortcut, excluding applications where it may not work well (e.g. Excel) and trimming leading and trailing whitespaces.
 
-I kept forgetting that shortcut so decided to create a new Karabiner complex modification for it. To share it for anyone's use I committed it to the main Karabiner list ([the json code file is here](https://github.com/pqrs-org/KE-complex_modifications/blob/main/public/json/Fn%2Bspace%3Demoji.json)).
+## 2. The emoji & symbols menu
 
-Do you have any other ideas or suggestions? Leave a comment for me on [GitHub](https://github.com/verityj/verityj.github.io/discussions/1)!
+> Default Mac shortcut: ⌘ - control - spacebar. 
+> Or a globe (fn) key can display the emoji menu if set in Keyboard settings in System Preferences. But that may conflict with changing keyboard input sources or the default forward delete which is fn - delete.
+
+##### Option 1
+
+I kept forgetting the default triple shortcut so decided to create a new Karabiner complex modification for it. To share it for anyone's use I committed it to the main Karabiner list ([the json code file is here](https://github.com/pqrs-org/KE-complex_modifications/blob/main/public/json/Fn%2Bspace%3Demoji.json)).
+
+##### Option 2
+
+This is a little limited, but a shortcut can be set under `System Preferences` → `Keyboard` → `Keyboard shortcuts` → `App Shortcuts` → `All applications`. Click + to create new, leave `Application` as `All Applications` and set menu title exactly as `Emoji & Symbols`.
+
+Caution: some shortcuts may be set but won't work. If that is the case, try something else. I found no way to create a shortcut with `fn` or `globe` key, for example.
 
 ## 3. Perhaps a bit peculiar: right option key as Delete
 
