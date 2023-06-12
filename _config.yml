@@ -5,15 +5,10 @@ google_analytics: G-VD8N8M65XP
 # remote_theme: jekyll-theme-dinky
 theme: jekyll-theme-dinky
 
-# From https://github.com/daattali/beautiful-jekyll/blob/master/_config.yml
-# And from https://github.com/jekyll/minima/blob/master/_config.yml
-
-# Output options (more information on Jekyll's site)
 timezone: "America/New_York"
 future: true # GitHub pages will publish future posts
 markdown: kramdown
 highlighter: rouge
-# permalink: /:year-:month-:day-:title/
 date_format: "%Y.%m.%d"
 paginate: 5
 show_excerpts: true
