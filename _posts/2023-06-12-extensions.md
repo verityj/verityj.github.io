@@ -134,4 +134,4 @@ Please remember to re-enable System Integrity Protection!
 $
 ```
 
-The System Integrity Protection is back on, just like it was.
+The System Integrity Protection is back on, just like it should be.
