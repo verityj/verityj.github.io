@@ -4,8 +4,8 @@ title: Article list
 ---
 
   {% for item in site.posts %}
-      <h2><a href="{{ item.url }}">{{ item.title | escape }}</a>
-      </h2>
+      <h3><a href="{{ item.url }}">{{ item.title | escape }}</a>
+      </h3>
       <h6>
       <span>
         {{ item.date | date: site.date_format }} &nbsp; &bull; &nbsp;
