@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: page
 title: About me
-date: 2023-06-05
 ---
 
 I am a growing self-taught programmer, with the goal of finding the most simple and beautiful solutions to the little things that get overlooked or just don't receive much attention. Where some more imagination is in order.
