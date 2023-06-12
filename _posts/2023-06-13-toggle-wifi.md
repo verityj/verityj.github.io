@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Toggle WiFi on and off - AppleScript example
+title: Toggle WiFi on and off - Automator shell script example
 ---
 
 Goal: have a simple shortcut if I want to turn WiFi on or off. Shows how it's done with Automator and a script.
@@ -11,15 +11,23 @@ Open the `Automator` application.
 
 Create a new `Quick Action`.
 
-![2023-06-13a](/assets/images/2023-06-13a.png)
+<!-- ![2023-06-13a](/assets/images/2023-06-13a.png) -->
+
+<img src="/assets/images/2023-06-13a.png" width="521px;" />
 
 There's a loooong list of things we can start with. Just search for and select `Run Shell Script`. Drag the `Run Shell Script` into the main space on the right of the screen.
 
-![2023-06-13b](/assets/images/2023-06-13b.png)
+<!-- ![2023-06-13b](/assets/images/2023-06-13b.png) -->
+
+<img src="/assets/images/2023-06-13b.png" width="374px;" />
+
 
 The shell script will look like this, below. It receives no input in an application.
 
-![2023-06-13c](/assets/images/2023-06-13c.png)
+<!-- ![2023-06-13c](/assets/images/2023-06-13c.png) -->
+
+<img src="/assets/images/2023-06-13c.png" width="482px;" />
+
 
 The command is:
 ```
