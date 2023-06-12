@@ -33,7 +33,7 @@ Recently I came across a separate mac app that accomplishes just this, with some
 
 ##### Option 1
 
-I kept forgetting the default triple shortcut so decided to create a new Karabiner complex modification for it. To share it for anyone's use I committed it to the main Karabiner list ([the json code file is here](https://github.com/pqrs-org/KE-complex_modifications/blob/main/public/json/Fn%2Bspace%3Demoji.json)).
+I kept forgetting the default triple shortcut so decided to create a new Karabiner complex modification for it. To share it for anyone's use I committed it to the main Karabiner list ([the json code file lives here](https://github.com/pqrs-org/KE-complex_modifications/blob/main/public/json/Fn%2Bspace%3Demoji.json)).
 
 ##### Option 2
 
