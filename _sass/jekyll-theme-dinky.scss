@@ -158,13 +158,15 @@ hr {
 /* Images */
 
 /* 2023.06.12 original: border: 1px solid #ccc; */
+/* 2023.06.12 added border-radius like code blocks */
 img {
   position: relative;
   margin: 0 auto;
   max-width: 650px;
   padding: 5px;
   margin: 10px 0 32px 0;
-  border: 1px solid #F1F1F1;
+  border-radius:4px;
+  border:1px solid #D7D8C8;
 }
 
 p img, .emoji {
