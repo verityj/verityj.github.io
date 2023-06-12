@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Toggle WiFi on and off - Automator shell script example
+title: Toggle WiFi on and off - Automator shell script
 ---
 
 Goal: have a simple shortcut if I want to turn WiFi on or off. Shows how it's done with Automator and a script.
