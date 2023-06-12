@@ -165,8 +165,8 @@ img {
   max-width: 650px;
   padding: 5px;
   margin: 10px 0 32px 0;
-  border-radius:4px;
-  border:1px solid #D7D8C8;
+  border-radius: 4px;
+  border: 1px solid #ccc;
 }
 
 p img, .emoji {
@@ -537,10 +537,26 @@ a.pagination-item:hover {
 }
 
 /* 2023.06.12 added */
-.bordered {
+.border90 {
   border-radius:4px;
   border:1px solid #D7D8C8;
   width: 70%;
+  margin: auto;
+  display: block;
+}
+
+.border70 {
+  border-radius:4px;
+  border:1px solid #D7D8C8;
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+
+.border50 {
+  border-radius:4px;
+  border:1px solid #D7D8C8;
+  width: 50%;
   margin: auto;
   display: block;
 }
