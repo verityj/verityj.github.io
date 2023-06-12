@@ -13,13 +13,11 @@ Create a new `Quick Action`.
 
 <img class="bordered" src="/assets/images/2023-06-13a.png" />
 
-<!-- <img class="bordered" src="/assets/images/2023-06-13a.png" width="521px;" /> -->
-
 
 There's a loooong list of things we can start with. Just search for and select `Run Shell Script`. Drag the `Run Shell Script` into the main space on the right of the screen.
 
 
-<img class="bordered" src="/assets/images/2023-06-13b.png" width="374px;" />
+<img class="bordered" src="/assets/images/2023-06-13b.png" width="50%;" />
 
 
 The shell script will look like this, below. It receives no input in an application.
