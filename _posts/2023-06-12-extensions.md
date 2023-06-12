@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Get rid of any leftover system extensions
+title: Get rid of any leftover Mac system extensions
 ---
 
 I ended up with a left over ghost system extension that cannot be removed by any of the usual methods (`sudo rm -rf`). Here is a way around that so we are not left with things in the system that we don't need.
@@ -78,6 +78,7 @@ enabled active  teamID  bundleID (version)  name  [state]
 $  systemextensionsctl uninstall G43BCU2T37 <bundleID>
 Success
 $ systemextensionsctl list
+3 extension(s)
 --- com.apple.system_extension.driver_extension
 enabled active  teamID  bundleID (version)  name  [state]
                 G43BCU2T37  <...>  <...> (...)  <...>  [terminated waiting to uninstall on reboot]
@@ -125,7 +126,7 @@ $
 
 Just like it should be.
 
-To be completely sure we are done and all is as it was, try:
+To be completely sure we are done and all is as it was, check it:
 ```
 $ systemextensionsctl uninstall
 At this time, this tool cannot be used if System Integrity Protection is enabled.
@@ -134,4 +135,4 @@ Please remember to re-enable System Integrity Protection!
 $
 ```
 
-The System Integrity Protection is back on, just like it should be.
+The System Integrity Protection is back on, just like it should be. All is well again with the world.
