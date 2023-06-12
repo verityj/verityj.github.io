@@ -157,6 +157,7 @@ hr {
 
 /* Images */
 
+/* 2023.06.12 original: border: 1px solid #ccc;
 img {
   position: relative;
   margin: 0 auto;
@@ -533,6 +534,8 @@ a.pagination-item:hover {
   }
 }
 
-img.bordered {
-  border: 1px solid #eee;
+/* 2023.06.12 added */
+.bordered {
+  border-radius:4px;
+  border:1px solid #D7D8C8;
 }
