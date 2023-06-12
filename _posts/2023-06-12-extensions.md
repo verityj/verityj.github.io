@@ -136,3 +136,9 @@ $
 ```
 
 The System Integrity Protection is back on, just like it should be. All is well again with the world.
+
+P.S. I also would run a search for a portion of the title of that extension to make sure nothing remained (it would be found under `/Library/SystemExtensions/<some-long-code>/<extension-directory>/`):
+```
+$ find / -iname "*extension-name-snippet*" -print 2>/dev/null
+```
+Nothing should be found. And no find errors should be printed to clog the output. I don't care to have to weed through the `find: /<...>: Operation not permitted`.
