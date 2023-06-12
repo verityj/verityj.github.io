@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Remove leftover system extensions
+title: Get rid of any leftover system extensions
 ---
 
 I ended up with a left over ghost system extension that cannot be removed by any of the usual methods (`sudo rm -rf`). Here is a way around that so we are not left with things in the system that we don't need.
