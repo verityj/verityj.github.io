@@ -87,17 +87,15 @@ enabled active  teamID  bundleID (version)  name  [state]
 *       *       J6S6Q257EK  <...>  <...> (...)  <...>  [activated enabled]
 $
 ```
-The system extension is uninstalled, now to reboot and undo what we changed in Step 2.
+The system extension is uninstalled, now to reboot and undo what we changed in [Step 2](#2.-Disable-the-system-integrity-protection-(temporarily)).
 
 ## 4. Re-enable the system integrity protection
 
 - Shut down the computer. Wait for it to completely shut down.
 
-- Boot into the recovery mode again: press the power button and hold it until boot options appear.
+- Boot into the recovery mode again by following [Step 1](#1.-Boot-into-recovery-mode) above.
 
-- Login into your administrator account.
-
-- Open Terminal in recovery mode.
+- Open Terminal by going into the `Utilities` menu on top of the screen and selecting `Terminal`. (Shortcut is command (⌘) - shift - T).
 
 - Execute:
 
