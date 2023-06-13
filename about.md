@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: post
 title: About me
+date: 2023-06-05
 ---
 
 I am a growing self-taught programmer, with the goal of finding the most simple and beautiful solutions to the little things that get overlooked or just don't receive much attention. Where some more imagination is in order.
@@ -26,3 +27,7 @@ It's a great journey and I love every step along the way. Thank you for encourag
 <img src="/assets/images/sponsor.png" width="20px;" /> &emsp; [Sponsor through GitHub](https://github.com/sponsors/verityj/) 
 
 <img src="/assets/images/p.png" width="20px;" /> &emsp; And lo and behold there was [PayPal](https://www.paypal.com/donate/?hosted_button_id=D2SU4GD8PEXCW)
+
+<h6 />
+
+<img class="border50" src="/assets/images/qr-primal-verity.png" />
