@@ -55,10 +55,8 @@ Caution: some shortcuts may be set but won't work. If that is the case, try some
 
 Personally, I am frequently deleting text after using the arrow keys to position and adjust the cursor. The hand is on the arrow keys and the right side `option` is already right there. So with a `"Simple Modifications"` menu I changed that to `"forward_delete"` just like the `"Eject"` button [covered previously]({% post_url 2023-06-07-eject-button%}).
 
-######
-
 <img class="centered" width="90%;" src="/assets/images/karabiner2.png" />
 
-######
+###### 
 
 <img class="centered" width="90%;" src="/assets/images/karabiner1a.png" />
