@@ -11,15 +11,15 @@ Open the `Automator` application.
 
 Create a new `Quick Action`.
 
-<img class="border70" src="/assets/images/2023-06-13a.png" />
+<img class="centered" width="70%;" src="/assets/images/2023-06-13a.png" />
 
 There's a loooong list of things we can start with. Just search for and select `Run Shell Script`. Drag the `Run Shell Script` into the main space on the right of the screen.
 
-<img class="border50" src="/assets/images/2023-06-13b.png" />
+<img class="centered" width="50%;" src="/assets/images/2023-06-13b.png" />
 
 The shell script will look like this, below. It receives no input in an application.
 
-<img class="border70" src="/assets/images/2023-06-13c.png" />
+<img class="centered" width="70%;" src="/assets/images/2023-06-13c.png" />
 
 The command is:
 ```
