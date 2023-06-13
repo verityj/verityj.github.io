@@ -28,9 +28,9 @@ Recently I came across a separate mac app that accomplishes just this, with some
 
 ##### Option 4
 
-Where the command is natively supported, you could create a shortcut in `System Settings` → `Keyboard` → `Keyboard Shortcuts` → `App Shortcut` → `+`. Create a new shortcut for `All Applications` called `Paste and Match Style`. It will propagate to any application that has that option in its menus.
+Where the command is natively supported, you could create a shortcut in `System Settings` → `Keyboard` → `Keyboard Shortcuts` → `App Shortcut` → `+`. Create a new shortcut for `All Applications` called `Paste and Match Style`. It will propagate to any application that has that option in its menu.
 
-Note: Some applications are not compliant with this menu title convention, even Apple ones. For example, Xcode (currently 14.3.1) is weird. It has menu `Edit` → `Paste` with unique titles: `Paste`, `Paste Special` and `Paste and Preserve Formatting`. If you use an app like that you will need to check how it is called in the menu and create another shortcut.
+Note: Some applications are not compliant with this menu title convention, even Apple ones. For example, Xcode (currently 14.3.1) is weird. It has menu `Edit` → `Paste` with unique titles: `Paste`, `Paste Special` and `Paste and Preserve Formatting`. If you use an app like that you will need to check how it is called in the menu and create another shortcut with that title.
 
 ## 2. The emoji & symbols menu
 
