@@ -32,6 +32,10 @@ Where the command is natively supported, you could create a shortcut in `System 
 
 Note: Some applications are not compliant with this menu title convention, even Apple ones. For example, Xcode (currently 14.3.1) is weird. It has menu `Edit` → `Paste` with unique titles: `Paste`, `Paste Special` and `Paste and Preserve Formatting`. If you use an app like that you will need to check how it is called in the menu and create another shortcut with that title.
 
+You may end up with something like: 
+
+<img class="border50" src="/assets/images/2023-06-08a.png" />
+
 ## 2. The emoji & symbols menu
 
 > Default Mac shortcut: ⌘ - control - spacebar. 
