@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Keyboard goodness with Karabiner modifications
+title: Keyboard goodness with Karabiner (or others)
 date: 2023-06-08
 ---
 
 There are a lot of possibilities to create useful and simple keyboard shortcuts with [Karabiner Elements](https://karabiner-elements.pqrs.org). Here are a few examples that I had fun setting up and using.
 
-## 1. Paste special without formatting
+## 1. Paste without formatting ("Paste and Match Style")
 
 > Default Mac shortcut: ⌘ - option - shift - v
 
@@ -25,6 +25,12 @@ Search for _"Command + Shift + v does special paste without formatting, equivale
 ##### Option 3
 
 Recently I came across a separate mac app that accomplishes just this, with some additional modifications: [Pure paste on Mac app store](https://apps.apple.com/app/id1611378436). Options include automatically clearing formatting while the app is running, setting a keyboard shortcut, excluding applications where it may not work well (e.g. Excel) and trimming leading and trailing whitespaces.
+
+##### Option 4
+
+Where the command is natively supported, you could create a shortcut in `System Settings` → `Keyboard` → `Keyboard Shortcuts` → `App Shortcutd` → `+`. Create a new shortcut for `All Applications` called `Paste and Match Style`. It will propagate to any application that has that option in its menus.
+
+Note: Some applications are not compliant with this menu title convention, even Apple ones. For example, Xcode (currently 14.3.1) is weird. It has menu `Edit` → `Paste` with unique titles: `Paste`, `Paste Special` and `Paste and Preserve Formatting`. If you use an app like that you will need to check how it is called in the menu and create another shortcut.
 
 ## 2. The emoji & symbols menu
 
