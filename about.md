@@ -30,4 +30,4 @@ It's a great journey and I love every step along the way. Thank you for encourag
 
 <h6 />
 
-<img class="bordered" width="20%;" src="/assets/images/qr-primal-verity.png" />
+<img class="bordered" width="10%;" src="/assets/images/qr-primal-verity.png" />
