@@ -57,6 +57,6 @@ Personally, I am frequently deleting text after using the arrow keys to position
 
 <img class="centered" width="90%;" src="/assets/images/karabiner2.png" />
 
-###### 
+<h6 />
 
 <img class="centered" width="90%;" src="/assets/images/karabiner1a.png" />
