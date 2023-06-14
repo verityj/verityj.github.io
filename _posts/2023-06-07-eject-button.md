@@ -1,4 +1,4 @@
-w---
+---
 layout: post
 title: The useful Mac keyboard eject button
 ---
@@ -15,4 +15,4 @@ On **Mac**, the solution is free: [Karabiner Elements](https://karabiner-element
 
 <img class="centered" width="90%;" src="/assets/images/karabiner1.png" />
 
-I am sure this must be possible on **Linux** as well but I have not run into that.
+On **Linux** it might be as simple as going through System Settings → Keyboard → Shortcuts → Sound and Media → Eject ([reference](https://www.it3.be/2020/10/08/apple-magic-kbd-eject-key/)). I have no way to test that currently.
