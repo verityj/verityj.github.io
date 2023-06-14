@@ -1,4 +1,4 @@
----
+w---
 layout: post
 title: The useful Mac keyboard eject button
 ---
@@ -13,6 +13,6 @@ On **Windows**, there is a paid solution: [Magic Utilities](https://magicutiliti
 
 On **Mac**, the solution is free: [Karabiner Elements](https://karabiner-elements.pqrs.org). Under `"Simple Modifications"` there is an `"Add item"` button. From the dropdown, the eject button lives under `"Media controls"` → `"eject"`. The new function can be selected as many things, but if you happen to be looking for the forward delete, that's under `Controls and symbols` → `delete_forward`. Karabiner needs permissions that you will set in `System Preferences` and then it is all set.
 
-![Karabiner screenshot 1](/assets/images/karabiner1.png)
+<img class="centered" width="90%;" src="/assets/images/karabiner1.png" />
 
 I am sure this must be possible on **Linux** as well but I have not run into that.
