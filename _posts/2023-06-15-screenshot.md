@@ -25,11 +25,11 @@ And again, restart for changes to take effect. You should check the preference f
 
 By the way, you see in the screenshot that there is a `target` property, currently set to `clipboard`. This copies the screenshot, ready for pasting anywhere I need to. Another option would be to put all screenshot png files on the Desktop. That command:
 ```
-defaults write com.apple.screencapture target ~/Desktop/
+$ defaults write com.apple.screencapture target ~/Desktop/
 ```
 
 Or modify the setting in Xcode if you have the plist file open.
 
 > Note: if you don't have Xcode, there is no need to install that big beast. Alternatives are: 
-> [PrefsEditor](http://apps.tempel.org/PrefsEditor/) - a free utility
-> [PrefEdit](http://www.bresink.com/osx/PrefEdit.html) - paid, with a demo version that can handle up to 5 items in a `.plist`
+> - [PrefsEditor](http://apps.tempel.org/PrefsEditor/) - a free utility
+> - [PrefEdit](http://www.bresink.com/osx/PrefEdit.html) - paid, with a demo version that can handle up to 5 items in a `.plist`
