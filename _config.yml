@@ -10,7 +10,7 @@ future: true # GitHub pages will publish future posts
 markdown: kramdown
 highlighter: rouge
 date_format: "%Y.%m.%d"
-paginate: 5
+paginate: 3
 show_excerpts: true
 
 # kramdown:
