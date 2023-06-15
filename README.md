@@ -1,6 +1,8 @@
-# verityj.github.io
+<h1>
+  <img src="/favicon.png" width="20px;" style="float: left; margin-left: 0px; margin-right: 10px; margin-top: 5px; margin-bottom: 0px; padding: 0px; border: 0px;" />
+  verityj.github.io
+</h1>
 
-<img src="/favicon.png" width="20px;" style="float: left; margin-left: 0px; margin-right: 10px; margin-top: 5px; margin-bottom: 0px; padding: 0px; border: 0px;" />
 ## A spark of a thought
 
 This is my space to experiment, create and share. If it helps any passersby, that's mission complete. If someone points out how to improve, that's brilliant.
