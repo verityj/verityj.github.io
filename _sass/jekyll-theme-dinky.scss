@@ -158,11 +158,12 @@ hr {
 /* Images */
 
 /* 2023.06.12 added border-radius like code blocks */
+/* 2023.06.15 original: padding: 5px; */
 img {
   position: relative;
   margin: 0 auto;
   max-width: 650px;
-  padding: 5px;
+  padding: 10px;
   margin: 10px 0 32px 0;
   border-radius: 4px;
   border: 1px solid #ccc;
@@ -390,6 +391,20 @@ a.buttons-about {
 }
 
 a.buttons-about:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+a.buttons-list {
+	-webkit-font-smoothing: antialiased;
+	background: url(/assets/images/list.png) no-repeat -2px;
+	font-weight: normal;
+	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+	padding: 2px 2px 2px 22px;
+	height: 30px;
+}
+
+a.buttons-list:hover {
 	color: #fff;
 	text-decoration: none;
 }
