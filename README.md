@@ -1,4 +1,4 @@
-# verity-s.github.io
+# verityj.github.io
 
 ## A spark of a thought
 
