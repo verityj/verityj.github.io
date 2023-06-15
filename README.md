@@ -1,7 +1,7 @@
-<h1>
-  <img src="/favicon.png" width="20px;" style="float: left; margin-left: 0px; margin-right: 10px; margin-top: 5px; margin-bottom: 0px; padding: 0px; border: 0px;" />
+<h2>
+  <img src="/favicon.png" width="32px;" style="float: left; margin-left: 0px; margin-right: 10px; margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px;" />
   verityj.github.io
-</h1>
+</h2>
 
 ## A spark of a thought
 
