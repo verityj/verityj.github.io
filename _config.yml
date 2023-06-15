@@ -2,45 +2,21 @@ title: A spark of a thought
 description: Let's make life easier with simple scripting. Grateful for everyone's encouragement and support!
 show_downloads: false
 google_analytics: G-VD8N8M65XP
-# remote_theme: jekyll-theme-dinky
 theme: jekyll-theme-dinky
 
 timezone: "America/New_York"
-future: true # GitHub pages will publish future posts
-markdown: kramdown
-highlighter: rouge
 date_format: "%Y.%m.%d"
+
 paginate: 3
 show_excerpts: true
+future: true
+# GitHub pages will publish future posts
 
-# kramdown:
-#  input: GFM
-
-# social_links:
-#  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=TezrvRIAAAAJ&hl=en" }
+markdown: kramdown
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-paginate
-#  - jekyll-remote-theme
-#  - jekyll-sitemap
-
-# Default YAML values (more information on Jekyll's site)
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # any file that's not a post will be a "page" layout by default
-    values:
-      layout: "page"
 
 # Exclude these files from production site
 exclude:
