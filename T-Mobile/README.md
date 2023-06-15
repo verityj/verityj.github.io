@@ -1,4 +1,4 @@
-# verity-s.github.io  →  T-Mobile scripts
+# verity-s.github.io  →  T-Mobile scripts (now also on [my gists](https://gist.github.com/verityj))
 
 ## T-Mobile home internet gateway settings
 
