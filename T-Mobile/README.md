@@ -1,4 +1,9 @@
-# verity-s.github.io  →  T-Mobile scripts (now also on [my gists](https://gist.github.com/verityj))
+<h2>
+  <img src="/favicon.png" width="32px;" style="float: left; margin-left: 0px; margin-right: 10px; margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px;" />
+  verity-s.github.io  →  T-Mobile scripts
+</h2>
+
+Also published on [my gists](https://gist.github.com/verityj).
 
 ## T-Mobile home internet gateway settings
 
