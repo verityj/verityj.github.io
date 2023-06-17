@@ -12,7 +12,8 @@
  * DEFINITIONS
  */
 
-$sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+/* 2023.06.17 removed 'Lato' from sans-serif */
+$sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $serif: 'Cormorant Garamond', 'Arvo', Courier, serif;
 
 $base-font-family: $sans-serif;
