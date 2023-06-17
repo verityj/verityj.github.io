@@ -303,7 +303,7 @@ td {
 }
 
 /*
- * Header
+ * HEADER
  */
 
 /* background-color: #585858; */
@@ -326,7 +326,7 @@ header {
 }
 
 p.header {
-	font-size: $base-font-size;
+	font-size: $base-font-size - 4px;
 	font-family: $sans-serif;
 }
 
@@ -409,6 +409,7 @@ a.buttons {
 a.buttons-u {
 	-webkit-font-smoothing: antialiased;
 	background: url(/assets/images/arrow-up.png) no-repeat 1px;
+	font-family: $sans-serif;
 	font-weight: normal;
 	font-size: 14px;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
@@ -424,6 +425,7 @@ a.buttons-u:hover {
 a.buttons-r {
 	-webkit-font-smoothing: antialiased;
 	background: url(/assets/images/arrow-right.png) no-repeat;
+	font-family: $sans-serif;
 	font-weight: normal;
 	font-size: 14px;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
@@ -439,6 +441,7 @@ a.buttons-r:hover {
 a.buttons-nostr {
 	-webkit-font-smoothing: antialiased;
 	background: url(/assets/images/nostr25x25.png) no-repeat;
+	font-family: $sans-serif;
 	font-weight: normal;
 	font-size: 14px;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
@@ -454,6 +457,7 @@ a.buttons-nostr:hover {
 a.buttons-about {
 	-webkit-font-smoothing: antialiased;
 	background: url(/assets/images/user.png) no-repeat -2px;
+	font-family: $sans-serif;
 	font-weight: normal;
 	font-size: 14px;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
@@ -469,6 +473,7 @@ a.buttons-about:hover {
 a.buttons-list {
 	-webkit-font-smoothing: antialiased;
 	background: url(/assets/images/list.png) no-repeat -2px;
+	font-family: $sans-serif;
 	font-weight: normal;
 	font-size: 14px;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
