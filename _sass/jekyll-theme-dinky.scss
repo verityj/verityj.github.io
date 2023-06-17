@@ -603,12 +603,13 @@ footer {
  * there are no more previous or next posts to show.
  */
 
-/* 2023.06.16 added Lato */
+/* 2023.06.16 added font-family, font-size */
 .pagination {
   	overflow: hidden; /* clearfix */
   	margin-left: 0;
   	margin-right: 0;
   	font-family: $title-font-family;
+	font-size: $base-font-size;
   	color: #ccc;
   	text-align: center;
 }
