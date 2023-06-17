@@ -39,8 +39,6 @@ $header-background: #808080;
 $base-font-color: #303030;
 $code-font-color: #000000;
 
-$max-width: 700px;
-
 /* MeyerWeb Reset */
 
 html, body, div, span, applet, object, iframe,
@@ -222,7 +220,7 @@ hr {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: $max-width;
+  max-width: 650px;
   padding: 10px;
   margin: 10px 0 32px 0;
   border-radius: 4px;
@@ -265,13 +263,15 @@ code {
 	font-family: $code-font-family;
   	font-color: $code-font-color;
   	font-size: 14px;
+	background-color: $code-background;
 }
 
 /* original: background: #FDFEFB; */
 /* changed 2023.06.08 */
 /* background: #F1F1F1; - means background for code block around the text */
 /* 2023.06.17 added display: block; */
-pre {
+pre, code {
+	display: block;
 	background-color: $code-block-background;
 	padding: 4px 12px;
   	border-radius: 4px;
@@ -296,6 +296,7 @@ table {
   text-align: left;
  }
 
+/* 2023.06.16 added Lato */
 /* 2023.06.17 removed font-weight: normal; */
 th {
   	font-family: $sans-serif;
@@ -313,7 +314,7 @@ td {
 
 /* Wrapper */
 .wrapper {
-	width: $max-width;
+	width:1000px;
 }
 
 /*
@@ -489,7 +490,7 @@ a.buttons:hover {
 
 /* 2023.06.17 changed width:650px; */
 section {
-  	width: $max-width;
+  	width:700px;
   	float:right;
   	padding-bottom:50px;
 }
@@ -506,7 +507,7 @@ footer {
 	padding-left: 50px;
 }
 
-@media print, screen and (max-width: $max-width) {
+@media print, screen and (max-width: 1000px) {
 	div.wrapper {
     		width:auto;
     		margin:0;
@@ -538,7 +539,7 @@ footer {
   	}
 }
 
-@media print, screen and (max-width: $max-width) {
+@media print, screen and (max-width: 720px) {
 	body {
     		word-wrap:break-word;
   	}
@@ -590,8 +591,8 @@ footer {
   	overflow: hidden; /* clearfix */
   	margin-left: 0;
   	margin-right: 0;
-  	font-family: $serif;
-	font-size: $base-font-size + 1px;
+  	font-family: $title-font-family;
+	font-size: $base-font-size + 3px;
   	color: #ccc;
   	text-align: center;
 }
