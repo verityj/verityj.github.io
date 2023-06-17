@@ -64,9 +64,10 @@ p, ul, ol, table, dl {
 }
 
 /* 2023.06.16 added 'Cormorant Garamond' */
-/* removed font-weight: normal; */
+/* 2023.06.17 removed font-weight: normal; */
+/* 2023.06.17 changed font-family: 'Cormorant Garamond', Arvo, Monaco, serif; */
 h1, h2, h3 {
-	font-family: 'Cormorant Garamond', Arvo, Monaco, serif;
+	font-family: Lato, Helvetica, Arial, sans-serif;
 	line-height: 1.3;
 }
 
@@ -90,11 +91,14 @@ h3 {
 
 /* 2023.06.16 added 'Cormorant Garamond' */
 /* 2023.06.17 removed font-weight: 700; */
-h4, h5 {
-	font-family: 'Cormorant Garamond', Arvo, Monaco, serif;
-}
+/* 2023.06.17 no need to specify for h4 and h5 */
+/* h4, h5 {
+ *	font-family: 'Cormorant Garamond', Arvo, Monaco, serif;
+ * }
+ */
 
 /* 2023.06.16 added 'Cormorant Garamond' */
+/* h6 is used for dates and how long a read is */
 h6 {
 	font-family: 'Cormorant Garamond', Arvo, Monaco, serif;
 }
