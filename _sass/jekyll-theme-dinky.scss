@@ -609,7 +609,7 @@ footer {
   	margin-left: 0;
   	margin-right: 0;
   	font-family: $title-font-family;
-	font-size: $base-font-size;
+	font-size: $base-font-size - 2px;
   	color: #ccc;
   	text-align: center;
 }
