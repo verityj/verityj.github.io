@@ -19,12 +19,12 @@ $base-font-family: $serif;
 $title-font-family: $sans-serif;
 $code-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 
-$base-font-size: 16px;
+$base-font-size: 17px;
 $base-font-weight: 400;
-$base-font-weight-bold: 700;
+/* $base-font-weight-bold: 700; */
 $base-line-height: 1.6;
 
-$code-line-height: 1.4;
+$code-line-height: 1.5;
 
 /* MeyerWeb Reset */
 
@@ -245,7 +245,7 @@ p img, .emoji {
 
 /* 2023.06.08 added background */
 /* 2023.06.17 added line-height: 25px; */
-/* background: #F1F1F1; - background for inline code and text in code block (pre) */
+/* background: #F1F1F1; - background for inline code and in code block (pre) */
 code, pre {
 	font-family: $code-font-family;
   	color: #000;
@@ -305,8 +305,9 @@ td {
  * Header
  */
 
+/* background-color: #585858; */
 header {
-	background-color: #585858;
+	background-color: #A9A9A9;
 	color: #FDFDFB;
   	width:170px;
   	float:left;
@@ -325,15 +326,17 @@ header {
 
 p.header {
 	font-size: $base-font-size;
+	font-family: $sans-serif;
 }
 
 /* 2023.06.16 added 'Cormorant Garamond' - serif looks better than Lato sans-serif */
 /* 2023.06.17 removed font-weight: 300; */
 /* 2023.06.17 changed font-size: 30px; */
+/* line-height: 1.3em; */
 h1.header {
 	font-family: $serif;
 	font-size: 36px;
-	line-height: 1.3em;
+	line-height: $base-line-height;
 	border-bottom: none;
 	margin-top: 0;
 }
