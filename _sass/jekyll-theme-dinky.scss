@@ -220,7 +220,7 @@ hr {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 700px;
   padding: 10px;
   margin: 10px 0 32px 0;
   border-radius: 4px;
@@ -271,7 +271,6 @@ code {
 /* background: #F1F1F1; - means background for code block around the text */
 /* 2023.06.17 added display: block; */
 pre, code {
-	display: block;
 	background-color: $code-block-background;
 	padding: 4px 12px;
   	border-radius: 4px;
