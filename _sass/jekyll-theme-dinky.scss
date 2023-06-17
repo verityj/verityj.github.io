@@ -346,12 +346,12 @@ header li:hover {
   background: linear-gradient(to top, #C3001D 0%,#950119 100%);
 }
 
-/* 2023.06.16 added font-size: 15px; */
+/* 2023.06.16 added font-size: 14px; */
 a.buttons {
 	-webkit-font-smoothing: antialiased;
 	background: url(../images/arrow-down.png) no-repeat;
 	font-weight: normal;
-	font-size: 15px;
+	font-size: 14px;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 	padding: 2px 2px 2px 22px;
 	height: 30px;
@@ -361,6 +361,7 @@ a.buttons-u {
 	-webkit-font-smoothing: antialiased;
 	background: url(/assets/images/arrow-up.png) no-repeat 1px;
 	font-weight: normal;
+	font-size: 14px;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 	padding: 2px 2px 2px 22px;
 	height: 30px;
@@ -375,6 +376,7 @@ a.buttons-r {
 	-webkit-font-smoothing: antialiased;
 	background: url(/assets/images/arrow-right.png) no-repeat;
 	font-weight: normal;
+	font-size: 14px;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 	padding: 2px 2px 2px 22px;
 	height: 30px;
@@ -389,6 +391,7 @@ a.buttons-nostr {
 	-webkit-font-smoothing: antialiased;
 	background: url(/assets/images/nostr25x25.png) no-repeat;
 	font-weight: normal;
+	font-size: 14px;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 	padding: 2px 2px 2px 22px;
 	height: 30px;
@@ -403,6 +406,7 @@ a.buttons-about {
 	-webkit-font-smoothing: antialiased;
 	background: url(/assets/images/user.png) no-repeat -2px;
 	font-weight: normal;
+	font-size: 14px;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 	padding: 2px 2px 2px 22px;
 	height: 30px;
@@ -417,6 +421,7 @@ a.buttons-list {
 	-webkit-font-smoothing: antialiased;
 	background: url(/assets/images/list.png) no-repeat -2px;
 	font-weight: normal;
+	font-size: 14px;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 	padding: 2px 2px 2px 22px;
 	height: 30px;
@@ -435,7 +440,6 @@ a.buttons:hover {
 	color: #fff;
 	text-decoration: none;
 }
-
 
 /* Section - for main page content */
 
