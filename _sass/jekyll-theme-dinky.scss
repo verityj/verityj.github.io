@@ -250,9 +250,9 @@ p img, .emoji {
   	display: block;
 }
 
-/* 
- * CODE BLOCKS
- */
+/*************
+  CODE BLOCKS
+ *************/
 
 /* 2023.06.08 added background */
 /* background: #F1F1F1; - background for inline code and in code block (pre) */
@@ -260,7 +260,7 @@ p img, .emoji {
 code, pre {
 	font-family: $code-font-family;
   	font-color: $code-font-color;
-  	font-size: 14px;
+  	font-size: 12px;
 	background-color: $code-background;
 }
 
@@ -269,9 +269,6 @@ code, pre {
 /* background: #F1F1F1; - means background for code block around the text */
 /* 2023.06.17 added display: block; */
 pre {
-	font-family: $code-font-family;
-  	font-color: $code-font-color;
-  	font-size: 10px;
 	padding: 4px 12px;
   	border-radius: 4px;
   	border: 1px solid #D7D8C8;
@@ -284,6 +281,12 @@ pre {
 /* code blocks are inside preformatted highlight */
 pre.highlight {
 	background-color: $code-background;
+}
+
+/* inline code class */
+code.highlighter-rouge {
+	font-size: 14px;
+	background-color: #D7D8C8;
 }
 
 /*
