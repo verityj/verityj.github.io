@@ -124,10 +124,11 @@ h6 {
 	font-size: $base-font-size;
 }
 
+/* 2023.06.17 original font-weight:200; */
 a {
-  	color:#C30000;
-  	font-weight:200;
-  	text-decoration:none;
+  	color: #C30000;
+  	font-weight: $base-font-weight;
+  	text-decoration: none;
 }
 
 a:hover {
@@ -136,7 +137,7 @@ a:hover {
 
 /* 2023.06.16 changed from 12px; */
 a small {
-	font-size: 12px;
+	font-size: $base-font-size - 1px;
 }
 
 p.small-foot {
@@ -325,7 +326,7 @@ header {
 }
 
 p.header {
-	font-size: $base-font-size - 2px;
+	font-size: $base-font-size - 1px;
 	font-family: $sans-serif;
 }
 
