@@ -107,7 +107,12 @@ a:hover {
 
 /* 2023.06.16 changed from 12px; */
 a small {
-	font-size: 14px;
+	font-size: 12px;
+}
+
+p.small {
+	text-align: left;
+	text-size: 10px;
 }
 
 em {
