@@ -12,14 +12,14 @@
  * DEFINITIONS
  */
 
-$sans-serif: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $serif: 'Cormorant Garamond', 'Arvo', Courier, serif;
 
 $base-font-family: $sans-serif;
 $title-font-family: $serif;
 $code-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 
-$base-font-size: 17px;
+$base-font-size: 15px;
 $base-font-weight: 400;
 $base-font-weight-bold: 700;
 $base-line-height: 1.6;
@@ -87,41 +87,39 @@ p, ul, ol, table, dl {
 /* 2023.06.16 added 'Cormorant Garamond' */
 /* 2023.06.17 removed font-weight: normal; */
 /* 2023.06.17 changed font-family: 'Cormorant Garamond', Arvo, Monaco, serif; */
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: $title-font-family;
 	line-height: $base-line-height;
 }
 
-h1,h2, h3 {
+h1, h2, h3 {
 	display: block;
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 5px;
 }
 
 h1 {
-	font-size: 32px;
+	font-size: $base-font-size + 20px;
 }
 
 h2 {
-	font-size: 26px;
+	font-size: $base-font-size + 16px;
 }
 
 h3 {
-	font-size: 18px;
+	font-size: $base-font-size + 12px;
 }
 
-/* 2023.06.16 added 'Cormorant Garamond' */
-/* 2023.06.17 removed font-weight: 700; */
-/* 2023.06.17 no need to specify for h4 and h5 */
-/* h4, h5 {
- *	font-family: 'Cormorant Garamond', Arvo, Monaco, serif;
- * }
- */
+h4 {
+	font-size: $base-font-size + 8px;
+}
 
-/* 2023.06.16 added 'Cormorant Garamond' */
+h5 {
+	font-size: $base-font-size + 2px;
+}
+
 /* h6 is used for dates and how long a read is */
 h6 {
-	font-family: $base-font-family;
 	font-size: $base-font-size;
 }
 
