@@ -326,7 +326,7 @@ header {
 }
 
 p.header {
-	font-size: $base-font-size - 4px;
+	font-size: $base-font-size - 2px;
 	font-family: $sans-serif;
 }
 
@@ -393,7 +393,7 @@ header li:hover {
   	background: linear-gradient(to top, #C3001D 0%,#950119 100%);
 }
 
-/* 2023.06.16 added font-size: 14px; */
+/* 2023.06.16 added font-size */
 /* 2023.06.17 added font-family */
 a.buttons {
 	-webkit-font-smoothing: antialiased;
@@ -454,7 +454,11 @@ a.buttons-nostr:hover {
 	text-decoration: none;
 }
 
-a.buttons-about {
+a.about {
+	background: url(/assets/images/user.png) no-repeat -2px;
+}
+
+/* a.buttons-about {
 	-webkit-font-smoothing: antialiased;
 	background: url(/assets/images/user.png) no-repeat -2px;
 	font-family: $sans-serif;
@@ -468,9 +472,13 @@ a.buttons-about {
 a.buttons-about:hover {
 	color: #fff;
 	text-decoration: none;
+} */
+
+a.list {
+	background: url(/assets/images/list.png) no-repeat -2px;
 }
 
-a.buttons-list {
+/* a.buttons-list {
 	-webkit-font-smoothing: antialiased;
 	background: url(/assets/images/list.png) no-repeat -2px;
 	font-family: $sans-serif;
@@ -484,7 +492,7 @@ a.buttons-list {
 a.buttons-list:hover {
 	color: #fff;
 	text-decoration: none;
-}
+} */
 
 a.github {
 	background: url(../images/octocat-small.png) no-repeat 1px;
