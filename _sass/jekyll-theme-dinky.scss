@@ -36,14 +36,15 @@ time, mark, audio, video {
 
 /* 2023.06.16 added Lato */
 /* 2023.06.16 font-size: 14px; */
+/* 2023.06.17 changed line-height: 1.8em; changed Lato to Arvo (serif) */
 body {
   	padding:10px 50px 0 0;
-  	font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	font-family: Arvo, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	color: #232323;
 	background-color: #FBFAF7;
 	margin: 0;
-	line-height: 1.8em;
+	line-height: 25px;
 	-webkit-font-smoothing: antialiased;
 
 }
