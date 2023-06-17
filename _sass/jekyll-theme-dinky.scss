@@ -296,15 +296,15 @@ table {
   text-align: left;
  }
 
+/* th is a header cell */
 /* 2023.06.16 added Lato */
 /* 2023.06.17 removed font-weight: normal; */
-/* 2023.07.16 changed color: #FDFEFB; */
 th {
   	font-family: $sans-serif;
 	font-size: 18px;
 	padding: 10px;
   	background: #232323;
-  	color: $code-block-background;
+  	color: #FDFEFB;
  }
 
 td {
