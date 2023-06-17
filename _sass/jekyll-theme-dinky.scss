@@ -32,7 +32,7 @@ $header-line-height: 1.2;
 
 $base-background: #FBFAF7;
 $code-block-background: #FFFFFF;
-$code-background: #444444;
+$code-background: #FFFFFF;
 $header-background: #808080;
 
 /* default #232323 */
@@ -262,7 +262,7 @@ p img, .emoji {
 code {
 	font-family: $code-font-family;
   	font-color: $code-font-color;
-  	font-size: 13px;
+  	font-size: 14px;
 	background-color: $code-background;
 }
 
@@ -270,7 +270,7 @@ code {
 /* changed 2023.06.08 */
 /* background: #F1F1F1; - means background for code block around the text */
 /* 2023.06.17 added display: block; */
-pre {
+pre, code {
 	display: block;
 	background-color: $code-block-background;
 	padding: 4px 12px;
@@ -592,7 +592,7 @@ footer {
   	margin-left: 0;
   	margin-right: 0;
   	font-family: $title-font-family;
-	font-size: $base-font-size + 6px;
+	font-size: $base-font-size + 3px;
   	color: #ccc;
   	text-align: center;
 }
