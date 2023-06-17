@@ -34,6 +34,10 @@ $base-background: #FBFAF7;
 $code-background: #F1F1F1;
 $header-background: #808080;
 
+/* default #232323 */
+$base-font-color: #303030;
+$code-font-color: #000000;
+
 /* MeyerWeb Reset */
 
 html, body, div, span, applet, object, iframe,
@@ -68,7 +72,7 @@ body {
   	font-family: $base-font-family;
 	font-size: $base-font-size;
 	font-weight: $base-font-weight;
-	color: #232323;
+	font-color: $base-font-color;
 	background-color: $base-background;
 	margin: 0;
 	line-height: $base-line-height;
@@ -252,9 +256,10 @@ p img, .emoji {
 
 /* 2023.06.08 added background */
 /* background: #F1F1F1; - background for inline code and in code block (pre) */
-code, pre {
+/* 2023.06.17 removed pre from "code, pre {" */
+code {
 	font-family: $code-font-family;
-  	font-color: #000;
+  	font-color: $code-font-color;
   	font-size: 12px;
 	background-color: $code-background;
 }
@@ -263,7 +268,7 @@ code, pre {
 /* changed 2023.06.08 */
 /* background: #F1F1F1; - means background for code block around the text */
 pre {
-	background-color: #808080;
+	background-color: $code-background;
 	padding: 4px 12px;
   	border-radius: 4px;
   	border: 1px solid #D7D8C8;
