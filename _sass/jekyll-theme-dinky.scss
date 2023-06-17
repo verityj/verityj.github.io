@@ -32,6 +32,7 @@ $header-line-height: 1.2;
 
 $base-background: #FBFAF7;
 $code-background: #FFFFFF;
+$code-block-background: #FFFFFF;
 $header-background: #808080;
 
 /* default #232323 */
@@ -260,8 +261,6 @@ p img, .emoji {
 code, pre {
 	font-family: $code-font-family;
   	font-color: $code-font-color;
-  	font-size: 12px;
-	background-color: $code-background;
 }
 
 /* original: background: #FDFEFB; */
@@ -280,13 +279,15 @@ pre {
 
 /* code blocks are inside preformatted highlight */
 pre.highlight {
-	background-color: $code-background;
+	font-size: 12px;
+	background-color: $code-block-background;
 }
 
 /* inline code class */
 code.highlighter-rouge {
 	font-size: 14px;
-	background-color: #D7D8C8;
+	background-color: $code-background;
+	padding: 1px 1px 1px 1px;
 }
 
 /*
