@@ -25,15 +25,12 @@ title: A spark of a thought
   {% endif %}
         
   {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h3 class="post-list-heading">{{ page.list_title }}</h3>
-    {%- endif -%}
     {%- for post in posts -%}
-      <h2>
+      <h3>
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>          
-      </h2>
+      </h3>
       <h6>
       <span>
         {{ post.date | date: site.date_format }} &nbsp; &bull; &nbsp;
