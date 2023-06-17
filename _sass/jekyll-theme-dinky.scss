@@ -1,10 +1,10 @@
 @import "rouge-github";
 @import url('https://fonts.googleapis.com/css?family=Arvo:400,700,400italic');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300,700&family=Lato:wght@400');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lato:wght@400');
 
 /* 2023.06.16 https://developers.google.com/fonts/docs/css2
  * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:500');
- * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Lato:wght@400');
+ * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300,700&family=Lato:wght@400');
  * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700');
  */
 
@@ -30,14 +30,13 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-
 /* Base text styles */
 
 /* 2023.06.16 added Lato */
 /* 2023.06.16 font-size: 14px; */
 body {
-  padding:10px 50px 0 0;
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	padding:10px 50px 0 0;
+  	font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	color: #232323;
 	background-color: #FBFAF7;
@@ -48,24 +47,24 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  color:#232323;
-  margin:36px 0 10px;
+  	color:#232323;
+  	margin:36px 0 10px;
 }
 
 h6 {
-  color:#232323;
-  margin:10px 0 10px;
+  	color:#232323;
+  	margin: 10px 0 10px;
 }
 
 p, ul, ol, table, dl {
-  margin:10px 0 10px;
+  	margin: 10px 0 10px;
 }
 
 /* 2023.06.16 added 'Cormorant Garamond' */
+/* removed font-weight: normal; */
 h1, h2, h3 {
 	font-family: 'Cormorant Garamond', Arvo, Monaco, serif;
-  line-height:1.3;
-	font-weight: normal;
+	line-height: 1.3;
 }
 
 h1,h2, h3 {
@@ -86,21 +85,21 @@ h3 {
 	font-size: 18px;
 }
 
-/* 2023.06.16 added Cormorant */
+/* 2023.06.16 added 'Cormorant Garamond' */
+/* 2023.06.17 removed font-weight: 700; */
 h4, h5 {
 	font-family: 'Cormorant Garamond', Arvo, Monaco, serif;
-	font-weight: 700;
 }
 
-/* 2023.06.16 added Cormorant */
+/* 2023.06.16 added 'Cormorant Garamond' */
 h6 {
 	font-family: 'Cormorant Garamond', Arvo, Monaco, serif;
 }
 
 a {
-  color:#C30000;
-  font-weight:200;
-  text-decoration:none;
+  	color:#C30000;
+  	font-weight:200;
+  	text-decoration:none;
 }
 
 a:hover {
@@ -173,7 +172,9 @@ hr {
   margin:0 0 24px;
 }
 
-/* Images */
+/* 
+ * IMAGES
+ */
 
 /* 2023.06.12 added border-radius like code blocks */
 /* 2023.06.15 original: padding: 5px; */
@@ -211,7 +212,9 @@ p img, .emoji {
   display: block;
 }
 
-/* Code blocks */
+/* 
+ * CODE BLOCKS
+ */
 
 /* added background 2023.06.08 */
 code, pre {
@@ -233,8 +236,9 @@ pre {
 	margin-bottom: 32px;
 }
 
-
-/* Tables */
+/*
+ * TABLES
+ */
 
 table {
   width:100%;
@@ -247,35 +251,36 @@ table {
  }
 
 /* 2023.06.16 added Lato */
+/* 2023.06.17 removed font-weight: normal; */
 th {
-  font-family: Lato, 'Arvo', Helvetica, Arial, sans-serif;
+  	font-family: Lato, 'Arvo', Helvetica, Arial, sans-serif;
 	font-size: 18px;
-	font-weight: normal;
-  padding: 10px;
-  background: #232323;
-  color: #FDFEFB;
+	padding: 10px;
+  	background: #232323;
+  	color: #FDFEFB;
  }
 
 td {
-  padding: 10px;
+  	padding: 10px;
 	background: #ccc;
  }
 
 
 /* Wrapper */
 .wrapper {
-  width:1000px;
+	width:1000px;
 }
 
-
-/* Header */
+/*
+ * Header
+ */
 
 header {
 	background-color: #585858;
 	color: #FDFDFB;
-  width:170px;
-  float:left;
-  position:fixed;
+  	width:170px;
+  	float:left;
+  	position:fixed;
 	border: 1px solid #000;
 	-webkit-border-top-right-radius: 4px;
 	-webkit-border-bottom-right-radius: 4px;
@@ -293,10 +298,10 @@ p.header {
 }
 
 /* 2023.06.16 added 'Cormorant Garamond' - serif looks better than Lato sans-serif */
+/* 2023.06.17 removed font-weight: 300; */
 h1.header {
 	font-family: 'Cormorant Garamond', Arvo, sans-serif;
 	font-size: 30px;
-	font-weight: 300;
 	line-height: 1.3em;
 	border-bottom: none;
 	margin-top: 0;
@@ -316,28 +321,28 @@ a.name {
 }
 
 header ul {
-  list-style:none;
-  padding:0;
+  	list-style:none;
+  	padding:0;
 }
 
 header li {
 	list-style-type: none;
-  width:132px;
-  height:15px;
+  	width:132px;
+  	height:15px;
 	margin-bottom: 12px;
 	line-height: 1em;
 	padding: 6px 6px 6px 7px;
 
 	background: #AF0011;
 	background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: -o-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: linear-gradient(to top, #AF0011 0%,#820011 100%);
+  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+  	background: -webkit-linear-gradient(top, #AF0011 0%,#820011 100%);
+  	background: -o-linear-gradient(top, #AF0011 0%,#820011 100%);
+  	background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
+  	background: linear-gradient(to top, #AF0011 0%,#820011 100%);
 
 	border-radius:4px;
-  border:1px solid #0D0D0D;
+  	border:1px solid #0D0D0D;
 
 	-webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
 	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
@@ -347,11 +352,11 @@ header li {
 header li:hover {
 	background: #C3001D;
 	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: -o-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: -ms-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: linear-gradient(to top, #C3001D 0%,#950119 100%);
+  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+  	background: -webkit-linear-gradient(top, #C3001D 0%,#950119 100%);
+  	background: -o-linear-gradient(top, #C3001D 0%,#950119 100%);
+  	background: -ms-linear-gradient(top, #C3001D 0%,#950119 100%);
+  	background: linear-gradient(to top, #C3001D 0%,#950119 100%);
 }
 
 /* 2023.06.16 added font-size: 14px; */
@@ -451,108 +456,95 @@ a.buttons:hover {
 
 /* Section - for main page content */
 
+/* 2023.06.17 changed width:650px; */
 section {
-  width:650px;
-  float:right;
-  padding-bottom:50px;
+  	width:700px;
+  	float:right;
+  	padding-bottom:50px;
 }
 
 
 /* Footer */
 
+/* same width as the header */
 footer {
-  width:170px;
-  float:left;
-  position:fixed;
-  bottom:10px;
+  	width:170px;
+  	float:left;
+  	position:fixed;
+  	bottom:10px;
 	padding-left: 50px;
 }
 
 @media print, screen and (max-width: 1000px) {
-
-  div.wrapper {
-    width:auto;
-    margin:0;
-  }
-
-  header, section, footer {
-    float:none;
-    position:static;
-    width:auto;
-  }
-
+	div.wrapper {
+    		width:auto;
+    		margin:0;
+  	}
+	header, section, footer {
+    		float:none;
+    		position:static;
+    		width:auto;
+  	}
 	footer {
 		border-top: 1px solid #ccc;
 		margin:0 84px 0 50px;
 		padding:0;
 	}
-
-  header {
-    padding-right:320px;
-  }
-
-  section {
-    padding:20px 84px 20px 50px;
-    margin:0 0 20px;
-  }
-
-  header a small {
-    display:inline;
-  }
-
-  header ul {
-    position:absolute;
-    right:130px;
-    top:84px;
-  }
+  	header {
+    		padding-right:320px;
+  	}
+  	section {
+    		padding:20px 84px 20px 50px;
+    		margin:0 0 20px;
+  	}
+  	header a small {
+    		display:inline;
+  	}
+  	header ul {
+    		position:absolute;
+    		right:130px;
+    		top:84px;
+  	}
 }
 
 @media print, screen and (max-width: 720px) {
-  body {
-    word-wrap:break-word;
-  }
-
-  header {
-    padding:10px 20px 0;
+	body {
+    		word-wrap:break-word;
+  	}
+  	header {
+    		padding:10px 20px 0;
 		margin-right: 0;
-  }
-
+  	}
 	section {
-    padding:10px 0 10px 20px;
-    margin:0 0 30px;
-  }
-
+    		padding:10px 0 10px 20px;
+    	margin:0 0 30px;
+ 	}
 	footer {
 		margin: 0 0 0 30px;
 	}
-
-  header ul, header p.view {
-    position:static;
-  }
+  	header ul, header p.view {
+    		position:static;
+  	}
 }
 
 @media print, screen and (max-width: 480px) {
-
-  header ul li.download {
-    display:none;
-  }
-
+  	header ul li.download {
+    		display:none;
+  	}
 	footer {
 		margin: 0 0 0 20px;
 	}
-
 	footer a{
 		display:block;
 	}
-
 }
 
 @media print {
-  body {
-    padding:0.4in;
-    font-size:12pt;
-    color:#444;
-  }
+	body {
+    		padding:0.4in;
+    		font-size:12pt;
+    		color:#444;
+  	}
 }
 
 /* From https://github.com/poole/hyde/blob/7c7f7550898e081264d255ef429a134fb00c72a8/public/css/poole.css#L26
@@ -564,44 +556,44 @@ footer {
 
 /* 2023.06.16 added Lato */
 .pagination {
-  overflow: hidden; /* clearfix */
-  margin-left: 0;
-  margin-right: 0;
-  font-family: Lato, "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
-  text-align: center;
+  	overflow: hidden; /* clearfix */
+  	margin-left: 0;
+  	margin-right: 0;
+  	font-family: Lato, "PT Sans", Helvetica, Arial, sans-serif;
+  	color: #ccc;
+  	text-align: center;
 }
 
 /* Pagination items can be `span`s or `a`s */
 .pagination-item {
-  display: block;
-  padding: 10px;
+  	display: block;
+  	padding: 10px;
 }
 .pagination-item:first-child {
-  margin-bottom: -1px;
+  	margin-bottom: -1px;
 }
 
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
-  background-color: #f5f5f5;
+  	background-color: #f5f5f5;
 }
 
 @media (min-width: 100px) {
-  .pagination {
-    margin: 0 0;
-  }
-  .pagination-item {
-    float: left;
-    width: 30%;
-  }
-  .pagination-item:first-child {
-    margin-bottom: 0;
-    border-top-left-radius:    4px;
-    border-bottom-left-radius: 4px;
-  }
-  .pagination-item:last-child {
-    margin-left: -1px;
-    border-top-right-radius:    4px;
-    border-bottom-right-radius: 4px;
-  }
+  	.pagination {
+    		margin: 0 0;
+  	}
+  	.pagination-item {
+    		float: left;
+    		width: 30%;
+  	}
+  	.pagination-item:first-child {
+    		margin-bottom: 0;
+    		border-top-left-radius:    4px;
+    		border-bottom-left-radius: 4px;
+  	}
+  	.pagination-item:last-child {
+    		margin-left: -1px;
+    		border-top-right-radius:    4px;
+    		border-bottom-right-radius: 4px;
+  	}
 }
