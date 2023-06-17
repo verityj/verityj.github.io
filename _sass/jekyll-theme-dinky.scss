@@ -121,7 +121,7 @@ h5 {
 
 /* h6 is used for dates and how long a read is */
 h6 {
-	font-size: $base-font-size;
+	font-size: $base-font-size +2px;
 }
 
 /* 2023.06.17 original font-weight:200; */
@@ -609,7 +609,7 @@ footer {
   	margin-left: 0;
   	margin-right: 0;
   	font-family: $title-font-family;
-	font-size: $base-font-size - 2px;
+	font-size: $base-font-size;
   	color: #ccc;
   	text-align: center;
 }
