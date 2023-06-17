@@ -1,5 +1,6 @@
 @import "rouge-github";
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Lato:wght@400&family=Arvo:ital,wght@0,400;0,700;1,400');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Lato:wght@400&family=Arvo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
 /* 2023.06.16 https://developers.google.com/fonts/docs/css2
  * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:500');
@@ -18,16 +19,20 @@ $serif: 'Cormorant Garamond', 'Arvo', Courier, serif;
 
 $base-font-family: $sans-serif;
 $title-font-family: $serif;
-$code-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+/* 2023.06.17 added 'PT Mono' mac font */
+$code-font-family: 'PT Mono', Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 
 $base-font-size: 15px;
 $base-font-weight: 400;
 $base-font-weight-bold: 700;
+
 $base-line-height: 1.6;
-
 $code-line-height: 1.6;
-
 $header-line-height: 1.2;
+
+$base-background: #FBFAF7;
+$code-background: #F1F1F1;
+$header-background: #808080;
 
 /* MeyerWeb Reset */
 
@@ -64,7 +69,7 @@ body {
 	font-size: $base-font-size;
 	font-weight: $base-font-weight;
 	color: #232323;
-	background-color: #FBFAF7;
+	background-color: $base-background;
 	margin: 0;
 	line-height: $base-line-height;
 	-webkit-font-smoothing: antialiased;
@@ -100,28 +105,28 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: $base-font-size + 20px;
+	font-size: $base-font-size + 22px;
 }
 
 h2 {
-	font-size: $base-font-size + 16px;
+	font-size: $base-font-size + 18px;
 }
 
 h3 {
-	font-size: $base-font-size + 12px;
+	font-size: $base-font-size + 14px;
 }
 
 h4 {
-	font-size: $base-font-size + 8px;
+	font-size: $base-font-size + 10px;
 }
 
 h5 {
-	font-size: $base-font-size + 2px;
+	font-size: $base-font-size + 4px;
 }
 
 /* h6 is used for dates and how long a read is */
 h6 {
-	font-size: $base-font-size +2px;
+	font-size: $base-font-size + 4px;
 }
 
 /* 2023.06.17 original font-weight:200; */
@@ -251,7 +256,7 @@ code, pre {
 	font-family: $code-font-family;
   	color: #000;
   	font-size: 12px;
-  	background: #F1F1F1;
+  	background: $code-background;
 }
 
 /* original: background: #FDFEFB; */
@@ -265,6 +270,7 @@ pre {
   	overflow-y: hidden;
 	margin-bottom: 30px;
 	line-height: $code-line-height;
+	background: $code-background;
 }
 
 /*
@@ -308,7 +314,7 @@ td {
 
 /* background-color: #585858; */
 header {
-	background-color: #808080;
+	background-color: $header-background;
 	color: #FDFDFB;
   	width:170px;
   	float:left;
