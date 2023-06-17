@@ -1,11 +1,11 @@
 @import "rouge-github";
-@import url('https://fonts.googleapis.com/css?family=Arvo:400,700,400italic');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Lato:wght@400');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Lato:wght@400&family=Arvo:400,700,400italic');
 
 /* 2023.06.16 https://developers.google.com/fonts/docs/css2
  * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:500');
  * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300,700&family=Lato:wght@400');
  * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700');
+ * @import url('https://fonts.googleapis.com/css?family=Arvo:400,700,400italic');
  */
 
 /* MeyerWeb Reset */
@@ -30,7 +30,9 @@ time, mark, audio, video {
   	vertical-align: baseline;
 }
 
-/* Base text styles */
+/*
+ * Base text styles
+ */
 
 /* 2023.06.16 added Lato */
 /* 2023.06.16 font-size: 14px; */
@@ -74,11 +76,11 @@ h1,h2, h3 {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 32px;
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 26px;
 }
 
 h3 {
@@ -299,9 +301,10 @@ p.header {
 
 /* 2023.06.16 added 'Cormorant Garamond' - serif looks better than Lato sans-serif */
 /* 2023.06.17 removed font-weight: 300; */
+/* 2023.06.17 changed font-size: 30px; */
 h1.header {
 	font-family: 'Cormorant Garamond', Arvo, sans-serif;
-	font-size: 30px;
+	font-size: 32px;
 	line-height: 1.3em;
 	border-bottom: none;
 	margin-top: 0;
