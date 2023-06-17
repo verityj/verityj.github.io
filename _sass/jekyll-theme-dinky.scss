@@ -256,8 +256,7 @@ code, pre {
 	font-family: $code-font-family;
   	color: #000;
   	font-size: 12px;
-  	background-color: $code-background;
-	background: #808080;
+	background: $code-background;
 }
 
 /* original: background: #FDFEFB; */
@@ -272,7 +271,6 @@ pre {
   	overflow-y: hidden;
 	margin-bottom: 30px;
 	line-height: $code-line-height;
-	background-color: $code-background;
 }
 
 /*
