@@ -21,12 +21,12 @@ $code-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Termina
 
 $base-font-size: 17px;
 $base-font-weight: 400;
-/* $base-font-weight-bold: 700; */
+$base-font-weight-bold: 700;
 $base-line-height: 1.6;
 
-$code-line-height: 1.5;
+$code-line-height: 1.6;
 
-$header-line-height: 1.4;
+$header-line-height: 1.3;
 
 /* MeyerWeb Reset */
 
@@ -150,30 +150,30 @@ em {
 }
 
 strong {
-  font-weight:700;
+  	font-weight: $base-font-weight-bold;
 }
 
 /* could play with: list-style: disc inside url("/assets/images/dash.png"); */
 /* original: list-style-position: inside; */
 /* original: list-style: disc; */
 ul {
-  list-style: disc outside;
-  padding-left: 25px;
+  	list-style: disc outside;
+  	padding-left: 25px;
 }
 
 /* could play with: list-style-type: decimal-leading-zero; - or - lower-greek; - or - upper-roman; */
 /* https://www.w3schools.com/cssref/playdemo.php?filename=playcss_list-style */
 /* original: padding-left: 25px; */
 ol {
-  list-style-position: inside;
-  list-style: decimal;
-  padding-left: 20px;
+  	list-style-position: inside;
+  	list-style: decimal;
+  	padding-left: 20px;
 }
 
 blockquote {
-  margin: 0;
-  padding: 0 0 0 20px;
-  font-style: italic;
+  	margin: 0;
+  	padding: 0 0 0 20px;
+  	font-style: italic;
 }
 
 dl, dt, dd, dl p {
@@ -181,24 +181,24 @@ dl, dt, dd, dl p {
 }
 
 dl dt {
-  font-weight: bold;
+  	font-weight: bold;
 }
 
 dl dd {
-  padding-left: 20px;
-  font-style: italic;
+  	padding-left: 20px;
+  	font-style: italic;
 }
 
 dl p {
-  padding-left: 20px;
-  font-style: italic;
+  	padding-left: 20px;
+  	font-style: italic;
 }
 
 hr {
-  border:0;
-  background:#ccc;
-  height:1px;
-  margin:0 0 24px;
+  	border:0;
+  	background:#ccc;
+  	height:1px;
+  	margin:0 0 24px;
 }
 
 /* 
@@ -232,13 +232,13 @@ p img, .emoji {
  * 2023.06.15 removed margin: auto; replaced to give space top and bottom
  */
 .centered {
-  border-radius: 4px;
-  border: 1px solid #D7D8C8;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: block;
+  	border-radius: 4px;
+  	border: 1px solid #D7D8C8;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+  	display: block;
 }
 
 /* 
@@ -263,7 +263,7 @@ pre {
   	border: 1px solid #D7D8C8;
   	overflow: auto;
   	overflow-y: hidden;
-	margin-bottom: 32px;
+	margin-bottom: 30px;
 	line-height: $code-line-height;
 }
 
@@ -308,7 +308,7 @@ td {
 
 /* background-color: #585858; */
 header {
-	background-color: #A9A9A9;
+	background-color: #808080;
 	color: #FDFDFB;
   	width:170px;
   	float:left;
@@ -347,10 +347,8 @@ h1.header, a.header, a.name, header a{
 	color: #fff;
 }
 
-/* 2023.06.17 added font-family */
 a.header {
 	text-decoration: underline;
-	font-family: $sans-serif;
 }
 
 a.name {
@@ -364,8 +362,8 @@ header ul {
 
 header li {
 	list-style-type: none;
-  	width:132px;
-  	height:15px;
+  	width: 132px;
+  	height: 15px;
 	margin-bottom: 12px;
 	line-height: 1em;
 	padding: 6px 6px 6px 7px;
@@ -378,12 +376,11 @@ header li {
   	background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
   	background: linear-gradient(to top, #AF0011 0%,#820011 100%);
 
-	border-radius:4px;
-  	border:1px solid #0D0D0D;
+	border-radius: 4px;
+  	border: 1px solid #0D0D0D;
 
 	-webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
 	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
-
 }
 
 header li:hover {
@@ -397,9 +394,11 @@ header li:hover {
 }
 
 /* 2023.06.16 added font-size: 14px; */
+/* 2023.06.17 added font-family */
 a.buttons {
 	-webkit-font-smoothing: antialiased;
 	background: url(../images/arrow-down.png) no-repeat;
+	font-family: $sans-serif;
 	font-weight: normal;
 	font-size: 14px;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
