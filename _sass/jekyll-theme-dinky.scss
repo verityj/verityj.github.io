@@ -26,6 +26,8 @@ $base-line-height: 1.6;
 
 $code-line-height: 1.5;
 
+$header-line-height: 1.4;
+
 /* MeyerWeb Reset */
 
 html, body, div, span, applet, object, iframe,
@@ -244,14 +246,12 @@ p img, .emoji {
  */
 
 /* 2023.06.08 added background */
-/* 2023.06.17 added line-height: 25px; */
 /* background: #F1F1F1; - background for inline code and in code block (pre) */
 code, pre {
 	font-family: $code-font-family;
   	color: #000;
   	font-size: 12px;
   	background: #F1F1F1;
-	line-height: $code-line-height;
 }
 
 /* original: background: #FDFEFB; */
@@ -260,10 +260,11 @@ code, pre {
 pre {
 	padding: 4px 12px;
   	border-radius: 4px;
-  	border:1px solid #D7D8C8;
+  	border: 1px solid #D7D8C8;
   	overflow: auto;
   	overflow-y: hidden;
 	margin-bottom: 32px;
+	line-height: $code-line-height;
 }
 
 /*
@@ -336,7 +337,7 @@ p.header {
 h1.header {
 	font-family: $serif;
 	font-size: 36px;
-	line-height: $base-line-height;
+	line-height: $header-line-height;
 	border-bottom: none;
 	margin-top: 0;
 }
@@ -346,8 +347,10 @@ h1.header, a.header, a.name, header a{
 	color: #fff;
 }
 
+/* 2023.06.17 added font-family */
 a.header {
 	text-decoration: underline;
+	font-family: $sans-serif;
 }
 
 a.name {
