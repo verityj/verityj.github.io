@@ -257,9 +257,8 @@ p img, .emoji {
 
 /* 2023.06.08 added background */
 /* background: #F1F1F1; - background for inline code and in code block (pre) */
-/* 2023.06.17 removed pre from "code, pre {" */
 /* 2023.06.17 removed background-color: $code-background; */
-code {
+code, pre {
 	font-family: $code-font-family;
   	font-color: $code-font-color;
   	font-size: 14px;
@@ -270,7 +269,7 @@ code {
 /* changed 2023.06.08 */
 /* background: #F1F1F1; - means background for code block around the text */
 /* 2023.06.17 added display: block; */
-pre, code {
+pre {
 	display: block;
 	background-color: $code-block-background;
 	padding: 4px 12px;
@@ -298,12 +297,13 @@ table {
 
 /* 2023.06.16 added Lato */
 /* 2023.06.17 removed font-weight: normal; */
+/* 2023.07.16 changed color: #FDFEFB; */
 th {
   	font-family: $sans-serif;
 	font-size: 18px;
 	padding: 10px;
   	background: #232323;
-  	color: #FDFEFB;
+  	color: $code-block-background;
  }
 
 td {
