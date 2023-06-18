@@ -44,7 +44,7 @@ $code-font-color: #000000;
 $border-radius: 4px;
 
 /* get syntax highlighting from https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_syntax.scss#L4 */
-@import "syntax";
+/* @import "syntax"; */
 
 /* MeyerWeb Reset */
 
@@ -298,6 +298,18 @@ code.highlighter-rouge {
 	padding: 1px 2px 1px 2px;
 	border-radius: 4px;
   	border: 1px solid #D7D8C8;
+}
+
+.rouge-gutter {
+	padding-right: 0px;
+	width: 1px;
+	color: $code-font-color;
+	text-align: left;
+}
+/* code */
+.code,
+.rouge-code {
+	padding-left: 1px;
 }
 
 /*
