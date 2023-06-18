@@ -25,74 +25,74 @@ $base0f: #ff5370 !default;
 
 div.highlighter-rouge,
 /* removed border-radius: $border-radius; */
+/* color: $base05; */
 figure.highlight {
-  position: relative;
-  margin-bottom: 1em;
-  background: $base00;
-  color: $base05;
-  font-family: $code-font-family;
-  font-size: $code-font-size;
-  line-height: 1.8;
-
+   position: relative;
+   margin-bottom: 1em;
+   background: $code-background;
+   font-family: $code-font-family;
+   font-size: $code-font-size;
+   line-height: 1.8;
+   
    /* changed padding: 1em; */
-  > pre,
-  pre.highlight {
-    margin: 0;
-    padding: 0;
-  }
+   > pre,
+   pre.highlight {
+      margin: 0;
+      padding: 0;
+   }
 }
 
+/* changed font-size: 1em; */
 .highlight table {
-  margin-bottom: 0;
-  font-size: 1em;
-  border: 0;
-
-  td {
-    padding: 0;
-    width: calc(100% - 1em);
-    border: 0;
-
-    /* line numbers*/
-     /* removed border-right: 1px solid $code-font-color; */
-     /* changed padding-right: 1px; */
-     /* changed width */
-    &.gutter,
-    &.rouge-gutter {
-      padding-right: 0px;
-      width: 5px;
-      color: $code-font-color;
-      text-align: right;
-    }
-
-    /* code */
-     /* changed padding 1em */
-    &.code,
-    &.rouge-code {
-      padding-left: 0px;
-    }
-  }
-
-  pre {
-    margin: 0;
-  }
+   margin-bottom: 0;
+   font-size: $code-font-size;
+   border: 0;
+      
+   td {
+      padding: 0;
+      width: calc(100% - 5px);
+      border: 0;
+      
+      /* line numbers*/
+      /* removed border-right: 1px solid $code-font-color; */
+      /* changed padding-right: 1px; */
+      /* changed width */
+      &.gutter,
+      &.rouge-gutter {
+         padding-right: 0px;
+         width: 5px;
+         color: $code-background;
+         text-align: right;
+      }
+      /* code */
+      /* changed padding 1em */
+      &.code,
+      &.rouge-code {
+         padding-left: 0px;
+      }
+   }
+   pre {
+      margin: 0;
+   }
 }
 
 .highlight pre {
-  width: 100%;
+   width: 100%;
+}
+.highlight .hll {
+   background-color: $code-background;
 }
 
-.highlight .hll {
-  background-color: $base06;
-}
-.highlight {
-  .c {
-    /* Comment */
-    color: $base04;
-  }
-  .err {
-    /* Error */
-    color: $base08;
-  }
+/*
+   .highlight {
+      .c {
+         /* Comment */
+         color: $base04;
+      }
+      .err {
+         /* Error */
+         color: $base08;
+      }
   .k {
     /* Keyword */
     color: $base0e;
@@ -340,6 +340,7 @@ figure.highlight {
     /* Literal.Number.Integer.Long */
     color: $base09;
   }
+      */
 }
 
 .gist {
