@@ -415,8 +415,11 @@ header a {
 }
 header a:hover {
 	text-decoration: none;
-	text-transform: uppercase;
+	text-shadow: #fff 0px 0px 10px;
+	cursor: pointer;
 }
+/* for hovering, it's too big: text-transform: uppercase; */
+/* text-shadow: color | offset-x | offset-y | blur-radius */
 
 a.name {
 	white-space: nowrap;
