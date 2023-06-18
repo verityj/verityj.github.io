@@ -150,8 +150,9 @@ a {
   	text-decoration: none;
 }
 
+/* Removed text-decoration: underline; */
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 /* 2023.06.16 changed from 12px; */
@@ -416,10 +417,10 @@ header a {
 header a:hover {
 	text-decoration: none;
 	text-shadow: #fff 0px 0px 10px;
-	cursor: pointer;
 }
-/* for hovering, it's too big: text-transform: uppercase; */
 /* text-shadow: color | offset-x | offset-y | blur-radius */
+/* for hovering, it's too big: text-transform: uppercase; */
+/* does not do anything: cursor: pointer; */
 
 a.name {
 	white-space: nowrap;
@@ -683,12 +684,12 @@ a.pagination-item:hover {
   	}
   	.pagination-item:first-child {
     		margin-bottom: 0;
-    		border-top-left-radius:    4px;
-    		border-bottom-left-radius: 4px;
+    		border-top-left-radius:    $border-radius;
+    		border-bottom-left-radius: $border-radius;
   	}
   	.pagination-item:last-child {
     		margin-left: -1px;
-    		border-top-right-radius:    4px;
-    		border-bottom-right-radius: 4px;
+    		border-top-right-radius:    $border-radius;
+    		border-bottom-right-radius: $border-radius;
   	}
 }
