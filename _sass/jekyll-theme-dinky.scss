@@ -553,12 +553,14 @@ section {
 
 /* same width as the header */
 /* default padding-left: 50px; */
+/* 2023.06.18 added font-size */
 footer {
   	width: 170px;
   	float: left;
   	position: fixed;
   	bottom: 10px;
 	padding-left: 50px;
+	font-size: 10px;
 }
 
 @media print, screen and (max-width: 650px) {
