@@ -13,14 +13,14 @@
 /*************
   DEFINITIONS
  *************/
-
 /* 2023.06.17 removed 'Lato' from sans-serif */
+/* 2023.06.17 added 'PT Mono' mac font */
+
 $sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$serif: 'Cormorant Garamond', 'Arvo', Courier, serif;
+$serif: 'Cormorant Garamond', 'Arvo', 'PT Mono', Monaco, serif;
 
 $base-font-family: $sans-serif;
 $title-font-family: $serif;
-/* 2023.06.17 added 'PT Mono' mac font */
 $code-font-family: 'PT Mono', Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 
 $base-font-size: 15px;
@@ -533,26 +533,28 @@ a.buttons:hover {
 
 /* Section - for main page content */
 
-/* 2023.06.17 changed width:650px; */
+/* default width: 650px; */
 section {
-  	width:700px;
-  	float:right;
-  	padding-bottom:50px;
+  	width: 650px;
+  	float: right;
+  	padding-bottom: 50px;
 }
 
-
-/* Footer */
+/********
+  FOOTER 
+ ********/
 
 /* same width as the header */
+/* default padding-left: 50px; */
 footer {
-  	width:170px;
-  	float:left;
-  	position:fixed;
-  	bottom:10px;
+  	width: 170px;
+  	float: left;
+  	position: fixed;
+  	bottom: 10px;
 	padding-left: 50px;
 }
 
-@media print, screen and (max-width: 1000px) {
+@media print, screen and (max-width: 650px) {
 	div.wrapper {
     		width:auto;
     		margin:0;
@@ -625,7 +627,8 @@ footer {
 }
 
 /* From https://github.com/poole/hyde/blob/7c7f7550898e081264d255ef429a134fb00c72a8/public/css/poole.css#L26
- * Pagination
+ * 
+ * PAGINATION
  *
  * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
  * there are no more previous or next posts to show.
