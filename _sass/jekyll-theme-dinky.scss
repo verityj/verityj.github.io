@@ -302,14 +302,16 @@ code.highlighter-rouge {
 
 /* line numbers */
 .rouge-gutter {
-	padding-right: 0px;
-	color: $code-font-color;
+	font-color: $header-background;
 	text-align: right;
+	padding: 0px;
+	background-color: $code-background;
 }
-/* code */
+/* code in block */
 .code,
 .rouge-code {
 	padding-left: 0px;
+	background-color: $code-background;
 }
 
 /********
@@ -346,16 +348,6 @@ td {
 .wrapper {
 	width:1000px;
 }
-
-/****************************
-  CODE TABLES - line numbers
- ****************************/
-
-/* line number column */
-td.rouge-gutter {
-	padding: 0px;
-	background: $code-background;
- }
 
 /********
   HEADER
