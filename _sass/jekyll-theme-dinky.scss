@@ -279,16 +279,16 @@ pre {
 
 /* code blocks are inside preformatted highlight */
 pre.highlight {
-	font-size: 12px;
+	font-size: 13px;
 	background-color: $code-block-background;
 }
 
 /* inline code class */
-/* padding top right */
+/* padding: top right bottom left */
 code.highlighter-rouge {
 	font-size: 14px;
 	background-color: $code-background;
-	padding: 1px 1px 10px 1px;
+	padding: 1px 2px 1px 2px;
 	border-radius: 4px;
   	border: 1px solid #D7D8C8;
 }
