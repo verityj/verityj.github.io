@@ -34,13 +34,13 @@ kramdown:
     span:
       line_numbers: false
     block:
-      line_numbers: false # change to true to show line numbers
+      # change to true to show line numbers
+      line_numbers: false
       start_line: 1
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - markdownify
 
 # Exclude these files from production site
 exclude:
