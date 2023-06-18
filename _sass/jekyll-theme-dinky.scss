@@ -40,7 +40,7 @@ $header-background: #808080;
 /* default #232323 */
 $base-font-color: #303030;
 $code-font-color: #000000;
-
+$header-line-color: #ccc;
 $border-radius: 4px;
 
 /* get syntax highlighting from https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_syntax.scss#L4 */
@@ -68,9 +68,9 @@ time, mark, audio, video {
   	vertical-align: baseline;
 }
 
-/*
- * Base text styles
- */
+/***********
+  BASE TEXT
+ ***********/
 
 /* 2023.06.16 added Lato */
 /* 2023.06.16 font-size: 14px; */
@@ -107,12 +107,12 @@ p, ul, ol, table, dl {
 /* 2023.06.17 changed font-family: 'Cormorant Garamond', Arvo, Monaco, serif; */
 h1, h2, h3, h4, h5, h6 {
 	font-family: $title-font-family;
-	line-height: $base-line-height;
+	line-height: $header-line-height;
 }
 
 h1, h2, h3 {
 	display: block;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid $header-line-color;
 	padding-bottom: 5px;
 }
 
@@ -211,11 +211,12 @@ dl p {
   	font-style: italic;
 }
 
+/* Horizontal line, thematic break */
 hr {
-  	border:0;
-  	background:#ccc;
-  	height:1px;
-  	margin:0 0 24px;
+  	border: 0;
+	background: $header-line-color;
+  	height: 1px;
+  	margin: 0 0 24px;
 }
 
 /********
@@ -231,7 +232,7 @@ img {
   padding: 10px;
   margin: 10px 0 32px 0;
   border-radius: $border-radius;
-  border: 1px solid #ccc;
+  border: 1px solid $header-line-color;
 }
 
 p img, .emoji {
@@ -319,10 +320,10 @@ table {
   width:100%;
 }
 
+/* 2017.06.18 removed border: 1px solid #ccc; */
 table {
-  border: 1px solid #ccc;
-  margin-bottom: 32px;
-  text-align: left;
+	margin-bottom: 32px;
+	text-align: left;
  }
 
 /* th is a header cell */
@@ -336,9 +337,10 @@ th {
   	color: #FDFEFB;
  }
 
+/* 2023.06.18 removed background: #ccc; */
+/* don't need dark cells */
 td {
   	padding: 10px;
-	background: #ccc;
  }
 
 
@@ -548,16 +550,16 @@ footer {
     		width:auto;
   	}
 	footer {
-		border-top: 1px solid #ccc;
-		margin:0 84px 0 50px;
-		padding:0;
+		border-top: 1px solid $header-line-color;
+		margin: 0 84px 0 50px;
+		padding: 0;
 	}
   	header {
-    		padding-right:320px;
+    		padding-right: 320px;
   	}
   	section {
-    		padding:20px 84px 20px 50px;
-    		margin:0 0 20px;
+    		padding: 20px 84px 20px 50px;
+    		margin: 0 0 20px;
   	}
   	header a small {
     		display:inline;
@@ -571,41 +573,41 @@ footer {
 
 @media print, screen and (max-width: 720px) {
 	body {
-    		word-wrap:break-word;
+    		word-wrap: break-word;
   	}
   	header {
-    		padding:10px 20px 0;
+    		padding: 10px 20px 0;
 		margin-right: 0;
   	}
 	section {
     		padding:10px 0 10px 20px;
-    	margin:0 0 30px;
+    		margin:0 0 30px;
  	}
 	footer {
 		margin: 0 0 0 30px;
 	}
   	header ul, header p.view {
-    		position:static;
+    		position: static;
   	}
 }
 
 @media print, screen and (max-width: 480px) {
   	header ul li.download {
-    		display:none;
+    		display: none;
   	}
 	footer {
 		margin: 0 0 0 20px;
 	}
-	footer a{
-		display:block;
+	footer a {
+		display: block;
 	}
 }
 
 @media print {
 	body {
-    		padding:0.4in;
-    		font-size:12pt;
-    		color:#444;
+    		padding: 0.4in;
+    		font-size: 12pt;
+    		color: #444;
   	}
 }
 
@@ -621,9 +623,9 @@ footer {
   	overflow: hidden; /* clearfix */
   	margin-left: 0;
   	margin-right: 0;
-  	font-family: $title-font-family;
-	font-size: $base-font-size + 3px;
-  	color: #ccc;
+  	font-family: $sans-serif;
+	font-size: $base-font-size + 1px;
+  	color: $header-line-color;
   	text-align: center;
 }
 
