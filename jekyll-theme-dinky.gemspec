@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "html-proofer", "~> 3.0"
   s.add_development_dependency "rubocop-github", "~> 0.16"
   s.add_development_dependency "w3c_validators", "~> 1.3"
-  spec.add_runtime_dependency "jekyll-feed", "~> 0.9"
+  s.add_runtime_dependency "jekyll-feed", "~> 0.9"
 end
 
 # added spec.add_runtime_dependency "jekyll-feed", "~> 0.9"
