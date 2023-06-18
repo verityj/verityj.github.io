@@ -410,6 +410,8 @@ h1.header {
 
 a.header {
 	text-decoration: none;
+	color: $header-font-color;
+	font-weight: $base-font-weight-bold;
 }
 a.header:hover {
 	color: #fff;
