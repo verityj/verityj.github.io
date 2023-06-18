@@ -461,7 +461,7 @@ a.buttons {
 	font-family: $sans-serif;
 	font-weight: normal;
 	font-size: 14px;
-	font-color: #fff;
+	color: #fff;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 	padding: 2px 2px 2px 22px;
 	height: 30px;
@@ -517,17 +517,14 @@ a.buttons-nostr:hover {
 
 a.about {
 	background: url(/assets/images/user.png) no-repeat -2px;
-	font-color: #fff;
 }
 
 a.list {
 	background: url(/assets/images/list.png) no-repeat -2px;
-	font-color: #fff;
 }
 
 a.github {
 	background: url(../images/octocat-small.png) no-repeat 1px;
-	font-color: #fff;
 }
 
 a.buttons:hover {
