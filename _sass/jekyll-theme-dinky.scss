@@ -258,50 +258,6 @@ p img, .emoji {
   	display: block;
 }
 
-/*************
-  CODE BLOCKS
- *************/
-
-/* 2023.06.08 added background */
-/* background: #F1F1F1; - background for inline code and in code block (pre) */
-/* 2023.06.17 removed background-color: $code-background; */
-code, pre {
-	font-family: $code-font-family;
-  	font-color: $code-font-color;
-}
-
-/* original: background: #FDFEFB; */
-/* changed 2023.06.08 */
-/* background: #F1F1F1; - means background for code block around the text */
-/* 2023.06.17 added display: block; */
-pre {
-	padding: 4px 12px;
-  	border-radius: $border-radius;
-  	border: 1px solid #D7D8C8;
-  	overflow: auto;
-  	overflow-y: hidden;
-	margin-bottom: 30px;
-	line-height: $code-line-height;
-}
-
-/* inline code class */
-/* padding: top right bottom left */
-code.highlighter-rouge {
-	font-size: $code-font-size + 1px;
-	background-color: $code-background;
-	padding: 1px 2px 1px 2px;
-	border-radius: 4px;
-  	border: 1px solid #D7D8C8;
-}
-
-/* code block line numbers */
-td.rouge-gutter {
-	font-color: $header-background;
-	text-align: right;
-}
-
-/* code block tables below TABLES */
-
 /********
   TABLES
  ********/
@@ -319,39 +275,23 @@ table {
 /* th is a header cell */
 /* 2023.06.16 added Lato */
 /* 2023.06.17 removed font-weight: normal; */
+/* 2023.06.17 removed background: #232323; */
 th {
   	font-family: $sans-serif;
 	font-size: 18px;
 	padding: 10px;
-  	background: #232323;
   	color: #FDFEFB;
  }
 
+/* 2023.06.17 background: #ccc; */
+/* 2023.06.17 changed padding: 10px; */
 td {
-  	padding: 10px;
-	background: #ccc;
+  	padding: 1px;
  }
 
 /* Wrapper */
 .wrapper {
 	width:1000px;
-}
-
-/* code blocks are inside preformatted highlight */
-div.highlighter-rouge,
-div.highlight,
-pre.highlight,
-code,
-table.rouge-table,
-tr,
-td.rouge-gutter,
-td.gl,
-pre.lineno {
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	border-spacing: 0px;
-	background-color: $code-background;
-	border: none;
 }
 
 /********
@@ -667,4 +607,58 @@ a.pagination-item:hover {
     		border-top-right-radius:    4px;
     		border-bottom-right-radius: 4px;
   	}
+}
+
+/*************
+  CODE BLOCKS
+ *************/
+
+/* 2023.06.08 added background */
+/* background: #F1F1F1; - background for inline code and in code block (pre) */
+/* 2023.06.17 removed background-color: $code-background; */
+code, pre {
+	font-family: $code-font-family;
+  	font-color: $code-font-color;
+}
+
+/* original: background: #FDFEFB; */
+/* changed 2023.06.08 */
+/* background: #F1F1F1; - means background for code block around the text */
+/* 2023.06.17 added display: block; */
+pre {
+	padding: 4px 12px;
+  	border-radius: $border-radius;
+  	border: 1px solid #D7D8C8;
+  	overflow: auto;
+  	overflow-y: hidden;
+	margin-bottom: 30px;
+	line-height: $code-line-height;
+}
+
+/* inline code class */
+/* padding: top right bottom left */
+code.highlighter-rouge {
+	font-size: $code-font-size + 1px;
+	background-color: $code-background;
+	padding: 1px 2px 1px 2px;
+	border-radius: 4px;
+  	border: 1px solid #D7D8C8;
+}
+
+/* code block line numbers */
+td.rouge-gutter {
+	font-color: $header-background;
+	text-align: right;
+}
+
+/* code blocks are inside preformatted highlight */
+div.highlighter-rouge,
+.highlight,
+.rouge-table,
+.rouge-gutter {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border-spacing: 0px;
+	background-color: $code-background;
+	border: none;
 }
