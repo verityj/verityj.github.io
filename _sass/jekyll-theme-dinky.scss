@@ -321,29 +321,26 @@ pre.lineno {
 	border: 1px solid #D7D8C8;
 }
 /* code in block */
-.code,
-.rouge-code {
+td.rouge-code {
 	padding: 0px 0px 0px 0px;
 	background-color: $code-background;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	border: 2px solid #FF0000;
+	margin: 0px 0px 0px 0px;
+	border: 1px solid #D7D8C8;
 }
 /* code block table */
 table.rouge-table {
 	padding: 0px 0px 0px 0px;
-	margin: 0px;
+	margin: 0px 0px 0px 0px;
 }
 tr {
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
-	border: 2px solid #FF0000;
+	margin: 0px 0px 0px 0px;
 }
 tbody {
 	padding: 0px 0px 0px 0px;
-	margin: 0px;
+	margin: 0px 0px 0px 0px;
+	border: 2px solid #FF0000;
 }
 
 /********
