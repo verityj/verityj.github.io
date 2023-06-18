@@ -312,9 +312,9 @@ code.highlighter-rouge {
 	padding-left: 0px;
 }
 
-/*
- * TABLES
- */
+/********
+  TABLES
+ ********/
 
 table {
   width:100%;
@@ -349,13 +349,16 @@ td {
 	width:1000px;
 }
 
-/*
- * HEADER
- */
+/********
+  HEADER
+ ********/
 
 /* background-color: #585858; */
+/* 2023.06.17 removed background-color: $header-background; */
+/* 2023.06.17 added gradient background, max compatibility, from */
+/* https://cssgradient.io */
+/* start color is $header-background */
 header {
-	background-color: $header-background;
 	color: #FDFDFB;
   	width:170px;
   	float:left;
@@ -370,6 +373,12 @@ header {
 	padding: 34px 25px 22px 50px;
 	margin: 30px 25px 0 0;
 	-webkit-font-smoothing: antialiased;
+
+	background: rgb(128,128,128);
+	background: -moz-linear-gradient(90deg, rgba(128,128,128,1) 0%, rgba(251,247,235,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(128,128,128,1) 0%, rgba(251,247,235,1) 100%);
+	background: linear-gradient(90deg, rgba(128,128,128,1) 0%, rgba(251,247,235,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808080",endColorstr="#fbf7eb",GradientType=1);
 }
 
 p.header {
