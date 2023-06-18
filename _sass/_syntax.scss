@@ -57,12 +57,14 @@ figure.highlight {
       /* removed border-right: 1px solid $code-font-color; */
       /* changed padding-right: 1px; */
       /* changed width */
+      /* color is for line number color */
+      /* changed text-align: right; */
       &.gutter,
       &.rouge-gutter {
          padding-right: 0px;
          width: 5px;
-         color: $code-background;
-         text-align: right;
+         color: $code-font-color;
+         text-align: left;
       }
       /* code */
       /* changed padding 1em */
