@@ -68,9 +68,9 @@ time, mark, audio, video {
   	vertical-align: baseline;
 }
 
-/*
- * Base text styles
- */
+/***********
+  BASE TEXT
+ ***********/
 
 /* 2023.06.16 added Lato */
 /* 2023.06.16 font-size: 14px; */
@@ -306,12 +306,14 @@ code.highlighter-rouge {
 	text-align: right;
 	padding: 0px;
 	background-color: $code-background;
+	margin-bottom: 0px;
 }
 /* code in block */
 .code,
 .rouge-code {
 	padding-left: 0px;
 	background-color: $code-background;
+	margin-bottom: 0px;
 }
 
 /********
