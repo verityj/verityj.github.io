@@ -50,7 +50,7 @@ figure.highlight {
       
    td {
       padding: 0;
-      width: calc(100% - 5px);
+      width: calc(90% - 1px);
       border: 0;
       
       /* line numbers*/
@@ -59,10 +59,11 @@ figure.highlight {
       /* changed width */
       /* color is for line number color */
       /* changed text-align: right; */
+      /* changed width: 5px; */
       &.gutter,
       &.rouge-gutter {
          padding-right: 0px;
-         width: 5px;
+         width: 1px;
          color: $code-font-color;
          text-align: left;
       }
