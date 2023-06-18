@@ -1,27 +1,27 @@
 @import "rouge-github";
-
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Lato:wght@400&family=Arvo:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
 
-/* 2023.06.16 https://developers.google.com/fonts/docs/css2
+/* follow https://developers.google.com/fonts/docs/css2
  * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:500');
  * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300,700&family=Lato:wght@400');
  * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700');
  * @import url('https://fonts.googleapis.com/css?family=Arvo:400,700,400italic');
+ * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Lato:wght@400&family=Arvo:ital,wght@0,400;0,700;1,400&display=swap');
  */
 
 /*************
   DEFINITIONS
  *************/
-/* 2023.06.17 removed 'Lato' from sans-serif */
+/* 2023.06.17 removed 'Lato' from sans-serif, removed 'Arvo' from second place serif */
 /* 2023.06.17 added 'PT Mono' mac font */
 
-$sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$serif: 'Cormorant Garamond', 'Arvo', 'PT Mono', Monaco, serif;
+$sans-serif: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$serif: 'Cormorant Garamond', 'Times New Roman', 'Times', serif;
 
 $base-font-family: $sans-serif;
 $title-font-family: $serif;
-$code-font-family: 'PT Mono', Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+$code-font-family: 'PT Mono', 'Monaco', 'Bitstream Vera Sans Mono', 'Lucida Console', 'Terminal', monospace;
 
 $base-font-size: 15px;
 $base-font-weight: 400;
