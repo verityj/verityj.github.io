@@ -284,23 +284,6 @@ pre {
 	line-height: $code-line-height;
 }
 
-/* code blocks are inside preformatted highlight */
-pre.highlight {
-	font-size: $code-font-size;
-	background-color: $code-block-background;
-	padding: 0px 0px 0px 0px;
-	border-spacing: 0px;
-}
-
-code,
-pre.highlight,
-div.highlight,
-div.highlighter-rouge {
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	border-spacing: 0px;
-}
-
 /* inline code class */
 /* padding: top right bottom left */
 code.highlighter-rouge {
@@ -311,48 +294,13 @@ code.highlighter-rouge {
   	border: 1px solid #D7D8C8;
 }
 
-/* line numbers */
+/* code block line numbers */
 td.rouge-gutter {
 	font-color: $header-background;
 	text-align: right;
-	padding: 0px 0px 0px 0px;
-	background-color: $code-background;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	border-spacing: 0px;
 }
-/* later change to border: none; */
-pre.lineno {
-	border: 1px solid #D7D8C8;
-	border-spacing: 0px;
-}
-/* code in block */
-td.rouge-code {
-	padding: 0px 0px 0px 0px;
-	background-color: $code-background;
-	margin: 0px 0px 0px 0px;
-	border: 1px solid #D7D8C8;
-	border-spacing: 0px;
-}
-/* code block table */
-table.rouge-table {
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	border-spacing: 0px;
-}
-tr {
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	border-spacing: 0px;
-}
-tbody {
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	border-spacing: 0px;
-}
+
+/* code block tables below TABLES */
 
 /********
   TABLES
@@ -387,6 +335,23 @@ td {
 /* Wrapper */
 .wrapper {
 	width:1000px;
+}
+
+/* code blocks are inside preformatted highlight */
+div.highlighter-rouge,
+div.highlight,
+pre.highlight,
+code,
+table.rouge-table,
+tr,
+td.rouge-gutter,
+td.gl,
+pre.lineno {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border-spacing: 0px;
+	background-color: $code-background;
+	border: none;
 }
 
 /********
