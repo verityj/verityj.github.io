@@ -312,9 +312,10 @@ code.highlighter-rouge {
 	padding: 0px 0px 0px 0px;
 	background-color: $code-background;
 	margin-bottom: 0px;
+	border: 2px solid #FF0000;
 }
 pre.lineno {
-	border: 2px solid #FF0000;
+	border: none;
 }
 /* code in block */
 .code,
