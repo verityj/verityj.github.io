@@ -40,6 +40,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - markdownify
 
 # Exclude these files from production site
 exclude:
