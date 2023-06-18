@@ -27,6 +27,7 @@ By the way, you see in the screenshot that there is a `target` property, current
 ```
 $ defaults write com.apple.screencapture target ~/Desktop/
 ```
+{: title="Screenshot target"}
 
 Or modify the setting in Xcode if you have the plist file open.
 
