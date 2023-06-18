@@ -299,17 +299,16 @@ code.highlighter-rouge {
 	border-radius: 4px;
   	border: 1px solid #D7D8C8;
 }
-
+/* line numbers */
 .rouge-gutter {
 	padding-right: 0px;
-	width: 1px;
 	color: $code-font-color;
-	text-align: left;
+	text-align: right;
 }
 /* code */
 .code,
 .rouge-code {
-	padding-left: 1px;
+	padding-left: 0px;
 }
 
 /*
