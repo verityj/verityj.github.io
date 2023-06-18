@@ -394,7 +394,7 @@ p.header {
 h1.header {
 	font-family: $serif;
 	font-size: 36px;
-	color: $header-font-color;
+	font-color: $header-font-color;
 	font-weight: $base-font-weight-bold;
 	line-height: $header-line-height;
 	border-bottom: none;
@@ -408,12 +408,12 @@ h1.header {
  * }
  */
 
-a.header {
+header a {
 	text-decoration: none;
-	color: $header-font-color;
+	font-color: $header-font-color;
 	font-weight: $base-font-weight-bold;
 }
-a.header:hover {
+header a:hover {
 	color: #fff;
 	text-decoration: none;
 }
