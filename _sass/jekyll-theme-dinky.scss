@@ -409,13 +409,14 @@ h1.header {
  */
 
 header a {
-	text-decoration: none;
 	font-color: $header-font-color;
+	color: $header-font-color;
 	font-weight: $base-font-weight-bold;
 }
 header a:hover {
 	color: #fff;
-	text-decoration: none;
+	font-color: #fff;
+	text-decoration: italics;
 }
 
 a.name {
