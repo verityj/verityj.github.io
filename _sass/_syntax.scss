@@ -3,12 +3,14 @@
    ========================================================================== */
 
 /* syntax highlighting (base16) */
-$base00: #263238 !default;
+/* $base00: #263238 !default; */
+$base00: $code-background;
 $base01: #2e3c43 !default;
 $base02: #314549 !default;
 $base03: #546e7a !default;
 $base04: #b2ccd6 !default;
-$base05: #eeffff !default;
+/* $base05: #eeffff !default; */
+$base05: $code-font-color;
 $base06: #eeffff !default;
 $base07: #ffffff !default;
 $base08: #f07178 !default;
@@ -51,10 +53,10 @@ figure.highlight {
     /* line numbers*/
     &.gutter,
     &.rouge-gutter {
-      padding-right: 1em;
-      width: 1em;
-      color: $base04;
-      border-right: 1px solid $base04;
+      padding-right: 1px;
+      width: 10px;
+      color: $code-font-color;
+      border-right: 1px solid $code-font-color;
       text-align: right;
     }
 
