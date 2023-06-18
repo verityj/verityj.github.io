@@ -313,6 +313,9 @@ code.highlighter-rouge {
 	background-color: $code-background;
 	margin-bottom: 0px;
 }
+pre.lineno {
+	border: 2px solid #FF0000;
+}
 /* code in block */
 .code,
 .rouge-code {
