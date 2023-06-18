@@ -299,6 +299,7 @@ code.highlighter-rouge {
 	border-radius: 4px;
   	border: 1px solid #D7D8C8;
 }
+
 /* line numbers */
 .rouge-gutter {
 	padding-right: 0px;
@@ -311,9 +312,9 @@ code.highlighter-rouge {
 	padding-left: 0px;
 }
 
-/*
- * TABLES
- */
+/********
+  TABLES
+ ********/
 
 table {
   width:100%;
@@ -341,15 +342,24 @@ td {
 	background: #ccc;
  }
 
-
 /* Wrapper */
 .wrapper {
 	width:1000px;
 }
 
-/*
- * HEADER
- */
+/****************************
+  CODE TABLES - line numbers
+ ****************************/
+
+/* line number column */
+td.rouge-gutter {
+	padding: 0px;
+	background: $code-background;
+ }
+
+/********
+  HEADER
+ ********/
 
 /* background-color: #585858; */
 header {
@@ -386,7 +396,6 @@ h1.header {
 	border-bottom: none;
 	margin-top: 0;
 }
-
 
 h1.header, a.header, a.name, header a{
 	color: #fff;
@@ -520,13 +529,15 @@ a.buttons:hover {
 
 /* 2023.06.17 changed width:650px; */
 section {
-  	width:700px;
-  	float:right;
-  	padding-bottom:50px;
+  	width: 700px;
+  	float: right;
+  	padding-bottom: 50px;
 }
 
 
-/* Footer */
+/********
+  Footer 
+ ********/
 
 /* same width as the header */
 footer {
