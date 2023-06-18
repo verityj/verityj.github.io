@@ -306,13 +306,23 @@ code.highlighter-rouge {
 }
 
 /* line numbers */
-.rouge-gutter {
+td.rouge-gutter {
 	font-color: $header-background;
 	text-align: right;
 	padding: 0px 0px 0px 0px;
 	background-color: $code-background;
 	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
 	border: 2px solid #FF0000;
+}
+td.gl {
+	padding: 0px 0px 0px 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
 }
 pre.lineno {
 	border: none;
