@@ -291,8 +291,13 @@ pre.highlight {
 	padding: 0px 0px 0px 0px;
 }
 
-div.highlight {
+code,
+pre.highlight,
+div.highlight,
+div.highlighter-rouge {
 	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border: 2px solid #FF0000;
 }
 
 /* inline code class */
