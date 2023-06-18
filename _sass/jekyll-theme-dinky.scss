@@ -408,15 +408,14 @@ h1.header {
  * }
  */
 
+/* Header title color setting */
 header a {
-	font-color: $header-font-color;
 	color: $header-font-color;
 	font-weight: $base-font-weight-bold;
 }
 header a:hover {
-	color: #fff;
-	font-color: #fff;
-	text-decoration: italics;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
 a.name {
