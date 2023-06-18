@@ -405,10 +405,12 @@ h1.header {
 	margin-top: 0;
 }
 
-/* removed h1.header - should not be white */
-a.header, a.name, header a{
-	color: #fff;
-}
+/* removed h1.header - should not be white
+ * removed links being white, moved color to ul below
+ * a.header, a.name, header a{
+ *	color: #fff;
+ * }
+ */
 
 a.header {
 	text-decoration: underline;
@@ -418,9 +420,11 @@ a.name {
 	white-space: nowrap;
 }
 
+/* added color white */
 header ul {
   	list-style:none;
   	padding:0;
+	color: #fff;
 }
 
 header li {
