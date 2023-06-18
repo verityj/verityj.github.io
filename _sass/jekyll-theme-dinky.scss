@@ -315,9 +315,13 @@ code.highlighter-rouge {
 	background-color: $code-background;
 	margin-bottom: 0px;
 }
-
+/* code block table */
 table.rouge-table {
-	padding: 0px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+tr {
+	padding: 0px 0px 0px 0px;
 	margin: 0px;
 }
 
