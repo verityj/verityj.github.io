@@ -625,10 +625,9 @@ code, pre {
 /* changed 2023.06.08 */
 /* background: #F1F1F1; - means background for code block around the text */
 /* 2023.06.17 added display: block; */
+/* 2023.06.18 for code blocks, don't have border here. Removed border-radius and border */
 pre {
 	padding: 4px 12px;
-  	border-radius: $border-radius;
-  	border: 1px solid #D7D8C8;
   	overflow: auto;
   	overflow-y: hidden;
 	margin-bottom: 30px;
@@ -645,20 +644,24 @@ code.highlighter-rouge {
   	border: 1px solid #D7D8C8;
 }
 
-/* code block line numbers */
-td.rouge-gutter {
-	font-color: $header-background;
-	text-align: right;
-}
-
 /* code blocks are inside preformatted highlight */
 div.highlighter-rouge,
 .highlight,
 .rouge-table,
-.rouge-gutter {
+.rouge-gutter,
+.rouge-code {
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	border-spacing: 0px;
 	background-color: $code-background;
 	border: none;
+}
+.highlight {
+  	border-radius: $border-radius;
+  	border: 1px solid #D7D8C8;
+}
+/* code block line numbers */
+td.rouge-gutter {
+	font-color: $header-background;
+	text-align: right;
 }
