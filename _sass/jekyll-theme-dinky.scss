@@ -40,7 +40,9 @@ $header-background: #808080;
 /* default #232323 */
 $base-font-color: #303030;
 $code-font-color: #000000;
+$header-font-color: #505050;
 $header-line-color: #ccc;
+
 $border-radius: 4px;
 
 /* get syntax highlighting from https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_syntax.scss#L4 */
@@ -363,17 +365,17 @@ td {
 /* 2023.06.18 removed border: 1px solid #000; */
 /* 2023.06.18 changed white text (color: #FDFDFB) */
 header {
-	color: #808080;
+	font-color: $header-font-color;
   	width: 170px;
   	float: left;
   	position: fixed;
 	
-	-webkit-border-top-right-radius: 4px;
-	-webkit-border-bottom-right-radius: 4px;
-	-moz-border-radius-topright: 4px;
-	-moz-border-radius-bottomright: 4px;
-	border-top-right-radius: 4px;
-	border-bottom-right-radius: 4px;
+	-webkit-border-top-right-radius: $border-radius;
+	-webkit-border-bottom-right-radius: $border-radius;
+	-moz-border-radius-topright: $border-radius;
+	-moz-border-radius-bottomright: $border-radius;
+	border-top-right-radius: $border-radius;
+	border-bottom-right-radius: $border-radius;
 	padding: 34px 25px 22px 50px;
 	margin: 30px 25px 0 0;
 	-webkit-font-smoothing: antialiased;
@@ -397,13 +399,14 @@ p.header {
 h1.header {
 	font-family: $serif;
 	font-size: 36px;
+	font-color: $header-font-color;
 	line-height: $header-line-height;
 	border-bottom: none;
 	margin-top: 0;
 }
 
-
-h1.header, a.header, a.name, header a{
+/* removed h1.header - should not be white */
+a.header, a.name, header a{
 	color: #fff;
 }
 
@@ -436,7 +439,7 @@ header li {
   	background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
   	background: linear-gradient(to top, #AF0011 0%,#820011 100%);
 
-	border-radius: 4px;
+	border-radius: $border-radius;
   	border: 1px solid #0D0D0D;
 
 	-webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
