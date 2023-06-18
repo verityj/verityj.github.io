@@ -11,7 +11,8 @@ $base03: #546e7a !default;
 $base04: #b2ccd6 !default;
 /* $base05: #eeffff !default; */
 $base05: $code-font-color;
-$base06: #eeffff !default;
+/* $base06: #eeffff !default; */
+$base06: $code-background;
 $base07: #ffffff !default;
 $base08: #f07178 !default;
 $base09: #f78c6c !default;
@@ -33,10 +34,11 @@ figure.highlight {
   font-size: $code-font-size;
   line-height: 1.8;
 
+   /* changed padding: 1em; */
   > pre,
   pre.highlight {
     margin: 0;
-    padding: 1em;
+    padding: 0;
   }
 }
 
@@ -52,10 +54,12 @@ figure.highlight {
 
     /* line numbers*/
      /* removed border-right: 1px solid $code-font-color; */
+     /* changed padding-right: 1px; */
+     /* changed width */
     &.gutter,
     &.rouge-gutter {
-      padding-right: 1px;
-      width: 10px;
+      padding-right: 0px;
+      width: 5px;
       color: $code-font-color;
       text-align: right;
     }
@@ -64,7 +68,7 @@ figure.highlight {
      /* changed padding 1em */
     &.code,
     &.rouge-code {
-      padding-left: 1px;
+      padding-left: 0px;
     }
   }
 
