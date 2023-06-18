@@ -1,4 +1,8 @@
 @import "rouge-github";
+
+/* get syntax highlighting from https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_syntax.scss#L4 */
+@import "syntax";
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Lato:wght@400&family=Arvo:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
