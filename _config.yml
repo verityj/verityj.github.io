@@ -13,10 +13,12 @@ future: true
 # GitHub pages will publish future posts
 
 markdown: kramdown
-# kramdown:
-  # syntax_highlighter_opts:
-    # block:
-      # line_numbers: true
+
+# required for code block syntax highlighting
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 plugins:
   - jekyll-feed
