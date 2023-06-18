@@ -315,17 +315,10 @@ td.rouge-gutter {
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
-	border: 2px solid #FF0000;
 }
-td.gl {
-	padding: 0px 0px 0px 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-}
+/* later change to border: none; */
 pre.lineno {
-	border: none;
+	border: 1px solid #D7D8C8;
 }
 /* code in block */
 .code,
@@ -333,6 +326,10 @@ pre.lineno {
 	padding: 0px 0px 0px 0px;
 	background-color: $code-background;
 	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	border: 2px solid #FF0000;
 }
 /* code block table */
 table.rouge-table {
@@ -341,7 +338,8 @@ table.rouge-table {
 }
 tr {
 	padding: 0px 0px 0px 0px;
-	margin: 0px;
+	margin: 0px 0px 0px 0px;
+	border: 2px solid #FF0000;
 }
 tbody {
 	padding: 0px 0px 0px 0px;
