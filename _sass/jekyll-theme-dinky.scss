@@ -517,14 +517,17 @@ a.buttons-nostr:hover {
 
 a.about {
 	background: url(/assets/images/user.png) no-repeat -2px;
+	font-color: #fff;
 }
 
 a.list {
 	background: url(/assets/images/list.png) no-repeat -2px;
+	font-color: #fff;
 }
 
 a.github {
 	background: url(../images/octocat-small.png) no-repeat 1px;
+	font-color: #fff;
 }
 
 a.buttons:hover {
@@ -554,7 +557,7 @@ footer {
   	position: fixed;
   	bottom: 10px;
 	padding-left: 50px;
-	font-size: 10px;
+	font-size: 14px;
 	text-align: right;
 }
 
