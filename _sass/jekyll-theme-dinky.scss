@@ -288,6 +288,7 @@ pre {
 pre.highlight {
 	font-size: $code-font-size;
 	background-color: $code-block-background;
+	padding: 0px 0px 0px 0px;
 }
 
 /* inline code class */
@@ -304,14 +305,14 @@ code.highlighter-rouge {
 .rouge-gutter {
 	font-color: $header-background;
 	text-align: right;
-	padding: 0px;
+	padding: 0px 0px 0px 0px;
 	background-color: $code-background;
 	margin-bottom: 0px;
 }
 /* code in block */
 .code,
 .rouge-code {
-	padding-left: 0px;
+	padding: 0px 0px 0px 0px;
 	background-color: $code-background;
 	margin-bottom: 0px;
 }
