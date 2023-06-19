@@ -660,18 +660,24 @@ footer {
 /*	border:			$code-block-border; */
 /*	padding: 		1px 1px 1px 1px; */
 a[rel="footnote"] {
-	font-family: 		$sans-serif;
-	font-size:		$base-font-size - 1px;
+	font-family: 		$serif;
+	font-size:		$base-font-size + 2px;
 	font-weight: 		$base-font-weight-bold;
 	padding:		0px 2px 0px 2px;
 }
 
 a[rel="footnote"]:before {
-    	content: "(";
+    	content:		"(";
+	font-family: 		$sans-serif;
+	font-size:		$base-font-size;
+	font-weight: 		$base-font-weight;
 }
 
 a[rel="footnote"]:after {
-    	content: ")";
+    	content:		")";
+	font-family: 		$sans-serif;
+	font-size:		$base-font-size;
+	font-weight: 		$base-font-weight;
 }
 
 /* lighter orange background: background-color: rgb(233,116,81); */
