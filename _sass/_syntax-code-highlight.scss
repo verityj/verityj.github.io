@@ -34,7 +34,7 @@ $red:  rgb(255,0,0);
   .m     { color: $code-font-color } // Literal.Number
   .mf    { color: $code-font-color } // Literal.Number.Float
   .mh    { color: $code-font-color } // Literal.Number.Hex
-  .mi    { color: $blue } // Literal.Number.Integer - Python + Swift: number
+  .mi    { color: $code-font-color } // Literal.Number.Integer - Python + Swift: numbers
   .mo    { color: $code-font-color } // Literal.Number.Oct
   .n     { color: $code-font-color } // Python: false and other words. Swift: other words
   .na    { color: $code-font-color } // Name.Attribute
