@@ -654,42 +654,40 @@ footer {
 /* white text: color: rgb(255,255,255); */
 /* leaving as base color: color: $base-font-color; */
 /* padding: top right bottom left */
+/*	font-size:		$base-font-size + 2px; */
+/* 	font-family: 		$serif; */
 /* 	text-emphasis-style: 	'x'; */
 /* 	background-color: 	rgb(245,245,245); */
 /*	border-radius:    	$border-radius; */
 /*	border:			$code-block-border; */
 /*	padding: 		1px 1px 1px 1px; */
+
 a[rel="footnote"] {
-	font-family: 		$serif;
-	font-size:		$base-font-size + 2px;
-	font-weight: 		$base-font-weight-bold;
-	padding:		0px 2px 0px 2px;
+	font-weight:	$base-font-weight-bold;
+	padding:			0px 2px 0px 2px;
 }
 
 a[rel="footnote"]:before {
-    	content:		"(";
-	font-family: 		$sans-serif;
-	font-size:		$base-font-size;
-	font-weight: 		$base-font-weight;
+	content:			"(";
+	font-weight: 	$base-font-weight;
 }
 
 a[rel="footnote"]:after {
-    	content:		")";
-	font-family: 		$sans-serif;
-	font-size:		$base-font-size;
-	font-weight: 		$base-font-weight;
+  content:			")";
+	font-weight:	$base-font-weight;
 }
 
 /* lighter orange background: background-color: rgb(233,116,81); */
 a[rel="footnote"]:hover {
-	text-decoration: 	none;
+	text-decoration:	none;
+	background-color: rgb(247,247,247);
 }
 
 /* bottom footnote arrow back to main text */
 a[rev="footnote"]:hover {
 	text-decoration: 	none;
-	background-color: 	rgb(245,245,245);
-	border-radius:    	$border-radius;
+	background-color:	rgb(245,245,245);
+	border-radius:		$border-radius;
 }
 
 /* From https://github.com/poole/hyde/blob/7c7f7550898e081264d255ef429a134fb00c72a8/public/css/poole.css#L26
