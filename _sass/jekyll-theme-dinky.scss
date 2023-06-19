@@ -656,7 +656,6 @@ footer {
 a[rel="footnote"] {
 	font-family: $sans-serif;
 	font-weight: $base-font-weight-bold;
-	vertical-align: super;
 	font-size: $base-font-size - 2px;
 	line-height: $base-line-height;
 	position: relative;
@@ -673,8 +672,8 @@ a[rel="footnote"]:after {
 
 /* lighter orange background: background-color: rgb(233,116,81); */
 a[rel="footnote"]:hover {
-	text-decoration: none;
-	vertical-align: normal;
+	position: relative;
+	top: 0px;
 	font-size: $base-font-size;
 }
 
