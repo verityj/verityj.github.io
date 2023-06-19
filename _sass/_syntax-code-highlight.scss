@@ -25,7 +25,7 @@ $gray:     #A9A9A9;
     .gu    { color: $code-font-color } // Generic.Subheading
     .gt    { color: $code-font-color } // Generic.Traceback
     .il    { color: $code-font-color } // Literal.Number.Integer.Long
-    .k     { color: $code-font-color }    // mano: keyword
+    .k     { color: $code-font-color; font-weight: normal } // mano: keyword
     .kc    { color: $code-font-color } // Keyword.Constant
     .kd    { color: $code-font-color } // Keyword.Declaration
     .kp    { color: $code-font-color } // Keyword.Pseudo
@@ -68,8 +68,8 @@ $gray:     #A9A9A9;
     .w     { color: $code-font-color } // Text.Whitespace
 }
 // From https://github.com/jekyll/minima/blob/2863624b903b17f838d6ce8d2f77900fa9d3c864/_sass/minima/skins/auto.scss#L142
-// example: font-weight: bold
-// example: color: #900; font-weight: bold
+// example: font-weight: normal
+// example: color: #900; font-weight: normal
 // example: color: #000; background-color: #dfd
-// example: color: #999988; font-style: italic
+// example: color: #999988; font-style: normal
 // example: color: #999999; font-weight: bold; font-style: italic
