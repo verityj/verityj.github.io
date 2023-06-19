@@ -47,8 +47,8 @@ $gray:     #A9A9A9;
     .nn    { color: $code-font-color } // Name.Namespace
     .nt    { color: $code-font-color } // Name.Tag
     .nv    { color: $code-font-color } // Name.Variable
-    .o     { color: $code-font-color; font-style: normal } // mano: python operator
-    .p     { color: $code-font-color; font-style: normal } // mano: python parenthesis
+    .o     { color: $code-font-color; font-weight: normal } // mano: python operator
+    .p     { color: $code-font-color; font-weight: normal } // mano: python parenthesis
     .ow    { color: $code-font-color } // Operator.Word
     .s     { color: $code-font-color } // Literal.String
     .s1    { color: $code-font-color } // Literal.String.Single
