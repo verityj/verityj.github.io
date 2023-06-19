@@ -654,6 +654,7 @@ footer {
 /* leaving as base color: color: $base-font-color; */
 a[rel="footnote"] {
 	font-family: $serif;
+	font-weight: $base-font-weight-bold;
 }
 
 a[rel="footnote"]:before {
