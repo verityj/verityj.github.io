@@ -654,22 +654,22 @@ footer {
 /* white text: color: rgb(255,255,255); */
 /* leaving as base color: color: $base-font-color; */
 /* text-emphasis-style: 'x'; */
+/* font-weight: $base-font-weight-bold; */
 a[rel="footnote"] {
 	font-family: 		$sans-serif;
-	font-weight: 		$base-font-weight-bold;
-	background-color: 	rgb(231,231,231);
+	background-color: 	rgb(245,245,245);
 	border-radius:    	$border-radius;
 	border:			$code-block-border;
-	padding: 		2px 2px 2px 2px;
+	padding: 		1px 1px 1px 1px;
 	
 }
 
 a[rel="footnote"]:before {
-    	content: " ";
+    	content: "(";
 }
 
 a[rel="footnote"]:after {
-    	content: " ";
+    	content: ")";
 }
 
 /* lighter orange background: background-color: rgb(233,116,81); */
@@ -680,7 +680,7 @@ a[rel="footnote"]:hover {
 /* bottom footnote arrow back to main text */
 a[rev="footnote"]:hover {
 	text-decoration: 	none;
-	background-color: 	rgb(231,231,231);
+	background-color: 	rgb(245,245,245);
 	border-radius:    	$border-radius;
 }
 
