@@ -6,7 +6,7 @@ date: 2023-06-08
 
 There are a lot of possibilities to create useful and simple keyboard shortcuts with [Karabiner Elements](https://karabiner-elements.pqrs.org). Here are a few examples that I had fun setting up and using.
 
-**Update**: I ended up uninstalling Karabiner when I figured that I could do the functions I wanted without it. I like not relying on software to take over my computer and prefer to do the system setup myself. Then I know and understand what I am changing and how and how to undo anything. No bugs, no kernel panics. Examples: [Newer post about the Eject button assignments] and [How else to make my keyboard my own].
+**Update**: I ended up uninstalling Karabiner when I figured that I could do the functions I wanted without it. I like not relying on software to take over my computer and prefer to do the system setup myself. Then I know and understand what I am changing and how and how to undo anything. No bugs, no kernel panics. Examples: [Newer post about the Eject key assignments] and [How else to make my keyboard my own].
 
 [Newer post about the Eject key assignments]: {% post_url 2023-06-17-eject %}
 [How else to make my keyboard my own]: {% post_url 2023-06-14-keys %}
@@ -68,6 +68,6 @@ Personally, I am frequently deleting text after using the arrow keys to position
 
 ## Further reading
 
-[Newer post about the Eject button assignments] - human interface device (HID) utility for modifying the regular keyboard keys as well as the consumer one shot control (OSC) keys.
+[Newer post about the Eject key assignments] - human interface device (HID) utility for modifying the regular keyboard keys as well as the consumer one shot control (OSC) keys.
 
 [How else to make my keyboard my own] - user key bindings.
