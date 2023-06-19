@@ -38,6 +38,7 @@ $header-line-height: 1.2;
 $base-background: #FBFAF7;
 $code-background: #FFFFFF;
 $code-block-background: $code-background;
+$code-block-border: 1px solid #D7D8C8;
 $header-background: #808080;
 
 /* default #232323 */
@@ -282,7 +283,7 @@ code, pre {
 pre {
 	padding: 4px 12px;
   	border-radius: $border-radius;
-  	border: 1px solid #D7D8C8;
+  	border: $code-block-border;
   	overflow: auto;
   	overflow-y: hidden;
 	margin-bottom: 30px;
@@ -656,8 +657,10 @@ footer {
 a[rel="footnote"] {
 	font-family: 		$sans-serif;
 	font-weight: 		$base-font-weight-bold;
-	background-color: 	#f5f5f5;
+	background-color: 	rgb(231,231,231);
 	border-radius:    	$border-radius;
+	border:			$code-block-border;
+	padding: 		2px 2px 2px 2px;
 	
 }
 
@@ -672,13 +675,12 @@ a[rel="footnote"]:after {
 /* lighter orange background: background-color: rgb(233,116,81); */
 a[rel="footnote"]:hover {
 	text-decoration: 	none;
-	text-emphasis-style: 	'-';
 }
 
 /* bottom footnote arrow back to main text */
 a[rev="footnote"]:hover {
 	text-decoration: 	none;
-	background-color: 	#f5f5f5;
+	background-color: 	rgb(231,231,231);
 	border-radius:    	$border-radius;
 }
 
