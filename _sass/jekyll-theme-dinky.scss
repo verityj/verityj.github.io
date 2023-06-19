@@ -656,7 +656,7 @@ footer {
 a[rel="footnote"] {
 	font-family: $sans-serif;
 	font-weight: $base-font-weight-bold;
-	font-size: $base-font-size - 2px;
+	font-size: $base-font-size;
 	line-height: $base-line-height - 2px;
 	position: relative;
 	top: -2px;
@@ -664,30 +664,16 @@ a[rel="footnote"] {
 
 a[rel="footnote"]:before {
     	content: "(";
-	font-family: $sans-serif;
-	font-weight: $base-font-weight-bold;
-	font-size: $base-font-size - 2px;
-	line-height: $base-line-height - 2px;
-	position: relative;
-	top: -2px;
 }
 
 a[rel="footnote"]:after {
     	content: ")";
-	font-family: $sans-serif;
-	font-weight: $base-font-weight-bold;
-	font-size: $base-font-size - 2px;
-	line-height: $base-line-height - 2px;
-	position: relative;
-	top: -2px;
 }
 
 /* lighter orange background: background-color: rgb(233,116,81); */
 a[rel="footnote"]:hover {
-	font-size: $base-font-size - 2px;
-	line-height: $base-line-height;
-	position: relative;
-	top: 0;
+	text-decoration: none;
+	text-emphasis-style: '*';
 }
 
 /* From https://github.com/poole/hyde/blob/7c7f7550898e081264d255ef429a134fb00c72a8/public/css/poole.css#L26
