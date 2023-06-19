@@ -649,26 +649,23 @@ footer {
  * FOOTNOTE
  ***********/
 
-/* burnt orange background */
-/* white text */
+/* burnt orange background: background-color: rgb(204,85,0); */
+/* white text: color: rgb(255,255,255); */
+/* leaving as base color: color: $base-font-color; */
 a[rel="footnote"] {
-	border-bottom: none;
-    	background-color: rgb(204,85,0);
-	color: rgb(255,255,255);
-    	line-height: 0;
+	font-family: $serif;
 }
 
 a[rel="footnote"]:before {
-    	content: "(";
+    	content: " (";
 }
 
 a[rel="footnote"]:after {
-    	content: ")";
+    	content: ") ";
 }
 
-/* lighter orange background */
+/* lighter orange background: background-color: rgb(233,116,81); */
 a[rel="footnote"]:hover {
-    	background-color: rgb(233,116,81);
 	text-decoration: none;
 }
 
