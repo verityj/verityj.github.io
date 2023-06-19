@@ -30,7 +30,7 @@ $red:  rgb(255,0,0);
   .kn    { font-weight: normal } // Python (import)
   .kp    { color: $code-font-color } // Keyword.Pseudo
   .kr    { color: $code-font-color } // Keyword.Reserved
-  .kt    { color: $code-font-color } // Keyword.Type
+  .kt    { color: $code-font-color; font-weight: normal } // Keyword.Type Swift: bold
   .m     { color: $code-font-color } // Literal.Number
   .mf    { color: $code-font-color } // Literal.Number.Float
   .mh    { color: $code-font-color } // Literal.Number.Hex
