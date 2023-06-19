@@ -6,7 +6,7 @@ $red:  rgb(255,0,0);
   .bp    { color: $code-font-color } // Name.Builtin.Pseudo
   .c     { color: $gray; font-style: normal } // Comment
   .c1    { color: $gray; font-style: normal } // Python: comment
-  .cp    { color: $gray; font-style: normal; font-family: $code-font-family } // Swift: comment
+  .cp    { color: $gray; font-style: normal; font-weight: normal; font-family: $code-font-family } // Swift: comment
   .cm    { color: $gray } // Comment.Multiline
   .cp    { color: $gray } // Comment.Preproc
   .cs    { color: $gray } // Comment.Special
@@ -25,8 +25,8 @@ $red:  rgb(255,0,0);
   .gt    { color: $code-font-color } // Generic.Traceback
   .il    { color: $code-font-color } // Literal.Number.Integer.Long
   .k     { color: $code-font-color; font-weight: normal } // mano: if, else, for
-  .kc    { color: $blue } // Keyword.Constant - Swift: true, false
-  .kd    { color: $code-font-color } // Keyword.Declaration
+  .kc    { color: $blue; font-weight: normal } // Keyword.Constant - Swift: true, false
+  .kd    { color: $code-font-color; font-weight: normal } // Keyword.Declaration
   .kn    { font-weight: normal } // Python (import)
   .kp    { color: $code-font-color } // Keyword.Pseudo
   .kr    { color: $code-font-color } // Keyword.Reserved
