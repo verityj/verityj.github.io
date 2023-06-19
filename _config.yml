@@ -28,7 +28,7 @@ kramdown:
   # span, block element options fall back to global
   syntax_highlighter_opts:
     # Rouge Options › https://github.com/jneen/rouge#full-options
-    default_lang: 'shell' # plaintext does nothing https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
+    default_lang: 'markdown' # plaintext does nothing https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
     css_class: 'highlight'
     #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
     span:
