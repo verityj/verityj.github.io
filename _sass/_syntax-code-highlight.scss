@@ -3,7 +3,7 @@ $gray:     #A9A9A9;
 
 .highlight {
     .c     { color: $gray; font-style: normal } // Comment
-    .c1    { color: $gray; font-style: normal } // mano: comment in markdown
+    .c1    { color: $gray; font-style: normal } // mano: comment in python
     .err   { color: $code-font-color; background-color: $code-block-background } // Error
     .k     { color: $code-font-color } // Keyword
     .o     { font-weight: bold } // Operator
@@ -30,11 +30,11 @@ $gray:     #A9A9A9;
     .kr    { font-weight: bold } // Keyword.Reserved
     .kt    { color: #458; font-weight: bold } // Keyword.Type
     .m     { color: #099 } // Literal.Number
-    .mi    { color: $blue }    // mano: markdown - numbers
+    .mi    { color: $blue }    // mano: python - numbers
     .s     { color: $blue } // Literal.String
     .s1    { color: $code-font-color }    // mano: string
     .s2    { color: $code-font-color }    // mano: string
-    .n     { color: $blue } // mano: markdown number?
+    .n     { color: $code-font-color } // mano: python main text
     .na    { color: $code-font-color } // Name.Attribute
     .nb    { color: $code-font-color } // Name.Builtin - mano (blue? for "true, date, grep, times, float, min" )
     .nc    { color: $code-font-color; font-weight: bold } // Name.Class
