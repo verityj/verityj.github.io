@@ -645,6 +645,25 @@ footer {
   	}
 }
 
+/***********
+ * FOOTNOTE
+ ***********/
+
+a[rel="footnote"] {
+	border-bottom: none;
+    	background-color: rgb(204, 85, 0);
+	font-color: rgb(192, 192, 192);
+    	line-height: 0;
+}
+
+a[rel="footnote"]:before {
+    	content: "[Ref ";
+}
+
+a[rel="footnote"]:after {
+    	content: "]";
+}
+
 /* From https://github.com/poole/hyde/blob/7c7f7550898e081264d255ef429a134fb00c72a8/public/css/poole.css#L26
  * 
  * PAGINATION
