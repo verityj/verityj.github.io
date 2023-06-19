@@ -660,6 +660,7 @@ a[rel="footnote"] {
 	font-size: $base-font-size - 2px;
 	line-height: $base-line-height;
 	position: relative;
+	top: -2px;
 }
 
 a[rel="footnote"]:before {
