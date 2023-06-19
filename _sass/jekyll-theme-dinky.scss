@@ -48,7 +48,7 @@ $header-line-color: #ccc;
 
 $border-radius: 4px;
 
-@import	"syntax-code-highlight", // Hook to add code highlighting. After global definitions above
+@import	"syntax-code-highlight"; // Hook to add code highlighting. After global definitions above
 
 /* get syntax highlighting from https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_syntax.scss#L4 */
 /* @import "syntax"; */
