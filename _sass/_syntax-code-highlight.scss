@@ -6,7 +6,7 @@ $red:  rgb(255,0,0);
   .bp    { color: $code-font-color } // Name.Builtin.Pseudo
   .c     { color: $gray; font-style: normal } // Comment
   .c1    { color: $gray; font-style: normal } // Python: comment
-  .cp    { color: $gray; font-style: normal, font-family: $code-font-family } // Swift: comment
+  .cp    { color: $gray; font-style: normal; font-family: $code-font-family } // Swift: comment
   .cm    { color: $gray } // Comment.Multiline
   .cp    { color: $gray } // Comment.Preproc
   .cs    { color: $gray } // Comment.Special
