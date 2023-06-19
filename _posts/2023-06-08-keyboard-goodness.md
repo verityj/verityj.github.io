@@ -1,10 +1,15 @@
 ---
 layout: post
-title: Keyboard goodness with Karabiner (or others)
+title: Keyboard goodness with Karabiner (or not)
 date: 2023-06-08
 ---
 
 There are a lot of possibilities to create useful and simple keyboard shortcuts with [Karabiner Elements](https://karabiner-elements.pqrs.org). Here are a few examples that I had fun setting up and using.
+
+**Update**: I ended up uninstalling Karabiner when I figured that I could do the functions I wanted without it. I like not relying on software to take over my computer and prefer to do the system setup myself. Then I know and understand what I am changing and how and how to undo anything. No bugs, no kernel panics. Examples: [Newer post about the Eject button assignments] and [How else to make my keyboard my own].
+
+[Newer post about the Eject key assignments]: {% post_url 2023-06-17-eject %}
+[How else to make my keyboard my own]: {% post_url 2023-06-14-keys %}
 
 ## 1. Paste without formatting ("Paste and Match Style")
 
@@ -53,10 +58,16 @@ Caution: some shortcuts may be set but won't work. If that is the case, try some
 
 ## 3. Perhaps a bit peculiar: right option key as Delete
 
-Personally, I am frequently deleting text after using the arrow keys to position and adjust the cursor. The hand is on the arrow keys and the right side `option` is already right there. So with a `"Simple Modifications"` menu I changed that to `"forward_delete"` just like the `"Eject"` button [covered previously]({% post_url 2023-06-07-eject-button%}).
+Personally, I am frequently deleting text after using the arrow keys to position and adjust the cursor. The hand is on the arrow keys and the right side `option` is already right there. So with a `"Simple Modifications"` menu I changed that to `"forward_delete"` just like the `"Eject"` button [covered previously]({% post_url 2023-06-07-eject-button%}). Or: a [Newer post about the Eject button assignments].
 
 <img class="centered" width="90%;" src="/assets/images/karabiner2.png" />
 
 <h5 />
 
 <img class="centered" width="90%;" src="/assets/images/karabiner1a.png" />
+
+## Further reading
+
+[Newer post about the Eject button assignments] - human interface device (HID) utility for modifying the regular keyboard keys as well as the consumer one shot control (OSC) keys.
+
+[How else to make my keyboard my own] - user key bindings.
