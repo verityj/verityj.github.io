@@ -2,6 +2,7 @@ $blue:     #0000FF;
 $gray:     #A9A9A9;
 
 .highlight {
+    .bp    { color: $code-font-color } // Name.Builtin.Pseudo
     .c     { color: $gray; font-style: normal } // Comment
     .c1    { color: $gray; font-style: normal } // mano: comment in python
     .err   { color: $code-font-color; background-color: $code-block-background } // Error
@@ -23,6 +24,7 @@ $gray:     #A9A9A9;
     .gs    { color: $code-font-color } // Generic.Strong
     .gu    { color: $code-font-color } // Generic.Subheading
     .gt    { color: $code-font-color } // Generic.Traceback
+    .il    { color: $code-font-color } // Literal.Number.Integer.Long
     .k     { color: $code-font-color }    // mano: keyword
     .kc    { color: $code-font-color } // Keyword.Constant
     .kd    { color: $code-font-color } // Keyword.Declaration
@@ -30,10 +32,10 @@ $gray:     #A9A9A9;
     .kr    { color: $code-font-color } // Keyword.Reserved
     .kt    { color: $code-font-color } // Keyword.Type
     .m     { color: $code-font-color } // Literal.Number
-    .mi    { color: $blue } // mano: python - numbers
-    .s     { color: $blue } // Literal.String
-    .s1    { color: $code-font-color }    // mano: string
-    .s2    { color: $code-font-color }    // mano: string
+    .mf    { color: $code-font-color } // Literal.Number.Float
+    .mh    { color: $code-font-color } // Literal.Number.Hex
+    .mi    { color: $blue } // Literal.Number.Integer - python number
+    .mo    { color: $code-font-color } // Literal.Number.Oct
     .n     { color: $code-font-color } // mano: python main text
     .na    { color: $code-font-color } // Name.Attribute
     .nb    { color: $code-font-color } // Name.Builtin - mano (blue? for "true, date, grep, times, float, min" )
@@ -45,30 +47,25 @@ $gray:     #A9A9A9;
     .nn    { color: $code-font-color } // Name.Namespace
     .nt    { color: $code-font-color } // Name.Tag
     .nv    { color: $code-font-color } // Name.Variable
-    .o     { color: $code-font-color }    // mano: operator
-    .p     { color: $code-font-color }        // mano: parenthesis
+    .o     { color: $code-font-color; font-style: normal } // mano: python operator
+    .p     { color: $code-font-color; font-style: normal } // mano: python parenthesis
     .ow    { color: $code-font-color } // Operator.Word
-    .w     { color: $code-font-color } // Text.Whitespace
-    .mf    { color: $code-font-color } // Literal.Number.Float
-    .mh    { color: $code-font-color } // Literal.Number.Hex
-    .mi    { color: $blue } // Literal.Number.Integer - python number
-    .mo    { color: $code-font-color } // Literal.Number.Oct
+    .s     { color: $code-font-color } // Literal.String
+    .s1    { color: $code-font-color } // Literal.String.Single
+    .s2    { color: $code-font-color } // Literal.String.Double
     .sb    { color: $code-font-color } // Literal.String.Backtick
     .sc    { color: $code-font-color } // Literal.String.Char
     .sd    { color: $code-font-color } // Literal.String.Doc
-    .s2    { color: $code-font-color } // Literal.String.Double
     .se    { color: $code-font-color } // Literal.String.Escape
     .sh    { color: $code-font-color } // Literal.String.Heredoc
     .si    { color: $code-font-color } // Literal.String.Interpol
     .sx    { color: $code-font-color } // Literal.String.Other
     .sr    { color: $code-font-color } // Literal.String.Regex
-    .s1    { color: $code-font-color } // Literal.String.Single
     .ss    { color: $code-font-color } // Literal.String.Symbol
-    .bp    { color: $code-font-color } // Name.Builtin.Pseudo
     .vc    { color: $code-font-color } // Name.Variable.Class
     .vg    { color: $code-font-color } // Name.Variable.Global
     .vi    { color: $code-font-color } // Name.Variable.Instance
-    .il    { color: $code-font-color } // Literal.Number.Integer.Long
+    .w     { color: $code-font-color } // Text.Whitespace
 }
 // From https://github.com/jekyll/minima/blob/2863624b903b17f838d6ce8d2f77900fa9d3c864/_sass/minima/skins/auto.scss#L142
 // example: font-weight: bold
