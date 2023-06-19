@@ -7,16 +7,15 @@ theme: jekyll-theme-dinky
 timezone: "America/New_York"
 date_format: "%Y.%m.%d"
 
-paginate: 3
+paginate: 5
 show_excerpts: true
-future: true
-# GitHub pages will publish future posts
+future: true # GitHub pages will publish future posts
 
-# from https://github.com/jekyll/jekyll/issues/4619#issuecomment-191267346
+  # from https://github.com/jekyll/jekyll/issues/4619#issuecomment-191267346
 markdown: kramdown
 # !github-pages! mandatory › https://help.github.com/articles/using-jekyll-with-pages/#configuration-settings-you-cannot-change
 # Since Jekyll 3 the default highlighter is Rouge (replaced Pygments.rb in v44)
-highlighter: rouge
+# highlighter: rouge
 
 # More › http://kramdown.gettalong.org/quickref.html
 # Options › http://kramdown.gettalong.org/options.html
