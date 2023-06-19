@@ -659,6 +659,7 @@ a[rel="footnote"] {
 	vertical-align: super;
 	font-size: $base-font-size - 2px;
 	line-height: $base-line-height;
+	position: relative;
 }
 
 a[rel="footnote"]:before {
