@@ -1,5 +1,5 @@
 .highlight {
-    .c     { color: #998; font-style: italic } // Comment
+    .c     { color: #A9A9A9 } // Comment - mano
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
     .k     { font-weight: bold } // Keyword
     .o     { font-weight: bold } // Operator
@@ -27,7 +27,7 @@
     .m     { color: #099 } // Literal.Number
     .s     { color: #d14 } // Literal.String
     .na    { color: #008080 } // Name.Attribute
-    .nb    { color: #0086B3 } // Name.Builtin
+    .nb    { color: #0000FF } // Name.Builtin - mano (numbers: blue)
     .nc    { color: #458; font-weight: bold } // Name.Class
     .no    { color: #008080 } // Name.Constant
     .ni    { color: #800080 } // Name.Entity
@@ -59,3 +59,4 @@
     .vi    { color: #008080 } // Name.Variable.Instance
     .il    { color: #099 } // Literal.Number.Integer.Long
 }
+// From https://github.com/jekyll/minima/blob/2863624b903b17f838d6ce8d2f77900fa9d3c864/_sass/minima/skins/auto.scss#L142
