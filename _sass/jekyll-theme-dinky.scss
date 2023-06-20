@@ -723,12 +723,12 @@ a[rev="footnote"]:hover {
   padding: 5px 5px 5px 5px;
   float: left;
   max-width: $section-width / 3;
-  width: 32%;
+  width: 32% + 40px;
   min-width: 30px;
 }
 /* "Current page" does not need much space */
 .pagination-item:nth-child(2) {
-  width: auto;
+  width: 40px;
   border: 1px solid red;
 }
 
