@@ -3,7 +3,7 @@ layout: base
 ---
 
 <div class="post">
-  <h2 class="post-title">{{ page.title }}</h2>
+  <h2 class="post-title">{{ page.title | escape }}</h2>
   <h6>
     <span>
       {{ page.date | date: site.date_format }} &nbsp; &bull; &nbsp;
