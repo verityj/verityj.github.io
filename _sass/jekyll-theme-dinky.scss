@@ -720,8 +720,8 @@ a[rev="footnote"]:hover {
 /* total displayed width = border.box (defined on top) */
 .pagination-item {
   display: block;
-	padding: 5px 5px 5px 5px;
-	float: left;
+  padding: 5px 5px 5px 5px;
+  float: left;
 	max-width: $section-width / 3;
   width: 32%;
   min-width: 30px;
@@ -729,6 +729,7 @@ a[rev="footnote"]:hover {
 /* "Current page" does not need much space */
 .pagination-item:second-child {
   width: auto;
+  border: 1px solid red;
 }
 
 /* Only provide a hover state for linked pagination items */
