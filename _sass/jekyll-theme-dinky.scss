@@ -726,6 +726,10 @@ a[rev="footnote"]:hover {
   width: 32%;
   min-width: 30px;
 }
+/* "Current page" does not need much space */
+.pagination-item:second-child {
+  width: auto;
+}
 
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
