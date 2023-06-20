@@ -590,8 +590,9 @@ footer {
 		margin: 0 84px 0 50px;
 		padding: 0;
 	}
+  /* padding-right: 320px; */
   header {
-    padding-right: 320px;
+    padding-right: 200px;
   }
   section {
     padding: 20px 84px 20px 50px;
@@ -600,10 +601,11 @@ footer {
   header a small {
     display:inline;
   }
+  /* top: 84px; */
   header ul {
     position:absolute;
-    right:130px;
-    top:84px;
+    right: 130px;
+    top: 30px;
   }
 }
 
