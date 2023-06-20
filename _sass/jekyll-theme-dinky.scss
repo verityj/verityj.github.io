@@ -723,12 +723,12 @@ a[rev="footnote"]:hover {
   padding: 5px 5px 5px 5px;
   float: left;
   max-width: $section-width / 3;
-  width: 32% + 40px;
+  width: 40%;
   min-width: 30px;
 }
 /* "Current page" does not need much space */
 .pagination-item:nth-child(2) {
-  width: 40px;
+  width: 20%;
   border: 1px solid red;
 }
 
@@ -751,15 +751,3 @@ a.pagination-item:hover {
     border-bottom-right-radius: $border-radius;
   }
 }
-
-/*
-@media print, screen and (max-width: $section-width + $side-width) {
-  .pagination-item {
-    display: block;
-    float: left;
-    position: relative;
-    max-width: $section-width / 3;
-    border: 1px solid green;
-  }
-}
-*/
