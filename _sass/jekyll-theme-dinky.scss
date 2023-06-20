@@ -566,29 +566,34 @@ section {
 /* default padding-left: 50px; */
 /* 2023.06.18 added font-size */
 footer {
-  	width: $side-width;
-  	float: left;
-  	position: fixed;
-  	bottom: 10px;
-	padding-left: 50px;
+  width: $side-width;
+  float: left;
+  position: fixed;
+  bottom: 10px;
+	padding-left: 20px;
 	font-size: 14px;
-	text-align: right;
+	text-align: left;
 }
 
 /* original max-width: 960px; */
+/* note on padding: top right bottom left */
+/* 2023.06.20 what if I add pagination line 589 */
 @media print, screen and (max-width: $section-width + $side-width) {
   div.wrapper {
     width: auto;
     margin: 0;
   }
-	header, section, footer {
+	header, 
+  section, 
+  footer,
+  .pagination {
     float: none;
     position: static;
     width: auto;
   }
   footer {
 		border-top: 1px solid $header-line-color;
-		margin: 0 84px 0 50px;
+		margin: 0 50px 0 50px;
 		padding: 0;
 	}
   /* padding-right: 320px; */
@@ -596,17 +601,17 @@ footer {
     padding-right: 200px;
   }
   section {
-    padding: 20px 84px 20px 50px;
-    margin: 0 0 20px;
+    padding: 20px 50px 20px 50px;
+    margin: 0 0 20px 0;
   }
   header a small {
-    display:inline;
+    display: inline;
   }
-  /* top: 84px; */
+  /* top: 84px; right: 130px; top: 30px; */
   header ul {
     position:absolute;
-    right: 130px;
-    top: 30px;
+    right: 100px;
+    top: 20px;
   }
 }
 
