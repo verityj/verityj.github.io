@@ -709,8 +709,10 @@ a[rev="footnote"]:hover {
 /* Pagination items can be `span`s or `a`s */
 .pagination-item {
   	display: block;
-	min-width: 100px;
+	min-width: 50px;
 	padding: 5px 5px 5px 5px;
+	float: left;
+	width: $section-width / 3 - 3px;
 }
 .pagination-item:first-child {
   	margin-bottom: 0;
@@ -725,8 +727,6 @@ a.pagination-item:hover {
   	.pagination {
   	}
   	.pagination-item {
-    		float: left;
-    		width: $section-width / 3 - 2px;
   	}
   	.pagination-item:first-child {
     		border-top-left-radius:    $border-radius;
