@@ -48,7 +48,8 @@ $header-font-color: #505050;
 $header-line-color: #ccc;
 
 $border-radius: 4px;
-$section-width: 700px;
+$section-width: 650px;
+$side-width: 200px;
 
 @import	"syntax-code-highlight"; // Hook to add code highlighting. After global definitions above
 
@@ -352,7 +353,7 @@ td {
 
 /* Wrapper */
 .wrapper {
-	width: 1000px;
+	width: 960px;
 }
 
 /********
@@ -372,7 +373,7 @@ td {
 /* original: width: 170px; */
 header {
 	font-color: $header-font-color;
-  	width: 200px;
+  	width: $side-width;
   	float: left;
   	position: fixed;
 	
@@ -383,7 +384,7 @@ header {
 	border-top-right-radius: $border-radius;
 	border-bottom-right-radius: $border-radius;
 	padding: 20px 20px 20px 20px;
-	margin: 10px 0 10px 0;
+	margin: 30px 10 10px 0;
 	-webkit-font-smoothing: antialiased;
 
 	background: rgb(128,128,128);
@@ -570,7 +571,7 @@ section {
 /* default padding-left: 50px; */
 /* 2023.06.18 added font-size */
 footer {
-  	width: 170px;
+  	width: $side-width;
   	float: left;
   	position: fixed;
   	bottom: 10px;
@@ -734,7 +735,7 @@ a.pagination-item:hover {
   	}
   	.pagination-item {
     		float: left;
-    		width: 30%;
+    		width: 25%;
   	}
   	.pagination-item:first-child {
     		margin-bottom: 0;
