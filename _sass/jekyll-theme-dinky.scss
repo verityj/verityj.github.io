@@ -1,7 +1,7 @@
 @import
-	"rouge-github",
-	url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap'),
-	url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700');
+  "rouge-github",
+  url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap'),
+  url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700');
 
 /* follow https://developers.google.com/fonts/docs/css2
  * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:500');
@@ -416,7 +416,6 @@ h1.header {
   font-weight: $base-font-weight-bold;
   line-height: $header-line-height;
   border-bottom: none;
-  margin-top: 0;
 }
 
 /* removed h1.header - should not be white
@@ -429,7 +428,6 @@ h1.header {
 /* Header title color setting */
 /* removed to keep link default red: color: $header-font-color; */
 header a {
-	font-weight: $base-font-weight-bold;
   color: $header-font-color;
 }
 header a:hover {
@@ -554,7 +552,7 @@ a.buttons:hover {
 section {
   width: $section-width;
   float: right;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   padding-left: 50px;
 }
 
