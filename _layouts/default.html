@@ -58,7 +58,7 @@ title: A spark of a thought
             <div class="pagination-item older">•</div>
           {%- endif %}
           
-          <div class="pagination-item">Current page {{ paginator.page }}</div>
+          <div class="pagination-item">Page {{ paginator.page }}</div>
           
           {%- if paginator.next_page %}
             <a class="pagination-item newer" href="{{ paginator.next_page_path | relative_url }}">Next (page {{ paginator.next_page }})</a>
