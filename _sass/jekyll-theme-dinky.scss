@@ -723,6 +723,7 @@ a[rev="footnote"]:hover {
 	padding: 5px 5px 5px 5px;
 	float: left;
 	max-width: $section-width / 3;
+  width: 32%;
   min-width: 30px;
 }
 
@@ -735,7 +736,6 @@ a.pagination-item:hover {
   .pagination {
   }
   .pagination-item {
-	  max-width: $section-width / 3;
   }
   .pagination-item:first-child {
     border-top-left-radius:    $border-radius;
@@ -758,16 +758,3 @@ a.pagination-item:hover {
   }
 }
 */
-
-/* split up in narrow widths */
-/* float: none; */
-@media print, screen and (max-width: 100px) {
-  .pagination-item {
-    display: block;
-    float: left;
-    position: relative;
-    max-width: 33px;
-    min-width: 10px;
-    border: 1px solid red;
-  }
-}
