@@ -573,8 +573,11 @@ footer {
 	text-align: left;
 }
 
+/*****************
+  SMALLER SCREENS
+ *****************/
+
 /* original max-width: 960px; */
-/* note on padding: top right bottom left */
 /* 2023.06.20 what if I add pagination line 589 */
 @media print, screen and (max-width: $section-width + $side-width) {
   div.wrapper {
@@ -590,14 +593,14 @@ footer {
     width: auto;
   }
   footer {
-		border-top: 1px solid $header-line-color;
-		margin: 0 50px 0 50px;
-		padding: 0;
+    border-top: 1px solid $header-line-color;
+    margin: 0 50px 0 50px;
+    padding: 0;
 	}
   /* leave space for buttons on the right */
   header {
     padding-right: 220px;
-    padding-top: 30px;
+    padding-top: 0px;
   }
   section {
     padding: 20px 50px 20px 50px;
