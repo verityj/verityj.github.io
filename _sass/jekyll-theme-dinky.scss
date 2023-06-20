@@ -382,6 +382,7 @@ td {
 /* original: padding: 34px 25px 22px 50px; */
 /* original: margin: 30px 25px 0 0; */
 /* original: width: 170px; */
+/* margin top moves the gray box down */
 header {
   font-color: $header-font-color;
   background: $header-background;
@@ -396,7 +397,7 @@ header {
   border-top-right-radius: $border-radius;
   border-bottom-right-radius: $border-radius;
   padding: 0px 20px 20px 20px;
-  margin: 10px 10px 10px 0px;
+  margin: 30px 10px 10px 0px;
   -webkit-font-smoothing: antialiased;
 }
 
