@@ -365,6 +365,9 @@ td {
 /* start color is $header-background */
 /* 2023.06.18 removed border: 1px solid #000; */
 /* 2023.06.18 changed white text (color: #FDFDFB) */
+/* note on padding: top right bottom left */
+/* original: padding: 34px 25px 22px 50px; */
+/* original: margin: 30px 25px 0 0; */
 header {
 	font-color: $header-font-color;
   	width: 170px;
@@ -377,8 +380,8 @@ header {
 	-moz-border-radius-bottomright: $border-radius;
 	border-top-right-radius: $border-radius;
 	border-bottom-right-radius: $border-radius;
-	padding: 34px 25px 22px 50px;
-	margin: 30px 25px 0 0;
+	padding: 20px 20px 20px 20px;
+	margin: 10px 0 10px 0;
 	-webkit-font-smoothing: antialiased;
 
 	background: rgb(128,128,128);
