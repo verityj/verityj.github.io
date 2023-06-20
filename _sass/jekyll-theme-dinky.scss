@@ -69,11 +69,11 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  	margin: 0;
-  	padding: 0;
-  	border: 0;
-  	font: inherit;
-  	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* width will include padding and border */
@@ -103,16 +103,19 @@ body {
 
 h1, h2, h3, h4, h5 {
   color: #232323;
-  margin: 30px 0 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 h6 {
   color: #232323;
-  margin: 10px 0 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 p, ul, ol, table, dl {
-  margin: 10px 0 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* 2023.06.16 added 'Cormorant Garamond' */
@@ -279,7 +282,7 @@ p img, .emoji {
 /* 2023.06.17 removed background-color: $code-background; */
 code, pre {
 	font-family: $code-font-family;
-  	font-color: $code-font-color;
+  font-color: $code-font-color;
 }
 
 /* original: background: #FDFEFB; */
@@ -288,11 +291,11 @@ code, pre {
 /* 2023.06.17 added display: block; */
 pre {
 	padding: 4px 12px;
-  	border-radius: $border-radius;
-  	border: $code-block-border;
-  	overflow: auto;
-  	overflow-y: hidden;
-	margin-bottom: 30px;
+  border-radius: $border-radius;
+  border: $code-block-border;
+  overflow: auto;
+  overflow-y: hidden;
+	margin-bottom: 25px;
 	line-height: $code-line-height;
 }
 
@@ -327,7 +330,7 @@ code.highlighter-rouge {
  ********/
 
 table {
-  width:100%;
+  width: 100%;
 }
 
 /* 2017.06.18 removed border: 1px solid #ccc; */
@@ -341,23 +344,26 @@ table {
 /* 2023.06.17 removed font-weight: normal; */
 /* original: color: #FDFEFB; - that's greenish */
 th {
-  	font-family: $sans-serif;
+  font-family: $sans-serif;
 	font-size: 18px;
 	padding: 10px;
-  	background: #232323;
-  	color: #FDFEFB;
+  background: #232323;
+  color: #FDFEFB;
  }
 
 /* 2023.06.18 removed background: #ccc; */
 /* don't need dark cells */
 td {
-  	padding: 10px;
+  padding: 10px;
  }
 
+/*********
+  Wrapper 
+**********/
 
-/* Wrapper */
+/* default width: 960px; */
 .wrapper {
-	width: 960px;
+  width: $section-width + $side-width;
 }
 
 /********
