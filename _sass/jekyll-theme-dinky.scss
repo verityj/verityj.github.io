@@ -581,7 +581,7 @@ footer {
     width: auto;
     margin: 0;
   }
-	header, 
+  header, 
   section, 
   footer,
   .pagination {
@@ -594,9 +594,10 @@ footer {
 		margin: 0 50px 0 50px;
 		padding: 0;
 	}
-  /* padding-right: 320px; */
+  /* leave space for buttons on the right */
   header {
-    padding-right: 200px;
+    padding-right: 220px;
+    margin-top: 0;
   }
   section {
     padding: 20px 50px 20px 50px;
@@ -609,7 +610,7 @@ footer {
   header ul {
     position:absolute;
     right: 100px;
-    top: 20px;
+    top: 30px;
   }
 }
 
