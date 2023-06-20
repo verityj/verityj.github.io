@@ -703,15 +703,15 @@ a[rev="footnote"]:hover {
 
 /* 2023.06.16 added font-family, font-size */
 .pagination {
-  	overflow: hidden; /* clearfix */
-  	margin-left: 0;
-  	margin-right: 0;
+  overflow: hidden; /* clearfix */
+  margin-left: 0;
+  margin-right: 0;
 	margin-top: 100px;
 	margin-bottom: 50px;
-  	font-family: $sans-serif;
+  font-family: $sans-serif;
 	font-size: $base-font-size;
-  	color: $header-line-color;
-  	text-align: center;
+  color: $header-line-color;
+  text-align: center;
 }
 
 /* Pagination items can be `span`s or `a`s */
@@ -745,15 +745,15 @@ a.pagination-item:hover {
   }
 }
 
-/*
+
 @media print, screen and (max-width: $section-width + $side-width) {
-	.pagination-item {
-    float: none;
-    position: static;
+  .pagination-item {
+    float: left;
+    position: relative;
     width: auto;
   }
 }
-*/
+
 
 /* split up in narrow widths */
 @media print, screen and (max-width: $section-width) {
