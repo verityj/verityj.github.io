@@ -597,12 +597,13 @@ footer {
   /* leave space for buttons on the right */
   header {
     padding-right: 220px;
-    margin-top: 30px;
+    padding-top: 30px;
   }
   section {
     padding: 20px 50px 20px 50px;
     margin: 0 0 20px 0;
   }
+  /* removed header from inline */
   header a small {
     display: inline;
   }
@@ -621,15 +622,15 @@ footer {
     word-wrap: break-word;
   }
   header {
-    padding: 10px 20px 0;
+    padding: 10px 10px 10px 10px;
 		margin-right: 0;
   }
 	section {
-    padding: 10px 0 10px 20px;
+    padding: 10px 10px 10px 10px;
     margin: 0 0 30px;
  	}
 	footer {
-	  margin: 0 0 0 30px;
+	  margin: 0 10px 0 10px;
 	}
   header ul, header p.view {
     position: static;
@@ -638,23 +639,23 @@ footer {
 
 /* original max-width: 480px; */
 @media print, screen and (max-width: $section-width - $side-width) {
-  	header ul li.download {
-    		display: none;
-  	}
-	footer {
-		margin: 0 0 0 20px;
-	}
-	footer a {
-		display: block;
-	}
+  header ul li.download {
+    display: none;
+  }
+  footer {
+    margin: 0 10px 0 10px;
+  }
+  footer a {
+    display: block;
+  }
 }
 
 @media print {
-	body {
-    		padding: 0.4in;
-    		font-size: 12pt;
-    		color: #444;
-  	}
+  body {
+    padding: 0.4in;
+    font-size: 12pt;
+    color: #444;
+  }
 }
 
 /***********
