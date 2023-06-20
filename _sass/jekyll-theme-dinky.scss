@@ -597,6 +597,7 @@ footer {
   header {
     padding-right: 220px;
     padding-top: 1px;
+    padding-left: 30px;
   }
   section {
     padding: 0 0 0 0;
@@ -614,7 +615,7 @@ footer {
   }
   footer {
     border-top: 1px solid $header-line-color;
-    margin: 0 50px 0 50px;
+    margin: 0 0 0 30px;
     padding: 0;
   }
 }
