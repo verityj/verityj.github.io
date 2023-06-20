@@ -745,18 +745,18 @@ a.pagination-item:hover {
   }
 }
 
-
+/*
 @media print, screen and (max-width: $section-width + $side-width) {
   .pagination-item {
     float: left;
     position: relative;
-    width: auto;
+    width: $section-width / 3;
   }
 }
-
+*/
 
 /* split up in narrow widths */
-@media print, screen and (max-width: $section-width) {
+@media print, screen and (max-width: 100px) {
   .pagination-item {
     float: none;
     position: static;
