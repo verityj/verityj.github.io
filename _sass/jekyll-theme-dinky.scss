@@ -396,7 +396,7 @@ header {
   border-top-right-radius: $border-radius;
   border-bottom-right-radius: $border-radius;
   padding: 0px 20px 20px 20px;
-  margin: 0px 10 10px 0;
+  margin: 10px 10px 10px 0px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -581,7 +581,7 @@ footer {
 /* 2023.06.20 what if I add pagination line 589 */
 @media print, screen and (max-width: $section-width + $side-width) {
   div.wrapper {
-    width: 100%;
+    width: auto;
     margin: 0;
   }
   header, 
