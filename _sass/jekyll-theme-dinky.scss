@@ -760,7 +760,7 @@ a.pagination-item:hover {
   .pagination-item {
     float: left;
     position: relative;
-    max-width: 30px;
-    width: auto;
+    max-width: 33px;
+    min-width: 10px;
   }
 }
