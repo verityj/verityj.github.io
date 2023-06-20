@@ -718,17 +718,18 @@ a[rev="footnote"]:hover {
 
 /* Pagination items can be `span`s or `a`s */
 /* total displayed width = border.box (defined on top) */
+/* max-width: $section-width / 3; */
 .pagination-item {
   display: block;
   padding: 5px 5px 5px 5px;
   float: left;
-  max-width: $section-width / 3;
   width: 40%;
   min-width: 30px;
 }
 /* "Current page" does not need much space */
 .pagination-item:nth-child(2) {
   width: 20%;
+  min-width: 30px;
   border: 1px solid red;
 }
 
