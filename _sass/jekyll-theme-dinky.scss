@@ -733,7 +733,7 @@ a.pagination-item:hover {
   .pagination {
   }
   .pagination-item {
-	  width: $section-width / 3;
+	  max-width: $section-width / 3;
   }
   .pagination-item:first-child {
     border-top-left-radius:    $border-radius;
@@ -749,7 +749,7 @@ a.pagination-item:hover {
   .pagination-item {
     float: left;
     position: static;
-    width: $section-width / 3;
+    max-width: $section-width / 3;
   }
 }
 
@@ -759,6 +759,6 @@ a.pagination-item:hover {
   .pagination-item {
     float: left;
     position: relative;
-    width: 30%;
+    max-width: 32%;
   }
 }
