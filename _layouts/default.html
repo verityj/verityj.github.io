@@ -49,16 +49,12 @@ title: A spark of a thought
       {%- endif -%}
     {%- endfor -%}
     
-    <h5 /> <!-- add more space -->
-    
     {% if site.paginate %}
       <div class="pager">
         <span class="pagination">
           {%- if paginator.previous_page %}
             <a class="pagination-item older" href="{{ paginator.previous_page_path | relative_url }}">Previous (page {{ paginator.previous_page }})</a>
-            <!-- <a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">Previous page {{ paginator.previous_page }}</a> -->
           {%- else %}
-            <!-- <div class="pager-edge">•</div> -->
             <div class="pagination-item older">•</div>
           {%- endif %}
           
@@ -68,7 +64,6 @@ title: A spark of a thought
             <a class="pagination-item newer" href="{{ paginator.next_page_path | relative_url }}">Next (page {{ paginator.next_page }})</a>
             <!-- <a href="{{ paginator.next_page_path | relative_url }}" class="next-page">Next page {{ paginator.next_page }}</a> -->
           {%- else %}
-            <!-- <div class="pager-edge">•</div> -->
             <div class="pagination-item newer">•</div>
           {%- endif %}
         </span>
