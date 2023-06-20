@@ -50,7 +50,7 @@ $header-line-color: #ccc;
 
 $border-radius: 4px;
 $section-width: 650px;
-$side-width: 200px;
+$side-width: 250px;
 
 @import	"syntax-code-highlight"; // Hook to add code highlighting. After global definitions above
 
@@ -96,7 +96,7 @@ body {
   font-weight: $base-font-weight;
   font-color: $base-font-color;
   background-color: $base-background;
-  margin: 0;
+  margin-left: 10px;
   line-height: $base-line-height;
   -webkit-font-smoothing: antialiased;
 }
