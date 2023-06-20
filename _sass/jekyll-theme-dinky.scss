@@ -380,9 +380,9 @@ td {
 /* original: width: 170px; */
 header {
 	font-color: $header-font-color;
-  	width: $side-width;
-  	float: left;
-  	position: fixed;
+  width: $side-width;
+  float: left;
+  position: fixed;
 	
 	-webkit-border-top-right-radius: $border-radius;
 	-webkit-border-bottom-right-radius: $border-radius;
@@ -410,9 +410,9 @@ p.header {
 /* 2023.06.17 removed font-weight: 300; */
 /* 2023.06.17 changed font-size: 30px; */
 /* line-height: 1.3em; */
+/* to keep it link red, removed: 	font-color: $header-font-color; *
 h1.header {
 	font-family: $serif;
-	font-color: $header-font-color;
 	font-weight: $base-font-weight-bold;
 	line-height: $header-line-height;
 	border-bottom: none;
