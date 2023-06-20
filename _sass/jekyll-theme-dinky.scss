@@ -242,7 +242,7 @@ hr {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 650px;
+  max-width: $section-width;
   padding: 10px;
   margin: 10px 0 32px 0;
   border-radius: $border-radius;
@@ -412,7 +412,6 @@ p.header {
 /* line-height: 1.3em; */
 h1.header {
 	font-family: $serif;
-	font-size: 36px;
 	font-color: $header-font-color;
 	font-weight: $base-font-weight-bold;
 	line-height: $header-line-height;
@@ -451,11 +450,11 @@ header ul {
 
 header li {
 	list-style-type: none;
-  	width: 132px;
-  	height: 15px;
-	margin-bottom: 12px;
-	line-height: 1em;
-	padding: 6px 6px 6px 7px;
+  	width: 150px;
+  	height: 30px;
+	margin-bottom: 15px;
+	line-height: 1;
+	padding: 7px 7px 7px 7px;
 
 	background: #AF0011;
 	background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
@@ -627,7 +626,7 @@ footer {
   	}
 }
 
-@media print, screen and (max-width: $section-width - 170px) {
+@media print, screen and (max-width: $section-width - $side-width) {
   	header ul li.download {
     		display: none;
   	}
