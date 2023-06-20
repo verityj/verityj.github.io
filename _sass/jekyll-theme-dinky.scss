@@ -401,8 +401,8 @@ header {
 }
 
 p.header {
-	font-size: $base-font-size - 1px;
-	font-family: $sans-serif;
+  font-size: $base-font-size - 1px;
+  font-family: $sans-serif;
 }
 
 /* 2023.06.16 added 'Cormorant Garamond' - serif looks better than Lato sans-serif */
@@ -581,7 +581,7 @@ footer {
 /* 2023.06.20 what if I add pagination line 589 */
 @media print, screen and (max-width: $section-width + $side-width) {
   div.wrapper {
-    width: auto;
+    width: 100%;
     margin: 0;
   }
   header, 
@@ -596,7 +596,6 @@ footer {
   header {
     padding-right: 220px;
     padding-top: 1px;
-    margin-right: 0;
   }
   section {
     padding: 0 0 0 0;
