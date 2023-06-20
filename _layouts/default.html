@@ -7,14 +7,14 @@ title: A spark of a thought
   <!-- if there is no previous page, then this is the first page. Include welcome text from /index.html -->
   {%- if paginator.previous_page %}
     <h2> <!--Title for subsequent pages -->
-      <a href="/"><img src="/assets/images/fav2.png" width="22px;" style="float: left; margin-left: 0px; margin-right: 10px; margin-top: 10px; margin-bottom: 0px; padding: 0px; border: 0px;" /></a>
+      <a href="/"><img src="/assets/images/fav2.png" width="22px;" style="float: left; margin-left: 0px; margin-right: 10px; margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px;" /></a>
       Posts page {{ paginator.page }} of {{ paginator.total_pages}}
     </h2>
   {%- else %}
     <!-- this is the first page. Show /index.html content and start the latest posts -->
     {{ content }}
-    <h2 style="border-bottom: none;">
-      <img src="/assets/images/fav4.png" width="22px;" style="float: left; margin-left: 0px; margin-right: 10px; margin-top: 10px; margin-bottom: 0px; padding: 0px; border: none;" />
+    <h2>
+      <img src="/assets/images/fav4.png" width="22px;" style="float: left; margin-left: 0px; margin-right: 10px; margin-top: 0px; margin-bottom: 0px; padding: 0px; border: none;" />
       Latest posts
     </h2>
   {%- endif %}
