@@ -39,7 +39,7 @@ $base-background: #FBFAF7;
 $code-background: #FFFFFF;
 $code-block-background: $code-background;
 $code-block-border: 1px solid #D7D8C8;
-$header-background: #808080;
+$header-background: #808080; /* rgb(128,128,128) */
 $link-color: rgb(195,0,0); /* #C30000 - red */
 
 /* default #232323 */
@@ -380,26 +380,22 @@ td {
 /* original: margin: 30px 25px 0 0; */
 /* original: width: 170px; */
 header {
-	font-color: $header-font-color;
+  font-color: $header-font-color;
   width: $side-width;
   float: left;
   position: fixed;
 	
-	-webkit-border-top-right-radius: $border-radius;
-	-webkit-border-bottom-right-radius: $border-radius;
-	-moz-border-radius-topright: $border-radius;
-	-moz-border-radius-bottomright: $border-radius;
-	border-top-right-radius: $border-radius;
-	border-bottom-right-radius: $border-radius;
-	padding: 20px 20px 20px 20px;
-	margin: 30px 10 10px 0;
-	-webkit-font-smoothing: antialiased;
+  -webkit-border-top-right-radius: $border-radius;
+  -webkit-border-bottom-right-radius: $border-radius;
+  -moz-border-radius-topright: $border-radius;
+  -moz-border-radius-bottomright: $border-radius;
+  border-top-right-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+  padding: 20px 20px 20px 20px;
+  margin: 100px 10 10px 0;
+  -webkit-font-smoothing: antialiased;
 
 	background: rgb(128,128,128);
-	background: -moz-linear-gradient(45deg, rgba(128,128,128,1) 0%, rgba(251,247,235,1) 100%);
-	background: -webkit-linear-gradient(45deg, rgba(128,128,128,1) 0%, rgba(251,247,235,1) 100%);
-	background: linear-gradient(45deg, rgba(128,128,128,1) 0%, rgba(251,247,235,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808080",endColorstr="#fbf7eb",GradientType=1);
 }
 
 p.header {
