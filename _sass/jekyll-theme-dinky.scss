@@ -575,7 +575,7 @@ footer {
 	text-align: right;
 }
 
-@media print, screen and (max-width: 650px) {
+@media print, screen and (max-width: $section-width) {
 	div.wrapper {
     		width:auto;
     		margin:0;
@@ -607,7 +607,7 @@ footer {
   	}
 }
 
-@media print, screen and (max-width: 720px) {
+@media print, screen and (max-width: $section-width + 70px) {
 	body {
     		word-wrap: break-word;
   	}
@@ -627,7 +627,7 @@ footer {
   	}
 }
 
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width: $section-width - 170px) {
   	header ul li.download {
     		display: none;
   	}
@@ -716,13 +716,10 @@ a[rev="footnote"]:hover {
 /* total displayed width = border.box (defined on top) */
 .pagination-item {
   	display: block;
-	min-width: 50px;
+	min-width: 33px;
 	padding: 5px 5px 5px 5px;
 	float: left;
 	width: $section-width / 3;
-}
-.pagination-item:first-child {
-  	margin-bottom: 0;
 }
 
 /* Only provide a hover state for linked pagination items */
@@ -734,6 +731,7 @@ a.pagination-item:hover {
   	.pagination {
   	}
   	.pagination-item {
+		width: $section-width / 3;
   	}
   	.pagination-item:first-child {
     		border-top-left-radius:    $border-radius;
