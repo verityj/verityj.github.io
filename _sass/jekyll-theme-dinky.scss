@@ -412,10 +412,11 @@ p.header {
 /* removed: 	font-color: $header-font-color; */
 /* removed: 	margin-top: 0; default is 30px, above*/
 h1.header {
-	font-family: $serif;
-	font-weight: $base-font-weight-bold;
-	line-height: $header-line-height;
-	border-bottom: none;
+  font-family: $serif;
+  font-weight: $base-font-weight-bold;
+  line-height: $header-line-height;
+  border-bottom: none;
+  margin-top: 0;
 }
 
 /* removed h1.header - should not be white
