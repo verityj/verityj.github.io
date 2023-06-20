@@ -90,7 +90,7 @@ time, mark, audio, video {
 /* 2023.06.16 font-size: 14px; */
 /* 2023.06.17 changed line-height: 1.8em; changed Lato to Arvo (serif) */
 body {
-  padding: 10px 50px 50px 50px;
+  padding: 10px 50px 50px 0;
   font-family: $base-font-family;
   font-size: $base-font-size;
   font-weight: $base-font-weight;
@@ -116,14 +116,15 @@ h6 {
 p, ul, ol, table, dl {
   margin-top: 10px;
   margin-bottom: 10px;
+  
 }
 
 /* 2023.06.16 added 'Cormorant Garamond' */
 /* 2023.06.17 removed font-weight: normal; */
 /* 2023.06.17 changed font-family: 'Cormorant Garamond', Arvo, Monaco, serif; */
 h1, h2, h3, h4, h5, h6 {
-	font-family: $title-font-family;
-	line-height: $header-line-height;
+  font-family: $title-font-family;
+  line-height: $header-line-height;
 }
 
 h1, h2, h3 {
