@@ -574,7 +574,8 @@ footer {
 	text-align: right;
 }
 
-@media print, screen and (max-width: $section-width) {
+/* original max-width: 960px; */
+@media print, screen and (max-width: $section-width + $side-width) {
   div.wrapper {
     width: auto;
     margin: 0;
@@ -584,13 +585,7 @@ footer {
     position: static;
     width: auto;
   }
-  /* 2023.06.20 added */
-  .pagination {
-    float: none;
-    position: static;
-    width: auto;
-  }
-	footer {
+  footer {
 		border-top: 1px solid $header-line-color;
 		margin: 0 84px 0 50px;
 		padding: 0;
@@ -612,26 +607,28 @@ footer {
   }
 }
 
+/* original max-width: 720px; */
 @media print, screen and (max-width: $section-width + 70px) {
 	body {
-    		word-wrap: break-word;
-  	}
-  	header {
-    		padding: 10px 20px 0;
+    word-wrap: break-word;
+  }
+  header {
+    padding: 10px 20px 0;
 		margin-right: 0;
-  	}
+  }
 	section {
-    		padding:10px 0 10px 20px;
-    		margin:0 0 30px;
+    padding: 10px 0 10px 20px;
+    margin: 0 0 30px;
  	}
 	footer {
-		margin: 0 0 0 30px;
+	  margin: 0 0 0 30px;
 	}
-  	header ul, header p.view {
-    		position: static;
-  	}
+  header ul, header p.view {
+    position: static;
+  }
 }
 
+/* original max-width: 480px; */
 @media print, screen and (max-width: $section-width - $side-width) {
   	header ul li.download {
     		display: none;
@@ -720,7 +717,7 @@ a[rev="footnote"]:hover {
 /* Pagination items can be `span`s or `a`s */
 /* total displayed width = border.box (defined on top) */
 .pagination-item {
-  	display: block;
+  display: block;
 	min-width: 33px;
 	padding: 5px 5px 5px 5px;
 	float: left;
@@ -729,21 +726,45 @@ a[rev="footnote"]:hover {
 
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
-  	background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 @media (min-width: 100px) {
-  	.pagination {
-  	}
-  	.pagination-item {
-		width: $section-width / 3;
-  	}
-  	.pagination-item:first-child {
-    		border-top-left-radius:    $border-radius;
-    		border-bottom-left-radius: $border-radius;
-  	}
-  	.pagination-item:last-child {
-    		border-top-right-radius:    $border-radius;
-    		border-bottom-right-radius: $border-radius;
-  	}
+  .pagination {
+  }
+  .pagination-item {
+	  width: $section-width / 3;
+  }
+  .pagination-item:first-child {
+    border-top-left-radius:    $border-radius;
+    border-bottom-left-radius: $border-radius;
+  }
+  .pagination-item:last-child {
+    border-top-right-radius:    $border-radius;
+    border-bottom-right-radius: $border-radius;
+  }
+}
+
+@media print, screen and (max-width: $section-width + $side-width) {
+	.pagination-item {
+    float: none;
+    position: static;
+    width: auto;
+  }
+}
+
+@media print, screen and (max-width: $section-width + 70px) {
+  .pagination-item {
+    float: none;
+    position: static;
+    width: auto;
+  }
+}
+
+@media print, screen and (max-width: $section-width - $side-width) {
+	.pagination-item {
+    float: none;
+    position: static;
+    width: auto;
+  }
 }
