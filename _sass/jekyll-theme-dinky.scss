@@ -699,6 +699,7 @@ a[rev="footnote"]:hover {
   	margin-left: 0;
   	margin-right: 0;
 	margin-top: 100px;
+	margin-bottom: 50px;
   	font-family: $sans-serif;
 	font-size: $base-font-size;
   	color: $header-line-color;
@@ -710,9 +711,7 @@ a[rev="footnote"]:hover {
   	display: block;
 	min-width: 100px;
 	padding: 5px 5px 5px 5px;
-	border: 1px solid black;
 }
-/* margin-bottom: -1px; */
 .pagination-item:first-child {
   	margin-bottom: 0;
 }
@@ -724,20 +723,16 @@ a.pagination-item:hover {
 
 @media (min-width: 100px) {
   	.pagination {
-    		margin: 0 0;
   	}
   	.pagination-item {
     		float: left;
-    		width: 31%;
+    		width: $section-width / 3 - 2px;
   	}
   	.pagination-item:first-child {
-    		margin-bottom: 0;
     		border-top-left-radius:    $border-radius;
     		border-bottom-left-radius: $border-radius;
   	}
-	/* margin-left: -1px; */
   	.pagination-item:last-child {
-    		margin-left: 0;
     		border-top-right-radius:    $border-radius;
     		border-bottom-right-radius: $border-radius;
   	}
