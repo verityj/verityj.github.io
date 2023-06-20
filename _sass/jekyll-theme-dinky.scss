@@ -42,10 +42,10 @@ $code-block-border: 1px solid #D7D8C8;
 $header-background: rgb(128,128,128);
 $link-color: rgb(195,0,0); /* #C30000 - red */
 
-/* default #232323 */
 $base-font-color: #303030;
 $code-font-color: #000000;
 $header-font-color: $base-background;
+$headings-font-color: #232323;
 $header-line-color: #ccc;
 
 $border-radius: 4px;
@@ -102,13 +102,13 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  color: #232323;
+  color: $headings-font-color;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
 h6 {
-  color: #232323;
+  color: $headings-font-color;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -229,7 +229,7 @@ dl p {
 /* Horizontal line, thematic break */
 hr {
   border: 0;
-	background: $header-line-color;
+  background: $header-line-color;
   height: 1px;
   margin: 20px 0 20px;
 }
@@ -296,7 +296,8 @@ pre {
   border: $code-block-border;
   overflow: auto;
   overflow-y: hidden;
-	margin-bottom: 25px;
+  margin-top: 15px;
+	margin-bottom: 15px;
 	line-height: $code-line-height;
 }
 
@@ -348,7 +349,7 @@ th {
   font-family: $sans-serif;
 	font-size: 18px;
 	padding: 10px;
-  background: #232323;
+  background: $headings-font-color;
   color: #FDFEFB;
  }
 
@@ -394,8 +395,8 @@ header {
   -moz-border-radius-bottomright: $border-radius;
   border-top-right-radius: $border-radius;
   border-bottom-right-radius: $border-radius;
-  padding: 20px 20px 20px 20px;
-  margin: 100px 10 10px 0;
+  padding: 0px 20px 20px 20px;
+  margin: 0px 10 10px 0;
   -webkit-font-smoothing: antialiased;
 
 	background: $header-background;
