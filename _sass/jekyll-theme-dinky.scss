@@ -35,11 +35,11 @@ $base-line-height: 1.6;
 $code-line-height: 1.6;
 $header-line-height: 1.2;
 
-$base-background: rgb(249,246,238); /* bone white; default: #FBFAF7; */
+$base-background: rgb(255,255,240); /* ivory; default: #FBFAF7; */
 $code-background: #FFFFFF;
 $code-block-background: $code-background;
 $code-block-border: 1px solid #D7D8C8;
-$header-background: #808080; /* rgb(128,128,128) */
+$header-background: rgb(128,128,128)
 $link-color: rgb(195,0,0); /* #C30000 - red */
 
 /* default #232323 */
@@ -53,9 +53,6 @@ $section-width: 650px;
 $side-width: 200px;
 
 @import	"syntax-code-highlight"; // Hook to add code highlighting. After global definitions above
-
-/* get syntax highlighting from https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_syntax.scss#L4 */
-/* @import "syntax"; */
 
 /* MeyerWeb Reset */
 
@@ -93,30 +90,29 @@ time, mark, audio, video {
 /* 2023.06.16 font-size: 14px; */
 /* 2023.06.17 changed line-height: 1.8em; changed Lato to Arvo (serif) */
 body {
-  padding: 10px 50px 0 0;
+  padding: 10px 50px 50px 0;
   font-family: $base-font-family;
-	font-size: $base-font-size;
-	font-weight: $base-font-weight;
-	font-color: $base-font-color;
-	background-color: $base-background;
-	margin: 0;
-	line-height: $base-line-height;
-	-webkit-font-smoothing: antialiased;
-
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  font-color: $base-font-color;
+  background-color: $base-background;
+  margin: 0;
+  line-height: $base-line-height;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5 {
-  	color: #232323;
-  	margin: 30px 0 10px;
+  color: #232323;
+  margin: 30px 0 10px;
 }
 
 h6 {
-  	color: #232323;
-  	margin: 10px 0 10px;
+  color: #232323;
+  margin: 10px 0 10px;
 }
 
 p, ul, ol, table, dl {
-  	margin: 10px 0 10px;
+  margin: 10px 0 10px;
 }
 
 /* 2023.06.16 added 'Cormorant Garamond' */
@@ -181,30 +177,30 @@ em {
 }
 
 strong {
-  	font-weight: $base-font-weight-bold;
+  font-weight: $base-font-weight-bold;
 }
 
 /* could play with: list-style: disc inside url("/assets/images/dash.png"); */
 /* original: list-style-position: inside; */
 /* original: list-style: disc; */
 ul {
-  	list-style: disc outside;
-  	padding-left: 25px;
+  list-style: disc outside;
+  padding-left: 25px;
 }
 
 /* could play with: list-style-type: decimal-leading-zero; - or - lower-greek; - or - upper-roman; */
 /* https://www.w3schools.com/cssref/playdemo.php?filename=playcss_list-style */
 /* original: padding-left: 25px; */
 ol {
-  	list-style-position: inside;
-  	list-style: decimal;
-  	padding-left: 20px;
+  list-style-position: inside;
+  list-style: decimal;
+  padding-left: 20px;
 }
 
 blockquote {
-  	margin: 0;
-  	padding: 0 0 0 20px;
-  	font-style: italic;
+  margin: 0;
+  padding: 0 0 0 20px;
+  font-style: italic;
 }
 
 /* #444 medium gray */
@@ -213,25 +209,25 @@ dl, dt, dd, dl p {
 }
 
 dl dt {
-  	font-weight: bold;
+  font-weight: bold;
 }
 
 dl dd {
-  	padding-left: 20px;
-  	font-style: italic;
+  padding-left: 20px;
+  font-style: italic;
 }
 
 dl p {
-  	padding-left: 20px;
-  	font-style: italic;
+  padding-left: 20px;
+  font-style: italic;
 }
 
 /* Horizontal line, thematic break */
 hr {
-  	border: 0;
+  border: 0;
 	background: $header-line-color;
-  	height: 1px;
-  	margin: 0 0 24px;
+  height: 1px;
+  margin: 20px 0 20px;
 }
 
 /********
