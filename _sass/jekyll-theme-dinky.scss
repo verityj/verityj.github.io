@@ -748,7 +748,8 @@ a.pagination-item:hover {
 @media print, screen and (max-width: $section-width + $side-width) {
   .pagination-item {
     float: left;
-    position: static;
+    position: relative;
+    width: auto;
     max-width: $section-width / 3;
   }
 }
@@ -759,6 +760,7 @@ a.pagination-item:hover {
   .pagination-item {
     float: left;
     position: relative;
-    max-width: 32%;
+    max-width: 30px;
+    width: auto;
   }
 }
