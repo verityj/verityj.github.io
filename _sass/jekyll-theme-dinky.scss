@@ -410,7 +410,7 @@ p.header {
 /* 2023.06.17 removed font-weight: 300; */
 /* 2023.06.17 changed font-size: 30px; */
 /* line-height: 1.3em; */
-/* to keep it link red, removed: 	font-color: $header-font-color; *
+/* removed: 	font-color: $header-font-color; *
 h1.header {
 	font-family: $serif;
 	font-weight: $base-font-weight-bold;
@@ -427,8 +427,8 @@ h1.header {
  */
 
 /* Header title color setting */
+/* removed to keep link default red: color: $header-font-color; */
 header a {
-	color: $header-font-color;
 	font-weight: $base-font-weight-bold;
 }
 header a:hover {
@@ -440,45 +440,45 @@ header a:hover {
 /* does not do anything: cursor: pointer; */
 
 a.name {
-	white-space: nowrap;
+  white-space: nowrap;
 }
 
 header ul {
-  	list-style:none;
-  	padding:0;
+  list-style:none;
+  padding:0;
 }
 
 header li {
-	list-style-type: none;
-  	width: 150px;
-  	height: 30px;
-	margin-bottom: 15px;
-	line-height: 1;
-	padding: 7px 7px 7px 7px;
+  list-style-type: none;
+  width: 150px;
+  height: 30px;
+  margin-bottom: 15px;
+  line-height: 1;
+  padding: 7px 7px 7px 7px;
 
-	background: #AF0011;
-	background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
-  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  	background: -webkit-linear-gradient(top, #AF0011 0%,#820011 100%);
-  	background: -o-linear-gradient(top, #AF0011 0%,#820011 100%);
-  	background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
-  	background: linear-gradient(to top, #AF0011 0%,#820011 100%);
+  background: #AF0011;
+  background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+  background: -webkit-linear-gradient(top, #AF0011 0%,#820011 100%);
+  background: -o-linear-gradient(top, #AF0011 0%,#820011 100%);
+  background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
+  background: linear-gradient(to top, #AF0011 0%,#820011 100%);
 
-	border-radius: $border-radius;
-  	border: 1px solid #0D0D0D;
+  border-radius: $border-radius;
+  border: 1px solid #0D0D0D;
 
-	-webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
-	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
+  -webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
+  box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
 }
 
 header li:hover {
-	background: #C3001D;
-	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
-  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  	background: -webkit-linear-gradient(top, #C3001D 0%,#950119 100%);
-  	background: -o-linear-gradient(top, #C3001D 0%,#950119 100%);
-  	background: -ms-linear-gradient(top, #C3001D 0%,#950119 100%);
-  	background: linear-gradient(to top, #C3001D 0%,#950119 100%);
+  background: #C3001D;
+  background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+  background: -webkit-linear-gradient(top, #C3001D 0%,#950119 100%);
+  background: -o-linear-gradient(top, #C3001D 0%,#950119 100%);
+  background: -ms-linear-gradient(top, #C3001D 0%,#950119 100%);
+  background: linear-gradient(to top, #C3001D 0%,#950119 100%);
 }
 
 /* 2023.06.16 added font-size */
@@ -528,7 +528,7 @@ a.buttons-r:hover {
 }
 
 a.nostr {
-	background: url(/assets/images/nostr25x25.png) no-repeat -2px;
+	background: url(/assets/images/nostr25x25.png) no-repeat -3px;
 }
 
 a.about {
@@ -708,7 +708,7 @@ a[rev="footnote"]:hover {
   overflow: hidden; /* clearfix */
   margin-left: 0;
   margin-right: 0;
-	margin-top: 100px;
+  margin-top: 100px;
   margin-bottom: 50px;
   font-family: $sans-serif;
   font-size: $base-font-size;
@@ -730,7 +730,6 @@ a[rev="footnote"]:hover {
 .pagination-item:nth-child(2) {
   width: 20%;
   min-width: 30px;
-  border: 1px solid red;
 }
 
 /* Only provide a hover state for linked pagination items */
