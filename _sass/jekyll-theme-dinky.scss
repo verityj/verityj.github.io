@@ -733,10 +733,9 @@ a[rev="footnote"]:hover {
   min-width: 30px;
 }
 /* "Current page" does not need much space */
-/* replaced min-width: 30px; */
 .pagination-item:nth-child(2) {
   width: 20%;
-  min-width: 0px;
+  min-width: 30px;
 }
 
 /* Only provide a hover state for linked pagination items */
@@ -760,6 +759,7 @@ a.pagination-item:hover {
 }
 
 /* Next post link */
-.next {
+.next-post {
   float: right;
+  padding-bottom: 10px;
 }
