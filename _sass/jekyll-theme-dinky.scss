@@ -727,7 +727,7 @@ a[rev="footnote"]:hover {
   min-width: 30px;
 }
 /* "Current page" does not need much space */
-.pagination-item:n-th-child(2) {
+.pagination-item:nth-child(2) {
   width: auto;
   border: 1px solid red;
 }
