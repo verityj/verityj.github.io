@@ -592,15 +592,10 @@ footer {
     position: static;
     width: auto;
   }
-  footer {
-    border-top: 1px solid $header-line-color;
-    margin: 0 50px 0 50px;
-    padding: 0;
-  }
   /* leave space for buttons on the right */
   header {
     padding-right: 220px;
-    padding-top: 0px;
+    padding-top: 1px;
   }
   section {
     padding: 10px 0px 10px 10px;
@@ -616,6 +611,11 @@ footer {
     position:absolute;
     right: 80px;
     top: 30px;
+  }
+  footer {
+    border-top: 1px solid $header-line-color;
+    margin: 0 50px 0 50px;
+    padding: 0;
   }
 }
 
