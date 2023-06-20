@@ -79,6 +79,12 @@ time, mark, audio, video {
   	vertical-align: baseline;
 }
 
+/* width will include padding and border */
+/* https://www.w3schools.com/css/css3_box-sizing.asp */
+* {
+  box-sizing: border-box;
+}
+
 /***********
   BASE TEXT
  ***********/
@@ -707,13 +713,13 @@ a[rev="footnote"]:hover {
 }
 
 /* Pagination items can be `span`s or `a`s */
-/* total displayed width = width + padding (10px/item) + border
+/* total displayed width = border.box (defined on top) */
 .pagination-item {
   	display: block;
 	min-width: 50px;
 	padding: 5px 5px 5px 5px;
 	float: left;
-	width: $section-width / 3 - 30px;
+	width: $section-width / 3;
 }
 .pagination-item:first-child {
   	margin-bottom: 0;
