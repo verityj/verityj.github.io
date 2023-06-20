@@ -3,7 +3,7 @@
   verityj.github.io
 </h2>
 
-## A spark of a thought
+## Optimize for happiness
 
 This is my space to experiment, create and share. If it helps any passersby, that's mission complete. If someone points out how to improve, that's brilliant.
 
