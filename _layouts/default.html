@@ -11,6 +11,7 @@ title: A spark of a thought
       Posts page {{ paginator.page }} of {{ paginator.total_pages}}
     </h2>
   {%- else %}
+    <!-- this is the first page. Show /index.html content and start the latest posts -->
     {{ content }}
     <h2>
       Latest posts
@@ -19,22 +20,22 @@ title: A spark of a thought
   
   <!-- From https://github.com/jekyll/minima/blob/master/_layouts/home.html -->
   {% if site.paginate %}
-    {% assign posts = paginator.posts %}
+    {% assign items = paginator.posts %}
   {% else %}
-    {% assign posts = site.posts %}
+    {% assign items = site.posts %}
   {% endif %}
         
-  {%- if posts.size > 0 -%}
-    {%- for post in posts -%}
+  {%- if items.size > 0 -%}
+    {%- for item in items -%}
       <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
+        <a class="item-link" href="{{ item.url | relative_url }}">
+          {{ item.title | escape }}
         </a>          
       </h3>
       <h6>
       <span>
-        {{ post.date | date: site.date_format }} &nbsp; &bull; &nbsp;
-        {% assign words = post.content | number_of_words %}
+        {{ item.date | date: site.date_format }} &nbsp; &bull; &nbsp;
+        {% assign words = item.content | number_of_words %}
         {% if words < 360 %}
           1 min read
         {% else %}
@@ -43,7 +44,7 @@ title: A spark of a thought
       </span>
       </h6>
       {%- if site.show_excerpts -%}
-        {{ post.excerpt }}
+        {{ item.excerpt }}
       {%- endif -%}
     {%- endfor -%}
     
@@ -73,6 +74,6 @@ title: A spark of a thought
       </span>
     {%- endif %} <!-- finishes if site.paginate -->
   
-  {%- endif -%} <!-- finishes if posts.size > 0 -->
+  {%- endif -%} <!-- finishes if items.size > 0 -->
   
 </section>
