@@ -552,9 +552,10 @@ a.buttons:hover {
 
 /* default width: 650px; */
 section {
-  	width: $section-width;
-  	float: right;
-  	padding-bottom: 50px;
+  width: $section-width;
+  float: right;
+  padding-bottom: 50px;
+  padding-left: 50px;
 }
 
 /********
