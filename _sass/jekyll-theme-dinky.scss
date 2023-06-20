@@ -48,6 +48,7 @@ $header-font-color: #505050;
 $header-line-color: #ccc;
 
 $border-radius: 4px;
+$section-width: 700px;
 
 @import	"syntax-code-highlight"; // Hook to add code highlighting. After global definitions above
 
@@ -368,9 +369,10 @@ td {
 /* note on padding: top right bottom left */
 /* original: padding: 34px 25px 22px 50px; */
 /* original: margin: 30px 25px 0 0; */
+/* original: width: 170px; */
 header {
 	font-color: $header-font-color;
-  	width: 170px;
+  	width: 200px;
   	float: left;
   	position: fixed;
 	
@@ -555,7 +557,7 @@ a.buttons:hover {
 
 /* default width: 650px; */
 section {
-  	width: 650px;
+  	width: $section-width;
   	float: right;
   	padding-bottom: 50px;
 }
