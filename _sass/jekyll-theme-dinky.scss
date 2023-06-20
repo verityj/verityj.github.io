@@ -707,12 +707,13 @@ a[rev="footnote"]:hover {
 }
 
 /* Pagination items can be `span`s or `a`s */
+/* total displayed width = width + padding (10px/item) + border
 .pagination-item {
   	display: block;
 	min-width: 50px;
 	padding: 5px 5px 5px 5px;
 	float: left;
-	width: $section-width / 3 - 3px;
+	width: $section-width / 3 - 30px;
 }
 .pagination-item:first-child {
   	margin-bottom: 0;
