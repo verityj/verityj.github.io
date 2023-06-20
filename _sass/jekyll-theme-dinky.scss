@@ -745,6 +745,7 @@ a.pagination-item:hover {
   }
 }
 
+/*
 @media print, screen and (max-width: $section-width + $side-width) {
 	.pagination-item {
     float: none;
@@ -752,17 +753,11 @@ a.pagination-item:hover {
     width: auto;
   }
 }
+*/
 
-@media print, screen and (max-width: $section-width + 70px) {
+/* split up in narrow widths */
+@media print, screen and (max-width: $section-width) {
   .pagination-item {
-    float: none;
-    position: static;
-    width: auto;
-  }
-}
-
-@media print, screen and (max-width: $section-width - $side-width) {
-	.pagination-item {
     float: none;
     position: static;
     width: auto;
