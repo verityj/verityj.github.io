@@ -709,9 +709,9 @@ a[rev="footnote"]:hover {
   margin-left: 0;
   margin-right: 0;
 	margin-top: 100px;
-	margin-bottom: 50px;
+  margin-bottom: 50px;
   font-family: $sans-serif;
-	font-size: $base-font-size;
+  font-size: $base-font-size;
   color: $header-line-color;
   text-align: center;
 }
@@ -722,12 +722,12 @@ a[rev="footnote"]:hover {
   display: block;
   padding: 5px 5px 5px 5px;
   float: left;
-	max-width: $section-width / 3;
+  max-width: $section-width / 3;
   width: 32%;
   min-width: 30px;
 }
 /* "Current page" does not need much space */
-.pagination-item:second-child {
+.pagination-item:n-th-child(2) {
   width: auto;
   border: 1px solid red;
 }
