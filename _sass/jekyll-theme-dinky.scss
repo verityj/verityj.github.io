@@ -363,7 +363,6 @@ td {
   Wrapper 
 **********/
 
-/* default width: 960px; */
 .wrapper {
   width: $section-width + $side-width;
 }
@@ -385,6 +384,7 @@ td {
 /* original: width: 170px; */
 header {
   font-color: $header-font-color;
+  background: $header-background;
   width: $side-width;
   float: left;
   position: fixed;
@@ -398,8 +398,6 @@ header {
   padding: 0px 20px 20px 20px;
   margin: 0px 10 10px 0;
   -webkit-font-smoothing: antialiased;
-
-	background: $header-background;
 }
 
 p.header {
@@ -411,13 +409,13 @@ p.header {
 /* 2023.06.17 removed font-weight: 300; */
 /* 2023.06.17 changed font-size: 30px; */
 /* line-height: 1.3em; */
-/* removed: 	font-color: $header-font-color; *
+/* removed: 	font-color: $header-font-color; */
+/* removed: 	margin-top: 0; default is 30px, above*/
 h1.header {
 	font-family: $serif;
 	font-weight: $base-font-weight-bold;
 	line-height: $header-line-height;
 	border-bottom: none;
-	margin-top: 0;
 }
 
 /* removed h1.header - should not be white
