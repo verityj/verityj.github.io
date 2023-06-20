@@ -600,10 +600,10 @@ footer {
   /* leave space for buttons on the right */
   header {
     padding-right: 220px;
-    padding-top: 10px;
+    padding-top: 0px;
   }
   section {
-    padding: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 10px;
     margin: 0 0 20px 0;
   }
   /* removed header from inline */
@@ -615,7 +615,7 @@ footer {
   header ul {
     position:absolute;
     right: 80px;
-    top: 40px;
+    top: 30px;
   }
 }
 
