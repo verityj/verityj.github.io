@@ -43,7 +43,7 @@ $red:  rgb(255,0,0);
   .no    { color: $code-font-color } // Name.Constant
   .ni    { color: $code-font-color } // Name.Entity
   .ne    { color: $code-font-color } // Name.Exception
-  .nf    { color: $code-font-color } // Name.Function
+  .nf    { color: $code-font-color; font-weight: normal } // Name.Function // Swift: bold
   .nn    { color: $blue } // Name.Namespace - Python (true)
   .nt    { color: $code-font-color } // Name.Tag
   .nv    { color: $code-font-color } // Name.Variable
