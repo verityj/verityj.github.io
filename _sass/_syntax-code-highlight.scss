@@ -7,7 +7,7 @@ $red:  rgb(255,0,0);
   .c     { color: $gray; font-style: normal } // Comment
   .c1    { color: $gray; font-style: normal } // Python: comment
   .cp    { color: $gray; font-style: normal; font-weight: normal; font-family: $code-font-family } // Swift: comment
-  .cm    { color: $gray; font-style: normal } // Comment.Multiline // Swift: italics
+  .cm    { color: $gray; font-style: normal } // Comment.Multiline // Swift: italics // "/*" gets caught
   .cp    { color: $gray } // Comment.Preproc
   .cs    { color: $gray } // Comment.Special
   .err   { color: $code-font-color; background-color: $code-block-background } // Error
