@@ -790,13 +790,14 @@ a.pagination-item:hover {
 }
 
 /* nocomment https://github.com/fiatjaf/nocomment */
-/* nc-primary-color: #fcbf49; = orange */
-/* --nc-primary-contrast: #003049; = dark blue */
+/* primary-color: button background and border */
+/* primary-contrast: 'Get Key' button text */
 :root {
   --nc-background: $base-background;
   --nc-text-background: $code-background;
   --nc-text-color: $base-font-color;
   --nc-text-color-dark: $header-background;
-  --nc-primary-color: #fcbf49;
-  --nc-primary-contrast: rgb(0,255,0);
+  --nc-primary-color: $link-color;
+  --nc-primary-contrast: $header-font-color;
+  font-size: $base-font-size;
 }
