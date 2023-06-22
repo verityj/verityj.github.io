@@ -41,6 +41,9 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jemoji  # https://github.com/jekyll/jemoji 
+            # enables emojis https://api.github.com/emojis
+            # https://github.com/ikatyang/emoji-cheat-sheet/tree/master
 
 # Exclude these files from production site
 exclude:
