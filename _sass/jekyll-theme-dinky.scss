@@ -789,14 +789,16 @@ a.pagination-item:hover {
   background-color: $code-block-background;
 }
 
+/*
 .nocomment {
-  --nc-background: rgb(255,0,0);
-  --nc-text-background: rgb(255,0,0);
-  --nc-text-color: rgb(255,0,0);
-  --nc-text-color-dark: rgb(255,0,0);
-  --nc-primary-color: rgb(255,0,0);
-  --nc-primary-contrast: rgb(255,0,0);
+  --nc-background: rgb(0,255,0);
+  --nc-text-background: rgb(0,255,0);
+  --nc-text-color: rgb(0,255,0);
+  --nc-text-color-dark: rgb(0,255,0);
+  --nc-primary-color: rgb(0,255,0);
+  --nc-primary-contrast: rgb(0,255,0);
 }
+*/
 
 :root {
   --nc-primary-color: rgb(255,0,0);
