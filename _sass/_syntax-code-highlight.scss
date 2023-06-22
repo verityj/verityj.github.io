@@ -10,7 +10,7 @@ $red:  rgb(255,0,0);
   .cm    { color: $gray; font-style: normal } // Comment.Multiline // Swift: italics // "/*" gets caught
   .cp    { color: $gray } // Comment.Preproc
   .cs    { color: $gray } // Comment.Special
-  .err   { color: $code-font-color; background-color: $code-block-background } // Error
+  .err   { color: $blue; background-color: $code-block-background } // Error // Swift: $
   .gd    { color: $code-font-color } // Generic.Deleted
   .gd .x { color: $code-font-color } // Generic.Deleted.Specific
   .ge    { color: $code-font-color } // Generic.Emph
