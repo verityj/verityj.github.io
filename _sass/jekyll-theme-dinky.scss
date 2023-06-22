@@ -3,6 +3,19 @@
   url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap'),
   url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700');
 
+@font-face {
+    font-family: WorkSans;
+    src: url("/assets/Work_Sans/WorkSans-VariableFont_wght.ttf") format('truetype');
+    font-weight: 350;
+    font-style: normal;
+}
+@font-face {
+    font-family: WorkSans;
+    src: url("/assets/Work_Sans/WorkSans-Italic-VariableFont_wght.ttf") format('truetype');
+    font-weight: 350;
+    font-style: italic;
+}
+
 /* follow https://developers.google.com/fonts/docs/css2
  * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:500');
  * @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300,700&family=Lato:wght@400');
