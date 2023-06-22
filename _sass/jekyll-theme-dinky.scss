@@ -777,16 +777,14 @@ a.pagination-item:hover {
 /* Next post link */
 .next-post {
   float: right;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+}
+.previous-post {
+  padding-bottom: 20px;
 }
 .next-post:hover {
   background-color: $code-block-background;
 }
 .previous-post:hover {
   background-color: $code-block-background;
-}
-
-script {
-  font-size: $base-font-size;
-  font-family: $base-font-family;
 }
