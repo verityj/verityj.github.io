@@ -30,3 +30,7 @@ It's a great journey and I love every step along the way. Thank you for encourag
 <h5 />
 
 <img class="centered" width="8%;" src="/assets/images/qr-primal-verity.png" />
+
+## Say Hi!
+
+<script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" data-owner="npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3" data-custom-base="note1z7lysage232ukggx69plhc2gr7y63zvech3grm9td6033w3tetzsrh640q"></script>
