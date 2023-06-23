@@ -810,3 +810,9 @@ a.pagination-item:hover {
 .nocomment:styled.textarea {
   color: rgb(200,0,0);
 }
+.nocomment.textarea {
+  color: rgb(0,200,0);
+}
+.textarea {
+  color: rgb(0,0,200);
+}
