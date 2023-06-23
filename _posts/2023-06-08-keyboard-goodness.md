@@ -66,8 +66,14 @@ Personally, I am frequently deleting text after using the arrow keys to position
 
 <img class="centered" width="90%;" src="/assets/images/karabiner1a.png" />
 
-## Further reading
+### Further reading
 
 [Newer post about the Eject key assignments] - human interface device (HID) utility for modifying the regular keyboard keys as well as the consumer one shot control (OSC) keys.
 
 [How else to make my keyboard my own] - user key bindings.
+
+### Say Hi!
+
+<span class="nocomment">
+  <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" data-owner="npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3" data-custom-base="note1gy3dsr62mcyakx40m2dxw0avgj3fsxa89ydpwtnryv00y5a7238synnhxz"></script>
+</span>
