@@ -27,14 +27,7 @@ It's a great journey and I love every step along the way. Thank you for encourag
 
 <img src="/assets/images/p.png" width="20px;" /> &emsp; And lo and behold there was [PayPal](https://www.paypal.com/donate/?hosted_button_id=D2SU4GD8PEXCW)
 
-<h5 />
-
-<img class="centered" width="8%;" src="/assets/images/qr-primal-verity.png" />
-
-<hr />
-<p align="center">
-  <a href="/">Main page</a>
-</p>
+<img class="centered" width="8%;" style="margin-top: 50px;" src="/assets/images/qr-primal-verity.png" />
 
 ## Say Hi!
 
