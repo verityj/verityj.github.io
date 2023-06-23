@@ -47,7 +47,7 @@ $base-line-height: 1.6;
 $code-line-height: 1.6;
 $header-line-height: 1.2;
 
-$base-background: rgb(248,255,255); /* default: #FBFAF7; */
+$base-background: rgb(255,251,251); /* default: #FBFAF7; */
 $code-background: rgb(255,255,255);
 $code-block-background: $code-background;
 $header-background: rgb(130,130,130);
@@ -55,6 +55,7 @@ $code-block-border: 1px solid $header-background;
 $link-color: rgb(195,0,0); /* #C30000 - red */
 
 $base-font-color: #303030;
+$button-font-color: rgb(255,255,255); /* white #fff */
 $code-font-color: #000000;
 $header-font-color: $base-background;
 $headings-font-color: #232323;
@@ -189,7 +190,7 @@ a small {
 }
 
 em {
-	font-style: italic;
+  font-style: italic;
 }
 
 strong {
@@ -494,13 +495,14 @@ header li:hover {
 
 /* 2023.06.16 added font-size */
 /* 2023.06.17 added font-family */
+/* color: #fff - white */
 a.buttons {
 	-webkit-font-smoothing: antialiased;
 	background: url(../images/arrow-down.png) no-repeat;
 	font-family: $sans-serif;
 	font-weight: normal;
 	font-size: 14px;
-	color: #fff;
+	color: $button-font-color;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 	padding: 2px 2px 2px 22px;
 	height: 30px;
@@ -518,7 +520,7 @@ a.buttons-u {
 }
 
 a.buttons-u:hover {
-	color: #fff;
+	color: $button-font-color;
 	text-decoration: none;
 }
 
@@ -534,7 +536,7 @@ a.buttons-r {
 }
 
 a.buttons-r:hover {
-	color: #fff;
+	color: $button-font-color;
 	text-decoration: none;
 }
 
@@ -555,7 +557,7 @@ a.github {
 }
 
 a.buttons:hover {
-	color: #fff;
+	color: $button-font-color;
 	text-decoration: none;
 }
 
@@ -670,7 +672,7 @@ footer {
 @media print {
   body {
     padding: 0.4in;
-    font-size: $base-font-size;
+    font-size: $base-font-size -1px;
     color: #444;
   }
 }
@@ -798,9 +800,9 @@ a.pagination-item:hover {
 /* primary-contrast: 'Get Key' button text */
 .nocomment {
   --nc-background: $base-background;
-  --nc-text-background: rgb(255,0,0);
+  --nc-text-background: $code-block-background;
   --nc-text-color: $base-font-color;
-  --nc-text-color-dark: rgb(0,0,0);
+  --nc-text-color-dark: $base-font-color;
   --nc-primary-color: rgb(80,80,247);
   --nc-primary-contrast: rgb(255,255,255);
   font-size: 20px;
