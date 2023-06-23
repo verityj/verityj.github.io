@@ -808,8 +808,6 @@ a.pagination-item:hover {
   --nc-primary-color: rgb(80,80,247);
   --nc-primary-contrast: rgb(255,255,255);
 }
-div.nocomment {
-  font-size: 20px;
-  font-color: rgb(0,250,0);
-  border: 1px solid rgb(0,250,0);
+textarea.nocomment {
+  background-color: black;
 }
