@@ -33,13 +33,7 @@ It's a great journey and I love every step along the way. Thank you for encourag
 
 ## Say Hi!
 
-:root {
-  --nc-background: rgb(248,255,255);
-  --nc-text-background: rgb(255,255,255);
-  --nc-text-color: #303030;
-  --nc-text-color-dark: rgb(0,0,0);
-  --nc-primary-color: rgb(80,80,247);
-  --nc-primary-contrast: rgb(255,255,255);
-  text-color: rgb(0,200,0);
-}
-<script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" data-owner="npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3" data-custom-base="note1z7lysage232ukggx69plhc2gr7y63zvech3grm9td6033w3tetzsrh640q"></script>
+<div class="nocomment">
+  <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" data-owner="npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3" data-custom-base="note1z7lysage232ukggx69plhc2gr7y63zvech3grm9td6033w3tetzsrh640q">
+  </script>
+</div>
