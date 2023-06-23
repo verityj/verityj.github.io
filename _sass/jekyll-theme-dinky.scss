@@ -802,6 +802,12 @@ a.pagination-item:hover {
 /* primary-contrast: 'Get Key' button text */
 .nocomment {
   --nc-background: $base-background;
+  --nc-container-font-family: arial;
+  --nc-comment-author-font-size: 14px;
+  --nc-comment-author-font-family: $serif;
+  --nc-comment-author-font-color: rgb(0,198,0);
+  --nc-comment-date-font-family: $sans-serif;
+  --nc-comment-fate-font-size: 14px;
   --nc-text-background: $code-block-background;
   --nc-text-color: $base-font-color;
   --nc-text-color-dark: rgb(80,80,247);
