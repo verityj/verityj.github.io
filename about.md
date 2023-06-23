@@ -31,7 +31,7 @@ It's a great journey and I love every step along the way. Thank you for encourag
 
 ## Say Hi!
 
-<div class="nocomment">
+<span class="nocomment">
   <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" data-owner="npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3" data-custom-base="note1z7lysage232ukggx69plhc2gr7y63zvech3grm9td6033w3tetzsrh640q">
   </script>
-</div>
+</span>
