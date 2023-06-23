@@ -792,12 +792,13 @@ a.pagination-item:hover {
 
 /* nocomment https://github.com/fiatjaf/nocomment */
 /* script inside <div class="nocomment"> */
+/* background: outer background = body background */
 /* primary-color: button background and border */
 /* primary-contrast: 'Get Key' button text */
 .nocomment {
-  --nc-background: rgb(248,255,255);
+  --nc-background: rgb(255,0,0);
   --nc-text-background: rgb(255,255,255);
-  --nc-text-color: $link-color;
+  --nc-text-color: $base-font-color;
   --nc-text-color-dark: rgb(0,0,0);
   --nc-primary-color: rgb(80,80,247);
   --nc-primary-contrast: rgb(255,255,255);
