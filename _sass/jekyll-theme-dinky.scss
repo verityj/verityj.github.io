@@ -793,10 +793,10 @@ a.pagination-item:hover {
 /* primary-color: button background and border */
 /* primary-contrast: 'Get Key' button text */
 :root {
-  --nc-background: $base-background;
+  --nc-background: $code-background;
   --nc-text-background: $code-background;
   --nc-text-color: $base-font-color;
   --nc-text-color-dark: rgb(0,0,0);
-  --nc-primary-color: rgb(0,0,200);
-  --nc-primary-contrast: $header-font-color;
+  --nc-primary-color: rgb(0,0,150);
+  --nc-primary-contrast: $base-background;
 }
