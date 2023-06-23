@@ -31,6 +31,11 @@ It's a great journey and I love every step along the way. Thank you for encourag
 
 <img class="centered" width="8%;" src="/assets/images/qr-primal-verity.png" />
 
+<hr />
+<p align="center">
+  <a href="/">Main page</a>
+</p>
+
 ## Say Hi!
 
 <div class="nocomment">
