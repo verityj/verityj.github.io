@@ -793,17 +793,18 @@ a.pagination-item:hover {
 }
 
 /* nocomment https://github.com/fiatjaf/nocomment */
-/* script inside <div class="nocomment"> */
+/* put script inside <span class="nocomment"> */
 /* background: outer background = body background */
 /* text-background: comment box background = code block background */
-/* text-color: $base-font-color; - did not change anything */
+/* text-color: $base-font-color; = comment time and comment text */
+/* text-color-dark = "from <nostr username>" */
 /* primary-color: button background and border */
 /* primary-contrast: 'Get Key' button text */
 .nocomment {
   --nc-background: $base-background;
   --nc-text-background: $code-block-background;
-  --nc-text-color: rgb(0,200,0);
-  --nc-text-color-dark: rgb(0,0,200);
+  --nc-text-color: $base-font-color;
+  --nc-text-color-dark: rgb(80,80,247);
   --nc-primary-color: rgb(80,80,247);
   --nc-primary-contrast: rgb(255,255,255);
 }
