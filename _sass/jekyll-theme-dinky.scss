@@ -174,18 +174,18 @@ h6 {
 /* 2023.06.17 original font-weight:200; */
 /* 2023.07.20 removed font-weight: $base-font-weight; */
 a {
-  	color: $link-color;
-  	text-decoration: none;
+  color: $link-color;
+  text-decoration: none;
 }
 
 /* Removed text-decoration: underline; */
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 /* 2023.06.16 changed from 12px; */
 a small {
-	font-size: $base-font-size - 1px;
+  font-size: $base-font-size - 1px;
 }
 
 em {
@@ -666,10 +666,11 @@ footer {
   }
 }
 
+/* font-size: 12pt; */
 @media print {
   body {
     padding: 0.4in;
-    font-size: 12pt;
+    font-size: $base-font-size;
     color: #444;
   }
 }
@@ -799,5 +800,4 @@ a.pagination-item:hover {
   --nc-text-color-dark: rgb(0,0,0);
   --nc-primary-color: rgb(0,0,150);
   --nc-primary-contrast: rgb(255,255,255);
-  font-size: 15px;
 }
