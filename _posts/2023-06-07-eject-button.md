@@ -16,3 +16,9 @@ On **Mac**, the solution is free: [Karabiner Elements](https://karabiner-element
 <img class="centered" width="90%;" src="/assets/images/karabiner1.png" />
 
 On **Linux** it might be as simple as going through System Settings → Keyboard → Shortcuts → Sound and Media → Eject ([reference](https://www.it3.be/2020/10/08/apple-magic-kbd-eject-key/)). I have no way to test that currently.
+
+### Say Hi!
+
+<span class="nocomment">
+  <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" data-owner="npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3" data-custom-base="note1slh5y4tm7q8am7kqtyltrtu4qlcdj4jy84qlt4zq936epq9tyddq5nd6la"></script>
+</span>
