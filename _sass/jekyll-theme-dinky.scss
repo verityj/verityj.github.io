@@ -304,40 +304,40 @@ code, pre {
 /* background: #F1F1F1; - means background for code block around the text */
 /* 2023.06.17 added display: block; */
 pre {
-	padding: 4px 12px;
+  padding: 4px 12px;
   border-radius: $border-radius;
   border: $code-block-border;
   overflow: auto;
   overflow-y: hidden;
   margin-top: 15px;
-	margin-bottom: 15px;
-	line-height: $code-line-height;
+  margin-bottom: 15px;
+  line-height: $code-line-height;
 }
 
 /* code blocks are inside preformatted highlight */
 pre.highlight {
   font-size: $code-font-size;
-	background-color: $code-block-background;
+  background-color: $code-block-background;
 }
 
 /* inline code class */
 /* removed border: 1px solid #D7D8C8; */
 code.highlighter-rouge {
-	font-size: $code-font-size + 1px;
-	background-color: $code-background;
-	padding: 1px 2px 1px 2px;
-	border-radius: 4px;
+  font-size: $code-font-size + 1px;
+  background-color: $code-background;
+  padding: 1px 2px 1px 2px;
+  border-radius: 4px;
 }
 /* line numbers */
 .rouge-gutter {
-	padding-right: 0px;
-	color: $code-font-color;
-	text-align: right;
+  padding-right: 0px;
+  color: $code-font-color;
+  text-align: right;
 }
 /* code */
 .code,
 .rouge-code {
-	padding-left: 0px;
+  padding-left: 0px;
 }
 
 /********
