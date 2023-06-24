@@ -38,7 +38,7 @@ $base-font-family: $sans-serif;
 $title-font-family: $serif;
 $code-font-family: 'PT Mono', 'Monaco', 'Bitstream Vera Sans Mono', 'Lucida Console', 'Terminal', monospace;
 
-$base-font-size: 15px;
+$base-font-size: 15px !default;
 $base-font-weight: 400;
 $base-font-weight-bold: 700;
 $code-font-size: 13px;
