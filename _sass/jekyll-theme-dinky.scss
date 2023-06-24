@@ -65,7 +65,9 @@ $border-radius: 4px;
 $section-width: 650px;
 $side-width: 250px;
 
-@import	"syntax-code-highlight"; // Hook to add code highlighting. After global definitions above
+@import	
+  "functions", // Add custom functions, call in main markdown \{\: .text-center \}
+  "syntax-code-highlight"; // Hook to add code highlighting. After global definitions above
 
 /* MeyerWeb Reset */
 
