@@ -801,8 +801,6 @@ a.pagination-item:hover {
 /* primary-contrast: 'Get Key' button text */
 .nocomment {
   all: revert;
-  font-family: $base-font-family !important;
-  font-size: $base-font-size !important;
   --nc-background: $base-background;
   --nc-container-font-family: $base-font-family;
   --nc-container-font-size: $base-font-size;
