@@ -278,13 +278,13 @@ p img, .emoji {
  * 2023.06.15 removed margin: auto; replaced to give space top and bottom
  */
 .centered {
-  	border-radius: $border-radius;
-  	border: 1px solid #D7D8C8;
-  	margin-left: auto;
-  	margin-right: auto;
-  	margin-top: 20px;
-  	margin-bottom: 20px;
-  	display: block;
+  border-radius: $border-radius;
+  border: 1px solid #D7D8C8;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
 }
 
 /*************
@@ -316,7 +316,7 @@ pre {
 
 /* code blocks are inside preformatted highlight */
 pre.highlight {
-	font-size: $code-font-size;
+  font-size: $code-font-size;
 	background-color: $code-block-background;
 }
 
