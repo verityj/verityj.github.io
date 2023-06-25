@@ -348,6 +348,8 @@ code.highlighter-rouge {
 div.gist-file > .gist-meta {
   font-size: unset;
   font-size: $base-font-size - 1px;
+  font-family: unset;
+  font-family: $sans-serif;
 }
 
 /********
@@ -360,8 +362,8 @@ table {
 
 /* 2017.06.18 removed border: 1px solid #ccc; */
 table {
-	margin-bottom: 32px;
-	text-align: left;
+  margin-bottom: 32px;
+  text-align: left;
  }
 
 /* th is a header cell */
