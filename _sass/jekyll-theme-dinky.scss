@@ -696,31 +696,31 @@ footer {
 /* padding: 1px 1px 1px 1px; */
 
 a[rel="footnote"] {
-  font-weight:  $title weight;
-  padding:      0px 2px 0px 2px;
+  font-weight: $title-weight;
+  padding: 0px 2px 0px 2px;
 }
 
 a[rel="footnote"]:before {
-  content:      "(";
-  font-weight:  $base-weight;
+  content: "(";
+  font-weight: $base-weight;
 }
 
 a[rel="footnote"]:after {
-  content:      ")";
-  font-weight:  $base-weight;
+  content: ")";
+  font-weight: $base-weight;
 }
 
 /* lighter orange background: background-color: rgb(233,116,81); */
 a[rel="footnote"]:hover {
-  text-decoration:	none;
+  text-decoration: none;
   background-color: rgb(247,247,247);
 }
 
 /* bottom footnote arrow back to main text */
 a[rev="footnote"]:hover {
-  text-decoration: 	none;
-  background-color:	rgb(245,245,245);
-  border-radius:		$border-radius;
+  text-decoration: none;
+  background-color: rgb(245,245,245);
+  border-radius: $border-radius;
 }
 
 /* From https://github.com/poole/hyde/blob/7c7f7550898e081264d255ef429a134fb00c72a8/public/css/poole.css#L26
