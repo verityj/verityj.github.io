@@ -344,6 +344,12 @@ code.highlighter-rouge {
   padding-left: 0px;
 }
 
+// Embedded gist bottom line
+div.gist-file > .gist-meta {
+  font-size: unset;
+  font-size: $base-font-size - 1px;
+}
+
 /********
   TABLES
  ********/
