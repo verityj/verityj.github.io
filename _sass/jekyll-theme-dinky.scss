@@ -39,9 +39,11 @@ $title-font-family: $serif;
 $code-font-family: 'PT Mono', 'Monaco', 'Bitstream Vera Sans Mono', 'Lucida Console', 'Terminal', monospace;
 
 $base-font-size: 15px !default;
-$base-font-weight: 400;
-$base-font-weight-bold: 700;
 $code-font-size: 13px;
+
+$base-weight: 400;
+$base-weight-bold: 550;
+$title-weight: 700;
 
 $base-line-height: 1.6;
 $code-line-height: 1.6;
@@ -108,7 +110,7 @@ body {
   padding: 10px 50px 50px 0;
   font-family: $base-font-family;
   font-size: $base-font-size;
-  font-weight: $base-font-weight;
+  font-weight: $base-weight;
   font-color: $base-font-color;
   background-color: $base-background;
   margin: 0;
@@ -146,7 +148,7 @@ h1, h2, h3, h4 {
   display: block;
   border-bottom: 1px solid $header-line-color;
   padding-bottom: 5px;
-  font-weight: $base-font-weight-bold;
+  font-weight: $title-weight;
 }
 
 h1 {
@@ -175,7 +177,7 @@ h6 {
 }
 
 /* 2023.06.17 original font-weight:200; */
-/* 2023.07.20 removed font-weight: $base-font-weight; */
+/* 2023.07.20 removed font-weight: $base-weight; */
 a {
   color: $link-color;
   text-decoration: none;
@@ -196,7 +198,7 @@ em {
 }
 
 strong {
-  font-weight: $base-font-weight-bold;
+  font-weight: $base-weight-bold;
 }
 
 /* could play with: list-style: disc inside url("/assets/images/dash.png"); */
@@ -429,7 +431,7 @@ p.header {
 /* removed: 	margin-top: 0; default is 30px, above*/
 h1.header {
   font-family: $serif;
-  font-weight: $base-font-weight-bold;
+  font-weight: $title-weight;
   line-height: $header-line-height;
   border-bottom: none;
 }
@@ -694,18 +696,18 @@ footer {
 /* padding: 1px 1px 1px 1px; */
 
 a[rel="footnote"] {
-  font-weight:  $base-font-weight-bold;
+  font-weight:  $title weight;
   padding:      0px 2px 0px 2px;
 }
 
 a[rel="footnote"]:before {
   content:      "(";
-  font-weight:  $base-font-weight;
+  font-weight:  $base-weight;
 }
 
 a[rel="footnote"]:after {
   content:      ")";
-  font-weight:  $base-font-weight;
+  font-weight:  $base-weight;
 }
 
 /* lighter orange background: background-color: rgb(233,116,81); */
@@ -803,7 +805,7 @@ a.pagination-item:hover {
 /* primary-contrast: 'Get Key' button text */
 .nocomment {
   all: revert;
-  font-size: 15px !important;
+  font-size: $base-font-size !important;
   --nc-background: $base-background;
   --nc-container-font-family: $base-font-family;
   --nc-container-font-size: $base-font-size;
