@@ -350,6 +350,10 @@ div.gist-file > .gist-meta {
   font-size: $base-font-size - 1px;
   font-family: unset;
   font-family: $sans-serif;
+  > strong {
+    font-weight: unset;
+    font-weight: $base-weight-bold;
+  }
 }
 
 /********
