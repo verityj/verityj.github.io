@@ -839,10 +839,13 @@ a.pagination-item:hover {
   --nc-primary-contrast: rgb(255,255,255);
 }
 .nocomment button {
-  font-size: revert;
-  font-family: revert;
+  font-size: unset;
+  font-family: unset;
   font-size: $base-font-size - 2px;
-  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
   height: 34px; // svg symbol 24 + 5+5 padding
 }
 //.nocomment div {
