@@ -812,7 +812,7 @@ a.pagination-item:hover {
   --nc-comment-author-font-color: rgb(80,80,247);
   --nc-comment-date-color: $base-font-color;
   --nc-comment-date-font-family: $sans-serif;
-  --nc-comment-date-font-size: $base-font-size - 1px;
+  --nc-comment-date-font-size: $base-font-size - 2px !important;
   --nc-link-text-decor: none;
   --nc-link-text-decor-hover: none;
   --nc-textarea-font-family: $base-font-family;
