@@ -146,3 +146,9 @@ P.S. I also would run a search for a portion of the title of that extension to m
 $ find / -iname "*extension-name-snippet*" -print 2>/dev/null
 ```
 Nothing should be found. And no find errors should be printed to clog the output. I don't care to have to weed through the `find: /<...>: Operation not permitted`.
+
+### Say Hi!
+
+<span class="nocomment">
+  <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" data-owner="npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3" data-custom-base="note1dqnhm2le2hncnye6ruw4eq320wmltwfajrkvv9mfzqdvp320z55s35zpud"></script>
+</span>
