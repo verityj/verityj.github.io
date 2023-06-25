@@ -842,6 +842,7 @@ a.pagination-item:hover {
   font-size: revert;
   font-family: revert;
   font-size: $base-font-size - 2px;
+  padding: 4px;
   height: 36px; // svg 24 + 4x4 padding + 4 gap
 }
 .nocomment div {
@@ -850,9 +851,9 @@ a.pagination-item:hover {
   padding: unset;
   padding: 4px;
 }
-.nocomment span {
-  > a {
-    font-color: green;
-  }
+.nocomment a {
   font-color: red;
+}
+.nocomment span {
+  font-color: green;
 }
