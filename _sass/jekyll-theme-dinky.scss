@@ -226,7 +226,7 @@ blockquote {
 
 /* #444 medium gray */
 dl, dt, dd, dl p {
-	color: #444;
+  color: #444;
 }
 
 dl dt {
@@ -817,6 +817,7 @@ a.pagination-item:hover {
 /* primary-contrast: 'Get Key' button text */
 .nocomment {
   all: revert;
+  font-size: reset;
   font-size: $base-font-size !important;
   --nc-background: $base-background;
   --nc-container-font-family: $base-font-family;
