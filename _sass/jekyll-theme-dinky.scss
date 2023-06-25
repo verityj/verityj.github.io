@@ -826,5 +826,5 @@ a.pagination-item:hover {
 .nocomment button {
   font-size: revert;
   font-family: revert;
-  font-size: $base-font-size;
+  font-size: $base-font-size - 2px;
 }
