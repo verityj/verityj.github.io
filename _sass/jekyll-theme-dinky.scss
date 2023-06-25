@@ -67,7 +67,7 @@ $border-radius: 4px;
 $section-width: 650px;
 $side-width: 250px;
 
-@import	
+@import
   "functions", // Add custom functions, call in main markdown \{\: .text-center \}
   "syntax-code-highlight"; // Hook to add code highlighting. After global definitions above
 
@@ -418,7 +418,7 @@ header {
   width: $side-width;
   float: left;
   position: fixed;
-	
+
   -webkit-border-top-right-radius: $border-radius;
   -webkit-border-bottom-right-radius: $border-radius;
   -moz-border-radius-topright: $border-radius;
@@ -439,8 +439,8 @@ p.header {
 /* 2023.06.17 removed font-weight: 300; */
 /* 2023.06.17 changed font-size: 30px; */
 /* line-height: 1.3em; */
-/* removed: 	font-color: $header-font-color; */
-/* removed: 	margin-top: 0; default is 30px, above*/
+/* removed: font-color: $header-font-color; */
+/* removed: margin-top: 0; default is 30px, above*/
 h1.header {
   font-family: $serif;
   font-weight: $title-weight;
@@ -451,7 +451,7 @@ h1.header {
 /* removed h1.header - should not be white
  * removed links being white, moved color to ul below
  * a.header, a.name, header a{
- *	color: #fff;
+ *  color: #fff;
  * }
  */
 
@@ -846,4 +846,5 @@ a.pagination-item:hover {
 }
 .nocomment div {
   gap: 2px;
+  padding: 4px;
 }
