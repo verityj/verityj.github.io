@@ -845,6 +845,8 @@ a.pagination-item:hover {
   height: 32px; // svg 24 + 2x2 padding + 4 gap
 }
 .nocomment div {
+  gap: unset;
   gap: 2px;
+  padding: unset;
   padding: 2px;
 }
