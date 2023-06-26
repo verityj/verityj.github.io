@@ -185,4 +185,8 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 - [nostr.band search](https://nostr.band/?q=%23press)
 - [karnage list on listr](https://listr.lol/a/naddr1qqy4y56nyprx2etywvpzqx78pgq53vlnzmdr8l3u38eru0n3438lnxqz0mr39wg9e5j0dfq3qvzqqqr4xq8yq7gf)
 
-![stars](https://img.shields.io/github/stars/verityj/nostr-news-feeds.svg?style=social)
+# Say Hi!
+
+<span class="nocomment">
+  <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" data-owner="npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3" data-custom-base="note179s3z3dt9n2dr0nuasrdaspnwn5rerk6ea2wrgp9w4hn2n6yjr2q5mmvh9"></script>
+</span>
