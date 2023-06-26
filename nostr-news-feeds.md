@@ -9,8 +9,10 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 
 ## A
 
-<img src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/491/374/528/254/original/65f1f8d01fbc6c3a.jpg" width="40px;" border-radius="20px;" style="float: left; margin-left: 0px; margin-right: 10px; margin-top: 5px; margin-bottom: 0px; padding: 0px;" /> &emsp;
-[ABC World news tonight](https://satellite.earth/@npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au) `npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au` `ABCWorldNews_at_press.coop@mostr.pub`
+<img src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/491/374/528/254/original/65f1f8d01fbc6c3a.jpg" style=" width: 40px; border-radius: 20px; float: left; margin-left: 0px; margin-right: 10px; margin-top: 2px; margin-bottom: 10px; padding: 0px;" />
+[ABC World news tonight](https://satellite.earth/@npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au)    
+`npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au`   
+`ABCWorldNews_at_press.coop@mostr.pub`
 
 - [Al Jazeera](https://satellite.earth/@npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad) - English `npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad` `AJEnglish_at_press.coop@mostr.pub`
 
