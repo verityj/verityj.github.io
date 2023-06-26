@@ -5,6 +5,8 @@ title: A curated list of Nostr news feeds
 
 A list of RSS aggregators for the press sites that we can follow on Nostr 
 
+![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social)
+
 ## A
 
 - [ABC World news tonight](https://satellite.earth/@npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au) `npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au` `ABCWorldNews_at_press.coop@mostr.pub`
