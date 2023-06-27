@@ -49,16 +49,25 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 `npub1aur3lxyl6dy85s8zjvx7zxhptne3jz3h8448a9l988gmqe57j83spc34ky` `BBCBreaking_at_press.coop@mostr.pub`
 {: .text50 }
 
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/526/479/089/245/original/774b3584f99584d6.jpg" />
+
+[BBC sport](https://satellite.earth/@BBCSport_at_press.coop@mostr.pub) `npub1epnty4332xas95arujpwtt9x7822ttc8ul8ku8xr53zxsk6qgq6srgplju` `BBCSport_at_press.coop@mostr.pub`
+{: .text50 }
+
+
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/577/728/339/104/original/7a7f84db0d71596a.jpg" />
 
 [BBC world](https://satellite.earth/@npub19fe3hu6gts0t6trs5vtwee9jcvp4up3zantuvyxq3jdmg9a4wxjsz9zs5r)  
 `npub19fe3hu6gts0t6trs5vtwee9jcvp4up3zantuvyxq3jdmg9a4wxjsz9zs5r` `BBCWorld_at_press.coop@mostr.pub`
 {: .text50 }
 
+
 <img class="rounded40" src="https://nostr.build/p/nb9842.png" />
 
 [Bitcoin herald](https://satellite.earth/@npub10eezfnlq4ad2lyf3478na8f5las4l7guuf55vs8378lwtk87hd7slf6zka) `npub10eezfnlq4ad2lyf3478na8f5las4l7guuf55vs8378lwtk87hd7slf6zka` `herald@bitcoin-herald.org`
 {: .text50 }
+
 
 <img class="rounded40" src="https://nostr.build/i/nostr.build_62c68a12726418d642c03730bfd716cf8031e83e28db199c94d633da57e68883.jpg" />
 
@@ -68,8 +77,21 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/534/395/701/540/original/4f62bd1d125463ca.jpg" />
 
-[Bloomberg](https://satellite.earth/@business_at_press.coop@mostr.pub) `npub17f2qe8ycpd56p6clc0d6l6kqxfr696xaq5c7d4w53c04xdm3lzvs4dtwjc` `business_at_press.coop@mostr.pub`
+[Bloomberg](https://satellite.earth/@business_at_press.coop@mostr.pub) - the first word in business news `npub17f2qe8ycpd56p6clc0d6l6kqxfr696xaq5c7d4w53c04xdm3lzvs4dtwjc` `business_at_press.coop@mostr.pub`
 {: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/554/320/033/457/original/1c4996941d686447.jpg" />
+
+[Bloomberg markets](https://satellite.earth/@markets_at_press.coop@mostr.pub) - breaking news and analysis on global financial markets `npub1frx687usj8mh4pxh9ssqtm20fa73etnnsv2u2jvk0yeq7tcj92hq9eaq40` `markets_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/110/148/385/302/991/656/original/a5bfb01479351ae2.jpg" />
+
+[Bloomberg wealth](https://satellite.earth/@wealth_at_press.coop@mostr.pub) `npub1zfpxk26satzukst9n2u28uu2nhkkvcvtv9p7m6yf2eqggfyc4muqu364ne` `wealth_at_press.coop@mostr.pub`
+{: .text50 }
+
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/447/029/027/463/original/9437261ba2be110a.jpg" />
 
