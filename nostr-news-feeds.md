@@ -2,6 +2,8 @@
 layout: page
 title: A curated list of Nostr news feeds
 ---
+![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social)
+{: .text-right }
 
 A list of RSS aggregators for the press sites that we can follow on Nostr.
 
@@ -9,8 +11,18 @@ _Note:_ to make sure you reach the below RSS feeds, add relay **wss://relay.most
 
 General and US-centric news are alphabetized below. Some country-specific and purely technical news have their own sections that follow. Table of contents will be added when the list is a little more finalized.
 
-![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social)
-{: .text-right }
+# Table of contents
+
+- [Canada](#Canada)
+- [Europe](#Europe)
+- [India](#India)
+- [Qatar](#Qatar)
+- [UK](#UK)
+- [Technical feeds](#Technical-feeds)
+- [Honorable mentions](#Honorable-mentions)
+- [Resources](#Resources)
+- [Say Hi!](#Say-Hi)
+
 
 ## A
 {: .text-center }
@@ -479,7 +491,7 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 [World news bot](https://satellite.earth/@npub17f8pn44vru6c0zwgh4hus2u6gdepdkagakp60wtxhn6ts5htxz7q3t2slx) - Bot that posts world news from the BBC, The Guardian, Der Spiegel, Aljazeera, CS Monitor, NPR, NYT, Korea Times, and South China Morning Post `npub17f8pn44vru6c0zwgh4hus2u6gdepdkagakp60wtxhn6ts5htxz7q3t2slx` `NewsBot_at_assortedflotsam.com@mostr.pub`
 {: .text50 }
 
-# Canada news
+# Canada
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/629/514/205/026/original/5f79635589140b9a.jpg" />
 
@@ -517,7 +529,7 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 [Politico Europe](https://satellite.earth/@POLITICOEurope_at_press.coop@mostr.pub) - politics. Policy. Power. `npub1esgj6hcsay7azg5zglt603kuhtcs3f2k4hszrvx2u70t6pqx6lyqtsxhep` `POLITICOEurope_at_press.coop@mostr.pub`
 {: .text50 }
 
-# India news
+# India
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/431/804/157/026/original/74bf285a5cccc7ea.jpg" />
 
@@ -536,7 +548,7 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 [The times of India](https://satellite.earth/@timesofindia_at_press.coop@mostr.pub) - news. Views. Analysis. Conversations. India’s No.1 digital news destination, world’s largest-selling English newspaper - A Times Internet Limited Product. `npub1vrzqqvgf3732q5yswfmh42gmnyn2pzla6n9cn9kttepglwwerppqmn5qgf` `timesofindia_at_press.coop@mostr.pub`
 {: .text50 }
 
-# Qatar news
+# Qatar
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/110/151/842/879/970/244/original/1e74babe8673c58b.jpg" />
 
@@ -549,7 +561,7 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 [Al Jazeera english](https://satellite.earth/@AJEnglish_at_press.coop@mostr.pub) - hear the human story and join the discussion. We go beyond cold facts and bring to light what matters `npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad` `AJEnglish_at_press.coop@mostr.pub`
 {: .text50 }
 
-# UK news
+# UK
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/798/852/823/229/382/original/1ebed8c17aa5e36a.jpg" />
 
