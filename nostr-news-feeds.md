@@ -519,6 +519,12 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 [Back to top](#a-curated-list-of-nostr-news-feeds)
 {: .text-right }
 
+[Back to stars](#stars)
+
+[Back to optimize](#optimize-for-happiness)
+
+[Back to TOC](#table-of-contents)
+
 # Europe
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/878/428/684/168/077/original/5dea43a852dc8db7.jpg" />
