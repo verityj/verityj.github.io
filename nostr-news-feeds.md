@@ -65,8 +65,8 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 [Bitcoin magazine](https://satellite.earth/@npub1t8a7uumfmam38kal4xaakzyjccht4y5jxfs4cmlj0p768pxtwu8skh56yu) `npub1t8a7uumfmam38kal4xaakzyjccht4y5jxfs4cmlj0p768pxtwu8skh56yu` `bitcoinmagazine@b.tc`
 {: .text50 }
 
-{: .rounded40}
-![Bloomberg](https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/534/395/701/540/original/4f62bd1d125463ca.jpg)
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/534/395/701/540/original/4f62bd1d125463ca.jpg" />
 
 [Bloomberg](https://satellite.earth/@business_at_press.coop@mostr.pub) `npub17f2qe8ycpd56p6clc0d6l6kqxfr696xaq5c7d4w53c04xdm3lzvs4dtwjc` `business_at_press.coop@mostr.pub`
 {: .text50 }
