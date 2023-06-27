@@ -5,7 +5,7 @@ title: A curated list of Nostr news feeds
 ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social)
 {: .text-right }
 
-A list of RSS aggregators for the press sites that we can follow on Nostr.
+This is a list of RSS aggregators for the press sites that we can follow on Nostr.
 
 _Note:_ to make sure you reach the below RSS feeds, add relay **wss://relay.mostr.pub** (source: [Mostr]).
 
@@ -13,7 +13,7 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 
 # Table of contents
 
-- [Canada](#Canada)
+- [Canada](#canada)
 - [Europe](#Europe)
 - [India](#India)
 - [Qatar](#Qatar)
