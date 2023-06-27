@@ -758,6 +758,7 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 - [press.coop newest news]
 - [nostr.band search]
 - [karnage list on listr]
+- [Mostr] - a bridge between Nostr and Mastodon, used above
 - [RSSLay] - a site for generating Nostr RSS feeds as public users. It advises to add their relay **wss://rsslay.nostr.moe**.
 
 # Say Hi!
