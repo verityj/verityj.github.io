@@ -7,8 +7,6 @@ A list of RSS aggregators for the press sites that we can follow on Nostr.
 
 _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr.pub** (source: [Mostr]).
 
-[And/or add relay **wss://rsslay.nostr.moe** to make sure (source: [RSSLay])].
-
 ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social)
 {: .text-right }
 
@@ -20,10 +18,12 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 [ABC World news tonight](https://satellite.earth/@npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au) `npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au` `ABCWorldNews_at_press.coop@mostr.pub`
 {: .text50 }
 
+
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/570/217/740/378/original/4c3a5a7732a85823.jpg" />
 
 [Al Jazeera](https://satellite.earth/@npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad) - English `npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad` `AJEnglish_at_press.coop@mostr.pub`
 {: .text50 }
+
 
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/1509547258219479049/Lr3AvxTD_400x400.jpg" />
 
@@ -31,9 +31,11 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 `npub1zytlalgfj9hyftkhyqxduenyndy8mzvrtzeluk2n3e27pnk0z9psmzlhnk`
 {: .text50 }
 
+
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/570/185/573/083/original/5db335f4c999de25.png" />
 
 [The Associated Press](https://satellite.earth/@npub1c3kfjw40pznhlya26qku6j5ll86gezstzhufeyf2dyhge2w0nz2quuq2dc) `npub1c3kfjw40pznhlya26qku6j5ll86gezstzhufeyf2dyhge2w0nz2quuq2dc` `AP_at_press.coop@mostr.pub`
+
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/423/778/485/406/original/298e44e0b7354283.jpg" />
 
@@ -89,7 +91,7 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/110/148/385/302/991/656/original/a5bfb01479351ae2.jpg" />
 
-[Bloomberg wealth](https://satellite.earth/@wealth_at_press.coop@mostr.pub) `npub1zfpxk26satzukst9n2u28uu2nhkkvcvtv9p7m6yf2eqggfyc4muqu364ne` `wealth_at_press.coop@mostr.pub`
+[Bloomberg wealth](https://satellite.earth/@wealth_at_press.coop@mostr.pub) - helping you manage your finances, live your best life and navigate your path to prosperity `npub1zfpxk26satzukst9n2u28uu2nhkkvcvtv9p7m6yf2eqggfyc4muqu364ne` `wealth_at_press.coop@mostr.pub`
 {: .text50 }
 
 
@@ -103,18 +105,55 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/629/514/205/026/original/5f79635589140b9a.jpg" />
 
-[CBC](https://satellite.earth/@npub1xne27n4zfakyvfacrsdq2qy2zedhzp7vqn3w7dnmwdcs4wezfgrs0qs87u)  
-`npub1xne27n4zfakyvfacrsdq2qy2zedhzp7vqn3w7dnmwdcs4wezfgrs0qs87u` `CBCNews_at_press.coop@mostr.pub`
+[CBC](https://satellite.earth/@npub1xne27n4zfakyvfacrsdq2qy2zedhzp7vqn3w7dnmwdcs4wezfgrs0qs87u) - Bringing you the best of Canada `npub1xne27n4zfakyvfacrsdq2qy2zedhzp7vqn3w7dnmwdcs4wezfgrs0qs87u` `CBCNews_at_press.coop@mostr.pub`
 {: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/629/514/205/026/original/5f79635589140b9a.jpg" />
+
+[CBC news](https://satellite.earth/@CBCNews_at_press.coop@mostr.pub) - latest news and analysis from CBC News `npub1xne27n4zfakyvfacrsdq2qy2zedhzp7vqn3w7dnmwdcs4wezfgrs0qs87u` `CBCNews_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/800/810/790/131/098/original/2a97347065101025.jpg" />
+
+[CBC news: the national](https://satellite.earth/@CBCTheNational_at_press.coop@mostr.pub) - The National is the flagship of CBC news, showcasing award-winning journalism from across Canada and around the world `npub1sv4dydlndugrzfuxt259celdcqxw5c02tg25lhv3dz5wuum9y00qwnway5`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/491/190/722/318/original/f72ee3036ea71e90.jpg" />
+
+[Chicago tribune](https://satellite.earth/@chicagotribune_at_press.coop@mostr.pub) - breaking news since 1847 `npub1qveaw9vwn62ag4v5xajm7uqphp4stgwp0znxd94fkhv3r25pf3ssth68h7` `chicagotribune_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/518/172/340/175/original/d595a5083bc4c88f.png" />
+
+[The christian science monitor](https://satellite.earth/@csmonitor_at_press.coop@mostr.pub) - international news organization covering global and local headlines. Founded in 1908. Winner of 7 Pulitzers & 14 Overseas Press Awards. `npub1pgkd0cd9rwucmk2qjjx0ezcdfnuw7p8rkymqmf0duk02nv3rk9uq0up8vj` `csmonitor_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/876/182/234/331/875/original/562b64ffa9c609b6.jpg" />
+
+[CNET](https://satellite.earth/@CNET_at_press.coop@mostr.pub)- your guide to a better future `npub1rzzl7m5yfyxygqmnfwh5vmmwf3ugv6s7ekleue2x6vfmjre7vsmspm56s5` `CNET_at_press.coop@mostr.pub`
+{: .text50 }
+
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/514/669/416/396/original/6adb0801ded18862.jpg" />
 
 [CNN](https://satellite.earth/@npub1mau5fmgd9jhg8j38xl8g7mer6ykqsqmjjl4avs6vghsjx7323elqn7fkrn) `npub1mau5fmgd9jhg8j38xl8g7mer6ykqsqmjjl4avs6vghsjx7323elqn7fkrn` `CNN_at_press.coop@mostr.pub`
 {: .text50 }
 
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/538/367/353/450/original/88729863b5dda920.jpg" />
+
+[CNN breaking news](https://satellite.earth/@cnnbrk_at_press.coop@mostr.pub) - breaking news from CNN digital. Now 64M strong. Check CNN for all things CNN, breaking and more. `npub13r7dh2u7uptej3m7htzchas68k695v7spvlxkuyrha8xckpty82qq54my0` `cnnbrk_at_press.coop@mostr.pub`
+{: .text50 }
+
+
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/542/319/135/688/original/f5cfbb20de6a88ea.jpg" />
 
-[CNN International](https://satellite.earth/@npub1k0zrp0lxtuvlqjrkfww0sctk76wd0lwltwhz37cu5nzds2k5xphqw6c4v4) `npub1k0zrp0lxtuvlqjrkfww0sctk76wd0lwltwhz37cu5nzds2k5xphqw6c4v4` `cnni_at_press.coop@mostr.pub`
+[CNN International](https://satellite.earth/@npub1k0zrp0lxtuvlqjrkfww0sctk76wd0lwltwhz37cu5nzds2k5xphqw6c4v4)- breaking news from around the world, plus business, style, travel, sport and entertainment `npub1k0zrp0lxtuvlqjrkfww0sctk76wd0lwltwhz37cu5nzds2k5xphqw6c4v4` `cnni_at_press.coop@mostr.pub`
 {: .text50 }
 
 <img class="rounded40" src="https://www.coindesk.com/favicon.ico" />
@@ -137,18 +176,51 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/593/470/377/637/original/a8f310678b9bde9a.jpg" />
 
+[The economist](https://satellite.earth/@TheEconomist_at_press.coop@mostr.pub) - news and analysis with a global perspective `npub17sv49gxmfu056s07jvu9w3csfva0erzf88v0t4a0ey4fffqrwtvsdzrfcw` `TheEconomist_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/593/470/377/637/original/a8f310678b9bde9a" />
+
+[The economist data team](https://satellite.earth/@ECONdailycharts_at_press.coop@mostr.pub) - charts, maps and data-driven journalism from The economist data team `npub1fxuzuvxl9wx8qzf50nnwmu6wfzg4unc67drl0t9rsv9325xnjh6qnqm52n` `ECONdailycharts_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/798/098/392/723/569/original/be27f6058deffee2.jpg" />
+
+[The economist intelligence](https://satellite.earth/@TheEIU_at_press.coop@mostr.pub) - economic and geopolitical insight guiding the world's organisations. Intelligence that moves you forward `npub1ch4l70tqfz8nl9t7m4hu9m9sh2dsnxurartx6eyyzxu6fx758eysau7y3z` `TheEIU_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/593/470/377/637/original/a8f310678b9bde9a.jpg" />
+
+[The economist US](https://satellite.earth/@EconUS_at_press.coop@mostr.pub) `npub13qvau9pxkg03vp3e30pvm0jehrn7xamhgsc2zhraqzmugutks6eqtd8l0r` `EconUS_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/593/470/377/637/original/a8f310678b9bde9a.jpg" />
+
 [The economist - the world this week](https://satellite.earth/@npub1cfty6nd2td5y00t04zlpqchgwe2d2sgr68laevllk8yu45r4fwgsfsp4k5) `npub1cfty6nd2td5y00t04zlpqchgwe2d2sgr68laevllk8yu45r4fwgsfsp4k5`
 {: .text50 }
 
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/878/574/543/997/055/original/28eb2a682933ca17.png" />
+
+[Engadget (1)](https://satellite.earth/@engadget_at_press.coop@mostr.pub) - the original home for technology news and reviews `npub1dtdu75pufnuw5e5m0lfna73n4w792m9s07mw8nmcn75807lrckdsqhhk3n` `engadget_at_press.coop@mostr.pub`
+{: .text50 }
+
+
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/655059892022022144/Pq3Q_1oU_400x400.png" />
 
-[Engadget](https://satellite.earth/@npub1zygw2uzcnpy8gp9qfjfrgjc292k0vwwe709ren726v9fspf49vds28m36h) `npub1zygw2uzcnpy8gp9qfjfrgjc292k0vwwe709ren726v9fspf49vds28m36h`
+[Engadget (2)](https://satellite.earth/@npub1zygw2uzcnpy8gp9qfjfrgjc292k0vwwe709ren726v9fspf49vds28m36h) - the original home for technology news and reviews `npub1zygw2uzcnpy8gp9qfjfrgjc292k0vwwe709ren726v9fspf49vds28m36h`
 {: .text50 }
+
 
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/1170690523201527808/FriNRiir_400x400.png" />
 
 [ESPN](https://satellite.earth/@npub1zy0qh4vy46r77pdn2454gdws40xhvxzc69dmnuc5yjekkaw0ytgsuw7hde) `npub1zy0qh4vy46r77pdn2454gdws40xhvxzc69dmnuc5yjekkaw0ytgsuw7hde`
 {: .text50 }
+
 
 <img class="rounded40" src="https://nitter.nostr.sc/pic/pbs.twimg.com%2Fprofile_images%2F1649341567566487552%2FaUTwNUYT_400x400.jpg" />
 
@@ -163,15 +235,48 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 [FDIC press releases](https://satellite.earth/@npub1w9q6gmf0aelgfshj2r859wc8ucwkjkdgm7c4z5krlfxdcafz88wslj460y) `npub1w9q6gmf0aelgfshj2r859wc8ucwkjkdgm7c4z5krlfxdcafz88wslj460y`
 {: .text50 }
 
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/514/663/011/342/original/36237f2a82261988.jpg" />
+
+[Financial times](https://satellite.earth/@FinancialTimes_at_press.coop@mostr.pub) - the best of FT journalism, including breaking news and analysis `npub1c9nn9m77c6h65yq9gl7stft75ym5q57dhsc0q0r93577adj49c9qdtun5u` `FinancialTimes_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/514/663/011/342/original/36237f2a82261988.jpg" />
+
+[Financial times - breaking](https://satellite.earth/@FT_at_press.coop@mostr.pub) - big stories and breaking news headlines as they are published on http://FT.com. For a curated feed of our journalism, follow FinancialTimes (`FinancialTimes_at_press.coop@mostr.pub`) `npub14ksegjfnvcaptrannd5j34qw0hgz6d4n5vssuca96vpyvhswpkfswwakrn` `FT_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/514/663/011/342/original/36237f2a82261988.jpg" />
+
+[Financial times - opinion](https://satellite.earth/@ftopinion_at_press.coop@mostr.pub) - a selection of our latest commentary, as chosen by the Opinion team. Want to respond to an article? Email `letters.editor@ft.com` `npub13x92yxk0qrw3a8qkm5waxtlgzzvcwzqrkvp27m3anauyf3x57xqstnnnn9` `ftopinion_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/110/148/566/257/928/339/original/a33f189b36c828d9.jpg" />
+
+[Financial times - weekend](https://satellite.earth/@ftweekend_at_press.coop@mostr.pub) - the best of Financial Times Weekend journalism, from Life & Arts and HTSI magazine to House & Home, FTWeekend Magazine, FT Money and FT Globetrotter `npub13sqhlz9alwp86zjnqtsunljwu79f5vtdw2up4aezelcqr6ghkpyq24d9m6` `ftweekend_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/514/663/011/342/original/36237f2a82261988.jpg" />
+
+[Financial times - world](https://satellite.earth/@ftworldnews_at_press.coop@mostr.pub) - the best of FinancialTimes journalism from around the world `npub1vjvrt2l02ze4gkrsaxuu6sk3zk5948aqjrm7582tgdatd7a3aw2scvhuul` `ftworldnews_at_press.coop@mostr.pub`
+{: .text50 }
+
+
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/518/693/705/205/original/1134ddcd69c84b66.jpg" />
 
-[Forbes](https://satellite.earth/@npub1uxdt5d22cp3z5ncrjun34darpqttqmwwqn49r837hvamdmpgxjrqw57fd5) `npub1uxdt5d22cp3z5ncrjun34darpqttqmwwqn49r837hvamdmpgxjrqw57fd5` `Forbes_at_press.coop@mostr.pub`
+[Forbes](https://satellite.earth/@npub1uxdt5d22cp3z5ncrjun34darpqttqmwwqn49r837hvamdmpgxjrqw57fd5) - official account of Forbes, the world’s leading voice for entrepreneurial success and free enterprise, and home to breaking news, business, money and more. (Account mirrored.) `npub1uxdt5d22cp3z5ncrjun34darpqttqmwwqn49r837hvamdmpgxjrqw57fd5` `Forbes_at_press.coop@mostr.pub`
 {: .text50 }
+
 
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/1519700845817962496/DMeHIufq_400x400.jpg" />
 
 [Fortune](https://satellite.earth/@npub1zy2ent5mwdft3lw3lc4x5wdn5uc3dml25209nremv4g3kcwk3k7sw26tfz) `npub1zy2ent5mwdft3lw3lc4x5wdn5uc3dml25209nremv4g3kcwk3k7sw26tfz`
 {: .text50 }
+
 
 <img class="rounded40" src="https://assets.newsie.social/accounts/avatars/109/542/818/951/400/994/original/ccf5fbbcf3bd0e14.png" />
 
@@ -440,7 +545,7 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 - [press.coop newest news]
 - [nostr.band search]
 - [karnage list on listr]
-- [RSSLay]
+- [RSSLay] - a site for generating Nostr RSS feeds as public users. It advises to add their relay **wss://rsslay.nostr.moe**.
 
 # Say Hi!
 
