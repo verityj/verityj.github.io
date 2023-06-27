@@ -7,7 +7,7 @@ A list of RSS aggregators for the press sites that we can follow on Nostr.
 
 _Note:_ to make sure you reach the below RSS feeds, add relay **wss://relay.mostr.pub** (source: [Mostr]).
 
-General and US-centric news are alphabetized below. Some country-specific news have their own sections that follow. Table of Contents will be added when the list is a little more finalized.
+General and US-centric news are alphabetized below. Some country-specific and purely technical news have their own sections that follow. Table of contents will be added when the list is a little more finalized.
 
 ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social)
 {: .text-right }
@@ -18,12 +18,6 @@ General and US-centric news are alphabetized below. Some country-specific news h
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/491/374/528/254/original/65f1f8d01fbc6c3a.jpg" />
 
 [ABC World news tonight](https://satellite.earth/@npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au) `npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au` `ABCWorldNews_at_press.coop@mostr.pub`
-{: .text50 }
-
-
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/570/217/740/378/original/4c3a5a7732a85823.jpg" />
-
-[Al Jazeera english](https://satellite.earth/@AJEnglish_at_press.coop@mostr.pub) - hear the human story and join the discussion. We go beyond cold facts and bring to light what matters `npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad` `AJEnglish_at_press.coop@mostr.pub`
 {: .text50 }
 
 
@@ -471,6 +465,18 @@ General and US-centric news are alphabetized below. Some country-specific news h
 [Hindustan times](https://satellite.earth/@httweets_at_press.coop@mostr.pub) - one of India's largest media companies. Latest news from around the world. `npub1dvxmgeq0w7t44ejvhgu6r0yrtthtwmtlfftlg230ecc9l9e3fqgshca58l` `htTweets_at_press.coop@mostr.pub`
 {: .text50 }
 
+# Qatar news
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/110/151/842/879/970/244/original/1e74babe8673c58b.jpg" />
+
+[Al Jazeera breaking](https://satellite.earth/@AJENews_at_press.coop@mostr.pub) - breaking news from around the world `npub1c98tpcjydq4kk77wt63y2zj4qtlvm6j49h964hq9scvkqk6fq4uqj2jh0a` `AJENews_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/570/217/740/378/original/4c3a5a7732a85823.jpg" />
+
+[Al Jazeera english](https://satellite.earth/@AJEnglish_at_press.coop@mostr.pub) - hear the human story and join the discussion. We go beyond cold facts and bring to light what matters `npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad` `AJEnglish_at_press.coop@mostr.pub`
+{: .text50 }
 
 # UK news
 
