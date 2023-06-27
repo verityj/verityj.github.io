@@ -262,7 +262,7 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 
 [Scientific american](https://satellite.earth/@npub1zyfv44hl4kezcn2st6de75ejypfwqk5rfq3vlymgm365e2au0w5spdg837) `npub1zyfv44hl4kezcn2st6de75ejypfwqk5rfq3vlymgm365e2au0w5spdg837`
 
-<img class="rounded40" src="https://slashdot.org/favicon.ico" />
+<img class="rounded40" src="https://media.mastodon.cloud/accounts/avatars/109/298/498/793/572/819/original/1931bda16d4f3255.jpeg" />
 
 [Slashdot](https://satellite.earth/@npub1t0xdyrhn0k6yhf7wfe6mx5nf6mfwlz8hl8zww4wvn5y93gfdgdaq4s3j5l) `npub1t0xdyrhn0k6yhf7wfe6mx5nf6mfwlz8hl8zww4wvn5y93gfdgdaq4s3j5l`
 
@@ -273,11 +273,11 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 ## T
 {: .text-center }
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="http://techcrunch.com/favicon.ico" />
 
 [TechCrunch](https://satellite.earth/@npub1va6zy0gmr8wp2328xw4h2kdvmcwjrl0nl6djv5kyv0rl4kcjcppqvzckg7) - Startup and technology news `npub1va6zy0gmr8wp2328xw4h2kdvmcwjrl0nl6djv5kyv0rl4kcjcppqvzckg7` `npub1va6zy0gmr8wp2328xw4h2kdvmcwjrl0nl6djv5kyv0rl4kcjcppqvzckg7@nost.vip`
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/542/377/863/036/original/207607a8cd0692ba.png" />
 
 [The Telegraph](https://satellite.earth/@npub1yt56xl96npe6e5ayxqgq4z032nkqpfr3rzx9mm3qthpy3crlzrkqwyhfxe) `npub1yt56xl96npe6e5ayxqgq4z032nkqpfr3rzx9mm3qthpy3crlzrkqwyhfxe` `Telegraph_at_press.coop@mostr.pub`
 
@@ -291,48 +291,48 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 ## V
 {: .text-center }
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/514/421/905/186/original/298191fc655d6792.jpg" />
 
 [The Verge](https://satellite.earth/@npub1fvx77hexevjdruznvwe3l8d3agse8ncpazxcuw32x593czyvdr4spqvy5l) `npub1fvx77hexevjdruznvwe3l8d3agse8ncpazxcuw32x593czyvdr4spqvy5l` `npub1fvx77hexevjdruznvwe3l8d3agse8ncpazxcuw32x593czyvdr4spqvy5l@nost.vip`
 
 ## W
 {: .text-center }
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/546/529/209/626/original/c331ce324d9cadcb.jpg" />
 
 [Wall Street Journal](https://satellite.earth/@npub12lsaa49pagsfpfufgpt4r7kundgqgrvpd336380tpj7nnywktjcsfadmny) `npub12lsaa49pagsfpfufgpt4r7kundgqgrvpd336380tpj7nnywktjcsfadmny` `WSJ_at_press.coop@mostr.pub`
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/550/550/407/678/original/fcfde67e0d437e9e.jpg" />
 
 [Washington Post](https://satellite.earth/@npub1et5vqda4343n22gg9k9gql94h80ghel8eprsushqr6dxtllq9easpn5n56) `npub1et5vqda4343n22gg9k9gql94h80ghel8eprsushqr6dxtllq9easpn5n56` `washingtonpost_at_press.coop@mostr.pub`
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://nitter.nostr.sc/pic/pbs.twimg.com%2Fprofile_images%2F1228050699348561920%2FYvWAQD2L_400x400.jpg" />
 
 [Wired](https://satellite.earth/@npub1p9emea005pm6hy7dptvrgnquu7kuwus46llcaln697wvwx3y442qkcwque) `npub1p9emea005pm6hy7dptvrgnquu7kuwus46llcaln697wvwx3y442qkcwque` `wired@nostr.sc`
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://nitter.nostr.sc/pic/pbs.twimg.com%2Fprofile_images%2F1228050699348561920%2FYvWAQD2L_400x400.jpg" />
 
 [Wired AI](https://satellite.earth/@npub1zyvfp7h904d2pgnjccsqxyvzymfk36789wy8k8kgk9s9t48tjx8stmxmek) `npub1zyvfp7h904d2pgnjccsqxyvzymfk36789wy8k8kgk9s9t48tjx8stmxmek`
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://nitter.nostr.sc/pic/pbs.twimg.com%2Fprofile_images%2F1228050699348561920%2FYvWAQD2L_400x400.jpg" />
 
 [Wired science](https://satellite.earth/@npub1zywdq2gz605ynww08pu7lt7l63v8mz63ks3ptkd7arrczcrevjqqsvstyw) `npub1zywdq2gz605ynww08pu7lt7l63v8mz63ks3ptkd7arrczcrevjqqsvstyw`
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://assortedflotsam.com/system/accounts/avatars/000/000/128/original/8deaf79ecfca4bee.png" />
 
 [World news bot](https://satellite.earth/@npub17f8pn44vru6c0zwgh4hus2u6gdepdkagakp60wtxhn6ts5htxz7q3t2slx) - Bot that posts world news from the BBC, The Guardian, Der Spiegel, Aljazeera, CS Monitor, NPR, NYT, Korea Times, and South China Morning Post `npub17f8pn44vru6c0zwgh4hus2u6gdepdkagakp60wtxhn6ts5htxz7q3t2slx` `NewsBot_at_assortedflotsam.com@mostr.pub`
 
 ## X
 {: .text-center }
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/879/540/478/976/803/original/97162c996715263a.jpg" />
 
 [XDA](https://satellite.earth/@npub134qc4w530gy95vv2eg9lmsvn9epz5n648fd7lsmnqz6hysmxn4rqapdt2k) - a leading tech publication and home to the biggest community of modders on the internet `npub134qc4w530gy95vv2eg9lmsvn9epz5n648fd7lsmnqz6hysmxn4rqapdt2k` `xdadevelopers_at_press.coop@mostr.pub`
 
 ## Z
 {: .text-center }
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://zerohedge.com/favicons/favicon-32x32.png" />
 
 [ZeroHedge news](https://satellite.earth/@npub19f00c07knhkh57z0d5t47wyn876h4atuc22x96gtt6tr6w73jm3qyv99q2) `npub19f00c07knhkh57z0d5t47wyn876h4atuc22x96gtt6tr6w73jm3qyv99q2`
 
@@ -342,11 +342,11 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 
 [Jeff Jarvis](https://satellite.earth/@npub1nsve27x7t2hr4e27xjxsl6jka2e0dkuyh09vv3r8vs4hlfp3fkas2ke09p) - professor of journalism at CUNY `npub1nsve27x7t2hr4e27xjxsl6jka2e0dkuyh09vv3r8vs4hlfp3fkas2ke09p` `jeffjarvis_at_mastodon.social@mostr.pub`
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://pbs.twimg.com/profile_images/1572937957895507968/Z_NW0tQi_400x400.jpg" />
 
 [Minimalist baker](https://satellite.earth/@npub1zywez9up9mdhtmvjevjhzwtge8kmgh05enx55q06ful4sk6n5phqmvxhud) - Simple recipes requiring 10 ingredients or less, 1 bowl, or 30 minutes. RSS Feed. `npub1zywez9up9mdhtmvjevjhzwtge8kmgh05enx55q06ful4sk6n5phqmvxhud`
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://pbs.twimg.com/profile_images/1277366696374874112/zbKmpP_2_400x400.png" />
 
 [UX movement](https://satellite.earth/@npub1zyfxgz2kxdsfusjhyn5wnrscm52zpqx08angmhksjgvpx3ssfanqadp9rd) - Helping designers and developers build human-friendly interfaces. RSS Feed. `npub1zyfxgz2kxdsfusjhyn5wnrscm52zpqx08angmhksjgvpx3ssfanqadp9rd`
 
