@@ -5,7 +5,9 @@ title: A curated list of Nostr news feeds
 
 A list of RSS aggregators for the press sites that we can follow on Nostr.
 
-_Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr.pub** (source: [Mostr]).
+_Note:_ to make sure you reach the below RSS feeds, add relay **wss://relay.mostr.pub** (source: [Mostr]).
+
+General and US-centric news are alphabetized below. Some country-specific news have their own sections that follow. Table of Contents will be added when the list is a little more finalized.
 
 ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social)
 {: .text-right }
@@ -44,19 +46,6 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 
 ## B
 {: .text-center }
-
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/798/852/823/229/382/original/1ebed8c17aa5e36a.jpg" />
-
-[BBC breaking news](https://satellite.earth/@npub1aur3lxyl6dy85s8zjvx7zxhptne3jz3h8448a9l988gmqe57j83spc34ky)  
-`npub1aur3lxyl6dy85s8zjvx7zxhptne3jz3h8448a9l988gmqe57j83spc34ky` `BBCBreaking_at_press.coop@mostr.pub`
-{: .text50 }
-
-
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/526/479/089/245/original/774b3584f99584d6.jpg" />
-
-[BBC sport](https://satellite.earth/@BBCSport_at_press.coop@mostr.pub) `npub1epnty4332xas95arujpwtt9x7822ttc8ul8ku8xr53zxsk6qgq6srgplju` `BBCSport_at_press.coop@mostr.pub`
-{: .text50 }
-
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/577/728/339/104/original/7a7f84db0d71596a.jpg" />
 
@@ -102,24 +91,6 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 
 ## C
 {: .text-center }
-
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/629/514/205/026/original/5f79635589140b9a.jpg" />
-
-[CBC](https://satellite.earth/@npub1xne27n4zfakyvfacrsdq2qy2zedhzp7vqn3w7dnmwdcs4wezfgrs0qs87u) - Bringing you the best of Canada `npub1xne27n4zfakyvfacrsdq2qy2zedhzp7vqn3w7dnmwdcs4wezfgrs0qs87u` `CBCNews_at_press.coop@mostr.pub`
-{: .text50 }
-
-
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/629/514/205/026/original/5f79635589140b9a.jpg" />
-
-[CBC news](https://satellite.earth/@CBCNews_at_press.coop@mostr.pub) - latest news and analysis from CBC News `npub1xne27n4zfakyvfacrsdq2qy2zedhzp7vqn3w7dnmwdcs4wezfgrs0qs87u` `CBCNews_at_press.coop@mostr.pub`
-{: .text50 }
-
-
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/800/810/790/131/098/original/2a97347065101025.jpg" />
-
-[CBC news: the national](https://satellite.earth/@CBCTheNational_at_press.coop@mostr.pub) - The National is the flagship of CBC news, showcasing award-winning journalism from across Canada and around the world `npub1sv4dydlndugrzfuxt259celdcqxw5c02tg25lhv3dz5wuum9y00qwnway5`
-{: .text50 }
-
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/491/190/722/318/original/f72ee3036ea71e90.jpg" />
 
@@ -283,16 +254,20 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 [Freedom of the press](https://satellite.earth/@npub1qq6mp5unp20kek9asxchnnwm6czzpz8zm57r4ftaxnfhz8zxpuhqkp7n8w) `npub1qq6mp5unp20kek9asxchnnwm6czzpz8zm57r4ftaxnfhz8zxpuhqkp7n8w` `freedomofpress_at_newsie.social@mostr.pub`
 {: .text50 }
 
-## G
-{: .text-center }
-
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/514/604/270/476/original/47ddbebd585203bb.jpg" />
-
-- [The Guardian](https://satellite.earth/@npub1cuwulm7nr7e0utatycvn404clsw7rejy02jsd3ngpfayug585qnqst2c2e) `npub1cuwulm7nr7e0utatycvn404clsw7rejy02jsd3ngpfayug585qnqst2c2e` `guardiannews_at_press.coop@mostr.pub`
-{: .text50 }
-
 ## H
 {: .text-center }
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/482/645/476/686/original/474692fac186987f.png" />
+
+[Harvard business review](https://satellite.earth/@HarvardBiz_at_press.coop@mostr.pub) - the best ideas in business and management to help people, organizations, and economies work better `npub1arpdg04pvvjz24m2qrn955lcg6l5l07y8h6v8tpw2680j30eqaws9q2frh` `HarvardBiz_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/415/827/216/213/original/f0d1217c716ca686.jpg" />
+
+[The Hill](https://satellite.earth/@thehill_at_press.coop@mostr.pub) - the premier source for policy and political news. Follow for tweets on what's happening in Washington, breaking news and retweets of our reporters `npub1vz4rrutw8rrc2erugwxmxwgcgmzdjt6nwy4kj6xehlqpefjycpssz09hjn` `thehill_at_press.coop@mostr.pub`
+{: .text50 }
+
 
 <img class="rounded40" src="https://hongkongfp.com/wp-content/uploads/2020/03/Favicon-HKFP-2.png" />
 
@@ -301,7 +276,7 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/454/996/591/532/original/a0a2ed77d6b31d77.jpg" />
 
-[HuffPost](https://satellite.earth/@npub19yddufgcsumjmvzsz58xsx3ekyqt64znkk7zv9jhy0zccy8wu05qxrawx8) `npub19yddufgcsumjmvzsz58xsx3ekyqt64znkk7zv9jhy0zccy8wu05qxrawx8` `HuffPost_at_press.coop@mostr.pub`
+[HuffPost](https://satellite.earth/@npub19yddufgcsumjmvzsz58xsx3ekyqt64znkk7zv9jhy0zccy8wu05qxrawx8) - at HuffPost, we put people first. We believe that real life is news, and news is personal. `npub19yddufgcsumjmvzsz58xsx3ekyqt64znkk7zv9jhy0zccy8wu05qxrawx8` `HuffPost_at_press.coop@mostr.pub`
 {: .text50 }
 
 ## I
@@ -312,22 +287,29 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 [IGN](https://satellite.earth/@npub1zyty0tpx8m95qlcerh4xchw80mpzexf8fk52zz3vd9xkjewsxsss9dnmtl) `npub1zyty0tpx8m95qlcerh4xchw80mpzexf8fk52zz3vd9xkjewsxsss9dnmtl`
 {: .text50 }
 
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/538/361/311/926/original/ce23338d416b869b.jpg" />
 
-[The Independent](https://satellite.earth/@npub18zzzqjrw2kp466uamklmw7ds2d3urt6mr86z5zxx2ct6lqnyfl2qr2lmfc) `npub18zzzqjrw2kp466uamklmw7ds2d3urt6mr86z5zxx2ct6lqnyfl2qr2lmfc`
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/423/761/989/619/original/2dcb092c96ec1f58.jpg" />
+
+[Inc.](https://satellite.earth/@Inc_at_press.coop@mostr.pub) - everything you need to know to start and grow your business now `npub1swwzg33kw3cfd2etah3hk0un6gnsjzlt9fqan8uju80djjmnlwuqxsh5w6` `Inc_at_press.coop@mostr.pub`
 {: .text50 }
 
 ## L
 {: .text-center }
 
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/432/032/529/797/original/b7a2fe1d9f210ce7.jpg" />
+
+[Lifehacker (1)](https://satellite.earth/@lifehacker_at_press.coop@mostr.pub) - do everything better `npub1qw3snqlzu287hj6keegm4w2jqz0h9ywg55gkpslephjnyzytaz6qwza49p` `lifehacker_at_press.coop@mostr.pub`
+{: .text50 }
+
+
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/1145680063289077762/CBL8kAhT_400x400.jpg" />
 
-[Lifehacker](https://satellite.earth/@npub1zy0uv7qra5950lvxlztysqlu3gp0xk4ekypyjsajv06pxxta437qeqq9dx) `npub1zy0uv7qra5950lvxlztysqlu3gp0xk4ekypyjsajv06pxxta437qeqq9dx`
+[Lifehacker (2)](https://satellite.earth/@npub1zy0uv7qra5950lvxlztysqlu3gp0xk4ekypyjsajv06pxxta437qeqq9dx) - do everything better `npub1zy0uv7qra5950lvxlztysqlu3gp0xk4ekypyjsajv06pxxta437qeqq9dx`
 {: .text50 }
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/412/194/966/417/original/4544630822b9540c.jpg" />
 
-[Los Angeles Times](https://satellite.earth/@npub1r4mksmtehpxnv5088cv4j6uh66zx8jqkmapdkezetnsv6yspr4lquwzv8w) `npub1r4mksmtehpxnv5088cv4j6uh66zx8jqkmapdkezetnsv6yspr4lquwzv8w` `latimes_at_press.coop@mostr.pub`
+[Los Angeles Times](https://satellite.earth/@npub1r4mksmtehpxnv5088cv4j6uh66zx8jqkmapdkezetnsv6yspr4lquwzv8w) - news from a West Coast perspective `npub1r4mksmtehpxnv5088cv4j6uh66zx8jqkmapdkezetnsv6yspr4lquwzv8w` `latimes_at_press.coop@mostr.pub`
 {: .text50 }
 
 ## M
@@ -522,6 +504,78 @@ _Note:_ to make sure to reach the below RSS feeds, add relay **wss://relay.mostr
 
 [ZeroHedge news](https://satellite.earth/@npub19f00c07knhkh57z0d5t47wyn876h4atuc22x96gtt6tr6w73jm3qyv99q2) `npub19f00c07knhkh57z0d5t47wyn876h4atuc22x96gtt6tr6w73jm3qyv99q2`
 {: .text50 }
+
+# Canada news
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/629/514/205/026/original/5f79635589140b9a.jpg" />
+
+[CBC](https://satellite.earth/@npub1xne27n4zfakyvfacrsdq2qy2zedhzp7vqn3w7dnmwdcs4wezfgrs0qs87u) - Bringing you the best of Canada `npub1xne27n4zfakyvfacrsdq2qy2zedhzp7vqn3w7dnmwdcs4wezfgrs0qs87u` `CBCNews_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/629/514/205/026/original/5f79635589140b9a.jpg" />
+
+[CBC news](https://satellite.earth/@CBCNews_at_press.coop@mostr.pub) - latest news and analysis from CBC News `npub1xne27n4zfakyvfacrsdq2qy2zedhzp7vqn3w7dnmwdcs4wezfgrs0qs87u` `CBCNews_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/800/810/790/131/098/original/2a97347065101025.jpg" />
+
+[CBC news: the national](https://satellite.earth/@CBCTheNational_at_press.coop@mostr.pub) - The National is the flagship of CBC news, showcasing award-winning journalism from across Canada and around the world `npub1sv4dydlndugrzfuxt259celdcqxw5c02tg25lhv3dz5wuum9y00qwnway5`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/518/751/872/520/original/aa4fb30dc99c638a.jpg" />
+
+[The globe and mail](https://satellite.earth/@globeandmail_at_press.coop@mostr.pub) - Canada's national news organization `npub17xkxynzr57n7zpvxj8mxgzwkewk284c8hx5w3y30y6mkw8lpenasy89534` `globeandmail_at_press.coop@mostr.pub`
+{: .text50 }
+
+# India news
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/431/804/157/026/original/74bf285a5cccc7ea.jpg" />
+
+[The Hindu](https://satellite.earth/@the_hindu_at_press.coop@mostr.pub) - India's national newspaper `npub1lwrhj3hmxpkgl0lned45mfnhhww6y8ghpqzvp3s5a3x233refxuqtaysm6` `the_hindu_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/881/073/927/163/872/original/6433c316024c7391.jpg" />
+
+[Hindustan times](https://satellite.earth/@httweets_at_press.coop@mostr.pub) - one of India's largest media companies. Latest news from around the world. `npub1dvxmgeq0w7t44ejvhgu6r0yrtthtwmtlfftlg230ecc9l9e3fqgshca58l` `htTweets_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+# UK news
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/798/852/823/229/382/original/1ebed8c17aa5e36a.jpg" />
+
+[BBC breaking news](https://satellite.earth/@npub1aur3lxyl6dy85s8zjvx7zxhptne3jz3h8448a9l988gmqe57j83spc34ky)  
+`npub1aur3lxyl6dy85s8zjvx7zxhptne3jz3h8448a9l988gmqe57j83spc34ky` `BBCBreaking_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/526/479/089/245/original/774b3584f99584d6.jpg" />
+
+[BBC sport](https://satellite.earth/@BBCSport_at_press.coop@mostr.pub) `npub1epnty4332xas95arujpwtt9x7822ttc8ul8ku8xr53zxsk6qgq6srgplju` `BBCSport_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/534/421/900/322/original/20b77baf608ef8f0.png" />
+
+[The Guardian](https://satellite.earth/@guardian_at_press.coop@mostr.pub) - the need for independent journalism has never been greater `npub1fe7qkuy3kq3zpjlrxcn5jvpg0amvttpwps55hv0ysalz95wh7f7qccpn22` `guardian_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/514/604/270/476/original/47ddbebd585203bb.jpg" />
+
+[The Guardian news](https://satellite.earth/@npub1cuwulm7nr7e0utatycvn404clsw7rejy02jsd3ngpfayug585qnqst2c2e) - the need for independent journalism has never been greater `npub1cuwulm7nr7e0utatycvn404clsw7rejy02jsd3ngpfayug585qnqst2c2e` `guardiannews_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/538/361/311/926/original/ce23338d416b869b.jpg" />
+
+[The Independent](https://satellite.earth/@Independent_at_press.coop@mostr.pub) - news, comment and features from The Independent `npub18zzzqjrw2kp466uamklmw7ds2d3urt6mr86z5zxx2ct6lqnyfl2qr2lmfc` `Independent_at_press.coop@mostr.pub`
+{: .text50 }
+
 
 # Honorable mentions
 
