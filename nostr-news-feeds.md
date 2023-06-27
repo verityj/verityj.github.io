@@ -23,7 +23,7 @@ General and US-centric news are alphabetized below. Some country-specific news h
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/570/217/740/378/original/4c3a5a7732a85823.jpg" />
 
-[Al Jazeera](https://satellite.earth/@npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad) - English `npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad` `AJEnglish_at_press.coop@mostr.pub`
+[Al Jazeera english](https://satellite.earth/@AJEnglish_at_press.coop@mostr.pub) - hear the human story and join the discussion. We go beyond cold facts and bring to light what matters `npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad` `AJEnglish_at_press.coop@mostr.pub`
 {: .text50 }
 
 
@@ -54,12 +54,6 @@ General and US-centric news are alphabetized below. Some country-specific news h
 {: .text50 }
 
 
-<img class="rounded40" src="https://nostr.build/p/nb9842.png" />
-
-[Bitcoin herald](https://satellite.earth/@npub10eezfnlq4ad2lyf3478na8f5las4l7guuf55vs8378lwtk87hd7slf6zka) `npub10eezfnlq4ad2lyf3478na8f5las4l7guuf55vs8378lwtk87hd7slf6zka` `herald@bitcoin-herald.org`
-{: .text50 }
-
-
 <img class="rounded40" src="https://nostr.build/i/nostr.build_62c68a12726418d642c03730bfd716cf8031e83e28db199c94d633da57e68883.jpg" />
 
 [Bitcoin magazine](https://satellite.earth/@npub1t8a7uumfmam38kal4xaakzyjccht4y5jxfs4cmlj0p768pxtwu8skh56yu) `npub1t8a7uumfmam38kal4xaakzyjccht4y5jxfs4cmlj0p768pxtwu8skh56yu` `bitcoinmagazine@b.tc`
@@ -86,7 +80,7 @@ General and US-centric news are alphabetized below. Some country-specific news h
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/447/029/027/463/original/9437261ba2be110a.jpg" />
 
-[The Boston globe](https://satellite.earth/@npub157vh2egcp34n6a89d0fy4hrtgxy4xalwpu2wgmtvdag4pqtlhazs3egmn3) `npub157vh2egcp34n6a89d0fy4hrtgxy4xalwpu2wgmtvdag4pqtlhazs3egmn3` `BostonGlobe_at_press.coop@mostr.pub`
+[The Boston globe](https://satellite.earth/@npub157vh2egcp34n6a89d0fy4hrtgxy4xalwpu2wgmtvdag4pqtlhazs3egmn3) - New England's leading source for breaking news and analysis `npub157vh2egcp34n6a89d0fy4hrtgxy4xalwpu2wgmtvdag4pqtlhazs3egmn3` `BostonGlobe_at_press.coop@mostr.pub`
 {: .text50 }
 
 ## C
@@ -127,15 +121,6 @@ General and US-centric news are alphabetized below. Some country-specific news h
 [CNN International](https://satellite.earth/@npub1k0zrp0lxtuvlqjrkfww0sctk76wd0lwltwhz37cu5nzds2k5xphqw6c4v4)- breaking news from around the world, plus business, style, travel, sport and entertainment `npub1k0zrp0lxtuvlqjrkfww0sctk76wd0lwltwhz37cu5nzds2k5xphqw6c4v4` `cnni_at_press.coop@mostr.pub`
 {: .text50 }
 
-<img class="rounded40" src="https://www.coindesk.com/favicon.ico" />
-
-[CoinDesk](https://satellite.earth/@npub1x36ywys202q3y0cnrt8aj9cgm54ctt9qu6scv37xe254j98y2umquhlsth) `npub1x36ywys202q3y0cnrt8aj9cgm54ctt9qu6scv37xe254j98y2umquhlsth`
-{: .text50 }
-
-<img class="rounded40" src="https://imgproxy.iris.to/insecure/plain/https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1270073276740534274%2FAPmUBHaI_400x400.jpg" />
-
-[CoinTelegraph](https://satellite.earth/@npub1an2zvj6a6q76sgmqd7q8xurj90tx4hzegdmqg29qj4slukx9gywssx6vfc) `npub1an2zvj6a6q76sgmqd7q8xurj90tx4hzegdmqg29qj4slukx9gywssx6vfc`
-{: .text50 }
 
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/1293526002237411328/X1StNvSV_400x400.jpg" />
 
@@ -151,7 +136,7 @@ General and US-centric news are alphabetized below. Some country-specific news h
 {: .text50 }
 
 
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/593/470/377/637/original/a8f310678b9bde9a" />
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/593/470/377/637/original/a8f310678b9bde9a.jpg" />
 
 [The economist data team](https://satellite.earth/@ECONdailycharts_at_press.coop@mostr.pub) - charts, maps and data-driven journalism from The economist data team `npub1fxuzuvxl9wx8qzf50nnwmu6wfzg4unc67drl0t9rsv9325xnjh6qnqm52n` `ECONdailycharts_at_press.coop@mostr.pub`
 {: .text50 }
@@ -172,18 +157,6 @@ General and US-centric news are alphabetized below. Some country-specific news h
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/593/470/377/637/original/a8f310678b9bde9a.jpg" />
 
 [The economist - the world this week](https://satellite.earth/@npub1cfty6nd2td5y00t04zlpqchgwe2d2sgr68laevllk8yu45r4fwgsfsp4k5) `npub1cfty6nd2td5y00t04zlpqchgwe2d2sgr68laevllk8yu45r4fwgsfsp4k5`
-{: .text50 }
-
-
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/878/574/543/997/055/original/28eb2a682933ca17.png" />
-
-[Engadget (1)](https://satellite.earth/@engadget_at_press.coop@mostr.pub) - the original home for technology news and reviews `npub1dtdu75pufnuw5e5m0lfna73n4w792m9s07mw8nmcn75807lrckdsqhhk3n` `engadget_at_press.coop@mostr.pub`
-{: .text50 }
-
-
-<img class="rounded40" src="https://pbs.twimg.com/profile_images/655059892022022144/Pq3Q_1oU_400x400.png" />
-
-[Engadget (2)](https://satellite.earth/@npub1zygw2uzcnpy8gp9qfjfrgjc292k0vwwe709ren726v9fspf49vds28m36h) - the original home for technology news and reviews `npub1zygw2uzcnpy8gp9qfjfrgjc292k0vwwe709ren726v9fspf49vds28m36h`
 {: .text50 }
 
 
@@ -274,6 +247,7 @@ General and US-centric news are alphabetized below. Some country-specific news h
 [Hong Kong free press](https://satellite.earth/@npub1t8r9zud7qgw6vxeuwx034u365ahye5xz873hemhzty94nfxasm8slv736n) `npub1t8r9zud7qgw6vxeuwx034u365ahye5xz873hemhzty94nfxasm8slv736n`
 {: .text50 }
 
+
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/454/996/591/532/original/a0a2ed77d6b31d77.jpg" />
 
 [HuffPost](https://satellite.earth/@npub19yddufgcsumjmvzsz58xsx3ekyqt64znkk7zv9jhy0zccy8wu05qxrawx8) - at HuffPost, we put people first. We believe that real life is news, and news is personal. `npub19yddufgcsumjmvzsz58xsx3ekyqt64znkk7zv9jhy0zccy8wu05qxrawx8` `HuffPost_at_press.coop@mostr.pub`
@@ -281,12 +255,6 @@ General and US-centric news are alphabetized below. Some country-specific news h
 
 ## I
 {: .text-center }
-
-<img class="rounded40" src="https://pbs.twimg.com/profile_images/1666527039367819265/pgwCwdmD_400x400.jpg" />
-
-[IGN](https://satellite.earth/@npub1zyty0tpx8m95qlcerh4xchw80mpzexf8fk52zz3vd9xkjewsxsss9dnmtl) `npub1zyty0tpx8m95qlcerh4xchw80mpzexf8fk52zz3vd9xkjewsxsss9dnmtl`
-{: .text50 }
-
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/423/761/989/619/original/2dcb092c96ec1f58.jpg" />
 
@@ -307,6 +275,7 @@ General and US-centric news are alphabetized below. Some country-specific news h
 [Lifehacker (2)](https://satellite.earth/@npub1zy0uv7qra5950lvxlztysqlu3gp0xk4ekypyjsajv06pxxta437qeqq9dx) - do everything better `npub1zy0uv7qra5950lvxlztysqlu3gp0xk4ekypyjsajv06pxxta437qeqq9dx`
 {: .text50 }
 
+
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/412/194/966/417/original/4544630822b9540c.jpg" />
 
 [Los Angeles Times](https://satellite.earth/@npub1r4mksmtehpxnv5088cv4j6uh66zx8jqkmapdkezetnsv6yspr4lquwzv8w) - news from a West Coast perspective `npub1r4mksmtehpxnv5088cv4j6uh66zx8jqkmapdkezetnsv6yspr4lquwzv8w` `latimes_at_press.coop@mostr.pub`
@@ -315,15 +284,11 @@ General and US-centric news are alphabetized below. Some country-specific news h
 ## M
 {: .text-center }
 
-<img class="rounded40" src="https://pbs.twimg.com/profile_images/1320586412/macrumors_logo_400x400.jpg" />
-
-[MacRumors](https://satellite.earth/@npub1zywesxcqdhweaurfwgnp5n0qkqa9ueypv4c4tkqcvzp7nvjghgtskhpp3a) `npub1zywesxcqdhweaurfwgnp5n0qkqa9ueypv4c4tkqcvzp7nvjghgtskhpp3a`
-{: .text50 }
-
 <img class="rounded40" src="https://nitter.nostr.sc/pic/pbs.twimg.com%2Fprofile_images%2F1664257794441109504%2FdXlPnfAe_400x400.jpg" />
 
-[Mashable](https://satellite.earth/@npub1kkmye4flzg666g87467rq8zmagnd00ldn97ek7fkq8pv7ay3zaxscaz5n5) `npub1kkmye4flzg666g87467rq8zmagnd00ldn97ek7fkq8pv7ay3zaxscaz5n5` `mashable@nostr.sc`
+[Mashable](https://satellite.earth/@mashable@nostr.sc) is for superfans. We're not for the casually curious. Obsess with us. `npub1kkmye4flzg666g87467rq8zmagnd00ldn97ek7fkq8pv7ay3zaxscaz5n5` `mashable@nostr.sc`
 {: .text50 }
+
 
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/1072880528712495106/ahuQUlOb_400x400.jpg" />
 
@@ -332,13 +297,16 @@ General and US-centric news are alphabetized below. Some country-specific news h
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/491/047/673/293/original/bc0de92fa84ee69f.jpg" />
 
+
 [Mother Jones](https://satellite.earth/@npub14vvl2muydxc2rj5jznu8tezdh60n7658dpuy0fy3qw0pr53md0nqxmfzrw) `npub14vvl2muydxc2rj5jznu8tezdh60n7658dpuy0fy3qw0pr53md0nqxmfzrw` `MotherJones_at_press.coop@mostr.pub`
 {: .text50 }
+
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/631/238/703/981/original/4c37f31ea67f7cae.jpg" />
 
 [MSNBC](https://satellite.earth/@npub1dw5xhazv603yhr07adzdgyz9vux3c6k5ga9h886dkmhefhra3cpst7ffyq) `npub1dw5xhazv603yhr07adzdgyz9vux3c6k5ga9h886dkmhefhra3cpst7ffyq` `MSNBC_at_press.coop@mostr.pub`
 {: .text50 }
+
 
 <img class="rounded40" src="https://files.mastodon.social/accounts/avatars/109/520/606/323/846/766/original/b2af063f5bb9a5ed.jpg" />
 
@@ -353,30 +321,30 @@ General and US-centric news are alphabetized below. Some country-specific news h
 [NASA](https://satellite.earth/@npub1t4t7ycx4xa9wyc23702s5eh0s9sp020mmzlrsqt4gmxjp0g20f6shqn0f2) `npub1t4t7ycx4xa9wyc23702s5eh0s9sp020mmzlrsqt4gmxjp0g20f6shqn0f2` `nasa_at_social.beachcom.org@mostr.pub`
 {: .text50 }
 
+
 <img class="rounded40" src="https://media.mstdn.social/accounts/avatars/000/061/783/original/6c155bea7af2d4fb.jpg" />
 
 [NASA image of the day](https://satellite.earth/@npub1zyvv7usal3de83dw9hzr66cvml8a6fz2vqs48y2fq8chxs9rh6fqgfmlhv) `npub1zyvv7usal3de83dw9hzr66cvml8a6fz2vqs48y2fq8chxs9rh6fqgfmlhv`
 {: .text50 }
+
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/435/349/403/717/original/bc1be1ec822579fd.jpg" />
 
 [The new republic](https://satellite.earth/@npub18ldjrssgum7u9d0h6dnxqudcusqse33pseaalwuqhs8xy2nztghq24wy2u) `npub18ldjrssgum7u9d0h6dnxqudcusqse33pseaalwuqhs8xy2nztghq24wy2u` `newrepublic_at_press.coop@mostr.pub`
 {: .text50 }
 
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/613/255/906/583/original/d2e18aac8f40c92d.png" />
-
-[The New York times (1)](https://satellite.earth/@npub13q4zj4jnfjxta3hndtqz5h4cpd3jvhwta8py4ukjmfkeh9g7d3ashkrtmk) `npub13q4zj4jnfjxta3hndtqz5h4cpd3jvhwta8py4ukjmfkeh9g7d3ashkrtmk`
-{: .text50 }
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/613/255/906/583/original/d2e18aac8f40c92d.png" />
 
-[The New York times (2)](https://satellite.earth/@npub1nspx6ewfkarlfwjeapypnkjsvdy7qmk8h3khu3rpkyynmz66gnqsy9m5rm) `npub1nspx6ewfkarlfwjeapypnkjsvdy7qmk8h3khu3rpkyynmz66gnqsy9m5rm` `nytimes_at_press.coop@mostr.pub`
+[The New York times (1)](https://satellite.earth/@npub1nspx6ewfkarlfwjeapypnkjsvdy7qmk8h3khu3rpkyynmz66gnqsy9m5rm) `npub1nspx6ewfkarlfwjeapypnkjsvdy7qmk8h3khu3rpkyynmz66gnqsy9m5rm` `nytimes_at_press.coop@mostr.pub`
 {: .text50 }
 
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/878/428/684/168/077/original/5dea43a852dc8db7.jpg" />
 
-[NEXTA](https://satellite.earth/@npub18jv2s09axenqgsjw2ljmhw6vh9jzsp2qrmjma7es44vl5avsh68sd4nysr) `npub18jv2s09axenqgsjw2ljmhw6vh9jzsp2qrmjma7es44vl5avsh68sd4nysr` `nexta_tv_at_press.coop@mostr.pub`
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/613/255/906/583/original/d2e18aac8f40c92d.png" />
+
+[The New York times (2)](https://satellite.earth/@npub13q4zj4jnfjxta3hndtqz5h4cpd3jvhwta8py4ukjmfkeh9g7d3ashkrtmk) `npub13q4zj4jnfjxta3hndtqz5h4cpd3jvhwta8py4ukjmfkeh9g7d3ashkrtmk`
 {: .text50 }
+
 
 <img class="rounded40" src="https://static-assets.npr.org/static/images/favicon/favicon-96x96.png" />
 
@@ -417,29 +385,6 @@ General and US-centric news are alphabetized below. Some country-specific news h
 [Scientific american](https://satellite.earth/@npub1zyfv44hl4kezcn2st6de75ejypfwqk5rfq3vlymgm365e2au0w5spdg837) `npub1zyfv44hl4kezcn2st6de75ejypfwqk5rfq3vlymgm365e2au0w5spdg837`
 {: .text50 }
 
-<img class="rounded40" src="https://media.mastodon.cloud/accounts/avatars/109/298/498/793/572/819/original/1931bda16d4f3255.jpeg" />
-
-[Slashdot](https://satellite.earth/@npub1t0xdyrhn0k6yhf7wfe6mx5nf6mfwlz8hl8zww4wvn5y93gfdgdaq4s3j5l) `npub1t0xdyrhn0k6yhf7wfe6mx5nf6mfwlz8hl8zww4wvn5y93gfdgdaq4s3j5l`
-{: .text50 }
-
-<img class="rounded40" src="https://pbs.twimg.com/profile_images/1221956534982152192/ePvFWJ7z_400x400.jpg" />
-
-[Steam](https://satellite.earth/@npub1zydp4eg20cc2gegjdv9tzrp743ka4g7v5qt2gyt5wrn8zk3dlhhsst0rmw) - the ultimate online game platform. Unofficial RSS feed `npub1zydp4eg20cc2gegjdv9tzrp743ka4g7v5qt2gyt5wrn8zk3dlhhsst0rmw`
-{: .text50 }
-
-## T
-{: .text-center }
-
-<img class="rounded40" src="http://techcrunch.com/favicon.ico" />
-
-[TechCrunch](https://satellite.earth/@npub1va6zy0gmr8wp2328xw4h2kdvmcwjrl0nl6djv5kyv0rl4kcjcppqvzckg7) - Startup and technology news `npub1va6zy0gmr8wp2328xw4h2kdvmcwjrl0nl6djv5kyv0rl4kcjcppqvzckg7` `npub1va6zy0gmr8wp2328xw4h2kdvmcwjrl0nl6djv5kyv0rl4kcjcppqvzckg7@nost.vip`
-{: .text50 }
-
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/542/377/863/036/original/207607a8cd0692ba.png" />
-
-[The Telegraph](https://satellite.earth/@npub1yt56xl96npe6e5ayxqgq4z032nkqpfr3rzx9mm3qthpy3crlzrkqwyhfxe) `npub1yt56xl96npe6e5ayxqgq4z032nkqpfr3rzx9mm3qthpy3crlzrkqwyhfxe` `Telegraph_at_press.coop@mostr.pub`
-{: .text50 }
-
 ## U
 {: .text-center }
 
@@ -464,20 +409,12 @@ General and US-centric news are alphabetized below. Some country-specific news h
 [Wall Street Journal](https://satellite.earth/@npub12lsaa49pagsfpfufgpt4r7kundgqgrvpd336380tpj7nnywktjcsfadmny) `npub12lsaa49pagsfpfufgpt4r7kundgqgrvpd336380tpj7nnywktjcsfadmny` `WSJ_at_press.coop@mostr.pub`
 {: .text50 }
 
+
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/550/550/407/678/original/fcfde67e0d437e9e.jpg" />
 
 [Washington Post](https://satellite.earth/@npub1et5vqda4343n22gg9k9gql94h80ghel8eprsushqr6dxtllq9easpn5n56) `npub1et5vqda4343n22gg9k9gql94h80ghel8eprsushqr6dxtllq9easpn5n56` `washingtonpost_at_press.coop@mostr.pub`
 {: .text50 }
 
-<img class="rounded40" src="https://nitter.nostr.sc/pic/pbs.twimg.com%2Fprofile_images%2F1228050699348561920%2FYvWAQD2L_400x400.jpg" />
-
-[Wired](https://satellite.earth/@npub1p9emea005pm6hy7dptvrgnquu7kuwus46llcaln697wvwx3y442qkcwque) `npub1p9emea005pm6hy7dptvrgnquu7kuwus46llcaln697wvwx3y442qkcwque` `wired@nostr.sc`
-{: .text50 }
-
-<img class="rounded40" src="https://nitter.nostr.sc/pic/pbs.twimg.com%2Fprofile_images%2F1228050699348561920%2FYvWAQD2L_400x400.jpg" />
-
-[Wired AI](https://satellite.earth/@npub1zyvfp7h904d2pgnjccsqxyvzymfk36789wy8k8kgk9s9t48tjx8stmxmek) `npub1zyvfp7h904d2pgnjccsqxyvzymfk36789wy8k8kgk9s9t48tjx8stmxmek`
-{: .text50 }
 
 <img class="rounded40" src="https://nitter.nostr.sc/pic/pbs.twimg.com%2Fprofile_images%2F1228050699348561920%2FYvWAQD2L_400x400.jpg" />
 
@@ -487,22 +424,6 @@ General and US-centric news are alphabetized below. Some country-specific news h
 <img class="rounded40" src="https://assortedflotsam.com/system/accounts/avatars/000/000/128/original/8deaf79ecfca4bee.png" />
 
 [World news bot](https://satellite.earth/@npub17f8pn44vru6c0zwgh4hus2u6gdepdkagakp60wtxhn6ts5htxz7q3t2slx) - Bot that posts world news from the BBC, The Guardian, Der Spiegel, Aljazeera, CS Monitor, NPR, NYT, Korea Times, and South China Morning Post `npub17f8pn44vru6c0zwgh4hus2u6gdepdkagakp60wtxhn6ts5htxz7q3t2slx` `NewsBot_at_assortedflotsam.com@mostr.pub`
-{: .text50 }
-
-## X
-{: .text-center }
-
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/879/540/478/976/803/original/97162c996715263a.jpg" />
-
-[XDA](https://satellite.earth/@npub134qc4w530gy95vv2eg9lmsvn9epz5n648fd7lsmnqz6hysmxn4rqapdt2k) - a leading tech publication and home to the biggest community of modders on the internet `npub134qc4w530gy95vv2eg9lmsvn9epz5n648fd7lsmnqz6hysmxn4rqapdt2k` `xdadevelopers_at_press.coop@mostr.pub`
-{: .text50 }
-
-## Z
-{: .text-center }
-
-<img class="rounded40" src="https://zerohedge.com/favicons/favicon-32x32.png" />
-
-[ZeroHedge news](https://satellite.earth/@npub19f00c07knhkh57z0d5t47wyn876h4atuc22x96gtt6tr6w73jm3qyv99q2) `npub19f00c07knhkh57z0d5t47wyn876h4atuc22x96gtt6tr6w73jm3qyv99q2`
 {: .text50 }
 
 # Canada news
@@ -528,6 +449,13 @@ General and US-centric news are alphabetized below. Some country-specific news h
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/518/751/872/520/original/aa4fb30dc99c638a.jpg" />
 
 [The globe and mail](https://satellite.earth/@globeandmail_at_press.coop@mostr.pub) - Canada's national news organization `npub17xkxynzr57n7zpvxj8mxgzwkewk284c8hx5w3y30y6mkw8lpenasy89534` `globeandmail_at_press.coop@mostr.pub`
+{: .text50 }
+
+# Eastern Europe
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/878/428/684/168/077/original/5dea43a852dc8db7.jpg" />
+
+[NEXTA](https://satellite.earth/@nexta_tv_at_press.coop@mostr.pub) - the largest Eastern European media. To let the world know. `npub18jv2s09axenqgsjw2ljmhw6vh9jzsp2qrmjma7es44vl5avsh68sd4nysr` `nexta_tv_at_press.coop@mostr.pub`
 {: .text50 }
 
 # India news
@@ -576,6 +504,95 @@ General and US-centric news are alphabetized below. Some country-specific news h
 [The Independent](https://satellite.earth/@Independent_at_press.coop@mostr.pub) - news, comment and features from The Independent `npub18zzzqjrw2kp466uamklmw7ds2d3urt6mr86z5zxx2ct6lqnyfl2qr2lmfc` `Independent_at_press.coop@mostr.pub`
 {: .text50 }
 
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/542/377/863/036/original/207607a8cd0692ba.png" />
+
+[The Telegraph](https://satellite.earth/@npub1yt56xl96npe6e5ayxqgq4z032nkqpfr3rzx9mm3qthpy3crlzrkqwyhfxe) `npub1yt56xl96npe6e5ayxqgq4z032nkqpfr3rzx9mm3qthpy3crlzrkqwyhfxe` `Telegraph_at_press.coop@mostr.pub`
+{: .text50 }
+
+# Technical feeds
+
+<img class="rounded40" src="https://nostr.build/p/nb9842.png" />
+
+[Bitcoin herald](https://satellite.earth/@npub10eezfnlq4ad2lyf3478na8f5las4l7guuf55vs8378lwtk87hd7slf6zka) - catch the buzz of the week with our top Bitcoin and Nostr stories `npub10eezfnlq4ad2lyf3478na8f5las4l7guuf55vs8378lwtk87hd7slf6zka` `herald@bitcoin-herald.org`
+{: .text50 }
+
+<img class="rounded40" src="https://www.coindesk.com/favicon.ico" />
+
+[CoinDesk](https://satellite.earth/@npub1x36ywys202q3y0cnrt8aj9cgm54ctt9qu6scv37xe254j98y2umquhlsth) `npub1x36ywys202q3y0cnrt8aj9cgm54ctt9qu6scv37xe254j98y2umquhlsth`
+{: .text50 }
+
+
+<img class="rounded40" src="https://imgproxy.iris.to/insecure/plain/https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1270073276740534274%2FAPmUBHaI_400x400.jpg" />
+
+[CoinTelegraph](https://satellite.earth/@npub1an2zvj6a6q76sgmqd7q8xurj90tx4hzegdmqg29qj4slukx9gywssx6vfc) `npub1an2zvj6a6q76sgmqd7q8xurj90tx4hzegdmqg29qj4slukx9gywssx6vfc`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/878/574/543/997/055/original/28eb2a682933ca17.png" />
+
+[Engadget (1)](https://satellite.earth/@engadget_at_press.coop@mostr.pub) - the original home for technology news and reviews `npub1dtdu75pufnuw5e5m0lfna73n4w792m9s07mw8nmcn75807lrckdsqhhk3n` `engadget_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://pbs.twimg.com/profile_images/655059892022022144/Pq3Q_1oU_400x400.png" />
+
+[Engadget (2)](https://satellite.earth/@npub1zygw2uzcnpy8gp9qfjfrgjc292k0vwwe709ren726v9fspf49vds28m36h) - the original home for technology news and reviews `npub1zygw2uzcnpy8gp9qfjfrgjc292k0vwwe709ren726v9fspf49vds28m36h`
+{: .text50 }
+
+
+<img class="rounded40" src="https://pbs.twimg.com/profile_images/1666527039367819265/pgwCwdmD_400x400.jpg" />
+
+[IGN](https://satellite.earth/@npub1zyty0tpx8m95qlcerh4xchw80mpzexf8fk52zz3vd9xkjewsxsss9dnmtl) - we're all about video games, movies, TV, and comics `npub1zyty0tpx8m95qlcerh4xchw80mpzexf8fk52zz3vd9xkjewsxsss9dnmtl`
+{: .text50 }
+
+
+<img class="rounded40" src="https://pbs.twimg.com/profile_images/1320586412/macrumors_logo_400x400.jpg" />
+
+[MacRumors](https://satellite.earth/@npub1zywesxcqdhweaurfwgnp5n0qkqa9ueypv4c4tkqcvzp7nvjghgtskhpp3a) `npub1zywesxcqdhweaurfwgnp5n0qkqa9ueypv4c4tkqcvzp7nvjghgtskhpp3a`
+{: .text50 }
+
+
+<img class="rounded40" src="https://media.mastodon.cloud/accounts/avatars/109/298/498/793/572/819/original/1931bda16d4f3255.jpeg" />
+
+[Slashdot](https://satellite.earth/@npub1t0xdyrhn0k6yhf7wfe6mx5nf6mfwlz8hl8zww4wvn5y93gfdgdaq4s3j5l) - news for nerds, stuff that matters `npub1t0xdyrhn0k6yhf7wfe6mx5nf6mfwlz8hl8zww4wvn5y93gfdgdaq4s3j5l`
+{: .text50 }
+
+
+<img class="rounded40" src="https://pbs.twimg.com/profile_images/1221956534982152192/ePvFWJ7z_400x400.jpg" />
+
+[Steam](https://satellite.earth/@npub1zydp4eg20cc2gegjdv9tzrp743ka4g7v5qt2gyt5wrn8zk3dlhhsst0rmw) - the ultimate online game platform. Unofficial RSS feed `npub1zydp4eg20cc2gegjdv9tzrp743ka4g7v5qt2gyt5wrn8zk3dlhhsst0rmw`
+{: .text50 }
+
+
+<img class="rounded40" src="http://techcrunch.com/favicon.ico" />
+
+[TechCrunch](https://satellite.earth/@npub1va6zy0gmr8wp2328xw4h2kdvmcwjrl0nl6djv5kyv0rl4kcjcppqvzckg7) - startup and technology news `npub1va6zy0gmr8wp2328xw4h2kdvmcwjrl0nl6djv5kyv0rl4kcjcppqvzckg7` `npub1va6zy0gmr8wp2328xw4h2kdvmcwjrl0nl6djv5kyv0rl4kcjcppqvzckg7@nost.vip`
+{: .text50 }
+
+
+<img class="rounded40" src="https://nitter.nostr.sc/pic/pbs.twimg.com%2Fprofile_images%2F1228050699348561920%2FYvWAQD2L_400x400.jpg" />
+
+[Wired](https://satellite.earth/@npub1p9emea005pm6hy7dptvrgnquu7kuwus46llcaln697wvwx3y442qkcwque) `npub1p9emea005pm6hy7dptvrgnquu7kuwus46llcaln697wvwx3y442qkcwque` `wired@nostr.sc`
+{: .text50 }
+
+
+<img class="rounded40" src="https://nitter.nostr.sc/pic/pbs.twimg.com%2Fprofile_images%2F1228050699348561920%2FYvWAQD2L_400x400.jpg" />
+
+[Wired AI](https://satellite.earth/@npub1zyvfp7h904d2pgnjccsqxyvzymfk36789wy8k8kgk9s9t48tjx8stmxmek) `npub1zyvfp7h904d2pgnjccsqxyvzymfk36789wy8k8kgk9s9t48tjx8stmxmek`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/879/540/478/976/803/original/97162c996715263a.jpg" />
+
+[XDA](https://satellite.earth/@npub134qc4w530gy95vv2eg9lmsvn9epz5n648fd7lsmnqz6hysmxn4rqapdt2k) - a leading tech publication and home to the biggest community of modders on the internet `npub134qc4w530gy95vv2eg9lmsvn9epz5n648fd7lsmnqz6hysmxn4rqapdt2k` `xdadevelopers_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://zerohedge.com/favicons/favicon-32x32.png" />
+
+[ZeroHedge news](https://satellite.earth/@npub19f00c07knhkh57z0d5t47wyn876h4atuc22x96gtt6tr6w73jm3qyv99q2) `npub19f00c07knhkh57z0d5t47wyn876h4atuc22x96gtt6tr6w73jm3qyv99q2`
+{: .text50 }
 
 # Honorable mentions
 
