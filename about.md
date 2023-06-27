@@ -11,15 +11,6 @@ When I saw how limited my T-Mobile home internet gateway settings are, I used it
 
 It's a great journey and I love every step along the way. Thank you for encouraging me and pushing me to work harder with your sponsorship!
 
-## Current interests
-
-I am working on curating a [list of news RSS feeds] that are set up as public Nostr identities and may be followed by anyone. I think it is important to choose what news sources you may want to keep up with in your Nostr feed.
-
-## Books I am reading
-
-- Terry Pratchett and Stephen Baxter "The long earth"
-- Michael Stueben "Good habits for great coding"
-
 ## Keep in touch
 
 - [Nostr (primal.net)](https://primal.net/profile/npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3)
