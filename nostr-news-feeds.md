@@ -3,7 +3,9 @@ layout: page
 title: A curated list of Nostr news feeds
 ---
 
-A list of RSS aggregators for the press sites that we can follow on Nostr 
+A list of RSS aggregators for the press sites that we can follow on Nostr.
+
+> _Note:_ add relay **wss://rsslay.nostr.moe** to make sure you reach some of the below RSS feeds (source: [RSSLay]).
 
 ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social)
 {: .text-right }
@@ -88,6 +90,12 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 <img class="rounded40" src="https://www.coindesk.com/favicon.ico" />
 
 [CoinDesk](https://satellite.earth/@npub1x36ywys202q3y0cnrt8aj9cgm54ctt9qu6scv37xe254j98y2umquhlsth) `npub1x36ywys202q3y0cnrt8aj9cgm54ctt9qu6scv37xe254j98y2umquhlsth`
+{: .text50 }
+
+<img class="rounded40" src="https://imgproxy.iris.to/insecure/plain/https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1270073276740534274%2FAPmUBHaI_400x400.jpg" />
+
+[CoinTelegraph](https://satellite.earth/@npub1an2zvj6a6q76sgmqd7q8xurj90tx4hzegdmqg29qj4slukx9gywssx6vfc) `npub1an2zvj6a6q76sgmqd7q8xurj90tx4hzegdmqg29qj4slukx9gywssx6vfc`
+{: .text50 }
 
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/1293526002237411328/X1StNvSV_400x400.jpg" />
 
@@ -393,12 +401,19 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 {: .text50 }
 
 # Resources
-- [Press.coop](https://press.coop/directory)
-- [nostr.band search](https://nostr.band/?q=%23press)
-- [karnage list on listr](https://listr.lol/a/naddr1qqy4y56nyprx2etywvpzqx78pgq53vlnzmdr8l3u38eru0n3438lnxqz0mr39wg9e5j0dfq3qvzqqqr4xq8yq7gf)
+
+- [Press.coop]
+- [nostr.band search]
+- [karnage list on listr]
+- [RSSLay]
 
 # Say Hi!
 
 <span class="nocomment">
   <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" data-owner="npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3" data-custom-base="note179s3z3dt9n2dr0nuasrdaspnwn5rerk6ea2wrgp9w4hn2n6yjr2q5mmvh9"></script>
 </span>
+
+[Press.coop]: https://press.coop/directory
+[nostr.band search]: https://nostr.band/?q=%23press
+[karnage list on listr]: https://listr.lol/a/naddr1qqy4y56nyprx2etywvpzqx78pgq53vlnzmdr8l3u38eru0n3438lnxqz0mr39wg9e5j0dfq3qvzqqqr4xq8yq7gf
+[RSSLay]: https://rsslay.nostr.moe
