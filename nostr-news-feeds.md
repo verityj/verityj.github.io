@@ -10,38 +10,66 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 
 ## A
 
-<img src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/491/374/528/254/original/65f1f8d01fbc6c3a.jpg" class="rounded40" />
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/491/374/528/254/original/65f1f8d01fbc6c3a.jpg" />
 
 [ABC World news tonight](https://satellite.earth/@npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au)    
 `npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au`   
 `ABCWorldNews_at_press.coop@mostr.pub`
 
-<img src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/570/217/740/378/original/4c3a5a7732a85823.jpg" class="rounded40" />
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/570/217/740/378/original/4c3a5a7732a85823.jpg" />
 
 [Al Jazeera](https://satellite.earth/@npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad) - English
 `npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad`
 `AJEnglish_at_press.coop@mostr.pub`
 
-<img src="https://pbs.twimg.com/profile_images/1509547258219479049/Lr3AvxTD_400x400.jpg" class="rounded40" />
+<img class="rounded40" src="https://pbs.twimg.com/profile_images/1509547258219479049/Lr3AvxTD_400x400.jpg" />
 
 [Android police](https://satellite.earth/@npub1zytlalgfj9hyftkhyqxduenyndy8mzvrtzeluk2n3e27pnk0z9psmzlhnk)  
 `npub1zytlalgfj9hyftkhyqxduenyndy8mzvrtzeluk2n3e27pnk0z9psmzlhnk`
 
-- [The Associated Press](https://satellite.earth/@npub1c3kfjw40pznhlya26qku6j5ll86gezstzhufeyf2dyhge2w0nz2quuq2dc) `npub1c3kfjw40pznhlya26qku6j5ll86gezstzhufeyf2dyhge2w0nz2quuq2dc` `AP_at_press.coop@mostr.pub`
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/570/185/573/083/original/5db335f4c999de25.png" />
 
-- [The Atlantic](https://satellite.earth/@npub1wd4vxl49vrsfrdaaskxg903ly5k0qfxef4tee4da59ppxj47ktqsa6kt98) `npub1wd4vxl49vrsfrdaaskxg903ly5k0qfxef4tee4da59ppxj47ktqsa6kt98` `TheAtlantic_at_press.coop@mostr.pub`
+[The Associated Press](https://satellite.earth/@npub1c3kfjw40pznhlya26qku6j5ll86gezstzhufeyf2dyhge2w0nz2quuq2dc)  
+`npub1c3kfjw40pznhlya26qku6j5ll86gezstzhufeyf2dyhge2w0nz2quuq2dc`  
+`AP_at_press.coop@mostr.pub`
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/423/778/485/406/original/298e44e0b7354283.jpg" />
+
+[The Atlantic](https://satellite.earth/@npub1wd4vxl49vrsfrdaaskxg903ly5k0qfxef4tee4da59ppxj47ktqsa6kt98)  
+`npub1wd4vxl49vrsfrdaaskxg903ly5k0qfxef4tee4da59ppxj47ktqsa6kt98`  
+`TheAtlantic_at_press.coop@mostr.pub`
 
 ## B
 
-- [BBC breaking news](https://satellite.earth/@npub1aur3lxyl6dy85s8zjvx7zxhptne3jz3h8448a9l988gmqe57j83spc34ky) `npub1aur3lxyl6dy85s8zjvx7zxhptne3jz3h8448a9l988gmqe57j83spc34ky` `BBCBreaking_at_press.coop@mostr.pub`
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/798/852/823/229/382/original/1ebed8c17aa5e36a.jpg" />
 
-- [BBC world](https://satellite.earth/@npub19fe3hu6gts0t6trs5vtwee9jcvp4up3zantuvyxq3jdmg9a4wxjsz9zs5r) `npub19fe3hu6gts0t6trs5vtwee9jcvp4up3zantuvyxq3jdmg9a4wxjsz9zs5r` `BBCWorld_at_press.coop@mostr.pub`
+[BBC breaking news](https://satellite.earth/@npub1aur3lxyl6dy85s8zjvx7zxhptne3jz3h8448a9l988gmqe57j83spc34ky)  
+`npub1aur3lxyl6dy85s8zjvx7zxhptne3jz3h8448a9l988gmqe57j83spc34ky`  
+`BBCBreaking_at_press.coop@mostr.pub`
 
-- [Bitcoin herald](https://satellite.earth/@npub10eezfnlq4ad2lyf3478na8f5las4l7guuf55vs8378lwtk87hd7slf6zka) `npub10eezfnlq4ad2lyf3478na8f5las4l7guuf55vs8378lwtk87hd7slf6zka` `herald@bitcoin-herald.org`
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/577/728/339/104/original/7a7f84db0d71596a.jpg" />
 
-- [Bitcoin magazine](https://satellite.earth/@npub1t8a7uumfmam38kal4xaakzyjccht4y5jxfs4cmlj0p768pxtwu8skh56yu) `npub1t8a7uumfmam38kal4xaakzyjccht4y5jxfs4cmlj0p768pxtwu8skh56yu` `bitcoinmagazine@b.tc`
+[BBC world](https://satellite.earth/@npub19fe3hu6gts0t6trs5vtwee9jcvp4up3zantuvyxq3jdmg9a4wxjsz9zs5r)  
+`npub19fe3hu6gts0t6trs5vtwee9jcvp4up3zantuvyxq3jdmg9a4wxjsz9zs5r`  
+`BBCWorld_at_press.coop@mostr.pub`
 
-- [The Boston globe](https://satellite.earth/@npub157vh2egcp34n6a89d0fy4hrtgxy4xalwpu2wgmtvdag4pqtlhazs3egmn3) `npub157vh2egcp34n6a89d0fy4hrtgxy4xalwpu2wgmtvdag4pqtlhazs3egmn3` `BostonGlobe_at_press.coop@mostr.pub`
+<img class="rounded40" src="https://nostr.build/p/nb9842.png" />
+
+[Bitcoin herald](https://satellite.earth/@npub10eezfnlq4ad2lyf3478na8f5las4l7guuf55vs8378lwtk87hd7slf6zka)  
+`npub10eezfnlq4ad2lyf3478na8f5las4l7guuf55vs8378lwtk87hd7slf6zka`  
+`herald@bitcoin-herald.org`
+
+<img class="rounded40" src="https://nostr.build/i/nostr.build_62c68a12726418d642c03730bfd716cf8031e83e28db199c94d633da57e68883.jpg" />
+
+[Bitcoin magazine](https://satellite.earth/@npub1t8a7uumfmam38kal4xaakzyjccht4y5jxfs4cmlj0p768pxtwu8skh56yu)  
+`npub1t8a7uumfmam38kal4xaakzyjccht4y5jxfs4cmlj0p768pxtwu8skh56yu`  
+`bitcoinmagazine@b.tc`
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/447/029/027/463/original/9437261ba2be110a.jpg" />
+
+[The Boston globe](https://satellite.earth/@npub157vh2egcp34n6a89d0fy4hrtgxy4xalwpu2wgmtvdag4pqtlhazs3egmn3)  
+`npub157vh2egcp34n6a89d0fy4hrtgxy4xalwpu2wgmtvdag4pqtlhazs3egmn3`  
+`BostonGlobe_at_press.coop@mostr.pub`
 
 ## C
 
