@@ -14,14 +14,14 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 # Table of contents
 
 - [Canada](#canada)
-- [Europe](#Europe)
-- [India](#India)
-- [Qatar](#Qatar)
-- [UK](#UK)
-- [Technical feeds](#Technical-feeds)
-- [Honorable mentions](#Honorable-mentions)
-- [Resources](#Resources)
-- [Say Hi!](#Say-Hi)
+- [Europe](#europe)
+- [India](#india)
+- [Qatar](#qatar)
+- [UK](#uk)
+- [Technical feeds](#technical-feeds)
+- [Honorable mentions](#honorable-mentions)
+- [Resources](#resources)
+- [Say Hi!](#say-hi)
 
 
 ## A
