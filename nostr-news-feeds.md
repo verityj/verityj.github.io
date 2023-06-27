@@ -9,7 +9,7 @@ This is a list of RSS aggregators for the press sites that we can follow on Nost
 
 _Note:_ to make sure you reach the below RSS feeds, add relay **wss://relay.mostr.pub** (source: [Mostr]).
 
-General and US-centric news are alphabetized below. Some country-specific and purely technical news have their own sections that follow. Table of contents will be added when the list is a little more finalized.
+General and US-centric news are alphabetized below. Some country-specific and purely technical news have their own sections that follow.
 
 # Table of contents
 
@@ -515,6 +515,9 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 
 [The globe and mail](https://satellite.earth/@globeandmail_at_press.coop@mostr.pub) - Canada's national news organization `npub17xkxynzr57n7zpvxj8mxgzwkewk284c8hx5w3y30y6mkw8lpenasy89534` `globeandmail_at_press.coop@mostr.pub`
 {: .text50 }
+
+[Back to top](#a-curated-list-of-nostr-news-feeds)
+{: .text-right }
 
 # Europe
 
