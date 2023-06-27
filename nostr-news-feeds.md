@@ -13,6 +13,7 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 
 # Table of contents
 
+- [Alphabetical list](#a)
 - [Canada](#canada)
 - [Europe](#europe)
 - [India](#india)
@@ -519,8 +520,6 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 [Back to top](#top-of-page)
 {: .text-right }
 
-[Back to TOC](#table-of-contents)
-
 # Europe
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/878/428/684/168/077/original/5dea43a852dc8db7.jpg" />
@@ -533,6 +532,9 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 
 [Politico Europe](https://satellite.earth/@POLITICOEurope_at_press.coop@mostr.pub) - politics. Policy. Power. `npub1esgj6hcsay7azg5zglt603kuhtcs3f2k4hszrvx2u70t6pqx6lyqtsxhep` `POLITICOEurope_at_press.coop@mostr.pub`
 {: .text50 }
+
+[Back to top](#top-of-page)
+{: .text-right }
 
 # India
 
@@ -553,6 +555,9 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 [The times of India](https://satellite.earth/@timesofindia_at_press.coop@mostr.pub) - news. Views. Analysis. Conversations. India’s No.1 digital news destination, world’s largest-selling English newspaper - A Times Internet Limited Product. `npub1vrzqqvgf3732q5yswfmh42gmnyn2pzla6n9cn9kttepglwwerppqmn5qgf` `timesofindia_at_press.coop@mostr.pub`
 {: .text50 }
 
+[Back to top](#top-of-page)
+{: .text-right }
+
 # Qatar
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/110/151/842/879/970/244/original/1e74babe8673c58b.jpg" />
@@ -565,6 +570,9 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 
 [Al Jazeera english](https://satellite.earth/@AJEnglish_at_press.coop@mostr.pub) - hear the human story and join the discussion. We go beyond cold facts and bring to light what matters `npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad` `AJEnglish_at_press.coop@mostr.pub`
 {: .text50 }
+
+[Back to top](#top-of-page)
+{: .text-right }
 
 # UK
 
@@ -609,6 +617,9 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 
 [The times and the sunday times](https://satellite.earth/@thetimes_at_press.coop@mostr.pub) - the best of our journalism. `npub1m9n4tkc8nmunl8nf9l45vum7d2u0458rjcxnpuhsackgc9utr55qqf9vma` `thetimes_at_press.coop@mostr.pub`
 {: .text50 }
+
+[Back to top](#top-of-page)
+{: .text-right }
 
 # Technical feeds
 
@@ -719,6 +730,9 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 [ZeroHedge news](https://satellite.earth/@npub19f00c07knhkh57z0d5t47wyn876h4atuc22x96gtt6tr6w73jm3qyv99q2) `npub19f00c07knhkh57z0d5t47wyn876h4atuc22x96gtt6tr6w73jm3qyv99q2`
 {: .text50 }
 
+[Back to top](#top-of-page)
+{: .text-right }
+
 # Honorable mentions
 
 <img class="rounded40" src="https://files.mastodon.social/accounts/avatars/109/243/139/631/965/273/original/f9cf9411bc073721.jpg" />
@@ -735,6 +749,9 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 
 [UX movement](https://satellite.earth/@npub1zyfxgz2kxdsfusjhyn5wnrscm52zpqx08angmhksjgvpx3ssfanqadp9rd) - Helping designers and developers build human-friendly interfaces. RSS Feed. `npub1zyfxgz2kxdsfusjhyn5wnrscm52zpqx08angmhksjgvpx3ssfanqadp9rd`
 {: .text50 }
+
+[Back to top](#top-of-page)
+{: .text-right }
 
 # Resources
 
