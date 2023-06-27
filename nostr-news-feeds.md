@@ -362,7 +362,7 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 {: .text50 }
 
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/423/689/985/797/original/65213b20558231a4.png" />
 
 [The new yorker](https://satellite.earth/@NewYorker_at_press.coop@mostr.pub) - unparalleled reporting and commentary on politics and culture, plus humor and cartoons, fiction and poetry. `npub1kez38lp0th0k3757y70m7gvwd0v4a299mwxzkhztw6w40rxsemusyjjp26` `NewYorker_at_press.coop@mostr.pub`
 {: .text50 }
@@ -438,7 +438,7 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 {: .text50 }
 
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://assets.newsie.social/accounts/avatars/109/308/815/431/636/565/original/ede9cd4073bf2697.png" />
 
 [STAT](https://satellite.earth/@STAT_at_newsie.social@mostr.pub) - reporting from the frontiers of health & medicine. `npub1evr7plejrksuyjd3xvvy63eugyjh5sf3jlt33wagqdwgcatxc95sw0tvkk` `STAT_at_newsie.social@mostr.pub`
 {: .text50 }
