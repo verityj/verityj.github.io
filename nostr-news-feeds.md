@@ -256,6 +256,7 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 <img class="rounded40" src="http://techcrunch.com/favicon.ico" />
 
 [TechCrunch](https://satellite.earth/@npub1va6zy0gmr8wp2328xw4h2kdvmcwjrl0nl6djv5kyv0rl4kcjcppqvzckg7) - Startup and technology news `npub1va6zy0gmr8wp2328xw4h2kdvmcwjrl0nl6djv5kyv0rl4kcjcppqvzckg7` `npub1va6zy0gmr8wp2328xw4h2kdvmcwjrl0nl6djv5kyv0rl4kcjcppqvzckg7@nost.vip`
+{: .text50 }
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/542/377/863/036/original/207607a8cd0692ba.png" />
 
@@ -271,9 +272,10 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 ## V
 {: .text-center }
 
-<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/514/421/905/186/original/298191fc655d6792.jpg" />
+<img class="rounded40" src="https://files.mastodon.social/accounts/avatars/110/124/788/339/892/680/original/8f8179c8cef3833d.jpg" />
 
 [The Verge](https://satellite.earth/@npub1fvx77hexevjdruznvwe3l8d3agse8ncpazxcuw32x593czyvdr4spqvy5l) `npub1fvx77hexevjdruznvwe3l8d3agse8ncpazxcuw32x593czyvdr4spqvy5l` `npub1fvx77hexevjdruznvwe3l8d3agse8ncpazxcuw32x593czyvdr4spqvy5l@nost.vip`
+{: .text50 }
 
 ## W
 {: .text-center }
