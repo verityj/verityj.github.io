@@ -13,13 +13,11 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/491/374/528/254/original/65f1f8d01fbc6c3a.jpg" />
 
-[ABC World news tonight](https://satellite.earth/@npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au)    
-`npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au` `ABCWorldNews_at_press.coop@mostr.pub`
+[ABC World news tonight](https://satellite.earth/@npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au) `npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au` `ABCWorldNews_at_press.coop@mostr.pub`
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/570/217/740/378/original/4c3a5a7732a85823.jpg" />
 
-[Al Jazeera](https://satellite.earth/@npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad) - English
-`npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad` `AJEnglish_at_press.coop@mostr.pub`
+[Al Jazeera](https://satellite.earth/@npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad) - English `npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad` `AJEnglish_at_press.coop@mostr.pub`
 
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/1509547258219479049/Lr3AvxTD_400x400.jpg" />
 
@@ -28,14 +26,11 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/570/185/573/083/original/5db335f4c999de25.png" />
 
-[The Associated Press](https://satellite.earth/@npub1c3kfjw40pznhlya26qku6j5ll86gezstzhufeyf2dyhge2w0nz2quuq2dc)  
-`npub1c3kfjw40pznhlya26qku6j5ll86gezstzhufeyf2dyhge2w0nz2quuq2dc`  
-`AP_at_press.coop@mostr.pub`
+[The Associated Press](https://satellite.earth/@npub1c3kfjw40pznhlya26qku6j5ll86gezstzhufeyf2dyhge2w0nz2quuq2dc) `npub1c3kfjw40pznhlya26qku6j5ll86gezstzhufeyf2dyhge2w0nz2quuq2dc` `AP_at_press.coop@mostr.pub`
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/423/778/485/406/original/298e44e0b7354283.jpg" />
 
-[The Atlantic](https://satellite.earth/@npub1wd4vxl49vrsfrdaaskxg903ly5k0qfxef4tee4da59ppxj47ktqsa6kt98)  
-`npub1wd4vxl49vrsfrdaaskxg903ly5k0qfxef4tee4da59ppxj47ktqsa6kt98` `TheAtlantic_at_press.coop@mostr.pub`
+[The Atlantic](https://satellite.earth/@npub1wd4vxl49vrsfrdaaskxg903ly5k0qfxef4tee4da59ppxj47ktqsa6kt98) `npub1wd4vxl49vrsfrdaaskxg903ly5k0qfxef4tee4da59ppxj47ktqsa6kt98` `TheAtlantic_at_press.coop@mostr.pub`
 
 ## B
 {: .text-center }
@@ -52,19 +47,15 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 
 <img class="rounded40" src="https://nostr.build/p/nb9842.png" />
 
-[Bitcoin herald](https://satellite.earth/@npub10eezfnlq4ad2lyf3478na8f5las4l7guuf55vs8378lwtk87hd7slf6zka)  
-`npub10eezfnlq4ad2lyf3478na8f5las4l7guuf55vs8378lwtk87hd7slf6zka`  
-`herald@bitcoin-herald.org`
+[Bitcoin herald](https://satellite.earth/@npub10eezfnlq4ad2lyf3478na8f5las4l7guuf55vs8378lwtk87hd7slf6zka) `npub10eezfnlq4ad2lyf3478na8f5las4l7guuf55vs8378lwtk87hd7slf6zka` `herald@bitcoin-herald.org`
 
 <img class="rounded40" src="https://nostr.build/i/nostr.build_62c68a12726418d642c03730bfd716cf8031e83e28db199c94d633da57e68883.jpg" />
 
-[Bitcoin magazine](https://satellite.earth/@npub1t8a7uumfmam38kal4xaakzyjccht4y5jxfs4cmlj0p768pxtwu8skh56yu)  
-`npub1t8a7uumfmam38kal4xaakzyjccht4y5jxfs4cmlj0p768pxtwu8skh56yu` `bitcoinmagazine@b.tc`
+[Bitcoin magazine](https://satellite.earth/@npub1t8a7uumfmam38kal4xaakzyjccht4y5jxfs4cmlj0p768pxtwu8skh56yu) `npub1t8a7uumfmam38kal4xaakzyjccht4y5jxfs4cmlj0p768pxtwu8skh56yu` `bitcoinmagazine@b.tc`
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/447/029/027/463/original/9437261ba2be110a.jpg" />
 
-[The Boston globe](https://satellite.earth/@npub157vh2egcp34n6a89d0fy4hrtgxy4xalwpu2wgmtvdag4pqtlhazs3egmn3)  
-`npub157vh2egcp34n6a89d0fy4hrtgxy4xalwpu2wgmtvdag4pqtlhazs3egmn3` `BostonGlobe_at_press.coop@mostr.pub`
+[The Boston globe](https://satellite.earth/@npub157vh2egcp34n6a89d0fy4hrtgxy4xalwpu2wgmtvdag4pqtlhazs3egmn3) `npub157vh2egcp34n6a89d0fy4hrtgxy4xalwpu2wgmtvdag4pqtlhazs3egmn3` `BostonGlobe_at_press.coop@mostr.pub`
 
 ## C
 {: .text-center }
@@ -76,64 +67,53 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/514/669/416/396/original/6adb0801ded18862.jpg" />
 
-[CNN](https://satellite.earth/@npub1mau5fmgd9jhg8j38xl8g7mer6ykqsqmjjl4avs6vghsjx7323elqn7fkrn)  
-`npub1mau5fmgd9jhg8j38xl8g7mer6ykqsqmjjl4avs6vghsjx7323elqn7fkrn` `CNN_at_press.coop@mostr.pub`
+[CNN](https://satellite.earth/@npub1mau5fmgd9jhg8j38xl8g7mer6ykqsqmjjl4avs6vghsjx7323elqn7fkrn) `npub1mau5fmgd9jhg8j38xl8g7mer6ykqsqmjjl4avs6vghsjx7323elqn7fkrn` `CNN_at_press.coop@mostr.pub`
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/542/319/135/688/original/f5cfbb20de6a88ea.jpg" />
 
-[CNN International](https://satellite.earth/@npub1k0zrp0lxtuvlqjrkfww0sctk76wd0lwltwhz37cu5nzds2k5xphqw6c4v4)  
-`npub1k0zrp0lxtuvlqjrkfww0sctk76wd0lwltwhz37cu5nzds2k5xphqw6c4v4` `cnni_at_press.coop@mostr.pub`
+[CNN International](https://satellite.earth/@npub1k0zrp0lxtuvlqjrkfww0sctk76wd0lwltwhz37cu5nzds2k5xphqw6c4v4) `npub1k0zrp0lxtuvlqjrkfww0sctk76wd0lwltwhz37cu5nzds2k5xphqw6c4v4` `cnni_at_press.coop@mostr.pub`
 
 <img class="rounded40" src="https://www.coindesk.com/favicon.ico" />
 
-[CoinDesk](https://satellite.earth/@npub1x36ywys202q3y0cnrt8aj9cgm54ctt9qu6scv37xe254j98y2umquhlsth)  
-`npub1x36ywys202q3y0cnrt8aj9cgm54ctt9qu6scv37xe254j98y2umquhlsth`
+[CoinDesk](https://satellite.earth/@npub1x36ywys202q3y0cnrt8aj9cgm54ctt9qu6scv37xe254j98y2umquhlsth) `npub1x36ywys202q3y0cnrt8aj9cgm54ctt9qu6scv37xe254j98y2umquhlsth`
 
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/1293526002237411328/X1StNvSV_400x400.jpg" />
 
-[Colossal](https://satellite.earth/@npub1nzhn34f3l62mwe9yv8pp43zzne5pxsq9kkwk64xzjqfw6srq36ysmaq9hq)  
-`npub1nzhn34f3l62mwe9yv8pp43zzne5pxsq9kkwk64xzjqfw6srq36ysmaq9hq`
+[Colossal](https://satellite.earth/@npub1nzhn34f3l62mwe9yv8pp43zzne5pxsq9kkwk64xzjqfw6srq36ysmaq9hq) `npub1nzhn34f3l62mwe9yv8pp43zzne5pxsq9kkwk64xzjqfw6srq36ysmaq9hq`
 
 ## E
 {: .text-center }
 
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/655059892022022144/Pq3Q_1oU_400x400.png" />
 
-[Engadget](https://satellite.earth/@npub1zygw2uzcnpy8gp9qfjfrgjc292k0vwwe709ren726v9fspf49vds28m36h)  
-`npub1zygw2uzcnpy8gp9qfjfrgjc292k0vwwe709ren726v9fspf49vds28m36h`
+[Engadget](https://satellite.earth/@npub1zygw2uzcnpy8gp9qfjfrgjc292k0vwwe709ren726v9fspf49vds28m36h) `npub1zygw2uzcnpy8gp9qfjfrgjc292k0vwwe709ren726v9fspf49vds28m36h`
 
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/1170690523201527808/FriNRiir_400x400.png" />
 
-[ESPN](https://satellite.earth/@npub1zy0qh4vy46r77pdn2454gdws40xhvxzc69dmnuc5yjekkaw0ytgsuw7hde)  
-`npub1zy0qh4vy46r77pdn2454gdws40xhvxzc69dmnuc5yjekkaw0ytgsuw7hde`
+[ESPN](https://satellite.earth/@npub1zy0qh4vy46r77pdn2454gdws40xhvxzc69dmnuc5yjekkaw0ytgsuw7hde) `npub1zy0qh4vy46r77pdn2454gdws40xhvxzc69dmnuc5yjekkaw0ytgsuw7hde`
 
 <img class="rounded40" src="https://nitter.nostr.sc/pic/pbs.twimg.com%2Fprofile_images%2F1649341567566487552%2FaUTwNUYT_400x400.jpg" />
 
-[European central bank](https://satellite.earth/@npub1rtdc05xzd4r9g3tjeyv30akuw5g3349hc3k2kqz62uwrfc0tqjqsw5y53w)   
-`npub1rtdc05xzd4r9g3tjeyv30akuw5g3349hc3k2kqz62uwrfc0tqjqsw5y53w` `ecb@nostr.sc`
+[European central bank](https://satellite.earth/@npub1rtdc05xzd4r9g3tjeyv30akuw5g3349hc3k2kqz62uwrfc0tqjqsw5y53w) `npub1rtdc05xzd4r9g3tjeyv30akuw5g3349hc3k2kqz62uwrfc0tqjqsw5y53w` `ecb@nostr.sc`
 
 ## F
 {: .text-center }
 
 <img class="rounded40" src="https://www.fdic.gov/assets/images/icon-seal.svg" />
 
-[FDIC press releases](https://satellite.earth/@npub1w9q6gmf0aelgfshj2r859wc8ucwkjkdgm7c4z5krlfxdcafz88wslj460y)   
-`npub1w9q6gmf0aelgfshj2r859wc8ucwkjkdgm7c4z5krlfxdcafz88wslj460y`
+[FDIC press releases](https://satellite.earth/@npub1w9q6gmf0aelgfshj2r859wc8ucwkjkdgm7c4z5krlfxdcafz88wslj460y) `npub1w9q6gmf0aelgfshj2r859wc8ucwkjkdgm7c4z5krlfxdcafz88wslj460y`
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/518/693/705/205/original/1134ddcd69c84b66.jpg" />
 
-[Forbes](https://satellite.earth/@npub1uxdt5d22cp3z5ncrjun34darpqttqmwwqn49r837hvamdmpgxjrqw57fd5)   
-`npub1uxdt5d22cp3z5ncrjun34darpqttqmwwqn49r837hvamdmpgxjrqw57fd5` `Forbes_at_press.coop@mostr.pub`
+[Forbes](https://satellite.earth/@npub1uxdt5d22cp3z5ncrjun34darpqttqmwwqn49r837hvamdmpgxjrqw57fd5) `npub1uxdt5d22cp3z5ncrjun34darpqttqmwwqn49r837hvamdmpgxjrqw57fd5` `Forbes_at_press.coop@mostr.pub`
 
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/1519700845817962496/DMeHIufq_400x400.jpg" />
 
-[Fortune](https://satellite.earth/@npub1zy2ent5mwdft3lw3lc4x5wdn5uc3dml25209nremv4g3kcwk3k7sw26tfz)   
-`npub1zy2ent5mwdft3lw3lc4x5wdn5uc3dml25209nremv4g3kcwk3k7sw26tfz`
+[Fortune](https://satellite.earth/@npub1zy2ent5mwdft3lw3lc4x5wdn5uc3dml25209nremv4g3kcwk3k7sw26tfz) `npub1zy2ent5mwdft3lw3lc4x5wdn5uc3dml25209nremv4g3kcwk3k7sw26tfz`
 
 <img class="rounded40" src="https://assets.newsie.social/accounts/avatars/109/542/818/951/400/994/original/ccf5fbbcf3bd0e14.png" />
 
-[Freedom of the press](https://satellite.earth/@npub1qq6mp5unp20kek9asxchnnwm6czzpz8zm57r4ftaxnfhz8zxpuhqkp7n8w)   
-`npub1qq6mp5unp20kek9asxchnnwm6czzpz8zm57r4ftaxnfhz8zxpuhqkp7n8w` `freedomofpress_at_newsie.social@mostr.pub`
+[Freedom of the press](https://satellite.earth/@npub1qq6mp5unp20kek9asxchnnwm6czzpz8zm57r4ftaxnfhz8zxpuhqkp7n8w) `npub1qq6mp5unp20kek9asxchnnwm6czzpz8zm57r4ftaxnfhz8zxpuhqkp7n8w` `freedomofpress_at_newsie.social@mostr.pub`
 
 ## G
 {: .text-center }
@@ -284,7 +264,7 @@ A list of RSS aggregators for the press sites that we can follow on Nostr
 ## U
 {: .text-center }
 
-<img class="rounded40" src="" />
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/514/421/905/186/original/298191fc655d6792.jpg" />
 
 [USA today](https://satellite.earth/@npub17w37wulz9a735274jefdepmdf745h3kqfcwf0ly8304qtkhe60ds6skz5n) `npub17w37wulz9a735274jefdepmdf745h3kqfcwf0ly8304qtkhe60ds6skz5n` `USATODAY_at_press.coop@mostr.pub`
 
