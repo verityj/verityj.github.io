@@ -383,7 +383,7 @@ A list of RSS aggregators for the press sites that we can follow on Nostr.
 [ZeroHedge news](https://satellite.earth/@npub19f00c07knhkh57z0d5t47wyn876h4atuc22x96gtt6tr6w73jm3qyv99q2) `npub19f00c07knhkh57z0d5t47wyn876h4atuc22x96gtt6tr6w73jm3qyv99q2`
 {: .text50 }
 
-# Others
+# Honorable mentions
 
 <img class="rounded40" src="https://files.mastodon.social/accounts/avatars/109/243/139/631/965/273/original/f9cf9411bc073721.jpg" />
 
@@ -402,7 +402,7 @@ A list of RSS aggregators for the press sites that we can follow on Nostr.
 
 # Resources
 
-- [Press.coop]
+- [press.coop newest news]
 - [nostr.band search]
 - [karnage list on listr]
 - [RSSLay]
@@ -413,7 +413,7 @@ A list of RSS aggregators for the press sites that we can follow on Nostr.
   <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" data-owner="npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3" data-custom-base="note179s3z3dt9n2dr0nuasrdaspnwn5rerk6ea2wrgp9w4hn2n6yjr2q5mmvh9"></script>
 </span>
 
-[Press.coop]: https://press.coop/directory
+[press.coop newest news]: https://press.coop/public/local
 [nostr.band search]: https://nostr.band/?q=%23press
 [karnage list on listr]: https://listr.lol/a/naddr1qqy4y56nyprx2etywvpzqx78pgq53vlnzmdr8l3u38eru0n3438lnxqz0mr39wg9e5j0dfq3qvzqqqr4xq8yq7gf
 [RSSLay]: https://rsslay.nostr.moe
