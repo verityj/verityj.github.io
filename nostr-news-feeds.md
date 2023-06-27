@@ -516,12 +516,8 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 [The globe and mail](https://satellite.earth/@globeandmail_at_press.coop@mostr.pub) - Canada's national news organization `npub17xkxynzr57n7zpvxj8mxgzwkewk284c8hx5w3y30y6mkw8lpenasy89534` `globeandmail_at_press.coop@mostr.pub`
 {: .text50 }
 
-[Back to top](#a-curated-list-of-nostr-news-feeds)
+[Back to top](#start-of-content)
 {: .text-right }
-
-[Back to stars](#stars)
-
-[Back to optimize](#optimize-for-happiness)
 
 [Back to TOC](#table-of-contents)
 
