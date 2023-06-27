@@ -5,7 +5,7 @@ title: A curated list of Nostr news feeds
 
 A list of RSS aggregators for the press sites that we can follow on Nostr.
 
-> _Note:_ add relay **wss://rsslay.nostr.moe** to make sure you reach some of the below RSS feeds (source: [RSSLay]).
+_Note:_ add relay **wss://rsslay.nostr.moe** to make sure you reach some of the below RSS feeds (source: [RSSLay]).
 
 ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social)
 {: .text-right }
@@ -104,6 +104,11 @@ A list of RSS aggregators for the press sites that we can follow on Nostr.
 
 ## E
 {: .text-center }
+
+<img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/593/470/377/637/original/a8f310678b9bde9a.jpg" />
+
+[The economist - the world this week](https://satellite.earth/@npub1cfty6nd2td5y00t04zlpqchgwe2d2sgr68laevllk8yu45r4fwgsfsp4k5) `npub1cfty6nd2td5y00t04zlpqchgwe2d2sgr68laevllk8yu45r4fwgsfsp4k5`
+{: .text50 }
 
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/655059892022022144/Pq3Q_1oU_400x400.png" />
 
