@@ -6,20 +6,26 @@ title: A curated list of Nostr news feeds
 A list of RSS aggregators for the press sites that we can follow on Nostr 
 
 ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social)
+{: .text-right }
 
 ## A
 
 <img src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/877/491/374/528/254/original/65f1f8d01fbc6c3a.jpg" class="rounded40" />
+
 [ABC World news tonight](https://satellite.earth/@npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au)    
 `npub1sp7wckf664f8rqv3mtee4cuwj5xahyfhx0nfaqs4zjlhlh7rgfhq20z0au`   
 `ABCWorldNews_at_press.coop@mostr.pub`
 
 <img src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/570/217/740/378/original/4c3a5a7732a85823.jpg" class="rounded40" />
+
 [Al Jazeera](https://satellite.earth/@npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad) - English
 `npub1s2kdugenpwywdqc3g63h8mhzw9k90he7qp2v2xr3d85jacygqysq880sad`
 `AJEnglish_at_press.coop@mostr.pub`
 
-- [Android police](https://satellite.earth/@npub1zytlalgfj9hyftkhyqxduenyndy8mzvrtzeluk2n3e27pnk0z9psmzlhnk) `npub1zytlalgfj9hyftkhyqxduenyndy8mzvrtzeluk2n3e27pnk0z9psmzlhnk`
+<img src="https://pbs.twimg.com/profile_images/1509547258219479049/Lr3AvxTD_400x400.jpg" class="rounded40" />
+
+[Android police](https://satellite.earth/@npub1zytlalgfj9hyftkhyqxduenyndy8mzvrtzeluk2n3e27pnk0z9psmzlhnk)  
+`npub1zytlalgfj9hyftkhyqxduenyndy8mzvrtzeluk2n3e27pnk0z9psmzlhnk`
 
 - [The Associated Press](https://satellite.earth/@npub1c3kfjw40pznhlya26qku6j5ll86gezstzhufeyf2dyhge2w0nz2quuq2dc) `npub1c3kfjw40pznhlya26qku6j5ll86gezstzhufeyf2dyhge2w0nz2quuq2dc` `AP_at_press.coop@mostr.pub`
 
