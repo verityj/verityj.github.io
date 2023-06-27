@@ -301,6 +301,8 @@ p img, .emoji {
 .rounded40 {
   width: 40px;
   border-radius: 20px;
+  border: unset;
+  border: $code-block-border;
   float: left;
   margin-left: 0px;
   margin-right: 10px;
