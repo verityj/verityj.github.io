@@ -93,6 +93,11 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+// no matter what, wrap everything to same width
+body {
+  word-wrap: break-word;
+}
+
 /* width will include padding and border */
 /* https://www.w3schools.com/css/css3_box-sizing.asp */
 * {
