@@ -293,7 +293,8 @@ p img, .emoji {
 
 img.rounded40 {
   width: 40px;
-  border-radius: 20px; 
+  border-radius: unset;
+  border-radius: 20px;
   float: left;
   margin-left: 0px;
   margin-right: 10px;
