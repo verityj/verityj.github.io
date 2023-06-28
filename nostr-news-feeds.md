@@ -1,6 +1,7 @@
 ---
 layout: page
 title: A curated list of Nostr news feeds
+last_modified_date: 2023-06-28
 ---
 ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social)
 {: .text-right }
@@ -145,6 +146,8 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 
 [The economist US](https://satellite.earth/@EconUS_at_press.coop@mostr.pub) `npub13qvau9pxkg03vp3e30pvm0jehrn7xamhgsc2zhraqzmugutks6eqtd8l0r` `EconUS_at_press.coop@mostr.pub`
 {: .text50 }
+
+<!-- npub1akqcfqxrgumxskppn9dk5xdcn4mpzyvmdq9xtskdtyj5g7m54agqtawwwu generated for https://nitter.moomoo.me/EconUS/rss -->
 
 
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/797/593/470/377/637/original/a8f310678b9bde9a.jpg" />
