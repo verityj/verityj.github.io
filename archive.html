@@ -10,9 +10,9 @@ title: Article list
       <span>
         {{ item.date | date: site.date_format | escape }}
 
-        {% if page.last_modified_date %}
+        {% if item.last_modified_date %}
           &nbsp; &bull; &nbsp; last modified
-          {{ page.last_modified_date | date: site.date_format | escape }}
+          {{ item.last_modified_date | date: site.date_format | escape }}
         {% endif %}
 
         &nbsp; &bull; &nbsp;
