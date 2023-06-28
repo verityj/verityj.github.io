@@ -8,7 +8,14 @@ title: Article list
       </h3>
       <h6>
       <span>
-        {{ item.date | date: site.date_format }} &nbsp; &bull; &nbsp;
+        {{ item.date | date: site.date_format | escape }}
+
+        {% if page.last_modified_date %}
+          &nbsp; &bull; &nbsp; last modified
+          {{ page.last_modified_date | date: site.date_format | escape }}
+        {% endif %}
+
+        &nbsp; &bull; &nbsp;
         {% assign words = item.content | number_of_words %}
         {% if words < 360 %}
           1 min read
