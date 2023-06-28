@@ -8,6 +8,16 @@ layout: base
     <a href="/"><img src="/assets/images/fav2.png" width="22px;" style="float: left; margin-left: 0px; margin-right: 10px; margin-top: 5px; margin-bottom: 0px; padding: 0px; border: none;" /></a>
     {{ page.title | escape }}
   </h1>
+
+  <h6>
+    <span>
+      {% if page.last_modified_date %}
+        Last modified &nbsp;
+        {{ page.last_modified_date | date: site.date_format | escape }}
+      {% endif %}
+    </span>
+  </h6>
+  
     {{ content }}
 
 <hr /> <!-- separate with a line -->
