@@ -9,7 +9,10 @@ layout: base
     {{ page.title | escape }}</h1>
   <h6>
     <span>
-      {{ page.date | date: site.date_format }} &nbsp; &bull; &nbsp;
+      {{ page.date | date: site.date_format | escape }} 
+      
+      
+      &nbsp; &bull; &nbsp;
       {% assign words = page.content | number_of_words %}
       {% if words < 360 %}
         1 min read
