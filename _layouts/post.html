@@ -11,6 +11,10 @@ layout: base
     <span>
       {{ page.date | date: site.date_format | escape }} 
       
+      {% if page.last_modified_date %}
+        &nbsp; &bull; &nbsp; last modified
+        {{ page.last_modified_date | date: site.date_format | escape }}
+      {% endif %}
       
       &nbsp; &bull; &nbsp;
       {% assign words = page.content | number_of_words %}
