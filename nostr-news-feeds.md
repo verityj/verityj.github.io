@@ -1,7 +1,7 @@
 ---
 layout: page
 title: A curated list of Nostr news feeds
-last_modified_date: 2023-06-28
+last_modified_date: 2023-07-05
 ---
 ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social)
 {: .text-right }
@@ -339,6 +339,12 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 <img class="rounded40" src="https://s3.us-west-2.amazonaws.com/mastodon-press-coop/accounts/avatars/109/907/825/479/802/651/original/ab3eac6e044c1818.jpg" />
 
 [Nature](https://satellite.earth/@Nature_at_press.coop@mostr.pub) - research, News, and Commentary from Nature, the international journal of science. `npub10fxxz8pj5t3f4zrwyn8dwu0c96v9kn626gmvcgy9xl7k6x2wlmuq2lacuc` `Nature_at_press.coop@mostr.pub`
+{: .text50 }
+
+
+<img class="rounded40" src="https://s3.c.im/accounts/avatars/000/009/728/original/13377de2268a7bcc.jpg" />
+
+[NBC news](https://satellite.earth/@NBC_at_c.im@mostr.pub) `npub1mupeu24f0ndanlkzmp8z8r7l4r8r3agz2dldlh06p9ar9gyfpx4qvdl06u` `NBC_at_c.im@mostr.pub`
 {: .text50 }
 
 
