@@ -1,7 +1,7 @@
 ---
 layout: page
 title: A curated list of Nostr news feeds
-last_modified_date: 2023-07-05
+last_modified_date: 2023-07-08
 ---
 ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social)
 {: .text-right }
