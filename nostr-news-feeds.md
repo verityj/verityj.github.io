@@ -674,6 +674,12 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 {: .text50 }
 
 
+<img class="rounded40" src="https://pic-1252521402.cos.ap-hongkong.myqcloud.com/favicon.ico" />
+
+[Hacker news](https://satellite.earth/@npub1s9c53smfq925qx6fgkqgw8as2e99l2hmj32gz0hjjhe8q67fxdvs3ga9je) `npub1s9c53smfq925qx6fgkqgw8as2e99l2hmj32gz0hjjhe8q67fxdvs3ga9je` `npub1s9c53smfq925qx6fgkqgw8as2e99l2hmj32gz0hjjhe8q67fxdvs3ga9je@nost.vip`
+{: .text50 }
+
+
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/1666527039367819265/pgwCwdmD_400x400.jpg" />
 
 [IGN](https://satellite.earth/@npub1zyty0tpx8m95qlcerh4xchw80mpzexf8fk52zz3vd9xkjewsxsss9dnmtl) - we're all about video games, movies, TV, and comics `npub1zyty0tpx8m95qlcerh4xchw80mpzexf8fk52zz3vd9xkjewsxsss9dnmtl`
