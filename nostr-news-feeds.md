@@ -760,6 +760,13 @@ General and US-centric news are alphabetized below. Some country-specific and pu
 [Minimalist baker](https://satellite.earth/@npub1zywez9up9mdhtmvjevjhzwtge8kmgh05enx55q06ful4sk6n5phqmvxhud) - Simple recipes requiring 10 ingredients or less, 1 bowl, or 30 minutes. RSS Feed. `npub1zywez9up9mdhtmvjevjhzwtge8kmgh05enx55q06ful4sk6n5phqmvxhud`
 {: .text50 }
 
+
+<img class="rounded40" src="https://cdn.masto.host/journahost/accounts/avatars/109/292/871/848/287/705/original/6474d317c9a55247.jpeg" />
+
+[Sam Litzinger](https://satellite.earth/@samlitzinger_at_journa.host@mostr.pub) - Semi-retired journalist (ex-CBS News, ex-AP, etc). Master’s degree in philosophy. Friend to animals. Usually annoyed about something. Thank you for reading my posts. www.samlitzinger.com `npub1nnjmxl6ytr4lcssg8dsm6clz8alx09pz4rn8hd92yflgtpdu6d8skdsjja` `samlitzinger_at_journa.host@mostr.pub`
+{: .text50 }
+
+
 <img class="rounded40" src="https://pbs.twimg.com/profile_images/1277366696374874112/zbKmpP_2_400x400.png" />
 
 [UX movement](https://satellite.earth/@npub1zyfxgz2kxdsfusjhyn5wnrscm52zpqx08angmhksjgvpx3ssfanqadp9rd) - Helping designers and developers build human-friendly interfaces. RSS Feed. `npub1zyfxgz2kxdsfusjhyn5wnrscm52zpqx08angmhksjgvpx3ssfanqadp9rd`
