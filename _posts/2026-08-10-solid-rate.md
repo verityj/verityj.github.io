@@ -12,9 +12,13 @@ Since I am interested in the Solid.xyz project, I wanted a one-click way to look
 ## Contract source
 
 Etherscan contract 0x10f3996904F1fA09Db48e5d46AAdD6D9fd516eFe.
+
 Read contract.
+
 Function 5 getRate (0x679aefce)
+
 Shows value as integer. To get it in USDC, divide by 6 decimals (1,000,000).
+
 [https://etherscan.io/address/0x10f3996904F1fA09Db48e5d46AAdD6D9fd516eFe#readContract](https://etherscan.io/address/0x10f3996904F1fA09Db48e5d46AAdD6D9fd516eFe#readContract)
 
 ## iOS and mac shortcut
@@ -26,9 +30,13 @@ Shortcut link: [soUSD.shortcut](/assets/files/soUSD.shortcut) or [https://www.ic
 ## How to run: assign a global shortcut
 
 Open the shortcut in the Shortcuts app.
+
 Right side of the shortcut window click on (i). Details tab opens.
+
 Select "Show in Share Sheet" to run in most apps.
+
 Select "Use as Quick Action" and "Services menu".
+
 Run with: click into the field and hit your shortcut (example: fn-1).
 
 ## How to run: command line
