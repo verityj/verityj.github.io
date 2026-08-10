@@ -2,8 +2,8 @@
 layout: post
 parent: Markdown
 title: Shortcut to show soUSD contract rate
-date: 2023-06-29
-last_modified_date: 2023-06-29
+date: 2026-08-10
+last_modified_date: 2026-08-10
 nav_order: 5
 ---
 
