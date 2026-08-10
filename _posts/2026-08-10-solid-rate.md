@@ -5,6 +5,7 @@ title: Shortcut to show soUSD contract rate
 date: 2026-08-10
 last_modified_date: 2026-08-10
 nav_order: 5
+bluesky_post_url: "https://bsky.app/profile/veri-t.bsky.social/post/3msr2dnmzwk2i"
 ---
 
 Since I am interested in the Solid.xyz project, I wanted a one-click way to look up the current contract rate of their soUSD token from etherscan.
