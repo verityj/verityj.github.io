@@ -25,7 +25,7 @@ Shows value as integer. To get it in USDC, divide by 6 decimals (1,000,000).
 
 This shortcut displays the raw rate as well as $ per soUSD. I chose to copy the raw rate and use in a spreadsheet to track the actual yield. As of right now, the Solid app is way too buggy to accurately track anything about the real yield (earned and yearly).
 
-Shortcut link: [soUSD.shortcut](/assets/files/soUSD.shortcut) or [https://www.icloud.com/shortcuts/ff2e9997dad549adb4dd1fc79aa3163f](https://www.icloud.com/shortcuts/ff2e9997dad549adb4dd1fc79aa3163f).
+Shortcut link: [soUSD.shortcut](/assets/files/soUSD.shortcut).
 
 ## How to run: assign a global shortcut
 
