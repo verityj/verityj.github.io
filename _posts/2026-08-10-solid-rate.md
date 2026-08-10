@@ -53,6 +53,98 @@ shortcuts run "soUSD"
 tell application "Shortcuts Events" to run shortcut "soUSD"
 ```
 
+## Alternative: Mac command line script
+
+Tested in zsh shell with Python 3.13.15 with web3 package installed.
+
+```
+#!/usr/bin/env python3
+import json
+from web3 import Web3
+
+# 1. Official foundation-grade Fuse Network JSON-RPC nodes
+RPC_ENDPOINTS = [
+    "https://rpc.fuse.io",
+    "https://chainstacklabs.com",
+    "https://pocket.network"
+]
+
+w3 = None
+for url in RPC_ENDPOINTS:
+    try:
+        temp_w3 = Web3(Web3.HTTPProvider(url, request_kwargs={'timeout': 8}))
+        if temp_w3.is_connected():
+            w3 = temp_w3
+            break
+    except Exception:
+        continue
+
+if not w3:
+    print("Error: All public Fuse Network foundation nodes are currently unreachable.")
+    exit()
+
+# 2. Target Vault Contract Address (Solid USD Vault)
+vault_address = w3.to_checksum_address("0x75333830E7014e909535389a6E5b0C02aA62ca27")
+
+# 3. Compile clean layout ABIs mapping the production architecture
+vault_abi = json.loads('[{"inputs":[],"name":"hook","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"}]')
+hook_abi = json.loads('[{"inputs":[],"name":"accountant","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"}]')
+accountant_abi = json.loads('''
+[
+    {
+        "inputs": [],
+        "name": "accountantState",
+        "outputs": [
+            {"internalType": "address", "name": "payoutAddress", "type": "address"},
+            {"internalType": "uint96", "name": "highWaterMark", "type": "uint96"},
+            {"internalType": "uint128", "name": "interestEarned", "type": "uint128"},
+            {"internalType": "uint128", "name": "totalFeesOwed", "type": "uint128"},
+            {"internalType": "uint96", "name": "exchangeRate", "type": "uint96"},
+            {"internalType": "uint16", "name": "allowedExchangeRateChangePerSecond", "type": "uint16"},
+            {"internalType": "uint16", "name": "managementFee", "type": "uint16"},
+            {"internalType": "uint64", "name": "lastUpdateTimestamp", "type": "uint64"},
+            {"internalType": "bool", "name": "isPaused", "type": "bool"},
+            {"internalType": "uint24", "name": "minimumUpdateDelayInSeconds", "type": "uint24"},
+            {"internalType": "uint16", "name": "performanceFee", "type": "uint16"},
+            {"internalType": "uint16", "name": "managementFeeAddress", "type": "uint16"}
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
+''')
+
+try:
+    # Step A: Query the Vault to find its active hook router module
+    vault_contract = w3.eth.contract(address=vault_address, abi=vault_abi)
+    hook_address = vault_contract.functions.hook().call()
+    checksum_hook = w3.to_checksum_address(hook_address)
+    
+    # Step B: Query the Hook to find the current active Accountant engine
+    hook_contract = w3.eth.contract(address=checksum_hook, abi=hook_abi)
+    accountant_address = hook_contract.functions.accountant().call()
+    checksum_accountant = w3.to_checksum_address(accountant_address)
+    
+    # Step C: Extract the full accountantState tuple from the live node
+    accountant_contract = w3.eth.contract(address=checksum_accountant, abi=accountant_abi)
+    state = accountant_contract.functions.accountantState().call()
+    
+    # Index 4 isolates the uint96 exchangeRate parameter from the V2 Accountant state tuple
+    raw_rate = state[4]
+    normalized_rate = raw_rate / 10**18
+    
+    print("     --- Solid Yield State Extracted Successfully ---")
+    # print(f"     Current Accountant Address: {checksum_accountant}")
+    print(f"\n     Raw Integer Value:         {raw_rate}")
+    # print(f"     True Conversion Rate:      {normalized_rate:.6f}")
+    ratenow =raw_rate / 1000000
+    print(f"\033[34m\n     Price:                     $ {ratenow} / soUSD\n\033[0m")
+    
+except Exception as e:
+    print(f"Execution failed inside contract layer: {e}")
+```
+
+
 ## Resources
 
 - Solid project at [https://www.solid.xyz](https://www.solid.xyz)
