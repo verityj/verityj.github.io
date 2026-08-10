@@ -55,7 +55,7 @@ tell application "Shortcuts Events" to run shortcut "soUSD"
 
 ## Alternative: Mac command line script
 
-Tested in zsh shell with Python 3.13.15 with web3 package installed.
+Tested in zsh shell with Python 3.13.15 with web3 package installed (note below).
 
 ```
 #!/usr/bin/env python3
@@ -144,6 +144,11 @@ except Exception as e:
     print(f"Execution failed inside contract layer: {e}")
 ```
 
+Web3 package may need to be added with:
+
+```
+/Applications/Xcode.app/Contents/Developer/usr/bin/python3 -m pip install web3  
+```
 
 ## Resources
 
