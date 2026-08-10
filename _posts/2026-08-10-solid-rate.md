@@ -50,7 +50,7 @@ shortcuts run "soUSD"
 ## How to run: AppleScript
 
 ```
-tell application "Shortcuts Events" to run shortcut " Shortcut Name"
+tell application "Shortcuts Events" to run shortcut "soUSD"
 ```
 
 ## Resources
