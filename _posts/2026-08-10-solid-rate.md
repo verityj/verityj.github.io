@@ -166,4 +166,4 @@ Web3 package may need to be added with:
 
 ## Shortcut content
 
-<img class="centered" width="590px;" src="/assets/images/2026-08-10-shortcut-content.png" />
+<img class="centered" width="80%;" src="/assets/images/2026-08-10-shortcut-content.png" />
