@@ -12,7 +12,7 @@ Solid.xyz is a minuscule, really tiny (and buggy) DEFI project on Fuse chain wit
 
 DefiLlama historical Solid TVL:
 
-<iframe class="centered" width="570px" height="370px" src="https://defillama.com/chart/protocol/solid-yield?fees=false&theme=dark" title="DefiLlama Solid TVL" frameborder="0"></iframe>
+<iframe class="centered" width="570px" height="365px" src="https://defillama.com/chart/protocol/solid-yield?fees=false&theme=dark" title="DefiLlama Solid TVL" frameborder="0"></iframe>
 
 ## Contract source
 
@@ -47,7 +47,7 @@ Select "Use as Quick Action" and "Services menu".
 Run with: click into the field and hit your shortcut (example: fn-1).
 
 <!-- image width 281px height 326px -->
-<img class="centered" width="40%;" src="/assets/images/2026-08-10-shortcut-setup.png" />
+<img class="centered" width="30%;" src="/assets/images/2026-08-10-shortcut-setup.png" />
 
 ## How to run: command line
 
@@ -168,4 +168,4 @@ Web3 package may need to be added with:
 ## Shortcut content
 
 <!-- image width 618px height 1273px -->
-<img class="centered" width="80%;" src="/assets/images/2026-08-10-shortcut-content.png" />
+<img class="centered" width="60%;" src="/assets/images/2026-08-10-shortcut-content.png" />
