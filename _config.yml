@@ -1,7 +1,6 @@
 title: Optimize for happiness
 description: Life is easier with simple scripting. Grateful for everyone's encouragement and support!
 show_downloads: false
-google_analytics: G-VD8N8M65XP
 theme: jekyll-theme-dinky
 
 timezone: "America/New_York"
@@ -11,7 +10,7 @@ paginate: 5
 show_excerpts: true
 future: true # GitHub pages will publish future posts
 
-  # from https://github.com/jekyll/jekyll/issues/4619#issuecomment-191267346
+# from https://github.com/jekyll/jekyll/issues/4619#issuecomment-191267346
 markdown: kramdown
 # !github-pages! mandatory › https://help.github.com/articles/using-jekyll-with-pages/#configuration-settings-you-cannot-change
 
