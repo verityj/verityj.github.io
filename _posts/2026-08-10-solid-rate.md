@@ -46,7 +46,8 @@ Select "Use as Quick Action" and "Services menu".
 
 Run with: click into the field and hit your shortcut (example: fn-1).
 
-<img class="centered" width="281px;" src="/assets/images/2026-08-10-shortcut-setup.png" />
+<!-- image width 281px height 326px -->
+<img class="centered" width="40%;" src="/assets/images/2026-08-10-shortcut-setup.png" />
 
 ## How to run: command line
 
@@ -166,4 +167,5 @@ Web3 package may need to be added with:
 
 ## Shortcut content
 
+<!-- image width 618px height 1273px -->
 <img class="centered" width="80%;" src="/assets/images/2026-08-10-shortcut-content.png" />
