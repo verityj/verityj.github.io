@@ -8,7 +8,11 @@ nav_order: 5
 bluesky_post_url: "https://bsky.app/profile/veri-t.bsky.social/post/3msr2dnmzwk2i"
 ---
 
-Since I am interested in the Solid.xyz project, I wanted a one-click way to look up the current contract rate of their soUSD token from etherscan.
+Solid.xyz is a minuscule, really tiny (and buggy) DEFI project on Fuse chain with a current TVL on the order of about $200,000. That's barely a blip. But since I am following the project out of curiosity, I wanted a one-click way to look up the current contract rate of their soUSD token from etherscan.
+
+DefiLlama TVL:
+
+<iframe width="640px" height="360px" src="https://defillama.com/chart/protocol/solid-yield?fees=false&theme=dark" title="DefiLlama" frameborder="0"></iframe>
 
 ## Contract source
 
