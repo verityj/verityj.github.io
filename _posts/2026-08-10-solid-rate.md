@@ -12,7 +12,7 @@ Solid.xyz is a minuscule, really tiny (and buggy) DEFI project on Fuse chain wit
 
 DefiLlama TVL:
 
-<iframe width="640px" height="360px" src="https://defillama.com/chart/protocol/solid-yield?fees=false&theme=dark" title="DefiLlama" frameborder="0"></iframe>
+<iframe class="centered" width="576px" height="324px" src="https://defillama.com/chart/protocol/solid-yield?fees=false&theme=dark" title="DefiLlama" frameborder="0"></iframe>
 
 ## Contract source
 
