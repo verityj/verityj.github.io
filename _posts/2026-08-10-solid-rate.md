@@ -30,6 +30,8 @@ Shows value as integer. To get it in USDC, divide by 6 decimals (1,000,000).
 
 This shortcut displays the raw rate as well as $ per soUSD. I chose to copy the raw rate and use in a spreadsheet to track the actual yield. As of right now, the Solid app is way too buggy to accurately track anything about the real yield (earned and yearly).
 
+Shortcut content [image below](#Shortcut-content).
+
 Shortcut link: [soUSD.shortcut](/assets/files/soUSD.shortcut).
 
 ## How to run: assign a global shortcut
@@ -43,6 +45,8 @@ Select "Show in Share Sheet" to run in most apps.
 Select "Use as Quick Action" and "Services menu".
 
 Run with: click into the field and hit your shortcut (example: fn-1).
+
+<img class="centered" width="60%;" src="/assets/images/2026-08-10-shortcut-setup.png" />
 
 ## How to run: command line
 
@@ -159,3 +163,7 @@ Web3 package may need to be added with:
 
 - Solid project at [https://www.solid.xyz](https://www.solid.xyz)
 - Referral for you to get $10 if you create your Solid account and use it (i.e. make one deposit and 3 purchases totaling $75 within 30 days) (and I get $15): [https://www.solid.xyz/refer?ref=N849V](https://www.solid.xyz/refer?ref=N849V)
+
+## Shortcut content
+
+<img class="centered" width="60%;" src="/assets/images/2026-08-10-shortcut-content.png" />
