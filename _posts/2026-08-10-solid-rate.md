@@ -163,7 +163,7 @@ Web3 package may need to be added with:
 ## Resources
 
 - Solid project at [https://www.solid.xyz](https://www.solid.xyz)
-- Referral for you to get $10 if you create your Solid account and use it (i.e. make one deposit and 3 purchases totaling $75 within 30 days) (and I get $15): [https://www.solid.xyz/refer?ref=N849V](https://www.solid.xyz/refer?ref=N849V)
+- Referral for you to get $25 worth of the FUSE token if you create your Solid account and use it ("to qualify, your friend needs to activate their Solid card and spend $150 across at least 3 different merchants within 30 days") (and I get the same): [https://www.solid.xyz/refer?ref=N849V](https://www.solid.xyz/refer?ref=N849V)
 
 ## Shortcut content
 
